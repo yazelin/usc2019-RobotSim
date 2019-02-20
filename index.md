@@ -21,9 +21,13 @@
 
 ### 五、自動化專案實作 一(5/08)
 1. WtFramework 自動化專案 實作
+  - PC端 為主控端 C#
+  - Robot端 為被控設備 KRL
 
 ### 六、自動化專案實作 二(5/22)
 1. WtFramework 自動化專案 實作
+  - PC端 為主控端 C#
+  - Robot端 為被控設備 KRL
 
 
 ## 手臂基本介紹
@@ -135,7 +139,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0ODI2NjU4LDEyOTE4NjMwODIsMTI3MT
-k3MTUzNywtMTMwODkyMjMzMywtMTcyODQ3MDU1NSwxODA3MDA5
-NTk4LDU3MjU4MDAwOCwxOTM3NjIzOV19
+eyJoaXN0b3J5IjpbLTIxNDU4MjMwMzAsNDM0ODI2NjU4LDEyOT
+E4NjMwODIsMTI3MTk3MTUzNywtMTMwODkyMjMzMywtMTcyODQ3
+MDU1NSwxODA3MDA5NTk4LDU3MjU4MDAwOCwxOTM3NjIzOV19
 -->

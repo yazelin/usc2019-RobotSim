@@ -10,6 +10,8 @@
 
 ### 二、RobotSim專案制作(3/27)
 1. RobotSim完整專案
+  - RobotSim程式設計擴充 C#
+  - 自訂函式/修改功能
 2. RobotSim匯出 並匯入WorkVisual專案
 
 ### 三、手臂操作訓練及KRL程式語言(4/10)
@@ -139,7 +141,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDU4MjMwMzAsNDM0ODI2NjU4LDEyOT
-E4NjMwODIsMTI3MTk3MTUzNywtMTMwODkyMjMzMywtMTcyODQ3
-MDU1NSwxODA3MDA5NTk4LDU3MjU4MDAwOCwxOTM3NjIzOV19
+eyJoaXN0b3J5IjpbOTA2NzI2MjM5LDQzNDgyNjY1OCwxMjkxOD
+YzMDgyLDEyNzE5NzE1MzcsLTEzMDg5MjIzMzMsLTE3Mjg0NzA1
+NTUsMTgwNzAwOTU5OCw1NzI1ODAwMDgsMTkzNzYyMzldfQ==
 -->

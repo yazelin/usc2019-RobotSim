@@ -114,7 +114,10 @@
 ## 四、WtFramework 開發框架
 - 安裝
 - 架構介紹
+  - Core
+  - Action 
 - 網路通訊 EKI
+  - Server
 
 視實際進度彈性調整
 
@@ -131,7 +134,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNDEyMTAxLDEyNzE5NzE1MzcsLTEzMD
-g5MjIzMzMsLTE3Mjg0NzA1NTUsMTgwNzAwOTU5OCw1NzI1ODAw
-MDgsMTkzNzYyMzldfQ==
+eyJoaXN0b3J5IjpbMTI5MTg2MzA4MiwxMjcxOTcxNTM3LC0xMz
+A4OTIyMzMzLC0xNzI4NDcwNTU1LDE4MDcwMDk1OTgsNTcyNTgw
+MDA4LDE5Mzc2MjM5XX0=
 -->

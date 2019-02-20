@@ -107,18 +107,18 @@
 
 ### WorkVisual KRL 程式語言
 - 變數
-- 設定
-- 動作
+- 常用函式
+- 動作指令
 - 流程控制
 
 ## 四、WtFramework 開發框架
 - WtFramework開發框架介紹
-- 安裝
-- 架構介紹
   - Core
-  - Action 
+  - Action
+- 安裝
 - 網路通訊 EKI
   - Server
+- 練習
 
 視實際進度彈性調整
 
@@ -135,7 +135,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTQ1ODQwMSwxMjkxODYzMDgyLDEyNz
-E5NzE1MzcsLTEzMDg5MjIzMzMsLTE3Mjg0NzA1NTUsMTgwNzAw
-OTU5OCw1NzI1ODAwMDgsMTkzNzYyMzldfQ==
+eyJoaXN0b3J5IjpbNDM0ODI2NjU4LDEyOTE4NjMwODIsMTI3MT
+k3MTUzNywtMTMwODkyMjMzMywtMTcyODQ3MDU1NSwxODA3MDA5
+NTk4LDU3MjU4MDAwOCwxOTM3NjIzOV19
 -->

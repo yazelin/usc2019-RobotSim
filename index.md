@@ -109,7 +109,7 @@
 ## 二、RobotSim專案製作
 
 ### RobotSim完整專案
-- RobotSim程式設計擴充
+- RobotSim程式設計擴充 (視實際進度彈性調整)
 - 自訂函式
 - 修改功能
 - 在RobotSim 中還能做什麼?
@@ -155,7 +155,8 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjAyNjM4NSw0MzQ4MjY2NTgsMTI5MT
-g2MzA4MiwxMjcxOTcxNTM3LC0xMzA4OTIyMzMzLC0xNzI4NDcw
-NTU1LDE4MDcwMDk1OTgsNTcyNTgwMDA4LDE5Mzc2MjM5XX0=
+eyJoaXN0b3J5IjpbMTg4OTY4MjI4NywyMDAyMDI2Mzg1LDQzND
+gyNjY1OCwxMjkxODYzMDgyLDEyNzE5NzE1MzcsLTEzMDg5MjIz
+MzMsLTE3Mjg0NzA1NTUsMTgwNzAwOTU5OCw1NzI1ODAwMDgsMT
+kzNzYyMzldfQ==
 -->

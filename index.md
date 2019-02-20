@@ -7,6 +7,10 @@
 2. 手臂基本介紹
 3. RobotSim環境及基本操作
 4. RobotSim基礎程式
+  - 變數
+  - 設定
+  - 動作
+  - 流程控制
 
 ### 二、RobotSim專案制作(3/27)
 1. RobotSim完整專案
@@ -141,7 +145,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2NzI2MjM5LDQzNDgyNjY1OCwxMjkxOD
-YzMDgyLDEyNzE5NzE1MzcsLTEzMDg5MjIzMzMsLTE3Mjg0NzA1
-NTUsMTgwNzAwOTU5OCw1NzI1ODAwMDgsMTkzNzYyMzldfQ==
+eyJoaXN0b3J5IjpbLTE2Mzg0MzAyMjYsNDM0ODI2NjU4LDEyOT
+E4NjMwODIsMTI3MTk3MTUzNywtMTMwODkyMjMzMywtMTcyODQ3
+MDU1NSwxODA3MDA5NTk4LDU3MjU4MDAwOCwxOTM3NjIzOV19
 -->

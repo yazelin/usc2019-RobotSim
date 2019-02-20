@@ -1,6 +1,16 @@
-## Welcome to GitHub Pages
+## 課程大綱
 
-You can use the [editor on GitHub](https://github.com/yazelin/usc2019-RobotSim/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+#### 一 3/13 課程大綱介紹 手臂基本介紹 RobotSim環境及基本操作
+
+二 3/27 RobotSim完整專案 RobotSim匯出 並匯入WorkVisual專案
+
+三 4/10 手臂安全及基本操作 WorkVisual KRL 程式語言
+
+四 4/24 WtFramework開發框架
+
+五 5/08 WtFramework 自動化專案 實作
+
+六 5/22 WtFramework 自動化專案 實作
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -36,5 +46,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzYyMzldfQ==
+eyJoaXN0b3J5IjpbLTExMTM3MjA3OTUsMTkzNzYyMzldfQ==
 -->

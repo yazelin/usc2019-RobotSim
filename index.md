@@ -94,12 +94,19 @@
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
 ### RobotSim匯出 並匯入WorkVisual專案
 - WorkVisual 環境
+- RobotSim匯出程式
+- WorkVisual匯入程式
    
 ## 三、手臂操作訓練及KRL程式語言
 ### 手臂安全及基本操作
 - 安全規定
 - 操作教導器SmartPad
+
 ### WorkVisual KRL 程式語言
+- 變數
+- 設定
+- 動作
+- 流程控制
 
 ## 四、WtFramework 開發框架
 視進度調整
@@ -109,7 +116,7 @@
 視進度調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzEzMjAzNjksLTEzMDg5MjIzMzMsLT
-E3Mjg0NzA1NTUsMTgwNzAwOTU5OCw1NzI1ODAwMDgsMTkzNzYy
-MzldfQ==
+eyJoaXN0b3J5IjpbNzY1NDQwNjQzLC0xMzA4OTIyMzMzLC0xNz
+I4NDcwNTU1LDE4MDcwMDk1OTgsNTcyNTgwMDA4LDE5Mzc2MjM5
+XX0=
 -->

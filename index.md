@@ -114,7 +114,7 @@
 ## 四、WtFramework 開發框架
 - 安裝
 - 架構介紹
-- 網路通訊
+- 網路通訊 EKI
 
 視實際進度彈性調整
 
@@ -131,7 +131,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjE5NzE0LDEyNzE5NzE1MzcsLTEzMD
+eyJoaXN0b3J5IjpbMzYwNDEyMTAxLDEyNzE5NzE1MzcsLTEzMD
 g5MjIzMzMsLTE3Mjg0NzA1NTUsMTgwNzAwOTU5OCw1NzI1ODAw
 MDgsMTkzNzYyMzldfQ==
 -->

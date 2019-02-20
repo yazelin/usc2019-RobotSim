@@ -21,9 +21,19 @@
 ### 三、手臂操作訓練及KRL程式語言(4/10)
 1. 手臂安全及基本操作
 2. WorkVisual KRL 程式語言
+  - 變數
+  - 常用函式
+  - 動作指令
+  - 流程控制
 
 ### 四、WtFramework 開發框架(4/24)
-1. WtFramework開發框架介紹、安裝、練習
+1. WtFramework開發框架介紹
+  - Core
+  - Action
+2. 安裝
+3. 網路通訊 EKI
+  - Server
+4. 練習
 
 ### 五、自動化專案實作 一(5/08)
 1. WtFramework 自動化專案 實作
@@ -145,7 +155,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg0MzAyMjYsNDM0ODI2NjU4LDEyOT
-E4NjMwODIsMTI3MTk3MTUzNywtMTMwODkyMjMzMywtMTcyODQ3
-MDU1NSwxODA3MDA5NTk4LDU3MjU4MDAwOCwxOTM3NjIzOV19
+eyJoaXN0b3J5IjpbMjAwMjAyNjM4NSw0MzQ4MjY2NTgsMTI5MT
+g2MzA4MiwxMjcxOTcxNTM3LC0xMzA4OTIyMzMzLC0xNzI4NDcw
+NTU1LDE4MDcwMDk1OTgsNTcyNTgwMDA4LDE5Mzc2MjM5XX0=
 -->

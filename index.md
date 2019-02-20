@@ -1,26 +1,26 @@
-## 課程大綱
+## 一、課程大綱
 
-### 課程大綱(3/13)
+### 一、課程大綱(3/13)
 1. 課程大綱
 2. 手臂基本介紹
 3. RobotSim環境及基本操作
 4. RobotSim基礎程式
 
-### RobotSim專案制作(3/27)
+### 二、RobotSim專案制作(3/27)
 1. RobotSim完整專案
 2. RobotSim匯出 並匯入WorkVisual專案
 
-### 手臂操作訓練及KRL程式語言(4/10)
+### 三、手臂操作訓練及KRL程式語言(4/10)
 1. 手臂安全及基本操作
 2. WorkVisual KRL 程式語言
 
-### WtFramework 開發框架(4/24)
+### 四、WtFramework 開發框架(4/24)
 1. WtFramework開發框架介紹、安裝、練習
 
-### 自動化專案實作 一(5/08)
+### 五、自動化專案實作 一(5/08)
 1. WtFramework 自動化專案 實作
 
-### 自動化專案實作 二(5/22)
+### 六、自動化專案實作 二(5/22)
 1. WtFramework 自動化專案 實作
 
 
@@ -105,6 +105,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg5MjIzMzMsLTE3Mjg0NzA1NTUsMT
-gwNzAwOTU5OCw1NzI1ODAwMDgsMTkzNzYyMzldfQ==
+eyJoaXN0b3J5IjpbLTE5NTU2MDY2MzUsLTEzMDg5MjIzMzMsLT
+E3Mjg0NzA1NTUsMTgwNzAwOTU5OCw1NzI1ODAwMDgsMTkzNzYy
+MzldfQ==
 -->

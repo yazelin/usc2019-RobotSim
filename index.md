@@ -114,8 +114,7 @@
 
 ### RobotSim完整專案
 - RobotSim程式設計擴充 (視實際進度彈性調整)
-- 自訂函式
-- 修改功能
+- 自訂函式/修改功能
 - 在RobotSim 中還能做什麼?
 - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
   
@@ -159,8 +158,8 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTQ3NTEyOCwxODg5NjgyMjg3LDIwMD
-IwMjYzODUsNDM0ODI2NjU4LDEyOTE4NjMwODIsMTI3MTk3MTUz
-NywtMTMwODkyMjMzMywtMTcyODQ3MDU1NSwxODA3MDA5NTk4LD
-U3MjU4MDAwOCwxOTM3NjIzOV19
+eyJoaXN0b3J5IjpbLTEyNTIzMzY3MiwtOTc1NDc1MTI4LDE4OD
+k2ODIyODcsMjAwMjAyNjM4NSw0MzQ4MjY2NTgsMTI5MTg2MzA4
+MiwxMjcxOTcxNTM3LC0xMzA4OTIyMzMzLC0xNzI4NDcwNTU1LD
+E4MDcwMDk1OTgsNTcyNTgwMDA4LDE5Mzc2MjM5XX0=
 -->

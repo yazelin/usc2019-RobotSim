@@ -112,16 +112,25 @@
 - 流程控制
 
 ## 四、WtFramework 開發框架
-視進度調整
 - 安裝
-- 架
-## 五、自動化專案實作 一
-視進度調整
-## 六、自動化專案實作 二
+- 架構介紹
+- 網路通訊
+
 視進度調整
 
+## 五、自動化專案實作 一
+- PC端 自動控制系統
+- Robot端 被控設備
+
+視進度調整
+## 六、自動化專案實作 二
+- PC端 自動控制系統
+- Robot端 被控設備
+
+視實際進度調整
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzc0OTQyNSwxMjcxOTcxNTM3LC0xMz
+eyJoaXN0b3J5IjpbMTMyODA4MjQ3NywxMjcxOTcxNTM3LC0xMz
 A4OTIyMzMzLC0xNzI4NDcwNTU1LDE4MDcwMDk1OTgsNTcyNTgw
 MDA4LDE5Mzc2MjM5XX0=
 -->

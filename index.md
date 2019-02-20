@@ -5,8 +5,17 @@
 ### 一、課程大綱(3/13)
 1. 課程大綱
 2. 手臂基本介紹
-3. RobotSim環境及基本操作
-4. RobotSim基礎程式
+3. RobotSim環境及基本操作下載-安裝-試用
+- 影片參考  [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+
+### RobotSim 教點-程式-模擬
+- 影片參考  [連結](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+
+### RobotSim 設定Tool-更新點位-模擬動作
+- 影片參考  [連結](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+
+### RobotSim 設定Base-設定手臂-匯出程式
+5. RobotSim基礎程式
   - 變數
   - 設定
   - 動作
@@ -90,13 +99,13 @@
 ### RobotSim 下載-安裝-試用
 - 影片參考  [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### RobotSim-教點-程式-模擬
+### RobotSim 教點-程式-模擬
 - 影片參考  [連結](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### RobotSim-設定Tool-更新點位-模擬動作
+### RobotSim 設定Tool-更新點位-模擬動作
 - 影片參考  [連結](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### RobotSim-設定Base-設定手臂-匯出程式
+### RobotSim 設定Base-設定手臂-匯出程式
 - 影片參考  [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ## RobotSim程式設計
@@ -155,8 +164,8 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4OTY4MjI4NywyMDAyMDI2Mzg1LDQzND
-gyNjY1OCwxMjkxODYzMDgyLDEyNzE5NzE1MzcsLTEzMDg5MjIz
-MzMsLTE3Mjg0NzA1NTUsMTgwNzAwOTU5OCw1NzI1ODAwMDgsMT
-kzNzYyMzldfQ==
+eyJoaXN0b3J5IjpbLTI5NzU0NDQ3OCwxODg5NjgyMjg3LDIwMD
+IwMjYzODUsNDM0ODI2NjU4LDEyOTE4NjMwODIsMTI3MTk3MTUz
+NywtMTMwODkyMjMzMywtMTcyODQ3MDU1NSwxODA3MDA5NTk4LD
+U3MjU4MDAwOCwxOTM3NjIzOV19
 -->

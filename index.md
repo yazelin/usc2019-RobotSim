@@ -84,7 +84,7 @@
 - 流程控制
 
 
-## RobotSim專案製作
+## 二、RobotSim專案製作
 
 ### RobotSim程式設計擴充
 - 自訂函式
@@ -94,18 +94,21 @@
 - 你想做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
    
-## 手臂操作訓練及KRL程式語言
+## 三、手臂操作訓練及KRL程式語言
+### 手臂安全及基本操作
+- 安全規定
+- 操作教
+### WorkVisual KRL 程式語言
 
-## WtFramework 開發框架
-
-
-## 自動化專案實作 一
-
-## 自動化專案實作 二
-
+## 四、WtFramework 開發框架
+視進度調整
+## 五、自動化專案實作 一
+視進度調整
+## 六、自動化專案實作 二
+視進度調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU2MDY2MzUsLTEzMDg5MjIzMzMsLT
-E3Mjg0NzA1NTUsMTgwNzAwOTU5OCw1NzI1ODAwMDgsMTkzNzYy
-MzldfQ==
+eyJoaXN0b3J5IjpbLTM5MzgzMDU5MSwtMTMwODkyMjMzMywtMT
+cyODQ3MDU1NSwxODA3MDA5NTk4LDU3MjU4MDAwOCwxOTM3NjIz
+OV19
 -->

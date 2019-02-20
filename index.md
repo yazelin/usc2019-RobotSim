@@ -29,6 +29,33 @@
 
 ### 軸向及空間
 
+- A1~A6  
+![Image](./img/RobotAxis.jpg)
+
+![Image](./img/RobotCoordinateSystem.jpg)
+- 在模擬器中我們可以學到這些
+	- 座標系
+		- WORLD
+		- BASE
+		- TOOL    
+	- 操作方式
+		- XYZ ABC
+		- AXIS
+	- 運動指令
+		- PTP
+		- LIN
+		- CIRC(網頁版的模擬器中沒有) 
+	- 軸極限  
+		- A1~A6
+	- 手臂程式執行方式
+		- 先教點
+		- 用指令讓手臂重現動作 
+
+- TOOL  
+![Image](./img/Tool.jpg)
+ 
+
+
 ### 線上模擬環境
 - 我們把模擬環境放在網站上了
 - 網址在這邊  [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim)
@@ -107,6 +134,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjM3NDQ5MCwxODA3MDA5NTk4LDU3Mj
-U4MDAwOCwxOTM3NjIzOV19
+eyJoaXN0b3J5IjpbLTYxODU0MTg4LDE4MDcwMDk1OTgsNTcyNT
+gwMDA4LDE5Mzc2MjM5XX0=
 -->

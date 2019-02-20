@@ -26,13 +26,22 @@
 
 ## 手臂基本介紹
 ### 六軸機器手臂
+![Image](./img/RobotSystem.jpg)
 
-### 軸向及空間
+### 軸向
 
 - A1~A6  
 ![Image](./img/RobotAxis.jpg)
 
+### 空間
 ![Image](./img/RobotCoordinateSystem.jpg)
+
+- TOOL  
+![Image](./img/Tool.jpg) 
+
+### 線上模擬環境
+- 我們把模擬環境放在網站上了
+- 網址在這邊  [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim)
 - 在模擬器中我們可以學到這些
 	- 座標系
 		- WORLD
@@ -51,15 +60,6 @@
 		- 先教點
 		- 用指令讓手臂重現動作 
 
-- TOOL  
-![Image](./img/Tool.jpg)
- 
-
-
-### 線上模擬環境
-- 我們把模擬環境放在網站上了
-- 網址在這邊  [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim)
-- 歡迎大家來玩~~~
 ## RobotSim環境及基本操作
 
 ### RobotSim 下載-安裝-試用
@@ -134,6 +134,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODU0MTg4LDE4MDcwMDk1OTgsNTcyNT
+eyJoaXN0b3J5IjpbMzYxNzYzNzg1LDE4MDcwMDk1OTgsNTcyNT
 gwMDA4LDE5Mzc2MjM5XX0=
 -->

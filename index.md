@@ -8,8 +8,8 @@
 3. RobotSim環境及基本操作
   - 下載-安裝-試用 [參考影片](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo)
   - 教點-程式-模擬 [參考影片](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo)
-  - 設定Tool-更新點位-模擬動作
-  - 設定Base-設定手臂-匯出程式
+  - 設定Tool-更新點位-模擬動作 [參考影片](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo)
+  - 設定Base-設定手臂-匯出程式 [參考影片](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo)
 4. RobotSim基礎程式
   - 變數
   - 設定
@@ -159,7 +159,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTI0NDk4OSwxODg5NjgyMjg3LDIwMD
+eyJoaXN0b3J5IjpbLTk3NTQ3NTEyOCwxODg5NjgyMjg3LDIwMD
 IwMjYzODUsNDM0ODI2NjU4LDEyOTE4NjMwODIsMTI3MTk3MTUz
 NywtMTMwODkyMjMzMywtMTcyODQ3MDU1NSwxODA3MDA5NTk4LD
 U3MjU4MDAwOCwxOTM3NjIzOV19

@@ -113,13 +113,15 @@
 
 ## 四、WtFramework 開發框架
 視進度調整
+- 安裝
+- 架
 ## 五、自動化專案實作 一
 視進度調整
 ## 六、自動化專案實作 二
 視進度調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTk3MTUzNywtMTMwODkyMjMzMywtMT
-cyODQ3MDU1NSwxODA3MDA5NTk4LDU3MjU4MDAwOCwxOTM3NjIz
-OV19
+eyJoaXN0b3J5IjpbMTQzMzc0OTQyNSwxMjcxOTcxNTM3LC0xMz
+A4OTIyMzMzLC0xNzI4NDcwNTU1LDE4MDcwMDk1OTgsNTcyNTgw
+MDA4LDE5Mzc2MjM5XX0=
 -->

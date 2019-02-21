@@ -130,7 +130,10 @@
 
 ### WorkVisual KRL 程式語言
 - 變數
-- 
+  - BOOL
+  - INT
+  - CHAR
+  - REAL
 - 常用函式
 - 動作指令
 - 流程控制
@@ -159,7 +162,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjI2MTA4NSwtMTI1MjMzNjcyLC05Nz
+eyJoaXN0b3J5IjpbMTYyODQ5NDIwMywtMTI1MjMzNjcyLC05Nz
 U0NzUxMjgsMTg4OTY4MjI4NywyMDAyMDI2Mzg1LDQzNDgyNjY1
 OCwxMjkxODYzMDgyLDEyNzE5NzE1MzcsLTEzMDg5MjIzMzMsLT
 E3Mjg0NzA1NTUsMTgwNzAwOTU5OCw1NzI1ODAwMDgsMTkzNzYy

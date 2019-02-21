@@ -3,6 +3,7 @@
 課程規劃以實際專案進行的順序擬定大綱。
 並依大綱依序學習必要技能
 1. 前期規劃
+  
 2. 初步模擬 一、二
 3. 實機測試 三、四
 4. 建置完整系統 五、六
@@ -185,7 +186,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzQxNTIxLDMwMDI4ODkwNSwtMTU3MT
+eyJoaXN0b3J5IjpbNTY3NDc3MzQ3LDMwMDI4ODkwNSwtMTU3MT
 c2MTI2MywxMTEyMTMzODk5LC02NjY0MjQ2MjQsLTEwOTU1MDQw
 NzAsMzU0OTUzODQ5LDEwNDYwNDUwOTUsODk2MDI2ODMxLDcyNj
 E5OTI2NSwtMTQxNzE2NDU3MSwxNDU0NzE3ODY1LDE0NzU4MjUy

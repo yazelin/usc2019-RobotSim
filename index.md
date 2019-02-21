@@ -104,12 +104,14 @@
 - 影片參考  [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ## RobotSim程式設計
-- 變數
+- 變數 Value
   - Bool、Int、Float、String
-  - =、+、-、*、/
-- 設定
-- 動作
-- 流程控制
+  - Set、Add、Sub、Mut、Div
+- 動作 Motion
+  - Base、Tool、Speed
+  - PTP 、LIN、CIRC
+- 流程控制 Flow
+  - 
 
 ## 二、RobotSim專案製作
 
@@ -175,11 +177,11 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzI0OTEyOSwtNjY2NDI0NjI0LC0xMD
-k1NTA0MDcwLDM1NDk1Mzg0OSwxMDQ2MDQ1MDk1LDg5NjAyNjgz
-MSw3MjYxOTkyNjUsLTE0MTcxNjQ1NzEsMTQ1NDcxNzg2NSwxND
-c1ODI1Mjg1LDE2Mjg0OTQyMDMsNTc2Mzc1MjcyLDE2Mjg0OTQy
-MDMsLTEyNTIzMzY3MiwtOTc1NDc1MTI4LDE4ODk2ODIyODcsMj
-AwMjAyNjM4NSw0MzQ4MjY2NTgsMTI5MTg2MzA4MiwxMjcxOTcx
-NTM3XX0=
+eyJoaXN0b3J5IjpbMzY1NzQzMzA3LC02NjY0MjQ2MjQsLTEwOT
+U1MDQwNzAsMzU0OTUzODQ5LDEwNDYwNDUwOTUsODk2MDI2ODMx
+LDcyNjE5OTI2NSwtMTQxNzE2NDU3MSwxNDU0NzE3ODY1LDE0Nz
+U4MjUyODUsMTYyODQ5NDIwMyw1NzYzNzUyNzIsMTYyODQ5NDIw
+MywtMTI1MjMzNjcyLC05NzU0NzUxMjgsMTg4OTY4MjI4NywyMD
+AyMDI2Mzg1LDQzNDgyNjY1OCwxMjkxODYzMDgyLDEyNzE5NzE1
+MzddfQ==
 -->

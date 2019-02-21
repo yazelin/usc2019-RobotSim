@@ -1,7 +1,10 @@
 # 機器手臂程式設計
 
 課程規劃以實際專案進行的順序擬定大綱。
-1.案件
+1. 前期規劃
+2. 初步模擬
+3. 實機測試
+4. 建置完整系統
 
 ## 一、課程大綱
 
@@ -181,7 +184,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ3MTEyMzAsMTExMjEzMzg5OSwtNj
+eyJoaXN0b3J5IjpbLTE1NzE3NjEyNjMsMTExMjEzMzg5OSwtNj
 Y2NDI0NjI0LC0xMDk1NTA0MDcwLDM1NDk1Mzg0OSwxMDQ2MDQ1
 MDk1LDg5NjAyNjgzMSw3MjYxOTkyNjUsLTE0MTcxNjQ1NzEsMT
 Q1NDcxNzg2NSwxNDc1ODI1Mjg1LDE2Mjg0OTQyMDMsNTc2Mzc1

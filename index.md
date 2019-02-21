@@ -151,28 +151,72 @@
   - SWICTH
 - 
  ```cs
- DEF CHAP()
-	BOOL B
-	B=TRUE
-	
-	;	IF/SWITCH
-	;IF (B == TRUE) THEN 
-	
-	
-	IF (B) THEN
-		B=FALSE
-	ELSE
-		B=TRUE
-	ENDIF
-	
-	SWITCH MSG[]  
-		CASE "A"  ; 當MSG[]=a b = false
-			B = FALSE
-		CASE "B"
-			B = TRUE
-		DEFAULT
-	ENDSWITCH
-END 
+//Gripper.cs
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Gripper : MonoBehaviour
+{
+	// Gripper程式會有2種模擬夾取
+	// 1.利用OnTriggerEnter自動取得在夾取範圍內的物件，夾取指令時將該物件的parent設為Gripper
+	// 2.以夾爪播放夾取動畫的方式移動夾爪，並利用Rigidbody產生夾取
+
+	//準備夾取的物件
+	public Transform readyGet;
+	//目前夾持的物件
+	public Transform holdingObject;
+
+	//夾取指令(將readyGet物件Parent設為Gripper)
+	public void Lock(Transform product)
+	{
+		if (holdingObject == null)
+		{
+			if (product)
+			{
+				product.transform.parent = transform;
+				holdingObject = product;
+			}
+		}
+	}
+
+	//傳回目前所夾持物
+	public Transform Unlock()
+	{
+		Transform returnObject = holdingObject;
+		holdingObject = null;//清空目前所持物
+
+		return returnObject;
+	}
+
+	//夾取readyGet物件
+	public void LockReadyGet()
+	{
+		Lock(readyGet);
+	}
+	//放開夾取物件
+	public void UnlockToWorld()
+	{
+		if (holdingObject)
+		{
+			holdingObject.parent = null;
+		}
+		holdingObject = null;//把手上拿著的東西丟到世界Root去
+	}
+	//偵測目前可夾取物
+	void OnTriggerEnter(Collider other)
+	{
+		readyGet = other.transform;
+	}
+	//移除目前圖夾取物
+	void OnTriggerExit(Collider other)
+	{
+		if (readyGet == other.transform)
+		{
+			readyGet = null;
+		}
+	}
+}
  ```
 
 ## 四、WtFramework 開發框架
@@ -198,11 +242,11 @@ END
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU1MDQwNzAsMzU0OTUzODQ5LDEwND
-YwNDUwOTUsODk2MDI2ODMxLDcyNjE5OTI2NSwtMTQxNzE2NDU3
-MSwxNDU0NzE3ODY1LDE0NzU4MjUyODUsMTYyODQ5NDIwMyw1Nz
-YzNzUyNzIsMTYyODQ5NDIwMywtMTI1MjMzNjcyLC05NzU0NzUx
-MjgsMTg4OTY4MjI4NywyMDAyMDI2Mzg1LDQzNDgyNjY1OCwxMj
-kxODYzMDgyLDEyNzE5NzE1MzcsLTEzMDg5MjIzMzMsLTE3Mjg0
-NzA1NTVdfQ==
+eyJoaXN0b3J5IjpbMzkwNDIwNzczLC0xMDk1NTA0MDcwLDM1ND
+k1Mzg0OSwxMDQ2MDQ1MDk1LDg5NjAyNjgzMSw3MjYxOTkyNjUs
+LTE0MTcxNjQ1NzEsMTQ1NDcxNzg2NSwxNDc1ODI1Mjg1LDE2Mj
+g0OTQyMDMsNTc2Mzc1MjcyLDE2Mjg0OTQyMDMsLTEyNTIzMzY3
+MiwtOTc1NDc1MTI4LDE4ODk2ODIyODcsMjAwMjAyNjM4NSw0Mz
+Q4MjY2NTgsMTI5MTg2MzA4MiwxMjcxOTcxNTM3LC0xMzA4OTIy
+MzMzXX0=
 -->

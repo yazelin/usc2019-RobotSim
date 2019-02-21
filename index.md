@@ -138,9 +138,11 @@
   - REAL
 - 常用函式
   - BAS(#BASE, 0)  
- -BAS(#TOOL, 1)
+  - BAS(#TOOL, 0)
+  - 
 - 動作指令
 - 流程控制
+  - 
 
 ## 四、WtFramework 開發框架
 - WtFramework開發框架介紹
@@ -166,7 +168,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4NzE4ODQ4LDE2Mjg0OTQyMDMsNTc2Mz
+eyJoaXN0b3J5IjpbNzU2ODQzMzAxLDE2Mjg0OTQyMDMsNTc2Mz
 c1MjcyLDE2Mjg0OTQyMDMsLTEyNTIzMzY3MiwtOTc1NDc1MTI4
 LDE4ODk2ODIyODcsMjAwMjAyNjM4NSw0MzQ4MjY2NTgsMTI5MT
 g2MzA4MiwxMjcxOTcxNTM3LC0xMzA4OTIyMzMzLC0xNzI4NDcw

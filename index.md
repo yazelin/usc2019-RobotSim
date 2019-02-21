@@ -129,6 +129,7 @@
 - 操作教導器SmartPad
 
 ### WorkVisual KRL 程式語言
+![Image](./img/Test.jpg) 
 - 變數
   - BOOL
   - INT
@@ -162,9 +163,9 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODQ5NDIwMywtMTI1MjMzNjcyLC05Nz
-U0NzUxMjgsMTg4OTY4MjI4NywyMDAyMDI2Mzg1LDQzNDgyNjY1
-OCwxMjkxODYzMDgyLDEyNzE5NzE1MzcsLTEzMDg5MjIzMzMsLT
-E3Mjg0NzA1NTUsMTgwNzAwOTU5OCw1NzI1ODAwMDgsMTkzNzYy
-MzldfQ==
+eyJoaXN0b3J5IjpbNTc2Mzc1MjcyLDE2Mjg0OTQyMDMsLTEyNT
+IzMzY3MiwtOTc1NDc1MTI4LDE4ODk2ODIyODcsMjAwMjAyNjM4
+NSw0MzQ4MjY2NTgsMTI5MTg2MzA4MiwxMjcxOTcxNTM3LC0xMz
+A4OTIyMzMzLC0xNzI4NDcwNTU1LDE4MDcwMDk1OTgsNTcyNTgw
+MDA4LDE5Mzc2MjM5XX0=
 -->

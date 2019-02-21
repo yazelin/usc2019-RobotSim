@@ -10,8 +10,10 @@
   - 流程
   - 空間配置(干涉)
 3. 實機測試 三、四
-  - 確認流程
+  - 硬體安裝、微調
+  - 軟體測試、重構
 4. 建置完整系統 五、六
+
 
 ## 一、課程大綱
 
@@ -191,7 +193,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDcxNzc4NCwzMDAyODg5MDUsLTE1Nz
+eyJoaXN0b3J5IjpbLTM3OTExODA4MiwzMDAyODg5MDUsLTE1Nz
 E3NjEyNjMsMTExMjEzMzg5OSwtNjY2NDI0NjI0LC0xMDk1NTA0
 MDcwLDM1NDk1Mzg0OSwxMDQ2MDQ1MDk1LDg5NjAyNjgzMSw3Mj
 YxOTkyNjUsLTE0MTcxNjQ1NzEsMTQ1NDcxNzg2NSwxNDc1ODI1

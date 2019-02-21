@@ -7,7 +7,7 @@
   - 如何以自動化替代人力
   - 初步構想
 2. 初步模擬 一、二
-  -
+  - 流程、空間配置
 3. 實機測試 三、四
 4. 建置完整系統 五、六
 
@@ -189,7 +189,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODY2MjA4NywzMDAyODg5MDUsLTE1Nz
+eyJoaXN0b3J5IjpbMTg3NDAxNzYyMiwzMDAyODg5MDUsLTE1Nz
 E3NjEyNjMsMTExMjEzMzg5OSwtNjY2NDI0NjI0LC0xMDk1NTA0
 MDcwLDM1NDk1Mzg0OSwxMDQ2MDQ1MDk1LDg5NjAyNjgzMSw3Mj
 YxOTkyNjUsLTE0MTcxNjQ1NzEsMTQ1NDcxNzg2NSwxNDc1ODI1

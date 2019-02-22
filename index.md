@@ -134,7 +134,7 @@
 ## 二、RobotSim專案製作
 
 ### RobotSim完整專案
-- RobotSim程式設計擴充 (視實際進度彈性調整)
+- RobotSim程式設計擴充 (視實際進度彈性調整) [參考](https://yazelin.github.io/cnu2018-RobotSim/)
 - 自訂函式/修改功能
 - 在RobotSim 中還能做什麼?
 - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
@@ -196,7 +196,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTQ3OTM4NSwtMjEwNjE0NjU5MSwxOD
+eyJoaXN0b3J5IjpbLTE3NzM2ODAzMSwtMjEwNjE0NjU5MSwxOD
 MzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEzNTc3NDYwLDMwMDI4
 ODkwNSwtMTU3MTc2MTI2MywxMTEyMTMzODk5LC02NjY0MjQ2Mj
 QsLTEwOTU1MDQwNzAsMzU0OTUzODQ5LDEwNDYwNDUwOTUsODk2

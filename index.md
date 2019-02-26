@@ -60,7 +60,7 @@
 1. WtFramework 自動化專案 實作
   - PC端 為主控端 C#
   - Robot端 為被控設備 KRL
-  - UI素材 [下載](./[AssetsPack.unitypackage](https://github.com/yazelin/usc2019-RobotSim/blob/master/src/AssetsPack.unitypackage "AssetsPack.unitypackage)
+  - UI素材 [下載](./AssetsPack.unitypackage)
 
 ### 六、自動化專案實作 二(5/22)
 1. WtFramework 自動化專案 實作
@@ -197,7 +197,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE1NjAyNDQsLTE3NzM2ODAzMSwtMj
+eyJoaXN0b3J5IjpbLTEzNTM1MTI0NjcsLTE3NzM2ODAzMSwtMj
 EwNjE0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEz
 NTc3NDYwLDMwMDI4ODkwNSwtMTU3MTc2MTI2MywxMTEyMTMzOD
 k5LC02NjY0MjQ2MjQsLTEwOTU1MDQwNzAsMzU0OTUzODQ5LDEw

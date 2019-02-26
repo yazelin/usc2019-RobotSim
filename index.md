@@ -60,7 +60,7 @@
 1. WtFramework 自動化專案 實作
   - PC端 為主控端 C#
   - Robot端 為被控設備 KRL
-  - UI素材 [下載](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/AssetsPack.unitypackage)
+  - UI素材 [下載](./src/AssetsPack.unitypackage)
 
 ### 六、自動化專案實作 二(5/22)
 1. WtFramework 自動化專案 實作
@@ -197,11 +197,11 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4OTUwMDcyLC0xNzczNjgwMzEsLTIxMD
-YxNDY1OTEsMTgzMzI2MjgzOCwtMjEwNjE0NjU5MSwtMTUxMzU3
-NzQ2MCwzMDAyODg5MDUsLTE1NzE3NjEyNjMsMTExMjEzMzg5OS
-wtNjY2NDI0NjI0LC0xMDk1NTA0MDcwLDM1NDk1Mzg0OSwxMDQ2
-MDQ1MDk1LDg5NjAyNjgzMSw3MjYxOTkyNjUsLTE0MTcxNjQ1Nz
-EsMTQ1NDcxNzg2NSwxNDc1ODI1Mjg1LDE2Mjg0OTQyMDMsNTc2
-Mzc1MjcyXX0=
+eyJoaXN0b3J5IjpbMTE5MDU0NzQsLTE3NzM2ODAzMSwtMjEwNj
+E0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEzNTc3
+NDYwLDMwMDI4ODkwNSwtMTU3MTc2MTI2MywxMTEyMTMzODk5LC
+02NjY0MjQ2MjQsLTEwOTU1MDQwNzAsMzU0OTUzODQ5LDEwNDYw
+NDUwOTUsODk2MDI2ODMxLDcyNjE5OTI2NSwtMTQxNzE2NDU3MS
+wxNDU0NzE3ODY1LDE0NzU4MjUyODUsMTYyODQ5NDIwMyw1NzYz
+NzUyNzJdfQ==
 -->

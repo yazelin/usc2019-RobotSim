@@ -1,5 +1,5 @@
 # 機器手臂程式設計
-
+## 課程設計
 課程規劃以實際專案進行的順序擬定大綱。
 並依大綱依序學習必要技能。
 1. 前期規劃
@@ -17,16 +17,16 @@
   - 整合測試
   - 驗收
 
-##環境需求
+## 環境需求
 - Unity 2017 (3D環境) 
 - RobotSim (模擬手臂)
 - Visual Studio (C# 編輯器)
 - KUKA KR3 (機器手臂)
 - WorkVisual (KRL 編輯器)
 
-## 一、課程大綱
+## 課程大綱
 
-### 一、課程大綱(3/13)
+### 一、RobotSim基礎(3/13)
 1. 課程大綱
 2. 手臂基本介紹
 3. RobotSim環境及基本操作
@@ -204,7 +204,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2NjE0NDYxLDExOTA1NDc0LC0xNzczNj
+eyJoaXN0b3J5IjpbMzYwNjY4NDAwLDExOTA1NDc0LC0xNzczNj
 gwMzEsLTIxMDYxNDY1OTEsMTgzMzI2MjgzOCwtMjEwNjE0NjU5
 MSwtMTUxMzU3NzQ2MCwzMDAyODg5MDUsLTE1NzE3NjEyNjMsMT
 ExMjEzMzg5OSwtNjY2NDI0NjI0LC0xMDk1NTA0MDcwLDM1NDk1

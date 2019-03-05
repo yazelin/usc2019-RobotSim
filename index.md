@@ -21,7 +21,7 @@
 - Unity 2017 + RobotSim
 - Visual Studio
 - KUKA KR3
-- WorkVisual
+- WorkVisual 
 
 ## 一、課程大綱
 
@@ -203,7 +203,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU3ODA4MSwxMTkwNTQ3NCwtMTc3Mz
+eyJoaXN0b3J5IjpbMTAxNDI4NjY0NywxMTkwNTQ3NCwtMTc3Mz
 Y4MDMxLC0yMTA2MTQ2NTkxLDE4MzMyNjI4MzgsLTIxMDYxNDY1
 OTEsLTE1MTM1Nzc0NjAsMzAwMjg4OTA1LC0xNTcxNzYxMjYzLD
 ExMTIxMzM4OTksLTY2NjQyNDYyNCwtMTA5NTUwNDA3MCwzNTQ5

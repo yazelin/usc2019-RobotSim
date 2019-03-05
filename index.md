@@ -153,11 +153,11 @@
 - WorkVisual匯入程式
    
 ### 三、手臂操作訓練及KRL程式語言
-### 手臂安全及基本操作
+#### 手臂安全及基本操作
 - 安全規定
 - 操作教導器SmartPad
 
-### WorkVisual KRL 程式語言
+#### WorkVisual KRL 程式語言
 - 變數
   - BOOL
   - INT
@@ -181,7 +181,7 @@
   - SWICTH-CASE
 
 
-## 四、WtFramework 開發框架
+### 四、WtFramework 開發框架
 - WtFramework開發框架介紹
   - Core
   - Action
@@ -191,24 +191,24 @@
 
 視實際進度彈性調整
 
-## 五、自動化專案實作 一
+### 五、自動化專案實作 一
 - PC端 為主控端
 - Robot端 為被控設備
 
 視實際進度彈性調整
 
-## 六、自動化專案實作 二
+### 六、自動化專案實作 二
 - PC端 為主控端
 - Robot端 為被控設備
 
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM0NjI4ODYsMzYwNjY4NDAwLDExOT
-A1NDc0LC0xNzczNjgwMzEsLTIxMDYxNDY1OTEsMTgzMzI2Mjgz
-OCwtMjEwNjE0NjU5MSwtMTUxMzU3NzQ2MCwzMDAyODg5MDUsLT
-E1NzE3NjEyNjMsMTExMjEzMzg5OSwtNjY2NDI0NjI0LC0xMDk1
-NTA0MDcwLDM1NDk1Mzg0OSwxMDQ2MDQ1MDk1LDg5NjAyNjgzMS
-w3MjYxOTkyNjUsLTE0MTcxNjQ1NzEsMTQ1NDcxNzg2NSwxNDc1
-ODI1Mjg1XX0=
+eyJoaXN0b3J5IjpbMTIzMDY5NTU1MSwzNjA2Njg0MDAsMTE5MD
+U0NzQsLTE3NzM2ODAzMSwtMjEwNjE0NjU5MSwxODMzMjYyODM4
+LC0yMTA2MTQ2NTkxLC0xNTEzNTc3NDYwLDMwMDI4ODkwNSwtMT
+U3MTc2MTI2MywxMTEyMTMzODk5LC02NjY0MjQ2MjQsLTEwOTU1
+MDQwNzAsMzU0OTUzODQ5LDEwNDYwNDUwOTUsODk2MDI2ODMxLD
+cyNjE5OTI2NSwtMTQxNzE2NDU3MSwxNDU0NzE3ODY1LDE0NzU4
+MjUyODVdfQ==
 -->

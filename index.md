@@ -47,7 +47,7 @@
 2. RobotSim匯出 並匯入WorkVisual專案
 
 #### 三、手臂操作訓練及KRL程式語言(4/10)
-1. 手臂安全及基本操作
+1. 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
 2. WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
   - 變數
   - 常用函式
@@ -55,7 +55,7 @@
   - 流程控制
 
 #### 四、WtFramework 開發框架(4/24)
-1. WtFramework開發框架介紹
+1. WtFramework開發框架介紹 [參考文件]
   - Core
   - Action
 2. 安裝
@@ -204,11 +204,11 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4MDMzMDksMTIzMDY5NTU1MSwzNjA2Nj
-g0MDAsMTE5MDU0NzQsLTE3NzM2ODAzMSwtMjEwNjE0NjU5MSwx
-ODMzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEzNTc3NDYwLDMwMD
-I4ODkwNSwtMTU3MTc2MTI2MywxMTEyMTMzODk5LC02NjY0MjQ2
-MjQsLTEwOTU1MDQwNzAsMzU0OTUzODQ5LDEwNDYwNDUwOTUsOD
-k2MDI2ODMxLDcyNjE5OTI2NSwtMTQxNzE2NDU3MSwxNDU0NzE3
-ODY1XX0=
+eyJoaXN0b3J5IjpbMTExMzIwNDQ0MywxMjMwNjk1NTUxLDM2MD
+Y2ODQwMCwxMTkwNTQ3NCwtMTc3MzY4MDMxLC0yMTA2MTQ2NTkx
+LDE4MzMyNjI4MzgsLTIxMDYxNDY1OTEsLTE1MTM1Nzc0NjAsMz
+AwMjg4OTA1LC0xNTcxNzYxMjYzLDExMTIxMzM4OTksLTY2NjQy
+NDYyNCwtMTA5NTUwNDA3MCwzNTQ5NTM4NDksMTA0NjA0NTA5NS
+w4OTYwMjY4MzEsNzI2MTk5MjY1LC0xNDE3MTY0NTcxLDE0NTQ3
+MTc4NjVdfQ==
 -->

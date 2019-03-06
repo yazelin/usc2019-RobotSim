@@ -55,11 +55,11 @@
   - 流程控制
 
 #### 四、WtFramework 開發框架(4/24)
-1. WtFramework開發框架介紹 [參考文件]
+1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
   - Core
   - Action
 2. 安裝
-3. 網路通訊 EKI
+3. 網路通訊 EKI 
   - Server
 4. 練習
 
@@ -204,7 +204,7 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzIwNDQ0MywxMjMwNjk1NTUxLDM2MD
+eyJoaXN0b3J5IjpbMTU5ODU4NDk4NiwxMjMwNjk1NTUxLDM2MD
 Y2ODQwMCwxMTkwNTQ3NCwtMTc3MzY4MDMxLC0yMTA2MTQ2NTkx
 LDE4MzMyNjI4MzgsLTIxMDYxNDY1OTEsLTE1MTM1Nzc0NjAsMz
 AwMjg4OTA1LC0xNTcxNzYxMjYzLDExMTIxMzM4OTksLTY2NjQy

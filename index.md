@@ -146,6 +146,43 @@
 #### RobotSim完整專案
 - RobotSim程式設計擴充 (視實際進度彈性調整) [參考](https://yazelin.github.io/cnu2018-RobotSim/)
 - 自訂函式/修改功能
+顯示訊息功能 RobotCommandMessage程式碼
+```cs
+public class RobotCommandMessage : RobotCommand
+{
+	public string Message = string.Empty;
+	public override bool Check()
+	{
+		var test = Message != string.Empty;
+		if (!test)
+		{
+			errorMassage = "未填入訊息";
+		}
+		return test;
+	}
+
+	public override int Execute()
+	{
+		Debug.Log(Message);
+		return (line + 1);
+	}
+
+	public override string ExportDat()
+	{
+		return string.Empty;
+	}
+
+	public override string ExportSrc()
+	{
+		return tab + "MsgNotify(\"" + Message + "\")" + Environment.NewLine;
+	}
+
+	public override string UpdateName()
+	{
+		return (gameObject.name = "MsgNotify(\"" + Message + "\")");
+	}
+}
+```
 - 在RobotSim 中還能做什麼?
 - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
   
@@ -206,11 +243,11 @@
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDc0MzY4MSw1Mzg2ODQyNTIsMTU5OD
-U4NDk4NiwxMjMwNjk1NTUxLDM2MDY2ODQwMCwxMTkwNTQ3NCwt
-MTc3MzY4MDMxLC0yMTA2MTQ2NTkxLDE4MzMyNjI4MzgsLTIxMD
-YxNDY1OTEsLTE1MTM1Nzc0NjAsMzAwMjg4OTA1LC0xNTcxNzYx
-MjYzLDExMTIxMzM4OTksLTY2NjQyNDYyNCwtMTA5NTUwNDA3MC
-wzNTQ5NTM4NDksMTA0NjA0NTA5NSw4OTYwMjY4MzEsNzI2MTk5
-MjY1XX0=
+eyJoaXN0b3J5IjpbMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLDUzOD
+Y4NDI1MiwxNTk4NTg0OTg2LDEyMzA2OTU1NTEsMzYwNjY4NDAw
+LDExOTA1NDc0LC0xNzczNjgwMzEsLTIxMDYxNDY1OTEsMTgzMz
+I2MjgzOCwtMjEwNjE0NjU5MSwtMTUxMzU3NzQ2MCwzMDAyODg5
+MDUsLTE1NzE3NjEyNjMsMTExMjEzMzg5OSwtNjY2NDI0NjI0LC
+0xMDk1NTA0MDcwLDM1NDk1Mzg0OSwxMDQ2MDQ1MDk1LDg5NjAy
+NjgzMV19
 -->

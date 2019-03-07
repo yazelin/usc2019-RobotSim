@@ -174,17 +174,21 @@ public class RobotCommandMessage : RobotCommand
 
 	public override int Execute()
 	{
+		//使用DebugConsole印出所設定的息
 		Debug.Log(Message);
+		//動作完成，執行下一行
 		return (line + 1);
 	}
 
 	public override string ExportDat()
 	{
+		//不需要輸出任何內容到Robot的Dat檔中
 		return string.Empty;
 	}
 
 	public override string ExportSrc()
 	{
+		//輸出 MsgNotify("訊息內容")  到手臂程式
 		return tab + "MsgNotify(\"" + Message + "\")" + Environment.NewLine;
 	}
 
@@ -254,7 +258,7 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Mjc3NDQ2OCwxNDg0MDc0ODc5LC05ND
+eyJoaXN0b3J5IjpbLTc1MTQ0NzI0OSwxNDg0MDc0ODc5LC05ND
 Q3NDM2ODEsNTM4Njg0MjUyLDE1OTg1ODQ5ODYsMTIzMDY5NTU1
 MSwzNjA2Njg0MDAsMTE5MDU0NzQsLTE3NzM2ODAzMSwtMjEwNj
 E0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEzNTc3

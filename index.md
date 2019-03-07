@@ -151,7 +151,7 @@
 
 #### RobotSim完整專案
 - RobotSim程式設計擴充 (視實際進度彈性調整) [參考](https://yazelin.github.io/cnu2018-RobotSim/)
-- 自訂函式/修改功能 (顯示訊息功能) 
+  - 顯示訊息功能
 
 RobotCommandMessage.cs 程式碼 
 ```cs
@@ -207,7 +207,7 @@ public class RobotCommandMessage : RobotCommand
 }
 ```
 - 在RobotSim 中還能做什麼?
-- [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
+  - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
   
 #### RobotSim匯出 並匯入WorkVisual專案
 - WorkVisual 環境
@@ -266,11 +266,11 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTQwNTY5OSw2NDg3NzAwNywtMTExMT
-cyODgyNSwyMDQzMDg2MTg2LDE0ODQwNzQ4NzksLTk0NDc0MzY4
-MSw1Mzg2ODQyNTIsMTU5ODU4NDk4NiwxMjMwNjk1NTUxLDM2MD
-Y2ODQwMCwxMTkwNTQ3NCwtMTc3MzY4MDMxLC0yMTA2MTQ2NTkx
-LDE4MzMyNjI4MzgsLTIxMDYxNDY1OTEsLTE1MTM1Nzc0NjAsMz
-AwMjg4OTA1LC0xNTcxNzYxMjYzLDExMTIxMzM4OTksLTY2NjQy
-NDYyNF19
+eyJoaXN0b3J5IjpbLTE5MjkzMzU5OTYsLTcyNTQwNTY5OSw2ND
+g3NzAwNywtMTExMTcyODgyNSwyMDQzMDg2MTg2LDE0ODQwNzQ4
+NzksLTk0NDc0MzY4MSw1Mzg2ODQyNTIsMTU5ODU4NDk4NiwxMj
+MwNjk1NTUxLDM2MDY2ODQwMCwxMTkwNTQ3NCwtMTc3MzY4MDMx
+LC0yMTA2MTQ2NTkxLDE4MzMyNjI4MzgsLTIxMDYxNDY1OTEsLT
+E1MTM1Nzc0NjAsMzAwMjg4OTA1LC0xNTcxNzYxMjYzLDExMTIx
+MzM4OTldfQ==
 -->

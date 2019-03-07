@@ -1,5 +1,4 @@
-# 機器手臂程式設計
-## 課程設計
+# 課程設計
 課程規劃以實際專案進行的順序擬定大綱。
 並依大綱依序學習必要技能。
 1. 前期規劃
@@ -17,16 +16,16 @@
   - 整合測試
   - 驗收
 
-### 環境需求
+## 環境需求
 - Unity 2017 (3D環境) 
 - RobotSim (模擬手臂)
 - Visual Studio (C# 編輯器)
 - KUKA KR3 (機器手臂)
 - WorkVisual (KRL 編輯器)
 
-### 課程大綱
+## 課程大綱
 
-#### 一、RobotSim基礎(3/13)
+### 一、RobotSim基礎(3/13)
 1. 課程大綱
 2. 手臂基本介紹
 3. RobotSim環境及基本操作
@@ -40,13 +39,13 @@
   - 動作
   - 流程控制
 
-#### 二、RobotSim專案制作(3/27)
+### 二、RobotSim專案制作(3/27)
 1. RobotSim完整專案
   - RobotSim程式設計擴充 C# [參考](https://yazelin.github.io/cnu2018-RobotSim/)
   - 自訂函式/修改功能
 2. RobotSim匯出 並匯入WorkVisual專案
 
-#### 三、手臂操作訓練及KRL程式語言(4/10)
+### 三、手臂操作訓練及KRL程式語言(4/10)
 1. 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
 2. WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
   - 變數
@@ -54,7 +53,7 @@
   - 動作指令
   - 流程控制
 
-#### 四、WtFramework 開發框架(4/24)
+### 四、WtFramework 開發框架(4/24)
 1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
   - Core
   - Action
@@ -63,30 +62,30 @@
   - Server
 4. 練習
 
-#### 五、自動化專案實作 一(5/08)
+### 五、自動化專案實作 一(5/08)
 1. WtFramework 自動化專案 實作
   - PC端 為主控端 C#
   - Robot端 為被控設備 KRL
   - UI素材 [下載](./src/AssetsPack.unitypackage)
 
-#### 六、自動化專案實作 二(5/22)
+### 六、自動化專案實作 二(5/22)
 1. WtFramework 自動化專案 實作
   - PC端 為主控端 C#
   - Robot端 為被控設備 KRL
 
 ---
 
-## 課程內容
-### 手臂基本介紹
-#### 六軸機器手臂
+# 課程內容
+## 手臂基本介紹
+### 六軸機器手臂
 ![Image](./img/RobotSystem.jpg)
 
-#### 軸向
+### 軸向
 - A1~A6 
 
 ![Image](./img/RobotAxis.jpg)
 
-#### 空間
+### 空間
 - Base空間
 
 ![Image](./img/RobotCoordinateSystem.jpg)
@@ -266,11 +265,11 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjkzMzU5OTYsLTcyNTQwNTY5OSw2ND
-g3NzAwNywtMTExMTcyODgyNSwyMDQzMDg2MTg2LDE0ODQwNzQ4
-NzksLTk0NDc0MzY4MSw1Mzg2ODQyNTIsMTU5ODU4NDk4NiwxMj
-MwNjk1NTUxLDM2MDY2ODQwMCwxMTkwNTQ3NCwtMTc3MzY4MDMx
-LC0yMTA2MTQ2NTkxLDE4MzMyNjI4MzgsLTIxMDYxNDY1OTEsLT
-E1MTM1Nzc0NjAsMzAwMjg4OTA1LC0xNTcxNzYxMjYzLDExMTIx
-MzM4OTldfQ==
+eyJoaXN0b3J5IjpbLTE5ODE1ODc0NjQsLTE5MjkzMzU5OTYsLT
+cyNTQwNTY5OSw2NDg3NzAwNywtMTExMTcyODgyNSwyMDQzMDg2
+MTg2LDE0ODQwNzQ4NzksLTk0NDc0MzY4MSw1Mzg2ODQyNTIsMT
+U5ODU4NDk4NiwxMjMwNjk1NTUxLDM2MDY2ODQwMCwxMTkwNTQ3
+NCwtMTc3MzY4MDMxLC0yMTA2MTQ2NTkxLDE4MzMyNjI4MzgsLT
+IxMDYxNDY1OTEsLTE1MTM1Nzc0NjAsMzAwMjg4OTA1LC0xNTcx
+NzYxMjYzXX0=
 -->

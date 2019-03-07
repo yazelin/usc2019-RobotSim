@@ -182,18 +182,19 @@ public class RobotCommandMessage : RobotCommand
 
 	public override string ExportDat()
 	{
-		//不需要輸出任何內容到Robot的Dat檔中
+		//不需要輸出任何內容到手臂程式的Dat檔中
 		return string.Empty;
 	}
 
 	public override string ExportSrc()
 	{
-		//輸出 MsgNotify("訊息內容")  到手臂程式
+		//輸出 MsgNotify("訊息內容")  到手臂程式src檔內
 		return tab + "MsgNotify(\"" + Message + "\")" + Environment.NewLine;
 	}
 
 	public override string UpdateName()
 	{
+		////更新Gameobject在階層視窗內的名稱
 		return (gameObject.name = "MsgNotify(\"" + Message + "\")");
 	}
 }
@@ -258,7 +259,7 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTQ0NzI0OSwxNDg0MDc0ODc5LC05ND
+eyJoaXN0b3J5IjpbMjA0MzA4NjE4NiwxNDg0MDc0ODc5LC05ND
 Q3NDM2ODEsNTM4Njg0MjUyLDE1OTg1ODQ5ODYsMTIzMDY5NTU1
 MSwzNjA2Njg0MDAsMTE5MDU0NzQsLTE3NzM2ODAzMSwtMjEwNj
 E0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEzNTc3

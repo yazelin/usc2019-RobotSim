@@ -145,7 +145,9 @@
 
 #### RobotSim完整專案
 - RobotSim程式設計擴充 (視實際進度彈性調整) [參考](https://yazelin.github.io/cnu2018-RobotSim/)
-- 自訂函式/修改功能 (顯示訊息功能) 程式碼 
+- 自訂函式/修改功能 (顯示訊息功能) 
+
+RobotCommandMessage.cs 程式碼 
 ```cs
 //RobotCommandMessage.cs
 using RobotSim;
@@ -258,7 +260,7 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjMxMDQ2NTEsMjA0MzA4NjE4NiwxND
+eyJoaXN0b3J5IjpbLTExMTE3Mjg4MjUsMjA0MzA4NjE4NiwxND
 g0MDc0ODc5LC05NDQ3NDM2ODEsNTM4Njg0MjUyLDE1OTg1ODQ5
 ODYsMTIzMDY5NTU1MSwzNjA2Njg0MDAsMTE5MDU0NzQsLTE3Nz
 M2ODAzMSwtMjEwNjE0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2

@@ -145,8 +145,8 @@
 
 #### RobotSim完整專案
 - RobotSim程式設計擴充 (視實際進度彈性調整) [參考](https://yazelin.github.io/cnu2018-RobotSim/)
-- 自訂函式/修改功能
-顯示訊息功能 RobotCommandMessage程式碼
+- 自訂函式/修改功能 (顯示訊息功能)
+- RobotCommandMessage程式碼
 ```cs
 public class RobotCommandMessage : RobotCommand
 {
@@ -243,11 +243,11 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLDUzOD
-Y4NDI1MiwxNTk4NTg0OTg2LDEyMzA2OTU1NTEsMzYwNjY4NDAw
-LDExOTA1NDc0LC0xNzczNjgwMzEsLTIxMDYxNDY1OTEsMTgzMz
-I2MjgzOCwtMjEwNjE0NjU5MSwtMTUxMzU3NzQ2MCwzMDAyODg5
-MDUsLTE1NzE3NjEyNjMsMTExMjEzMzg5OSwtNjY2NDI0NjI0LC
-0xMDk1NTA0MDcwLDM1NDk1Mzg0OSwxMDQ2MDQ1MDk1LDg5NjAy
-NjgzMV19
+eyJoaXN0b3J5IjpbMTc1OTkzOTk3NSwxNDg0MDc0ODc5LC05ND
+Q3NDM2ODEsNTM4Njg0MjUyLDE1OTg1ODQ5ODYsMTIzMDY5NTU1
+MSwzNjA2Njg0MDAsMTE5MDU0NzQsLTE3NzM2ODAzMSwtMjEwNj
+E0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEzNTc3
+NDYwLDMwMDI4ODkwNSwtMTU3MTc2MTI2MywxMTEyMTMzODk5LC
+02NjY0MjQ2MjQsLTEwOTU1MDQwNzAsMzU0OTUzODQ5LDEwNDYw
+NDUwOTVdfQ==
 -->

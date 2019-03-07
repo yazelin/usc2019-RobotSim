@@ -25,7 +25,7 @@
 
 ## 課程大綱
 
-### 一、RobotSim基礎(3/13)
+### 一、RobotSim基礎(3/13) [教學頁面](./1RobotSimBasic.html)
 1. 課程大綱
 2. 手臂基本介紹
 3. RobotSim環境及基本操作
@@ -39,7 +39,7 @@
   - 動作
   - 流程控制
 
-### 二、RobotSim專案制作(3/27)
+### 二、RobotSim專案制作(3/27)[教學頁面](./1RobotSimBasic.html)
 1. RobotSim完整專案
   - RobotSim程式設計擴充 C# [參考](https://yazelin.github.io/cnu2018-RobotSim/)
   - 自訂函式/修改功能
@@ -265,11 +265,11 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDMzOTI0MDgsLTE5MjkzMzU5OTYsLT
-cyNTQwNTY5OSw2NDg3NzAwNywtMTExMTcyODgyNSwyMDQzMDg2
-MTg2LDE0ODQwNzQ4NzksLTk0NDc0MzY4MSw1Mzg2ODQyNTIsMT
-U5ODU4NDk4NiwxMjMwNjk1NTUxLDM2MDY2ODQwMCwxMTkwNTQ3
-NCwtMTc3MzY4MDMxLC0yMTA2MTQ2NTkxLDE4MzMyNjI4MzgsLT
-IxMDYxNDY1OTEsLTE1MTM1Nzc0NjAsMzAwMjg4OTA1LC0xNTcx
-NzYxMjYzXX0=
+eyJoaXN0b3J5IjpbMTI0NDkwMTA3OCwtMjAwMzM5MjQwOCwtMT
+kyOTMzNTk5NiwtNzI1NDA1Njk5LDY0ODc3MDA3LC0xMTExNzI4
+ODI1LDIwNDMwODYxODYsMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLD
+UzODY4NDI1MiwxNTk4NTg0OTg2LDEyMzA2OTU1NTEsMzYwNjY4
+NDAwLDExOTA1NDc0LC0xNzczNjgwMzEsLTIxMDYxNDY1OTEsMT
+gzMzI2MjgzOCwtMjEwNjE0NjU5MSwtMTUxMzU3NzQ2MCwzMDAy
+ODg5MDVdfQ==
 -->

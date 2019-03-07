@@ -134,12 +134,15 @@
 - 變數 Value
   - Bool、Int、Float、String
   - Set、Add、Sub、Mut、Div
+![Image](./img/Value.png) 
 - 動作 Motion
   - Base、Tool、Speed
   - PTP 、LIN、CIRC
+![Image](./img/Motion.png) 
 - 流程控制 Flow
   - Loop、For-Loop、Wait Time
   - If-Else、While、Switch-Case
+![Image](./img/Flow.png) 
 
 ### 二、RobotSim專案製作
 
@@ -260,11 +263,11 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE3Mjg4MjUsMjA0MzA4NjE4NiwxND
-g0MDc0ODc5LC05NDQ3NDM2ODEsNTM4Njg0MjUyLDE1OTg1ODQ5
-ODYsMTIzMDY5NTU1MSwzNjA2Njg0MDAsMTE5MDU0NzQsLTE3Nz
-M2ODAzMSwtMjEwNjE0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2
-NTkxLC0xNTEzNTc3NDYwLDMwMDI4ODkwNSwtMTU3MTc2MTI2My
-wxMTEyMTMzODk5LC02NjY0MjQ2MjQsLTEwOTU1MDQwNzAsMzU0
-OTUzODQ5XX0=
+eyJoaXN0b3J5IjpbNjQ4NzcwMDcsLTExMTE3Mjg4MjUsMjA0Mz
+A4NjE4NiwxNDg0MDc0ODc5LC05NDQ3NDM2ODEsNTM4Njg0MjUy
+LDE1OTg1ODQ5ODYsMTIzMDY5NTU1MSwzNjA2Njg0MDAsMTE5MD
+U0NzQsLTE3NzM2ODAzMSwtMjEwNjE0NjU5MSwxODMzMjYyODM4
+LC0yMTA2MTQ2NTkxLC0xNTEzNTc3NDYwLDMwMDI4ODkwNSwtMT
+U3MTc2MTI2MywxMTEyMTMzODk5LC02NjY0MjQ2MjQsLTEwOTU1
+MDQwNzBdfQ==
 -->

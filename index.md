@@ -94,7 +94,7 @@
 
 ![Image](./img/Tool.jpg) 
 
-#### 線上模擬環境
+### 線上模擬環境
 - 我們把模擬環境放在網站上了
 - 網址在這邊  [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim)
 - 在模擬器中我們可以學到這些
@@ -115,21 +115,21 @@
 		- 先教點
 		- 用指令讓手臂重現動作 
 
-### RobotSim環境及基本操作
+## RobotSim環境及基本操作
 
-#### RobotSim 下載-安裝-試用
+### RobotSim 下載-安裝-試用
 - 影片參考  [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-#### RobotSim 教點-程式-模擬
+### RobotSim 教點-程式-模擬
 - 影片參考  [連結](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-#### RobotSim 設定Tool-更新點位-模擬動作
+### RobotSim 設定Tool-更新點位-模擬動作
 - 影片參考  [連結](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-#### RobotSim 設定Base-設定手臂-匯出程式
+### RobotSim 設定Base-設定手臂-匯出程式
 - 影片參考  [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### RobotSim程式設計
+## RobotSim程式設計
 - 變數 Value
   - Bool、Int、Float、String
   - Set、Add、Sub、Mut、Div
@@ -146,9 +146,9 @@
 
 ![Image](./img/Flow.png) 
 
-### 二、RobotSim專案製作
+## 二、RobotSim專案製作
 
-#### RobotSim完整專案
+### RobotSim完整專案
 - RobotSim程式設計擴充 (視實際進度彈性調整) [參考](https://yazelin.github.io/cnu2018-RobotSim/)
   - 顯示訊息功能
 
@@ -208,17 +208,17 @@ public class RobotCommandMessage : RobotCommand
 - 在RobotSim 中還能做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
   
-#### RobotSim匯出 並匯入WorkVisual專案
+### RobotSim匯出 並匯入WorkVisual專案
 - WorkVisual 環境
 - RobotSim匯出程式
 - WorkVisual匯入程式
    
-### 三、手臂操作訓練及KRL程式語言
-#### 手臂安全及基本操作
+## 三、手臂操作訓練及KRL程式語言
+### 手臂安全及基本操作
 - 安全規定
 - 操作教導器SmartPad
 
-#### WorkVisual KRL 程式語言
+### WorkVisual KRL 程式語言
 - 變數
   - BOOL
   - INT
@@ -242,7 +242,7 @@ public class RobotCommandMessage : RobotCommand
   - SWICTH-CASE
 
 
-### 四、WtFramework 開發框架
+## 四、WtFramework 開發框架
 - WtFramework開發框架介紹
   - Core
   - Action
@@ -252,20 +252,20 @@ public class RobotCommandMessage : RobotCommand
 
 視實際進度彈性調整
 
-### 五、自動化專案實作 一
+## 五、自動化專案實作 一
 - PC端 為主控端
 - Robot端 為被控設備
 
 視實際進度彈性調整
 
-### 六、自動化專案實作 二
+## 六、自動化專案實作 二
 - PC端 為主控端
 - Robot端 為被控設備
 
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE1ODc0NjQsLTE5MjkzMzU5OTYsLT
+eyJoaXN0b3J5IjpbLTIwMDMzOTI0MDgsLTE5MjkzMzU5OTYsLT
 cyNTQwNTY5OSw2NDg3NzAwNywtMTExMTcyODgyNSwyMDQzMDg2
 MTg2LDE0ODQwNzQ4NzksLTk0NDc0MzY4MSw1Mzg2ODQyNTIsMT
 U5ODU4NDk4NiwxMjMwNjk1NTUxLDM2MDY2ODQwMCwxMTkwNTQ3

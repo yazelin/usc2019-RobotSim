@@ -39,13 +39,13 @@
   - 動作
   - 流程控制
 
-### 二、RobotSim專案制作(3/27)[教學頁面](./1RobotSimBasic.html)
+### 二、RobotSim專案制作(3/27) [教學頁面](./2RobotSimProject.html)
 1. RobotSim完整專案
   - RobotSim程式設計擴充 C# [參考](https://yazelin.github.io/cnu2018-RobotSim/)
   - 自訂函式/修改功能
 2. RobotSim匯出 並匯入WorkVisual專案
 
-### 三、手臂操作訓練及KRL程式語言(4/10)
+### 三、手臂操作訓練及KRL程式語言(4/10) [教學頁面](./3KukaRobotLanguage.html)
 1. 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
 2. WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
   - 變數
@@ -53,7 +53,7 @@
   - 動作指令
   - 流程控制
 
-### 四、WtFramework 開發框架(4/24)
+### 四、WtFramework 開發框架(4/24) [教學頁面](./4WtFramework.html)
 1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
   - Core
   - Action
@@ -62,13 +62,13 @@
   - Server
 4. 練習
 
-### 五、自動化專案實作 一(5/08)
+### 五、自動化專案實作 一(5/08) [教學頁面](./5Project1.html)
 1. WtFramework 自動化專案 實作
   - PC端 為主控端 C#
   - Robot端 為被控設備 KRL
   - UI素材 [下載](./src/AssetsPack.unitypackage)
 
-### 六、自動化專案實作 二(5/22)
+### 六、自動化專案實作 二(5/22) [教學頁面](./6Project2.html)
 1. WtFramework 自動化專案 實作
   - PC端 為主控端 C#
   - Robot端 為被控設備 KRL
@@ -265,7 +265,7 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDkwMTA3OCwtMjAwMzM5MjQwOCwtMT
+eyJoaXN0b3J5IjpbLTM5NTI0NTUyNiwtMjAwMzM5MjQwOCwtMT
 kyOTMzNTk5NiwtNzI1NDA1Njk5LDY0ODc3MDA3LC0xMTExNzI4
 ODI1LDIwNDMwODYxODYsMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLD
 UzODY4NDI1MiwxNTk4NTg0OTg2LDEyMzA2OTU1NTEsMzYwNjY4

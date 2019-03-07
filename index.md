@@ -146,8 +146,13 @@
 #### RobotSim完整專案
 - RobotSim程式設計擴充 (視實際進度彈性調整) [參考](https://yazelin.github.io/cnu2018-RobotSim/)
 - 自訂函式/修改功能 (顯示訊息功能)
-- RobotCommandMessage.cs 程式碼
+- 程式碼
 ```cs
+//RobotCommandMessage.cs
+using RobotSim;
+using UnityEngine;
+using System;
+
 public class RobotCommandMessage : RobotCommand
 {
 	public string Message = string.Empty;
@@ -243,7 +248,7 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDM3MTAxNywxNDg0MDc0ODc5LC05ND
+eyJoaXN0b3J5IjpbLTgyMTA5NDQ2NywxNDg0MDc0ODc5LC05ND
 Q3NDM2ODEsNTM4Njg0MjUyLDE1OTg1ODQ5ODYsMTIzMDY5NTU1
 MSwzNjA2Njg0MDAsMTE5MDU0NzQsLTE3NzM2ODAzMSwtMjEwNj
 E0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEzNTc3

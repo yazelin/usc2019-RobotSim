@@ -161,12 +161,15 @@ public class RobotCommandMessage : RobotCommand
 	//檢查是否未設定訊息
 	public override bool Check()
 	{
-		var test = Message != string.Empty;
-		if (!test)
+		if (Message == string.Empty)
 		{
 			errorMassage = "未填入訊息";
+			return false;
 		}
-		return test;
+		else
+		{
+			return true;
+		}
 	}
 
 	public override int Execute()
@@ -251,11 +254,11 @@ public class RobotCommandMessage : RobotCommand
 視實際進度彈性調整
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzk0MTgwOTEsMTQ4NDA3NDg3OSwtOT
-Q0NzQzNjgxLDUzODY4NDI1MiwxNTk4NTg0OTg2LDEyMzA2OTU1
-NTEsMzYwNjY4NDAwLDExOTA1NDc0LC0xNzczNjgwMzEsLTIxMD
-YxNDY1OTEsMTgzMzI2MjgzOCwtMjEwNjE0NjU5MSwtMTUxMzU3
-NzQ2MCwzMDAyODg5MDUsLTE1NzE3NjEyNjMsMTExMjEzMzg5OS
-wtNjY2NDI0NjI0LC0xMDk1NTA0MDcwLDM1NDk1Mzg0OSwxMDQ2
-MDQ1MDk1XX0=
+eyJoaXN0b3J5IjpbLTY3Mjc3NDQ2OCwxNDg0MDc0ODc5LC05ND
+Q3NDM2ODEsNTM4Njg0MjUyLDE1OTg1ODQ5ODYsMTIzMDY5NTU1
+MSwzNjA2Njg0MDAsMTE5MDU0NzQsLTE3NzM2ODAzMSwtMjEwNj
+E0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEzNTc3
+NDYwLDMwMDI4ODkwNSwtMTU3MTc2MTI2MywxMTEyMTMzODk5LC
+02NjY0MjQ2MjQsLTEwOTU1MDQwNzAsMzU0OTUzODQ5LDEwNDYw
+NDUwOTVdfQ==
 -->

@@ -62,8 +62,8 @@ public class RobotCommandMessage : RobotCommand
   
 ### RobotSim匯出 並匯入WorkVisual專案
 - WorkVisual 環境
-- RobotSim匯出程式
-- WorkVisual匯入程式
+- RobotSim 匯出程式
+- WorkVisual 匯入程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjQxNDE1NV19
+eyJoaXN0b3J5IjpbLTU3MDgzMjY1MSwxNDAyNDE0MTU1XX0=
 -->

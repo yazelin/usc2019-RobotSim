@@ -5,17 +5,17 @@
 ## 方法
 > 以實際專案進行的順序擬定大綱。
 > 並依大綱依序學習必要技能。
-1. 前期規劃
+1. 前期規劃 (略)
   - 了解現況
   - 如何以自動化替代人力
   - 初步構想
-2. 初步模擬 一、二
+2. 初步模擬 (一、二)
   - 流程
   - 空間配置(干涉)
-3. 實機測試 三、四
+3. 實機測試 (三、四)
   - 硬體安裝、微調
   - 軟體測試、重構
-4. 建置完整系統 五、六
+4. 建置完整系統 (五、六)
   - 周邊設備整合
   - 整合測試
   - 驗收
@@ -82,11 +82,11 @@
 - C#、KRL 程式語言撰寫
 - 操作KUKA機器手臂
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzAzMTU1OSwtMTk0Nzc3NTY5LC00ND
-EzMjM5MjAsMTY2MTA5MjI3MiwtMjAwMzM5MjQwOCwtMTkyOTMz
-NTk5NiwtNzI1NDA1Njk5LDY0ODc3MDA3LC0xMTExNzI4ODI1LD
-IwNDMwODYxODYsMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLDUzODY4
-NDI1MiwxNTk4NTg0OTg2LDEyMzA2OTU1NTEsMzYwNjY4NDAwLD
-ExOTA1NDc0LC0xNzczNjgwMzEsLTIxMDYxNDY1OTEsMTgzMzI2
-MjgzOF19
+eyJoaXN0b3J5IjpbLTExMjkzMzc5NDgsLTE5NDc3NzU2OSwtND
+QxMzIzOTIwLDE2NjEwOTIyNzIsLTIwMDMzOTI0MDgsLTE5Mjkz
+MzU5OTYsLTcyNTQwNTY5OSw2NDg3NzAwNywtMTExMTcyODgyNS
+wyMDQzMDg2MTg2LDE0ODQwNzQ4NzksLTk0NDc0MzY4MSw1Mzg2
+ODQyNTIsMTU5ODU4NDk4NiwxMjMwNjk1NTUxLDM2MDY2ODQwMC
+wxMTkwNTQ3NCwtMTc3MzY4MDMxLC0yMTA2MTQ2NTkxLDE4MzMy
+NjI4MzhdfQ==
 -->

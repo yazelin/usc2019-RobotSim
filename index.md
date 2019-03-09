@@ -73,8 +73,13 @@
 - Visual Studio (C# 編輯器)
 - KUKA KR3 (機器手臂)
 - WorkVisual (KRL 編輯器)
+
+## 成果
+- 熟悉自動化系統專案開發
+- 熟息C#、KRL 程式語言
+- 有操作機器手臂能力
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzY1NjkxMiwtNDQxMzIzOTIwLDE2Nj
+eyJoaXN0b3J5IjpbMTY0Njk0Njk5MywtNDQxMzIzOTIwLDE2Nj
 EwOTIyNzIsLTIwMDMzOTI0MDgsLTE5MjkzMzU5OTYsLTcyNTQw
 NTY5OSw2NDg3NzAwNywtMTExMTcyODgyNSwyMDQzMDg2MTg2LD
 E0ODQwNzQ4NzksLTk0NDc0MzY4MSw1Mzg2ODQyNTIsMTU5ODU4

@@ -2,6 +2,7 @@
 ## 目的
 > 畢業 > 就業 > 創業
 > 取得就業即戰力
+
 ## 方法
 > 以實際專案進行的順序擬定大綱。
 > 並依大綱依序學習必要技能。
@@ -19,8 +20,8 @@
   - 周邊設備整合
   - 整合測試
   - 驗收
+ 
 ## 步驟
-
 ### 一、RobotSim基礎(3/13) [教學頁面](./1RobotSimBasic.html)
 1. 課程大綱
 2. 手臂基本介紹
@@ -83,11 +84,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzQwMTQ0NywtMTk0Nzc3NTY5LC00ND
-EzMjM5MjAsMTY2MTA5MjI3MiwtMjAwMzM5MjQwOCwtMTkyOTMz
-NTk5NiwtNzI1NDA1Njk5LDY0ODc3MDA3LC0xMTExNzI4ODI1LD
-IwNDMwODYxODYsMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLDUzODY4
-NDI1MiwxNTk4NTg0OTg2LDEyMzA2OTU1NTEsMzYwNjY4NDAwLD
-ExOTA1NDc0LC0xNzczNjgwMzEsLTIxMDYxNDY1OTEsMTgzMzI2
-MjgzOF19
+eyJoaXN0b3J5IjpbLTY1MjgyNzMxLDEzMzc0MDE0NDcsLTE5ND
+c3NzU2OSwtNDQxMzIzOTIwLDE2NjEwOTIyNzIsLTIwMDMzOTI0
+MDgsLTE5MjkzMzU5OTYsLTcyNTQwNTY5OSw2NDg3NzAwNywtMT
+ExMTcyODgyNSwyMDQzMDg2MTg2LDE0ODQwNzQ4NzksLTk0NDc0
+MzY4MSw1Mzg2ODQyNTIsMTU5ODU4NDk4NiwxMjMwNjk1NTUxLD
+M2MDY2ODQwMCwxMTkwNTQ3NCwtMTc3MzY4MDMxLC0yMTA2MTQ2
+NTkxXX0=
 -->

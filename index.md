@@ -69,24 +69,24 @@
   - PC端 為主控端 C#
   - Robot端 為被控設備 KRL
 
-## 需求
+## 環境需求
 - Unity 2017 (3D環境) 
 - RobotSim (模擬手臂)
 - Visual Studio (C# 編輯器)
 - KUKA KR3 (機器手臂)
 - WorkVisual (KRL 編輯器)
 
-## 成果
+## 學習成果
 - 自動化系統專案開發流程
-- Unity、VisualStudio、VisualWork軟體操作
+- Unity、VisualStudio、VisualWork 軟體操作
 - C#、KRL 程式語言撰寫
 - 操作KUKA機器手臂
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjkzMzc5NDgsLTE5NDc3NzU2OSwtND
-QxMzIzOTIwLDE2NjEwOTIyNzIsLTIwMDMzOTI0MDgsLTE5Mjkz
-MzU5OTYsLTcyNTQwNTY5OSw2NDg3NzAwNywtMTExMTcyODgyNS
-wyMDQzMDg2MTg2LDE0ODQwNzQ4NzksLTk0NDc0MzY4MSw1Mzg2
-ODQyNTIsMTU5ODU4NDk4NiwxMjMwNjk1NTUxLDM2MDY2ODQwMC
-wxMTkwNTQ3NCwtMTc3MzY4MDMxLC0yMTA2MTQ2NTkxLDE4MzMy
-NjI4MzhdfQ==
+eyJoaXN0b3J5IjpbLTk3NTAyNTAzMSwtMTk0Nzc3NTY5LC00ND
+EzMjM5MjAsMTY2MTA5MjI3MiwtMjAwMzM5MjQwOCwtMTkyOTMz
+NTk5NiwtNzI1NDA1Njk5LDY0ODc3MDA3LC0xMTExNzI4ODI1LD
+IwNDMwODYxODYsMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLDUzODY4
+NDI1MiwxNTk4NTg0OTg2LDEyMzA2OTU1NTEsMzYwNjY4NDAwLD
+ExOTA1NDc0LC0xNzczNjgwMzEsLTIxMDYxNDY1OTEsMTgzMzI2
+MjgzOF19
 -->

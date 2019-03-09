@@ -1,4 +1,6 @@
 # 課程設計
+## 目的
+## 方法
 > 課程規劃以實際專案進行的順序擬定大綱。
 > 並依大綱依序學習必要技能。
 1. 前期規劃
@@ -15,15 +17,7 @@
   - 周邊設備整合
   - 整合測試
   - 驗收
-
-## 環境需求
-- Unity 2017 (3D環境) 
-- RobotSim (模擬手臂)
-- Visual Studio (C# 編輯器)
-- KUKA KR3 (機器手臂)
-- WorkVisual (KRL 編輯器)
-
-## 課程大綱
+## 步驟
 
 ### 一、RobotSim基礎(3/13) [教學頁面](./1RobotSimBasic.html)
 1. 課程大綱
@@ -73,12 +67,18 @@
   - PC端 為主控端 C#
   - Robot端 為被控設備 KRL
 
+## 需求
+- Unity 2017 (3D環境) 
+- RobotSim (模擬手臂)
+- Visual Studio (C# 編輯器)
+- KUKA KR3 (機器手臂)
+- WorkVisual (KRL 編輯器)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTMyMzkyMCwxNjYxMDkyMjcyLC0yMD
-AzMzkyNDA4LC0xOTI5MzM1OTk2LC03MjU0MDU2OTksNjQ4Nzcw
-MDcsLTExMTE3Mjg4MjUsMjA0MzA4NjE4NiwxNDg0MDc0ODc5LC
-05NDQ3NDM2ODEsNTM4Njg0MjUyLDE1OTg1ODQ5ODYsMTIzMDY5
-NTU1MSwzNjA2Njg0MDAsMTE5MDU0NzQsLTE3NzM2ODAzMSwtMj
-EwNjE0NjU5MSwxODMzMjYyODM4LC0yMTA2MTQ2NTkxLC0xNTEz
-NTc3NDYwXX0=
+eyJoaXN0b3J5IjpbMTkyMzY1NjkxMiwtNDQxMzIzOTIwLDE2Nj
+EwOTIyNzIsLTIwMDMzOTI0MDgsLTE5MjkzMzU5OTYsLTcyNTQw
+NTY5OSw2NDg3NzAwNywtMTExMTcyODgyNSwyMDQzMDg2MTg2LD
+E0ODQwNzQ4NzksLTk0NDc0MzY4MSw1Mzg2ODQyNTIsMTU5ODU4
+NDk4NiwxMjMwNjk1NTUxLDM2MDY2ODQwMCwxMTkwNTQ3NCwtMT
+c3MzY4MDMxLC0yMTA2MTQ2NTkxLDE4MzMyNjI4MzgsLTIxMDYx
+NDY1OTFdfQ==
 -->

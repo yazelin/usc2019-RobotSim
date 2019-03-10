@@ -82,7 +82,9 @@
 - 加入手臂程式 Program
 - 加入控制器 Controller
 - 連結Robot、Controller、Program
-- 設定主攝影機視角 
+- 設定主攝影機視角
+
+![Image](./img/MainCamera.png)
 - 控制手臂加入點位1、點位2
 - 動作指令 PTP、LIN
 - 變數 INT I、流程控制 FOR-LOOP 迴圈
@@ -90,6 +92,6 @@
 - 加入TOOL模型、設定TOOL
 - 匯出程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzM5MjEwNSwtNjUwMzI3MTU1LC02MD
-I5Njg5NzAsLTEwNTQzMTI4ODBdfQ==
+eyJoaXN0b3J5IjpbMjY4MTc3MDA0LC0zMzczOTIxMDUsLTY1MD
+MyNzE1NSwtNjAyOTY4OTcwLC0xMDU0MzEyODgwXX0=
 -->

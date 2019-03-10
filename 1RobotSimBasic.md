@@ -75,7 +75,7 @@
 ![Image](./img/Flow.png)
 
 ## 練習
-- 匯入RobotSim
+- 匯入RobotSim [下載頁面](http://www.wtech.com.tw/download)
 - 開啟Robot視窗、Program視窗、Controller視窗
 - 加入空場景
 
@@ -115,9 +115,9 @@
 ![Image](./img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwMDU4OTksLTE1MzU0OTU2NjUsLTIwMT
-kzNTM1NTQsLTEzNzExNjUwMTgsMTk3Nzc2OTQ1Niw0MjMzOTMw
-MTUsMzYyNzcxNTIzLDExMzE0MzAwOTksMjY4MTc3MDA0LC0zMz
-czOTIxMDUsLTY1MDMyNzE1NSwtNjAyOTY4OTcwLC0xMDU0MzEy
-ODgwXX0=
+eyJoaXN0b3J5IjpbLTE4ODIyNjk1NTIsODQwMDU4OTksLTE1Mz
+U0OTU2NjUsLTIwMTkzNTM1NTQsLTEzNzExNjUwMTgsMTk3Nzc2
+OTQ1Niw0MjMzOTMwMTUsMzYyNzcxNTIzLDExMzE0MzAwOTksMj
+Y4MTc3MDA0LC0zMzczOTIxMDUsLTY1MDMyNzE1NSwtNjAyOTY4
+OTcwLC0xMDU0MzEyODgwXX0=
 -->

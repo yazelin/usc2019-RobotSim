@@ -99,13 +99,16 @@
 
 ![Image](./img/AddPoint.png)
 - 動作指令 PTP、LIN
+
+![Image](./img/AddPTP.png)
+![Image](./img/AddP1.png)
 - 變數 INT I、流程控制 FOR-LOOP 迴圈
 - 設定速度 SPEED、WAIT SEC 指令
 - 加入TOOL模型、設定TOOL
 - 匯出程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzExNjUwMTgsMTk3Nzc2OTQ1Niw0Mj
-MzOTMwMTUsMzYyNzcxNTIzLDExMzE0MzAwOTksMjY4MTc3MDA0
-LC0zMzczOTIxMDUsLTY1MDMyNzE1NSwtNjAyOTY4OTcwLC0xMD
-U0MzEyODgwXX0=
+eyJoaXN0b3J5IjpbLTM2MjUzMzUyMSwtMTM3MTE2NTAxOCwxOT
+c3NzY5NDU2LDQyMzM5MzAxNSwzNjI3NzE1MjMsMTEzMTQzMDA5
+OSwyNjgxNzcwMDQsLTMzNzM5MjEwNSwtNjUwMzI3MTU1LC02MD
+I5Njg5NzAsLTEwNTQzMTI4ODBdfQ==
 -->

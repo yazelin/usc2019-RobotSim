@@ -78,6 +78,8 @@
 - 匯入RobotSim
 - 開啟Robot視窗、Program視窗、Controller視窗
 - 加入空場景
+
+![Image](./img/EmptyRobotSimScene.png)
 - 加入機器手臂 Robot
 - 加入手臂程式 Program
 - 加入控制器 Controller
@@ -92,6 +94,7 @@
 - 加入TOOL模型、設定TOOL
 - 匯出程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4MTc3MDA0LC0zMzczOTIxMDUsLTY1MD
-MyNzE1NSwtNjAyOTY4OTcwLC0xMDU0MzEyODgwXX0=
+eyJoaXN0b3J5IjpbMTEzMTQzMDA5OSwyNjgxNzcwMDQsLTMzNz
+M5MjEwNSwtNjUwMzI3MTU1LC02MDI5Njg5NzAsLTEwNTQzMTI4
+ODBdfQ==
 -->

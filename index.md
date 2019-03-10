@@ -1,10 +1,10 @@
 # 課程設計
 ## 目的
-> - 畢業 > 就業 > 創業
-> - 取得就業即戰力
+> #### 畢業 > 就業 > 創業
+> #### 取得就業即戰力
 
 ## 方法
-> - 以實際專案進行的順序擬定大綱。
+> #### 以實際專案進行的順序擬定大綱。
 > - 並依大綱依序學習必要技能。
 
 1. 前期規劃 (略)
@@ -85,7 +85,7 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTYxMTMyNSwtOTc0NzI0NDc3LDEzMz
+eyJoaXN0b3J5IjpbMTg2MjEwNTg4NiwtOTc0NzI0NDc3LDEzMz
 c0MDE0NDcsLTE5NDc3NzU2OSwtNDQxMzIzOTIwLDE2NjEwOTIy
 NzIsLTIwMDMzOTI0MDgsLTE5MjkzMzU5OTYsLTcyNTQwNTY5OS
 w2NDg3NzAwNywtMTExMTcyODgyNSwyMDQzMDg2MTg2LDE0ODQw

@@ -1,11 +1,11 @@
 # 課程設計
 ## 目的
-> 畢業 > 就業 > 創業
-> 取得就業即戰力
+> - 畢業 > 就業 > 創業
+> - 取得就業即戰力
 
 ## 方法
-> 以實際專案進行的順序擬定大綱。
-> 並依大綱依序學習必要技能。
+> - 以實際專案進行的順序擬定大綱。
+> - 並依大綱依序學習必要技能。
 
 1. 前期規劃 (略)
   - 了解現況
@@ -85,11 +85,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDcyNDQ3NywxMzM3NDAxNDQ3LC0xOT
-Q3Nzc1NjksLTQ0MTMyMzkyMCwxNjYxMDkyMjcyLC0yMDAzMzky
-NDA4LC0xOTI5MzM1OTk2LC03MjU0MDU2OTksNjQ4NzcwMDcsLT
-ExMTE3Mjg4MjUsMjA0MzA4NjE4NiwxNDg0MDc0ODc5LC05NDQ3
-NDM2ODEsNTM4Njg0MjUyLDE1OTg1ODQ5ODYsMTIzMDY5NTU1MS
-wzNjA2Njg0MDAsMTE5MDU0NzQsLTE3NzM2ODAzMSwtMjEwNjE0
-NjU5MV19
+eyJoaXN0b3J5IjpbMTQzNTYxMTMyNSwtOTc0NzI0NDc3LDEzMz
+c0MDE0NDcsLTE5NDc3NzU2OSwtNDQxMzIzOTIwLDE2NjEwOTIy
+NzIsLTIwMDMzOTI0MDgsLTE5MjkzMzU5OTYsLTcyNTQwNTY5OS
+w2NDg3NzAwNywtMTExMTcyODgyNSwyMDQzMDg2MTg2LDE0ODQw
+NzQ4NzksLTk0NDc0MzY4MSw1Mzg2ODQyNTIsMTU5ODU4NDk4Ni
+wxMjMwNjk1NTUxLDM2MDY2ODQwMCwxMTkwNTQ3NCwtMTc3MzY4
+MDMxXX0=
 -->

@@ -84,13 +84,12 @@
 - 連結Robot、Controller、Program
 - 設定主攝影機視角 
 - 控制手臂加入點位1、點位2
-- 控制手臂加入點位3、點位4
-- PTP 動作、LIN 動作
-- INT I 變數、FOR-LOOP 迴圈
+- 動作指令 PTP、LIN
+- 變數 INT I、流程控制 FOR-LOOP 迴圈
 - 設定速度 SPEED、WAIT SEC 指令
 - 加入TOOL模型、設定TOOL
 - 匯出程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyNzA2MjQ4LC02NTAzMjcxNTUsLTYwMj
-k2ODk3MCwtMTA1NDMxMjg4MF19
+eyJoaXN0b3J5IjpbLTMzNzM5MjEwNSwtNjUwMzI3MTU1LC02MD
+I5Njg5NzAsLTEwNTQzMTI4ODBdfQ==
 -->

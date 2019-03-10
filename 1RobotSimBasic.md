@@ -81,6 +81,8 @@
 
 ![Image](./img/EmptyRobotSimScene.png)
 - 加入機器手臂 Robot
+
+![Image](./img/AddRobot.png)
 - 加入手臂程式 Program
 - 加入控制器 Controller
 - 連結Robot、Controller、Program
@@ -94,7 +96,7 @@
 - 加入TOOL模型、設定TOOL
 - 匯出程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTQzMDA5OSwyNjgxNzcwMDQsLTMzNz
-M5MjEwNSwtNjUwMzI3MTU1LC02MDI5Njg5NzAsLTEwNTQzMTI4
-ODBdfQ==
+eyJoaXN0b3J5IjpbMzYyNzcxNTIzLDExMzE0MzAwOTksMjY4MT
+c3MDA0LC0zMzczOTIxMDUsLTY1MDMyNzE1NSwtNjAyOTY4OTcw
+LC0xMDU0MzEyODgwXX0=
 -->

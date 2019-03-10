@@ -41,16 +41,17 @@
 ## RobotSim環境及基本操作
 
 ### RobotSim 下載-安裝-試用
-- 影片參考  [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+- 下載頁面 [連結](http://www.wtech.com.tw/download)
+- 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### RobotSim 教點-程式-模擬
-- 影片參考  [連結](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+- 影片參考 [連結](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### RobotSim 設定Tool-更新點位-模擬動作
-- 影片參考  [連結](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+- 影片參考 [連結](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### RobotSim 設定Base-設定手臂-匯出程式
-- 影片參考  [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+- 影片參考 [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ## RobotSim程式設計
 - 變數 Value
@@ -69,5 +70,5 @@
 
 ![Image](./img/Flow.png) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQzMTI4ODBdfQ==
+eyJoaXN0b3J5IjpbMTM1NzE1MjQ1LC0xMDU0MzEyODgwXX0=
 -->

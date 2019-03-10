@@ -96,13 +96,16 @@
 
 ![Image](./img/MainCamera.png)
 - 控制手臂加入點位1、點位2
+
+![Image](./img/AddPoint.png)
 - 動作指令 PTP、LIN
 - 變數 INT I、流程控制 FOR-LOOP 迴圈
 - 設定速度 SPEED、WAIT SEC 指令
 - 加入TOOL模型、設定TOOL
 - 匯出程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Nzc2OTQ1Niw0MjMzOTMwMTUsMzYyNz
-cxNTIzLDExMzE0MzAwOTksMjY4MTc3MDA0LC0zMzczOTIxMDUs
-LTY1MDMyNzE1NSwtNjAyOTY4OTcwLC0xMDU0MzEyODgwXX0=
+eyJoaXN0b3J5IjpbLTEzNzExNjUwMTgsMTk3Nzc2OTQ1Niw0Mj
+MzOTMwMTUsMzYyNzcxNTIzLDExMzE0MzAwOTksMjY4MTc3MDA0
+LC0zMzczOTIxMDUsLTY1MDMyNzE1NSwtNjAyOTY4OTcwLC0xMD
+U0MzEyODgwXX0=
 -->

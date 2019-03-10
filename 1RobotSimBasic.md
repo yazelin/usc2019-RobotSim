@@ -78,13 +78,15 @@
 - 匯入RobotSim
 - 開啟Robot視窗、Program視窗、Controller視窗
 - 加入空場景
-- 加入Robot
+- 加入機器手臂 Robot
+- 加入手臂程式 Program
+- 加入控制器 Controller
+- 連結Robot、Controller、Program
 - 設定主攝影機視角 
 - 控制手臂加入點位1、點位2
 - 控制手臂加入點位3、點位4
-- 加入手臂程式
-- 連結Robot、Controller
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDMyNzE1NSwtNjAyOTY4OTcwLC0xMD
-U0MzEyODgwXX0=
+eyJoaXN0b3J5IjpbNjY4OTI4NzM0LC02NTAzMjcxNTUsLTYwMj
+k2ODk3MCwtMTA1NDMxMjg4MF19
 -->

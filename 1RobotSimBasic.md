@@ -87,10 +87,10 @@
 - 控制手臂加入點位3、點位4
 - PTP 動作、LIN 動作
 - INT I 變數、FOR-LOOP 迴圈
-- 設定速度 SPEED
-- 加入TOOL模型
-- 加入
+- 設定速度 SPEED、WAIT SEC 指令
+- 加入TOOL模型、設定TOOL
+- 匯出程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Mzk1Njg2NiwtNjUwMzI3MTU1LC02MD
-I5Njg5NzAsLTEwNTQzMTI4ODBdfQ==
+eyJoaXN0b3J5IjpbMzcyNzA2MjQ4LC02NTAzMjcxNTUsLTYwMj
+k2ODk3MCwtMTA1NDMxMjg4MF19
 -->

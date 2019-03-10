@@ -39,8 +39,8 @@
 
 ### 二、RobotSim專案制作(3/27) [教學頁面](./2RobotSimProject.html)
 1. RobotSim完整專案
-  - RobotSim程式設計擴充 C# [參考](https://yazelin.github.io/cnu2018-RobotSim/)
-  - 自訂函式/修改功能
+  - 自訂函式 顯示訊息功能
+  - RobotSim程式設計擴充 夾娃娃機 [參考](https://yazelin.github.io/cnu2018-RobotSim/)
 2. RobotSim匯出 並匯入WorkVisual專案
 
 ### 三、手臂操作訓練及KRL程式語言(4/10) [教學頁面](./3KukaRobotLanguage.html)
@@ -85,11 +85,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxNzU5ODgzLC05NzQ3MjQ0NzcsMTMzNz
-QwMTQ0NywtMTk0Nzc3NTY5LC00NDEzMjM5MjAsMTY2MTA5MjI3
-MiwtMjAwMzM5MjQwOCwtMTkyOTMzNTk5NiwtNzI1NDA1Njk5LD
-Y0ODc3MDA3LC0xMTExNzI4ODI1LDIwNDMwODYxODYsMTQ4NDA3
-NDg3OSwtOTQ0NzQzNjgxLDUzODY4NDI1MiwxNTk4NTg0OTg2LD
-EyMzA2OTU1NTEsMzYwNjY4NDAwLDExOTA1NDc0LC0xNzczNjgw
-MzFdfQ==
+eyJoaXN0b3J5IjpbLTEzMzQ4NDg2MzQsMzcxNzU5ODgzLC05Nz
+Q3MjQ0NzcsMTMzNzQwMTQ0NywtMTk0Nzc3NTY5LC00NDEzMjM5
+MjAsMTY2MTA5MjI3MiwtMjAwMzM5MjQwOCwtMTkyOTMzNTk5Ni
+wtNzI1NDA1Njk5LDY0ODc3MDA3LC0xMTExNzI4ODI1LDIwNDMw
+ODYxODYsMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLDUzODY4NDI1Mi
+wxNTk4NTg0OTg2LDEyMzA2OTU1NTEsMzYwNjY4NDAwLDExOTA1
+NDc0XX0=
 -->

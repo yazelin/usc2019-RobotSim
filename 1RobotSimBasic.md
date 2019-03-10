@@ -54,6 +54,8 @@
 ### RobotSim 設定Tool-更新點位-模擬動作
 - 影片參考 [連結](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NLA6A_qWDgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### RobotSim 設定Base-設定手臂-匯出程式
 - 影片參考 [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
@@ -74,5 +76,6 @@
 
 ![Image](./img/Flow.png) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODM3ODg0LC0xMDU0MzEyODgwXX0=
+eyJoaXN0b3J5IjpbLTEyNjE1NzcyOTIsLTEwNTQzMTI4ODBdfQ
+==
 -->

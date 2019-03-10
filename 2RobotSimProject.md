@@ -65,8 +65,11 @@ public class RobotCommandMessage : RobotCommand
 
 ![Image](./img/WorkVisualWindow.png)
 - RobotSim 匯出程式
+
+![Image](./img/ExportProgram1.png)
+![Image](./img/ExportProgram2.png)
 - WorkVisual 匯入程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MD
-I0MTQxNTVdfQ==
+eyJoaXN0b3J5IjpbMTE3MzU5OTg2NiwtNDE2MTY5NjY3LC01Nz
+A4MzI2NTEsMTQwMjQxNDE1NV19
 -->

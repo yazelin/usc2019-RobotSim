@@ -1,8 +1,9 @@
 ## 二、RobotSim專案製作
 
 ### RobotSim完整專案
-- RobotSim程式設計擴充 (視實際進度彈性調整) [參考](https://yazelin.github.io/cnu2018-RobotSim/)
-  - 顯示訊息功能
+- RobotSim程式設計擴充 夾娃娃機 (視實際進度彈性調整) [參考](https://yazelin.github.io/cnu2018-RobotSim/)
+
+- 顯示訊息功能
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e1HLzD1LAZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 RobotCommandMessage.cs 程式碼 
 ```cs
@@ -73,7 +74,7 @@ public class RobotCommandMessage : RobotCommand
 ![Image](./img/ImportProgram1.png)
 ![Image](./img/ImportProgram2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODY3MDc2OCwtMzk4OTYzMDczLDExNz
+eyJoaXN0b3J5IjpbMTQzOTk4MDk0MSwtMzk4OTYzMDczLDExNz
 M1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MDI0MTQx
 NTVdfQ==
 -->

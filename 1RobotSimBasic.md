@@ -72,7 +72,15 @@
   - Loop、For-Loop、Wait Time
   - If-Else、While、Switch-Case
 
-![Image](./img/Flow.png) 
+![Image](./img/Flow.png)
+
+## 練習
+- 匯入RobotSim
+- 開啟Robot視窗、Program視窗、Controler視窗
+- 加入空場景
+- 
+- 設定主攝影機視角 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjk2ODk3MCwtMTA1NDMxMjg4MF19
+eyJoaXN0b3J5IjpbMTU0NTM5OTUwMiwtNjAyOTY4OTcwLC0xMD
+U0MzEyODgwXX0=
 -->

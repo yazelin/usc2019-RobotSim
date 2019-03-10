@@ -87,6 +87,8 @@
 
 ![Image](./img/AddProgram.png)
 - 加入控制器 Controller
+
+![Image](./img/AddController.png)
 - 連結Robot、Controller、Program
 - 設定主攝影機視角
 
@@ -98,7 +100,7 @@
 - 加入TOOL模型、設定TOOL
 - 匯出程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ1MjAwMzksMzYyNzcxNTIzLDExMz
-E0MzAwOTksMjY4MTc3MDA0LC0zMzczOTIxMDUsLTY1MDMyNzE1
-NSwtNjAyOTY4OTcwLC0xMDU0MzEyODgwXX0=
+eyJoaXN0b3J5IjpbNDIzMzkzMDE1LDM2Mjc3MTUyMywxMTMxND
+MwMDk5LDI2ODE3NzAwNCwtMzM3MzkyMTA1LC02NTAzMjcxNTUs
+LTYwMjk2ODk3MCwtMTA1NDMxMjg4MF19
 -->

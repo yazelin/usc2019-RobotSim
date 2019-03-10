@@ -85,8 +85,12 @@
 - 設定主攝影機視角 
 - 控制手臂加入點位1、點位2
 - 控制手臂加入點位3、點位4
-- 
+- PTP 動作、LIN 動作
+- INT I 變數、FOR-LOOP 迴圈
+- 設定速度 SPEED
+- 加入TOOL模型
+- 加入
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4OTI4NzM0LC02NTAzMjcxNTUsLTYwMj
-k2ODk3MCwtMTA1NDMxMjg4MF19
+eyJoaXN0b3J5IjpbLTQ2Mzk1Njg2NiwtNjUwMzI3MTU1LC02MD
+I5Njg5NzAsLTEwNTQzMTI4ODBdfQ==
 -->

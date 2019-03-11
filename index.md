@@ -32,10 +32,9 @@
   - 設定Tool-更新點位-模擬動作 [參考影片](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo)
   - 設定Base-設定手臂-匯出程式 [參考影片](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo)
 4. RobotSim基礎程式
-  - 變數
-  - 設定
-  - 動作
-  - 流程控制
+  - 變數 Value
+  - 動作 Motion
+  - 流程控制 Flow
 
 ### 二、RobotSim專案制作(3/27) [教學頁面](./2RobotSimProject.html)
 1. RobotSim完整專案
@@ -85,11 +84,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTE1MTg0NywzNzE3NTk4ODMsLTk3ND
-cyNDQ3NywxMzM3NDAxNDQ3LC0xOTQ3Nzc1NjksLTQ0MTMyMzky
-MCwxNjYxMDkyMjcyLC0yMDAzMzkyNDA4LC0xOTI5MzM1OTk2LC
-03MjU0MDU2OTksNjQ4NzcwMDcsLTExMTE3Mjg4MjUsMjA0MzA4
-NjE4NiwxNDg0MDc0ODc5LC05NDQ3NDM2ODEsNTM4Njg0MjUyLD
-E1OTg1ODQ5ODYsMTIzMDY5NTU1MSwzNjA2Njg0MDAsMTE5MDU0
-NzRdfQ==
+eyJoaXN0b3J5IjpbMTUwODI1NjU0NiwxOTY1MTUxODQ3LDM3MT
+c1OTg4MywtOTc0NzI0NDc3LDEzMzc0MDE0NDcsLTE5NDc3NzU2
+OSwtNDQxMzIzOTIwLDE2NjEwOTIyNzIsLTIwMDMzOTI0MDgsLT
+E5MjkzMzU5OTYsLTcyNTQwNTY5OSw2NDg3NzAwNywtMTExMTcy
+ODgyNSwyMDQzMDg2MTg2LDE0ODQwNzQ4NzksLTk0NDc0MzY4MS
+w1Mzg2ODQyNTIsMTU5ODU4NDk4NiwxMjMwNjk1NTUxLDM2MDY2
+ODQwMF19
 -->

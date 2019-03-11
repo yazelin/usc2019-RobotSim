@@ -5,14 +5,15 @@
   - Core
   - Action
 2. 安裝
-3. 
+  - 
+  - ![Image](./img/AddKRLTemplates.png)
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
-4. 網路通訊 EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
+3. 網路通訊 EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - Server
-5. 練習
+4. 練習
 
 視實際進度彈性調整
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQzMjM3NTMsMTc2MjA0NzM0MCwtMz
-QyMjQyNzUzLDExNzUxMjc4NTRdfQ==
+eyJoaXN0b3J5IjpbNTE3NTg0NTQ2LDE3NjIwNDczNDAsLTM0Mj
+I0Mjc1MywxMTc1MTI3ODU0XX0=
 -->

@@ -1,9 +1,9 @@
 ## 三、手臂操作訓練及KRL程式語言
-### 手臂安全及基本操作
+### 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
 - 安全規定
 - 操作教導器SmartPad
 
-### WorkVisual KRL 程式語言
+### WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
 - 變數
   - BOOL
   - INT
@@ -26,5 +26,5 @@
   - REPEAT
   - SWICTH-CASE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTE4NzkxOV19
+eyJoaXN0b3J5IjpbMTQ3OTg4MzIwNl19
 -->

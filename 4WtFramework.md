@@ -5,10 +5,12 @@
   - Core
   - Action
 - 安裝
-- 網路通訊 EKI
+- 網路通訊 EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
+  - Server
 - 練習
 
 視實際進度彈性調整
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjI0Mjc1MywxMTc1MTI3ODU0XX0=
+eyJoaXN0b3J5IjpbMjAxOTQ1NTA1MiwtMzQyMjQyNzUzLDExNz
+UxMjc4NTRdfQ==
 -->

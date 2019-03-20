@@ -45,16 +45,13 @@
 2. RobotSim匯出 並匯入WorkVisual專案
 3. [繳交作業](https://drive.google.com/drive/folders/104_rw30SUGLiESvD4R0ukJIDlGs7t98Y?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 
-### 三、手臂操作訓練及KRL程式語言(4/10) [教學頁面](./3KukaRobotLanguage.html)
+### 三、手臂操作訓練及KRL程式語言(4/10) [教學頁面](./3KukaRobotLanguage.html) / [繳交作業](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 1. 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
 2. WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
   - 變數
   - 常用函式
   - 動作指令
   - 流程控制
-
-3. [繳交作業](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
-
 
 ### 四、WtFramework 開發框架(4/24) [教學頁面](./4WtFramework.html)
 1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
@@ -90,11 +87,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzQwNDk3LDU1OTk5MDU4MywxNTA4Mj
-U2NTQ2LDE5NjUxNTE4NDcsMzcxNzU5ODgzLC05NzQ3MjQ0Nzcs
-MTMzNzQwMTQ0NywtMTk0Nzc3NTY5LC00NDEzMjM5MjAsMTY2MT
-A5MjI3MiwtMjAwMzM5MjQwOCwtMTkyOTMzNTk5NiwtNzI1NDA1
-Njk5LDY0ODc3MDA3LC0xMTExNzI4ODI1LDIwNDMwODYxODYsMT
-Q4NDA3NDg3OSwtOTQ0NzQzNjgxLDUzODY4NDI1MiwxNTk4NTg0
-OTg2XX0=
+eyJoaXN0b3J5IjpbLTEzMzkyNzg0ODMsNTU5OTkwNTgzLDE1MD
+gyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4ODMsLTk3NDcyNDQ3
+NywxMzM3NDAxNDQ3LC0xOTQ3Nzc1NjksLTQ0MTMyMzkyMCwxNj
+YxMDkyMjcyLC0yMDAzMzkyNDA4LC0xOTI5MzM1OTk2LC03MjU0
+MDU2OTksNjQ4NzcwMDcsLTExMTE3Mjg4MjUsMjA0MzA4NjE4Ni
+wxNDg0MDc0ODc5LC05NDQ3NDM2ODEsNTM4Njg0MjUyLDE1OTg1
+ODQ5ODZdfQ==
 -->

@@ -23,7 +23,7 @@
   - 驗收
  
 ## 步驟
-### 一、RobotSim基礎(3/13) [教學頁面](./1RobotSimBasic.html)
+### 一、RobotSim基礎(3/13) [教學頁面](./1RobotSimBasic.html) / [繳交作業](https://drive.google.com/drive/folders/1FMey_NlWkC3YxeOpwVbmjqgbFMcu3iXU?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 1. 課程大綱
 2. 手臂基本介紹
 3. RobotSim環境及基本操作
@@ -35,15 +35,12 @@
   - 變數 Value
   - 動作 Motion
   - 流程控制 Flow
- 
-5. [繳交作業](https://drive.google.com/drive/folders/1FMey_NlWkC3YxeOpwVbmjqgbFMcu3iXU?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 
-### 二、RobotSim專案制作(3/27) [教學頁面](./2RobotSimProject.html)
+### 二、RobotSim專案制作(3/27) [教學頁面](./2RobotSimProject.html) / [繳交作業](https://drive.google.com/drive/folders/104_rw30SUGLiESvD4R0ukJIDlGs7t98Y?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 1. RobotSim完整專案
   - 自訂函式 顯示訊息功能
   - RobotSim程式設計擴充 夾娃娃機 [參考教學](https://yazelin.github.io/cnu2018-RobotSim/)
 2. RobotSim匯出 並匯入WorkVisual專案
-3. [繳交作業](https://drive.google.com/drive/folders/104_rw30SUGLiESvD4R0ukJIDlGs7t98Y?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 
 ### 三、手臂操作訓練及KRL程式語言(4/10) [教學頁面](./3KukaRobotLanguage.html) / [繳交作業](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 1. 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
@@ -87,7 +84,7 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzkyNzg0ODMsNTU5OTkwNTgzLDE1MD
+eyJoaXN0b3J5IjpbLTE5OTY1MjYyOTEsNTU5OTkwNTgzLDE1MD
 gyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4ODMsLTk3NDcyNDQ3
 NywxMzM3NDAxNDQ3LC0xOTQ3Nzc1NjksLTQ0MTMyMzkyMCwxNj
 YxMDkyMjcyLC0yMDAzMzkyNDA4LC0xOTI5MzM1OTk2LC03MjU0

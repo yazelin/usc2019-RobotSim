@@ -1,4 +1,5 @@
 ## 三、手臂操作訓練及KRL程式語言
+### [繳交作業](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 ### 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
 - 安全規定
 - 操作教導器SmartPad
@@ -26,7 +27,7 @@
   - REPEAT
   - SWICTH-CASE
 
-### [繳交作業](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjQ5OTU2NiwxNDc5ODgzMjA2XX0=
+eyJoaXN0b3J5IjpbLTEyOTk3NTIyMzIsMTQ3OTg4MzIwNl19
 -->

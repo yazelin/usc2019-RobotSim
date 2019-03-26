@@ -2,7 +2,6 @@
 ## 目的
 > 1. 畢業 > 就業 > 創業
 > 2. 取得就業即戰力
-> 3. 建立
 
 ## 方法
 > 1. 以實際專案進行的順序擬定大綱。
@@ -64,7 +63,7 @@
 
 ### 四、WtFramework 開發框架(4/24) [教學頁面](./4WtFramework.html)
 ```
-工欲善其事 必先利其器
+工欲善其事必先利其器
 ```
 1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
   - Core
@@ -106,11 +105,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDUzOTk0OCwyMDAzNzIyODcwLDExND
-Y3MjkyNDUsLTEwNzg4NDEwNSwtMTE3OTQyNzU5NiwtMTk5NjUy
-NjI5MSw1NTk5OTA1ODMsMTUwODI1NjU0NiwxOTY1MTUxODQ3LD
-M3MTc1OTg4MywtOTc0NzI0NDc3LDEzMzc0MDE0NDcsLTE5NDc3
-NzU2OSwtNDQxMzIzOTIwLDE2NjEwOTIyNzIsLTIwMDMzOTI0MD
-gsLTE5MjkzMzU5OTYsLTcyNTQwNTY5OSw2NDg3NzAwNywtMTEx
-MTcyODgyNV19
+eyJoaXN0b3J5IjpbLTEwODkxNTEwOTAsLTMyNDUzOTk0OCwyMD
+AzNzIyODcwLDExNDY3MjkyNDUsLTEwNzg4NDEwNSwtMTE3OTQy
+NzU5NiwtMTk5NjUyNjI5MSw1NTk5OTA1ODMsMTUwODI1NjU0Ni
+wxOTY1MTUxODQ3LDM3MTc1OTg4MywtOTc0NzI0NDc3LDEzMzc0
+MDE0NDcsLTE5NDc3NzU2OSwtNDQxMzIzOTIwLDE2NjEwOTIyNz
+IsLTIwMDMzOTI0MDgsLTE5MjkzMzU5OTYsLTcyNTQwNTY5OSw2
+NDg3NzAwN119
 -->

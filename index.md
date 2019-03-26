@@ -41,7 +41,7 @@
 
 ### 二、RobotSim專案制作(3/27) [教學頁面](./2RobotSimProject.html) / [繳交作業](https://drive.google.com/drive/folders/104_rw30SUGLiESvD4R0ukJIDlGs7t98Y?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 ```
-
+一日之所需 百工斯為備
 ```
 1. RobotSim完整專案
   - 自訂函式 顯示訊息功能
@@ -49,6 +49,9 @@
 2. RobotSim匯出 並匯入WorkVisual專案
 
 ### 三、手臂操作訓練及KRL程式語言(4/10) [教學頁面](./3KukaRobotLanguage.html) / [繳交作業](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
+```
+積沙成塔 集腋成裘
+```
 1. 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
 2. WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
   - 變數
@@ -57,6 +60,9 @@
   - 流程控制
 
 ### 四、WtFramework 開發框架(4/24) [教學頁面](./4WtFramework.html)
+```
+積土成山，風雨興焉；積水成淵，蛟龍生焉；積善成德，而神明自得，聖心備焉。故不積蹞步，無以至千里；不積小流，無以成江海。騏驥一躍，不能十步；駑馬十駕，功在不舍。
+```
 1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
   - Core
   - Action
@@ -66,6 +72,8 @@
 4. 練習
 
 ### 五、自動化專案實作 一(5/08) [教學頁面](./5Project1.html)
+```
+```
 1. WtFramework 自動化專案 實作
   - PC端 為主控端 C# WinForm TcpClient
   - Robot端 為被控設備 KRL TcpServer
@@ -90,11 +98,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM5NDQ5NDYsLTE5OTY1MjYyOTEsNT
-U5OTkwNTgzLDE1MDgyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4
-ODMsLTk3NDcyNDQ3NywxMzM3NDAxNDQ3LC0xOTQ3Nzc1NjksLT
-Q0MTMyMzkyMCwxNjYxMDkyMjcyLC0yMDAzMzkyNDA4LC0xOTI5
-MzM1OTk2LC03MjU0MDU2OTksNjQ4NzcwMDcsLTExMTE3Mjg4Mj
-UsMjA0MzA4NjE4NiwxNDg0MDc0ODc5LC05NDQ3NDM2ODEsNTM4
-Njg0MjUyXX0=
+eyJoaXN0b3J5IjpbODgxNzc1MDE3LC0xOTk2NTI2MjkxLDU1OT
+k5MDU4MywxNTA4MjU2NTQ2LDE5NjUxNTE4NDcsMzcxNzU5ODgz
+LC05NzQ3MjQ0NzcsMTMzNzQwMTQ0NywtMTk0Nzc3NTY5LC00ND
+EzMjM5MjAsMTY2MTA5MjI3MiwtMjAwMzM5MjQwOCwtMTkyOTMz
+NTk5NiwtNzI1NDA1Njk5LDY0ODc3MDA3LC0xMTExNzI4ODI1LD
+IwNDMwODYxODYsMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLDUzODY4
+NDI1Ml19
 -->

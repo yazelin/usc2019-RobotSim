@@ -24,6 +24,9 @@
  
 ## 步驟
 ### 一、RobotSim基礎(3/13) [教學頁面](./1RobotSimBasic.html) / [繳交作業](https://drive.google.com/drive/folders/1FMey_NlWkC3YxeOpwVbmjqgbFMcu3iXU?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
+```
+千里之行 始於足下 
+```
 1. 課程大綱
 2. 手臂基本介紹
 3. RobotSim環境及基本操作
@@ -37,6 +40,9 @@
   - 流程控制 Flow
 
 ### 二、RobotSim專案制作(3/27) [教學頁面](./2RobotSimProject.html) / [繳交作業](https://drive.google.com/drive/folders/104_rw30SUGLiESvD4R0ukJIDlGs7t98Y?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
+```
+
+```
 1. RobotSim完整專案
   - 自訂函式 顯示訊息功能
   - RobotSim程式設計擴充 夾娃娃機 [參考教學](https://yazelin.github.io/cnu2018-RobotSim/)
@@ -84,11 +90,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY1MjYyOTEsNTU5OTkwNTgzLDE1MD
-gyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4ODMsLTk3NDcyNDQ3
-NywxMzM3NDAxNDQ3LC0xOTQ3Nzc1NjksLTQ0MTMyMzkyMCwxNj
-YxMDkyMjcyLC0yMDAzMzkyNDA4LC0xOTI5MzM1OTk2LC03MjU0
-MDU2OTksNjQ4NzcwMDcsLTExMTE3Mjg4MjUsMjA0MzA4NjE4Ni
-wxNDg0MDc0ODc5LC05NDQ3NDM2ODEsNTM4Njg0MjUyLDE1OTg1
-ODQ5ODZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzM5NDQ5NDYsLTE5OTY1MjYyOTEsNT
+U5OTkwNTgzLDE1MDgyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4
+ODMsLTk3NDcyNDQ3NywxMzM3NDAxNDQ3LC0xOTQ3Nzc1NjksLT
+Q0MTMyMzkyMCwxNjYxMDkyMjcyLC0yMDAzMzkyNDA4LC0xOTI5
+MzM1OTk2LC03MjU0MDU2OTksNjQ4NzcwMDcsLTExMTE3Mjg4Mj
+UsMjA0MzA4NjE4NiwxNDg0MDc0ODc5LC05NDQ3NDM2ODEsNTM4
+Njg0MjUyXX0=
 -->

@@ -51,7 +51,8 @@
 
 ### 三、手臂操作訓練及KRL程式語言(4/10) [教學頁面](./3KukaRobotLanguage.html) / [繳交作業](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 ```
-積沙成塔 集腋成裘
+欲速則不達
+慢慢來，比較快
 ```
 1. 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
 2. WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
@@ -110,11 +111,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzg4NDEwNSwtMTE3OTQyNzU5NiwtMT
-k5NjUyNjI5MSw1NTk5OTA1ODMsMTUwODI1NjU0NiwxOTY1MTUx
-ODQ3LDM3MTc1OTg4MywtOTc0NzI0NDc3LDEzMzc0MDE0NDcsLT
-E5NDc3NzU2OSwtNDQxMzIzOTIwLDE2NjEwOTIyNzIsLTIwMDMz
-OTI0MDgsLTE5MjkzMzU5OTYsLTcyNTQwNTY5OSw2NDg3NzAwNy
-wtMTExMTcyODgyNSwyMDQzMDg2MTg2LDE0ODQwNzQ4NzksLTk0
-NDc0MzY4MV19
+eyJoaXN0b3J5IjpbMTE0NjcyOTI0NSwtMTA3ODg0MTA1LC0xMT
+c5NDI3NTk2LC0xOTk2NTI2MjkxLDU1OTk5MDU4MywxNTA4MjU2
+NTQ2LDE5NjUxNTE4NDcsMzcxNzU5ODgzLC05NzQ3MjQ0NzcsMT
+MzNzQwMTQ0NywtMTk0Nzc3NTY5LC00NDEzMjM5MjAsMTY2MTA5
+MjI3MiwtMjAwMzM5MjQwOCwtMTkyOTMzNTk5NiwtNzI1NDA1Nj
+k5LDY0ODc3MDA3LC0xMTExNzI4ODI1LDIwNDMwODYxODYsMTQ4
+NDA3NDg3OV19
 -->

@@ -63,13 +63,7 @@
 
 ### 四、WtFramework 開發框架(4/24) [教學頁面](./4WtFramework.html)
 ```
-積土成山，風雨興焉；
-積水成淵，蛟龍生焉；
-積善成德，而神明自得，聖心備焉。
-故不積蹞步，無以至千里；
-不積小流，無以成江海。
-騏驥一躍，不能十步；
-駑馬十駕，功在不舍。
+工欲善其事 必先利其器
 ```
 1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
   - Core
@@ -111,11 +105,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjcyOTI0NSwtMTA3ODg0MTA1LC0xMT
-c5NDI3NTk2LC0xOTk2NTI2MjkxLDU1OTk5MDU4MywxNTA4MjU2
-NTQ2LDE5NjUxNTE4NDcsMzcxNzU5ODgzLC05NzQ3MjQ0NzcsMT
-MzNzQwMTQ0NywtMTk0Nzc3NTY5LC00NDEzMjM5MjAsMTY2MTA5
-MjI3MiwtMjAwMzM5MjQwOCwtMTkyOTMzNTk5NiwtNzI1NDA1Nj
-k5LDY0ODc3MDA3LC0xMTExNzI4ODI1LDIwNDMwODYxODYsMTQ4
-NDA3NDg3OV19
+eyJoaXN0b3J5IjpbMjAwMzcyMjg3MCwxMTQ2NzI5MjQ1LC0xMD
+c4ODQxMDUsLTExNzk0Mjc1OTYsLTE5OTY1MjYyOTEsNTU5OTkw
+NTgzLDE1MDgyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4ODMsLT
+k3NDcyNDQ3NywxMzM3NDAxNDQ3LC0xOTQ3Nzc1NjksLTQ0MTMy
+MzkyMCwxNjYxMDkyMjcyLC0yMDAzMzkyNDA4LC0xOTI5MzM1OT
+k2LC03MjU0MDU2OTksNjQ4NzcwMDcsLTExMTE3Mjg4MjUsMjA0
+MzA4NjE4Nl19
 -->

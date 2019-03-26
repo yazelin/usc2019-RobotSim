@@ -61,7 +61,12 @@
 
 ### 四、WtFramework 開發框架(4/24) [教學頁面](./4WtFramework.html)
 ```
-積土成山，風雨興焉；積水成淵，蛟龍生焉；積善成德，而神明自得，聖心備焉。故不積蹞步，無以至千里；不積小流，無以成江海。騏驥一躍，不能十步；駑馬十駕，功在不舍。
+積土成山，風雨興焉；積水成淵，蛟龍生焉；
+積善成德，而神明自得，聖心備焉。
+故不積蹞步，無以至千里；
+不積小流，無以成江海。
+騏驥一躍，不能十步；
+駑馬十駕，功在不舍。
 ```
 1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
   - Core
@@ -82,7 +87,7 @@
 ### 六、自動化專案實作 二(5/22) [教學頁面](./6Project2.html)
 ```
 種瓜得瓜 種豆得豆。
-種瓠仔生菜瓜
+種瓠仔 不會生菜瓜。
 ```
 1. WtFramework 自動化專案 實作
   - PC端 為被控端 Unity C# TcpServer
@@ -103,11 +108,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQ1MDg4MDIsLTE5OTY1MjYyOTEsNT
-U5OTkwNTgzLDE1MDgyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4
-ODMsLTk3NDcyNDQ3NywxMzM3NDAxNDQ3LC0xOTQ3Nzc1NjksLT
-Q0MTMyMzkyMCwxNjYxMDkyMjcyLC0yMDAzMzkyNDA4LC0xOTI5
-MzM1OTk2LC03MjU0MDU2OTksNjQ4NzcwMDcsLTExMTE3Mjg4Mj
-UsMjA0MzA4NjE4NiwxNDg0MDc0ODc5LC05NDQ3NDM2ODEsNTM4
-Njg0MjUyXX0=
+eyJoaXN0b3J5IjpbMTEzNDQ1MTkwLC0xOTk2NTI2MjkxLDU1OT
+k5MDU4MywxNTA4MjU2NTQ2LDE5NjUxNTE4NDcsMzcxNzU5ODgz
+LC05NzQ3MjQ0NzcsMTMzNzQwMTQ0NywtMTk0Nzc3NTY5LC00ND
+EzMjM5MjAsMTY2MTA5MjI3MiwtMjAwMzM5MjQwOCwtMTkyOTMz
+NTk5NiwtNzI1NDA1Njk5LDY0ODc3MDA3LC0xMTExNzI4ODI1LD
+IwNDMwODYxODYsMTQ4NDA3NDg3OSwtOTQ0NzQzNjgxLDUzODY4
+NDI1Ml19
 -->

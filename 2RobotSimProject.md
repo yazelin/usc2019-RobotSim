@@ -81,23 +81,41 @@ using UnityEngine;
 
 public class Gripper : MonoBehaviour
 {
-	// Gripper程式 修改物體的Transform.Parent來模擬夾取
+	// Gripper程式會有2種模擬夾取
+	// 1.利用OnTriggerEnter自動取得在夾取範圍內的物件，夾取指令時將該物件的parent設為Gripper
+	// 2.以夾爪播放夾取動畫的方式移動夾爪，並利用Rigidbody產生夾取
+
 	//準備夾取的物件
 	public Transform readyGet;
 	//目前夾持的物件
 	public Transform holdingObject;
 
-	//夾取readyGet物件
-	public void LockReadyGet()
+	//夾取指令(將readyGet物件Parent設為Gripper)
+	public void Lock(Transform product)
 	{
 		if (holdingObject == null)
 		{
-			if (readyGet)
+			if (product)
 			{
-				readyGet.transform.parent = transform;
-				holdingObject = readyGet;
+				product.transform.parent = transform;
+				holdingObject = product;
 			}
 		}
+	}
+
+	//傳回目前所夾持物
+	public Transform Unlock()
+	{
+		Transform returnObject = holdingObject;
+		holdingObject = null;//清空目前所持物
+
+		return returnObject;
+	}
+
+	//夾取readyGet物件
+	public void LockReadyGet()
+	{
+		Lock(readyGet);
 	}
 	//放開夾取物件
 	public void UnlockToWorld()
@@ -122,10 +140,11 @@ public class Gripper : MonoBehaviour
 		}
 	}
 }
+
 ```
 - 加入GripperCommand
 
-```cs
+```
 //RobotCommandGripper.cs
 using UnityEngine;
 using RobotSim;
@@ -133,8 +152,10 @@ using System;
 
 public class RobotCommandGripper : RobotCommand
 {
-	//操作對應夾爪
+	//對應操作的夾爪
 	public Gripper gripper;
+	//夾爪動畫
+	public Animator animatorGripper;
 	//夾持命令
 	public bool Lock = false;
 
@@ -147,7 +168,7 @@ public class RobotCommandGripper : RobotCommand
 		}
 		else
 		{
-			errorMassage = "還沒設定好 Gripper";
+			errorMassage = "Gripper is NULL";
 			return false;
 		}
 	}
@@ -159,11 +180,23 @@ public class RobotCommandGripper : RobotCommand
 		{
 			//夾取(以設定Parent方式)
 			gripper.LockReadyGet();
+			//夾取(播放動畫)
+			if (animatorGripper)
+			{
+				animatorGripper.speed = 1;
+				animatorGripper.Play("Lock", -1, 0);
+			}
 		}
 		else
 		{
 			//放開(以設定parent方式)
 			gripper.UnlockToWorld();
+			//放開(播放動畫)
+			if (animatorGripper)
+			{
+				animatorGripper.speed = 1;
+				animatorGripper.Play("UnLock", -1, 0);
+			}
 		}
 		//動作完成，執行下一行
 		return (line + 1);
@@ -211,8 +244,9 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0ODQxNzMxLC0xOTY4Njk5NzI0LDY0NT
-A2NjgzNiwtMTIzMTQ1NTEzLDE4NDQwMzQ4NjYsOTg5MjI5NzAz
-LC02NTAxMDgzNDYsLTM5ODk2MzA3MywxMTczNTk5ODY2LC00MT
-YxNjk2NjcsLTU3MDgzMjY1MSwxNDAyNDE0MTU1XX0=
+eyJoaXN0b3J5IjpbMTY0ODU1OTIyOCw3NzQ4NDE3MzEsLTE5Nj
+g2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0NDAzNDg2
+Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDczLDExNz
+M1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MDI0MTQx
+NTVdfQ==
 -->

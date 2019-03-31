@@ -131,7 +131,7 @@ using System;
 
 public class RobotCommandGripper : RobotCommand
 {
-	//對應操作的夾爪
+	//操作對應夾爪
 	public Gripper gripper;
 	//夾持命令
 	public bool Lock = false;
@@ -206,8 +206,8 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyMDA3MDg4LDY0NTA2NjgzNiwtMTIzMT
-Q1NTEzLDE4NDQwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYs
-LTM5ODk2MzA3MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MD
-gzMjY1MSwxNDAyNDE0MTU1XX0=
+eyJoaXN0b3J5IjpbLTE0NDA1NTM4MDQsNjQ1MDY2ODM2LC0xMj
+MxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0
+NiwtMzk4OTYzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNT
+cwODMyNjUxLDE0MDI0MTQxNTVdfQ==
 -->

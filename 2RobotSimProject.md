@@ -99,7 +99,7 @@ public class Gripper : MonoBehaviour
 		}
 	}
 
-	//傳回目前所夾持物
+	//放開並傳回目前所夾持物
 	public Transform Unlock()
 	{
 		Transform returnObject = holdingObject;
@@ -157,8 +157,8 @@ public class Gripper : MonoBehaviour
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODg3MzM3NywtMTIzMTQ1NTEzLDE4ND
-QwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5ODk2MzA3
-MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1MSwxND
-AyNDE0MTU1XX0=
+eyJoaXN0b3J5IjpbNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0ND
+AzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDcz
+LDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MD
+I0MTQxNTVdfQ==
 -->

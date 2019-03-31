@@ -71,7 +71,7 @@ public class RobotCommandMessage : RobotCommand
 ![Image](./img/AddGripper_1.png)
 ![Image](./img/AddGripper_2.png)
 ![Image](./img/AddGripper_3.png)
-- 加入Gripper程式
+- 加入Gripper程式(實踐課程試用版 Trial_0_1_6991 內已包含)
 
 ```cs
 //Gripper.cs
@@ -142,7 +142,7 @@ public class Gripper : MonoBehaviour
 }
 
 ```
-- 加入GripperCommand
+- 加入GripperCommand(實踐課程試用版 Trial_0_1_6991 內已包含)
 
 ```
 //RobotCommandGripper.cs
@@ -225,6 +225,8 @@ public class RobotCommandGripper : RobotCommand
 - 調整夾爪碰撞範圍(用來偵測範圍內是否有物體可以夾)
 
 ![Image](./img/AddGripper_3.png)
+- 加入物體及
+
 
 - 在RobotSim 中還能做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
@@ -244,9 +246,9 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODU1OTIyOCw3NzQ4NDE3MzEsLTE5Nj
-g2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0NDAzNDg2
-Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDczLDExNz
-M1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MDI0MTQx
-NTVdfQ==
+eyJoaXN0b3J5IjpbMTE0Mzk1MzU1LDc3NDg0MTczMSwtMTk2OD
+Y5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywxODQ0MDM0ODY2
+LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzMsMTE3Mz
+U5OTg2NiwtNDE2MTY5NjY3LC01NzA4MzI2NTEsMTQwMjQxNDE1
+NV19
 -->

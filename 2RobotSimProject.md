@@ -238,6 +238,10 @@ public class RobotCommandGripper : RobotCommand
 
 - 測試
 
+![Image](./img/GripperTest.gif)
+
+
+
 - 在RobotSim 中還能做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
   
@@ -256,10 +260,10 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU5NDE4LDM1MDY4OTI4LC0xOTUyNj
-QzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MTczMSwt
-MTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywxODQ0MD
-M0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzMs
-MTE3MzU5OTg2NiwtNDE2MTY5NjY3LC01NzA4MzI2NTEsMTQwMj
-QxNDE1NV19
+eyJoaXN0b3J5IjpbMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
+Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs
+LTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0ND
+AzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDcz
+LDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MD
+I0MTQxNTVdfQ==
 -->

@@ -225,7 +225,8 @@ public class RobotCommandGripper : RobotCommand
 - 調整夾爪碰撞範圍(用來偵測範圍內是否有物體可以夾)
 
 ![Image](./img/AddGripper_3.png)
-- 加入物體及
+- 加入物體
+- 夾取程式
 
 
 - 在RobotSim 中還能做什麼?
@@ -246,9 +247,9 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Mzk1MzU1LDc3NDg0MTczMSwtMTk2OD
-Y5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywxODQ0MDM0ODY2
-LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzMsMTE3Mz
-U5OTg2NiwtNDE2MTY5NjY3LC01NzA4MzI2NTEsMTQwMjQxNDE1
-NV19
+eyJoaXN0b3J5IjpbMjEzNzcyNzU2OCw3NzQ4NDE3MzEsLTE5Nj
+g2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0NDAzNDg2
+Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDczLDExNz
+M1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MDI0MTQx
+NTVdfQ==
 -->

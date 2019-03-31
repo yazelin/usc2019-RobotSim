@@ -80,10 +80,7 @@ using UnityEngine;
 
 public class Gripper : MonoBehaviour
 {
-	// Gripper程式 修改物體的Parent模擬夾取
-	// 1.利用OnTriggerEnter自動取得在夾取範圍內的物件，夾取指令時將該物件的parent設為Gripper
-	// 2.以夾爪播放夾取動畫的方式移動夾爪，並利用Rigidbody產生夾取
-
+	// Gripper程式 修改物體的Transform.Parent來模擬夾取
 	//準備夾取的物件
 	public Transform readyGet;
 	//目前夾持的物件
@@ -160,8 +157,8 @@ public class Gripper : MonoBehaviour
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2ODIxMTc5LC0xMjMxNDU1MTMsMTg0ND
-AzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDcz
-LDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MD
-I0MTQxNTVdfQ==
+eyJoaXN0b3J5IjpbLTUyNzM0NjA1OSwtMTIzMTQ1NTEzLDE4ND
+QwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5ODk2MzA3
+MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1MSwxND
+AyNDE0MTU1XX0=
 -->

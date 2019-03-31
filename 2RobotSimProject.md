@@ -72,6 +72,75 @@ public class RobotCommandMessage : RobotCommand
 ![Image](./img/AddGripper_2.png)
 ![Image](./img/AddGripper_3.png)
 - 加入Gripper程式
+```cs
+//Gripper.cs
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Gripper : MonoBehaviour
+{
+	// Gripper程式 修改物體的Parent模擬夾取
+	// 1.利用OnTriggerEnter自動取得在夾取範圍內的物件，夾取指令時將該物件的parent設為Gripper
+	// 2.以夾爪播放夾取動畫的方式移動夾爪，並利用Rigidbody產生夾取
+
+	//準備夾取的物件
+	public Transform readyGet;
+	//目前夾持的物件
+	public Transform holdingObject;
+
+	//夾取指令(將readyGet物件Parent設為Gripper)
+	public void Lock(Transform product)
+	{
+		if (holdingObject == null)
+		{
+			if (product)
+			{
+				product.transform.parent = transform;
+				holdingObject = product;
+			}
+		}
+	}
+
+	//傳回目前所夾持物
+	public Transform Unlock()
+	{
+		Transform returnObject = holdingObject;
+		holdingObject = null;//清空目前所持物
+
+		return returnObject;
+	}
+
+	//夾取readyGet物件
+	public void LockReadyGet()
+	{
+		Lock(readyGet);
+	}
+	//放開夾取物件
+	public void UnlockToWorld()
+	{
+		if (holdingObject)
+		{
+			holdingObject.parent = null;
+		}
+		holdingObject = null;//把手上拿著的東西丟到世界Root去
+	}
+	//偵測目前可夾取物
+	void OnTriggerEnter(Collider other)
+	{
+		readyGet = other.transform;
+	}
+	//移除目前圖夾取物
+	void OnTriggerExit(Collider other)
+	{
+		if (readyGet == other.transform)
+		{
+			readyGet = null;
+		}
+	}
+}
+```
+- 加入GripperCommand
 
 - 在RobotSim 中還能做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
@@ -91,7 +160,8 @@ public class RobotCommandMessage : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzE0NTUxMywxODQ0MDM0ODY2LDk4OT
-IyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzMsMTE3MzU5OTg2
-NiwtNDE2MTY5NjY3LC01NzA4MzI2NTEsMTQwMjQxNDE1NV19
+eyJoaXN0b3J5IjpbNDg2ODIxMTc5LC0xMjMxNDU1MTMsMTg0ND
+AzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDcz
+LDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MD
+I0MTQxNTVdfQ==
 -->

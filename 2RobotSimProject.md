@@ -240,7 +240,7 @@ public class RobotCommandGripper : RobotCommand
 
 ![Image](./img/GripperTest.gif)
 - 來回夾放測試
-![Image](./img/GripperTest_2.gif)
+![Image](./img/GripperTest2.gif)
 
 
 
@@ -262,10 +262,10 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjI4MjYwNiwxMDQzNjI1MDI5LDM1MD
-Y4OTI4LC0xOTUyNjQzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4
-LDc3NDg0MTczMSwtMTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMz
-E0NTUxMywxODQ0MDM0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2
-LC0zOTg5NjMwNzMsMTE3MzU5OTg2NiwtNDE2MTY5NjY3LC01Nz
-A4MzI2NTEsMTQwMjQxNDE1NV19
+eyJoaXN0b3J5IjpbMzk5MjMwOTMxLC00MDIyODI2MDYsMTA0Mz
+YyNTAyOSwzNTA2ODkyOCwtMTk1MjY0MzkxNSwxNzg0NTcwNDYs
+MjEzNzcyNzU2OCw3NzQ4NDE3MzEsLTE5Njg2OTk3MjQsNjQ1MD
+Y2ODM2LC0xMjMxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMjk3MDMs
+LTY1MDEwODM0NiwtMzk4OTYzMDczLDExNzM1OTk4NjYsLTQxNj
+E2OTY2NywtNTcwODMyNjUxLDE0MDI0MTQxNTVdfQ==
 -->

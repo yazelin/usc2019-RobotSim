@@ -62,15 +62,9 @@ public class RobotCommandMessage : RobotCommand
 - RobotSim程式設計擴充 夾娃娃機
   - 視實際進度彈性調整 [參考教學](https://yazelin.github.io/cnu2018-RobotSim/)
   - 設定Home點位置
-
 ![Image](./img/SetHomePosition_1.png)
 ![Image](./img/SetHomePosition_2.png)
-
   - 加入夾爪模型(用Sphere代替)
- 
-![Image](./img/AddGripper_1.png)
-![Image](./img/AddGripper_2.png)
-![Image](./img/AddGripper_3.png)
 
 - 在RobotSim 中還能做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
@@ -90,7 +84,8 @@ public class RobotCommandMessage : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MD
-EwODM0NiwtMzk4OTYzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2
-NywtNTcwODMyNjUxLDE0MDI0MTQxNTVdfQ==
+eyJoaXN0b3J5IjpbLTE5NzE1NzAxNTAsMTg0NDAzNDg2Niw5OD
+kyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDczLDExNzM1OTk4
+NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MDI0MTQxNTVdfQ
+==
 -->

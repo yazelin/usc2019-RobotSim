@@ -123,7 +123,70 @@ public class Gripper : MonoBehaviour
 }
 ```
 - 加入GripperCommand
+```cs
+//RobotCommandGripper.cs
+using UnityEngine;
+using RobotSim;
+using System;
 
+public class RobotCommandGripper : RobotCommand
+{
+	//對應操作的夾爪
+	public Gripper gripper;
+	//夾持命令
+	public bool Lock = false;
+
+	//檢查是否有設定好夾爪
+	public override bool Check()
+	{
+		if (gripper)
+		{
+			return true;
+		}
+		else
+		{
+			errorMassage = "還沒設定好 Gripper";
+			return false;
+		}
+	}
+
+	//執行夾爪動作
+	public override int Execute()
+	{
+		if (Lock)
+		{
+			//夾取(以設定Parent方式)
+			gripper.LockReadyGet();
+		}
+		else
+		{
+			//放開(以設定parent方式)
+			gripper.UnlockToWorld();
+		}
+		//動作完成，執行下一行
+		return (line + 1);
+	}
+
+	public override string ExportDat()
+	{
+		//不需要輸出任何程式到Dat檔
+		return "";
+	}
+
+	public override string ExportSrc()
+	{
+		//輸出  GripperLock(true/false);  至 手臂程式src檔內
+		return tab + "GripperLock(" + Lock.ToString() + ");" + Environment.NewLine;
+	}
+
+	public override string UpdateName()
+	{
+		//更新Gameobject在階層視窗內的名稱
+		return (gameObject.name = "GripperLock(" + Lock.ToString() + ")");
+	}
+
+}
+```
 
 - 在RobotSim 中還能做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
@@ -143,8 +206,8 @@ public class Gripper : MonoBehaviour
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM3NTE2MDYsNjQ1MDY2ODM2LC0xMj
-MxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0
-NiwtMzk4OTYzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNT
-cwODMyNjUxLDE0MDI0MTQxNTVdfQ==
+eyJoaXN0b3J5IjpbNTkyMDA3MDg4LDY0NTA2NjgzNiwtMTIzMT
+Q1NTEzLDE4NDQwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYs
+LTM5ODk2MzA3MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MD
+gzMjY1MSwxNDAyNDE0MTU1XX0=
 -->

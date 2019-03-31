@@ -228,10 +228,12 @@ public class RobotCommandGripper : RobotCommand
 - 加入物體
 
 ![Image](./img/AddSphereGameobject.png)
-- 夾取程式
+- 夾爪加入Gripper功能
 
-- 夾娃娃機UI
-- 
+![Image](./img/AddSphereGameobject.png)
+- Program中加入Empty GameObject後加入GripperCommand功能
+
+
 
 - 在RobotSim 中還能做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
@@ -251,9 +253,10 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTI2NDM5MTUsMTc4NDU3MDQ2LDIxMz
-c3Mjc1NjgsNzc0ODQxNzMxLC0xOTY4Njk5NzI0LDY0NTA2Njgz
-NiwtMTIzMTQ1NTEzLDE4NDQwMzQ4NjYsOTg5MjI5NzAzLC02NT
-AxMDgzNDYsLTM5ODk2MzA3MywxMTczNTk5ODY2LC00MTYxNjk2
-NjcsLTU3MDgzMjY1MSwxNDAyNDE0MTU1XX0=
+eyJoaXN0b3J5IjpbMTAwMjI1MjUxNiwtMTk1MjY0MzkxNSwxNz
+g0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEsLTE5Njg2OTk3
+MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0NDAzNDg2Niw5OD
+kyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDczLDExNzM1OTk4
+NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MDI0MTQxNTVdfQ
+==
 -->

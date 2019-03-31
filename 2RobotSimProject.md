@@ -72,6 +72,7 @@ public class RobotCommandMessage : RobotCommand
 ![Image](./img/AddGripper_2.png)
 ![Image](./img/AddGripper_3.png)
 - 加入Gripper程式
+
 ```cs
 //Gripper.cs
 using System.Collections;
@@ -123,6 +124,7 @@ public class Gripper : MonoBehaviour
 }
 ```
 - 加入GripperCommand
+
 ```cs
 //RobotCommandGripper.cs
 using UnityEngine;
@@ -206,7 +208,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA1NTM4MDQsNjQ1MDY2ODM2LC0xMj
+eyJoaXN0b3J5IjpbLTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMj
 MxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0
 NiwtMzk4OTYzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNT
 cwODMyNjUxLDE0MDI0MTQxNTVdfQ==

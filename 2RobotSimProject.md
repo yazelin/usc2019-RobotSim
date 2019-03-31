@@ -233,7 +233,8 @@ public class RobotCommandGripper : RobotCommand
 ![Image](./img/AddGripperScript.png)
 - Program中加入Empty GameObject後加入GripperCommand功能
 
-![Image](./img/AddGripperCommandScript.png)
+![Image](./img/AddGripperCommandScript_1.png)
+![Image](./img/AddGripperCommandScript_2.png)
 
 - 測試
 
@@ -255,9 +256,10 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwNjg5MjgsLTE5NTI2NDM5MTUsMTc4ND
-U3MDQ2LDIxMzc3Mjc1NjgsNzc0ODQxNzMxLC0xOTY4Njk5NzI0
-LDY0NTA2NjgzNiwtMTIzMTQ1NTEzLDE4NDQwMzQ4NjYsOTg5Mj
-I5NzAzLC02NTAxMDgzNDYsLTM5ODk2MzA3MywxMTczNTk5ODY2
-LC00MTYxNjk2NjcsLTU3MDgzMjY1MSwxNDAyNDE0MTU1XX0=
+eyJoaXN0b3J5IjpbLTE0NDU5NDE4LDM1MDY4OTI4LC0xOTUyNj
+QzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MTczMSwt
+MTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywxODQ0MD
+M0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzMs
+MTE3MzU5OTg2NiwtNDE2MTY5NjY3LC01NzA4MzI2NTEsMTQwMj
+QxNDE1NV19
 -->

@@ -226,6 +226,8 @@ public class RobotCommandGripper : RobotCommand
 
 ![Image](./img/AddGripper_3.png)
 - 加入物體
+
+![Image](./img/AddSphereGameobject.png)
 - 夾取程式
 
 
@@ -247,9 +249,9 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzcyNzU2OCw3NzQ4NDE3MzEsLTE5Nj
-g2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0NDAzNDg2
-Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDczLDExNz
-M1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MDI0MTQx
-NTVdfQ==
+eyJoaXN0b3J5IjpbMTc4NDU3MDQ2LDIxMzc3Mjc1NjgsNzc0OD
+QxNzMxLC0xOTY4Njk5NzI0LDY0NTA2NjgzNiwtMTIzMTQ1NTEz
+LDE4NDQwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5OD
+k2MzA3MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1
+MSwxNDAyNDE0MTU1XX0=
 -->

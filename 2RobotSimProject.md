@@ -67,7 +67,7 @@ public class RobotCommandMessage : RobotCommand
 ![Image](./img/SetHomePosition_1.png)
 ![Image](./img/SetHomePosition_2.png)
 - 加入夾爪模型(用Sphere代替)
-- 
+
 ![Image](./img/AddGripper_1.png)
 ![Image](./img/AddGripper_2.png)
 ![Image](./img/AddGripper_3.png)
@@ -91,7 +91,7 @@ public class RobotCommandMessage : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTYwMjQ2OCwxODQ0MDM0ODY2LDk4OT
+eyJoaXN0b3J5IjpbLTEyMzE0NTUxMywxODQ0MDM0ODY2LDk4OT
 IyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzMsMTE3MzU5OTg2
 NiwtNDE2MTY5NjY3LC01NzA4MzI2NTEsMTQwMjQxNDE1NV19
 -->

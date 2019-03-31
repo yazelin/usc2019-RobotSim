@@ -189,6 +189,9 @@ public class RobotCommandGripper : RobotCommand
 
 }
 ```
+- 調整夾爪碰撞範圍(用來偵測範圍內是否有物體可以夾)
+
+![Image](./img/AddGripper_3.png)
 
 - 在RobotSim 中還能做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
@@ -208,8 +211,8 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMj
-MxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0
-NiwtMzk4OTYzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNT
-cwODMyNjUxLDE0MDI0MTQxNTVdfQ==
+eyJoaXN0b3J5IjpbNzc0ODQxNzMxLC0xOTY4Njk5NzI0LDY0NT
+A2NjgzNiwtMTIzMTQ1NTEzLDE4NDQwMzQ4NjYsOTg5MjI5NzAz
+LC02NTAxMDgzNDYsLTM5ODk2MzA3MywxMTczNTk5ODY2LC00MT
+YxNjk2NjcsLTU3MDgzMjY1MSwxNDAyNDE0MTU1XX0=
 -->

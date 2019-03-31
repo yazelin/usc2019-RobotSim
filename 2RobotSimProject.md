@@ -86,32 +86,17 @@ public class Gripper : MonoBehaviour
 	//目前夾持的物件
 	public Transform holdingObject;
 
-	//夾取指令
-	public void Lock(Transform product)
-	{
-		if (holdingObject == null)
-		{
-			if (product)
-			{
-				product.transform.parent = transform;
-				holdingObject = product;
-			}
-		}
-	}
-
-	//放開並傳回目前所夾持物
-	public Transform Unlock()
-	{
-		Transform returnObject = holdingObject;
-		holdingObject = null;//清空目前所持物
-
-		return returnObject;
-	}
-
 	//夾取readyGet物件
 	public void LockReadyGet()
 	{
-		Lock(readyGet);
+		if (holdingObject == null)
+		{
+			if (readyGet)
+			{
+				readyGet.transform.parent = transform;
+				holdingObject = readyGet;
+			}
+		}
 	}
 	//放開夾取物件
 	public void UnlockToWorld()
@@ -139,6 +124,7 @@ public class Gripper : MonoBehaviour
 ```
 - 加入GripperCommand
 
+
 - 在RobotSim 中還能做什麼?
   - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
   
@@ -157,8 +143,8 @@ public class Gripper : MonoBehaviour
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0ND
-AzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDcz
-LDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUxLDE0MD
-I0MTQxNTVdfQ==
+eyJoaXN0b3J5IjpbLTExNDM3NTE2MDYsNjQ1MDY2ODM2LC0xMj
+MxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0
+NiwtMzk4OTYzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNT
+cwODMyNjUxLDE0MDI0MTQxNTVdfQ==
 -->

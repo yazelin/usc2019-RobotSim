@@ -86,7 +86,7 @@ public class Gripper : MonoBehaviour
 	//目前夾持的物件
 	public Transform holdingObject;
 
-	//夾取指令(將readyGet物件Parent設為Gripper)
+	//夾取指令
 	public void Lock(Transform product)
 	{
 		if (holdingObject == null)
@@ -157,7 +157,7 @@ public class Gripper : MonoBehaviour
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzM0NjA1OSwtMTIzMTQ1NTEzLDE4ND
+eyJoaXN0b3J5IjpbMTQ2ODg3MzM3NywtMTIzMTQ1NTEzLDE4ND
 QwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5ODk2MzA3
 MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1MSwxND
 AyNDE0MTU1XX0=

@@ -12,11 +12,11 @@
 3. 網路通訊
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - Server
-5. 練習
+4. 練習
 
 視實際進度彈性調整
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5NTA2NzYxLDE0MjY5NDQ5NTEsLTE4Mz
-AxMTQ3NjUsMTc2MjA0NzM0MCwtMzQyMjQyNzUzLDExNzUxMjc4
-NTRdfQ==
+eyJoaXN0b3J5IjpbMTY1MjE5MDM0NCw3Mjk1MDY3NjEsMTQyNj
+k0NDk1MSwtMTgzMDExNDc2NSwxNzYyMDQ3MzQwLC0zNDIyNDI3
+NTMsMTE3NTEyNzg1NF19
 -->

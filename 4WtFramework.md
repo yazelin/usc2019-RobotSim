@@ -16,7 +16,9 @@
 5. 夾娃娃機PC端操作介面
   - PC端手臂模擬程式
  <iframe width="560" height="315" src="https://www.youtube.com/embed/W62LbDkruTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
+ 
+  模擬程式下載: [https://github.com/yazelin/usc2019-RobotSim/raw/master/src/Play.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/Play.zip)  
+解壓縮後執行 USC2019RobotSim.exe
   ```
 IP 127.0.0.1 
 Port 54600
@@ -26,9 +28,10 @@ Port 54600
 右 <Data><Direction>4</Direction></Data>
 夾 <Data><Direction>5</Direction></Data>
   ```
+  - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5NTg0OTg0LDQ0NDI1MDM5LDE3Mzc5ND
-YxNTksMTQ0MzQ4MTc0NSw3Mjk1MDY3NjEsMTQyNjk0NDk1MSwt
-MTgzMDExNDc2NSwxNzYyMDQ3MzQwLC0zNDIyNDI3NTMsMTE3NT
-EyNzg1NF19
+eyJoaXN0b3J5IjpbLTE2NDI3MDkzNTksNDQ0MjUwMzksMTczNz
+k0NjE1OSwxNDQzNDgxNzQ1LDcyOTUwNjc2MSwxNDI2OTQ0OTUx
+LC0xODMwMTE0NzY1LDE3NjIwNDczNDAsLTM0MjI0Mjc1MywxMT
+c1MTI3ODU0XX0=
 -->

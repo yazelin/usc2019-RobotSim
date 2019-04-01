@@ -15,14 +15,17 @@
 4. 練習
 5. 夾娃娃機PC端操作介面
   - PC端手臂模擬程式
-  - IP 127.0.0.1 ,Port 54600
-  - 前 <Data><Direction>1</Direction></Data>
-  - 後 <Data><Direction>2</Direction></Data>
-  - 左 <Data><Direction>3</Direction></Data>
-  - 右 <Data><Direction>4</Direction></Data>
-  - 夾 <Data><Direction>5</Direction></Data>
+  ```
+IP 127.0.0.1 ,Port 54600
+前 <Data><Direction>1</Direction></Data>
+後 <Data><Direction>2</Direction></Data>
+左 <Data><Direction>3</Direction></Data>
+右 <Data><Direction>4</Direction></Data>
+夾 <Data><Direction>5</Direction></Data>
+  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzk0NjE1OSwxNDQzNDgxNzQ1LDcyOT
-UwNjc2MSwxNDI2OTQ0OTUxLC0xODMwMTE0NzY1LDE3NjIwNDcz
-NDAsLTM0MjI0Mjc1MywxMTc1MTI3ODU0XX0=
+eyJoaXN0b3J5IjpbLTg1MjIwMjM0NSwxNzM3OTQ2MTU5LDE0ND
+M0ODE3NDUsNzI5NTA2NzYxLDE0MjY5NDQ5NTEsLTE4MzAxMTQ3
+NjUsMTc2MjA0NzM0MCwtMzQyMjQyNzUzLDExNzUxMjc4NTRdfQ
+==
 -->

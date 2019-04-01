@@ -9,12 +9,14 @@
   - 於 Catalogs 視窗點選 KRL Templates 後按 > 按鈕 加入功能
   - ![Image](./img/AddKRLTemplates.png)
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
-3. 網路通訊 EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
+3. 網路通訊
+  - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - Server
-4. 練習
+5. 練習
 
 視實際進度彈性調整
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjk0NDk1MSwtMTgzMDExNDc2NSwxNz
-YyMDQ3MzQwLC0zNDIyNDI3NTMsMTE3NTEyNzg1NF19
+eyJoaXN0b3J5IjpbNzI5NTA2NzYxLDE0MjY5NDQ5NTEsLTE4Mz
+AxMTQ3NjUsMTc2MjA0NzM0MCwtMzQyMjQyNzUzLDExNzUxMjc4
+NTRdfQ==
 -->

@@ -71,7 +71,7 @@
   - Action
 2. 安裝
 3. 網路通訊
-  - EKI 
+  - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - Server
 5. 練習
 
@@ -107,7 +107,7 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzgyMDgyNywyMDAzNzIyODcwLC0zMj
+eyJoaXN0b3J5IjpbLTEzOTQxNDkwNCwyMDAzNzIyODcwLC0zMj
 Q1Mzk5NDgsMjAwMzcyMjg3MCwxMTQ2NzI5MjQ1LC0xMDc4ODQx
 MDUsLTExNzk0Mjc1OTYsLTE5OTY1MjYyOTEsNTU5OTkwNTgzLD
 E1MDgyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4ODMsLTk3NDcy

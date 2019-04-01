@@ -27,7 +27,7 @@
   - REPEAT
   - SWICTH-CASE
 
-
+### 匯入第二週匯出程式-實機測試
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk3NTIyMzIsMTQ3OTg4MzIwNl19
+eyJoaXN0b3J5IjpbNDk1MTA1NzY1LDE0Nzk4ODMyMDZdfQ==
 -->

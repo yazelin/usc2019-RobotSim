@@ -14,8 +14,15 @@
   - Server
 4. 練習
 5. 夾娃娃機PC端操作介面
+  - PC端手臂模擬程式
+  - IP 127.0.0.1 ,Port 54600
+  - 前 <>
+  - 後 
+  - 左 
+  - 右 
+  - 夾 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzQ4MTc0NSw3Mjk1MDY3NjEsMTQyNj
-k0NDk1MSwtMTgzMDExNDc2NSwxNzYyMDQ3MzQwLC0zNDIyNDI3
-NTMsMTE3NTEyNzg1NF19
+eyJoaXN0b3J5IjpbLTYwNzIzODczOCwxNDQzNDgxNzQ1LDcyOT
+UwNjc2MSwxNDI2OTQ0OTUxLC0xODMwMTE0NzY1LDE3NjIwNDcz
+NDAsLTM0MjI0Mjc1MywxMTc1MTI3ODU0XX0=
 -->

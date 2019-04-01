@@ -13,9 +13,9 @@
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - Server
 4. 練習
-5.
+5. 夾娃娃機PC端操作介面
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTU2MjEwLDcyOTUwNjc2MSwxNDI2OT
-Q0OTUxLC0xODMwMTE0NzY1LDE3NjIwNDczNDAsLTM0MjI0Mjc1
-MywxMTc1MTI3ODU0XX0=
+eyJoaXN0b3J5IjpbMTQ0MzQ4MTc0NSw3Mjk1MDY3NjEsMTQyNj
+k0NDk1MSwtMTgzMDExNDc2NSwxNzYyMDQ3MzQwLC0zNDIyNDI3
+NTMsMTE3NTEyNzg1NF19
 -->

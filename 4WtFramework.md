@@ -13,10 +13,9 @@
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - Server
 4. 練習
-
-視實際進度彈性調整
+5.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjE5MDM0NCw3Mjk1MDY3NjEsMTQyNj
-k0NDk1MSwtMTgzMDExNDc2NSwxNzYyMDQ3MzQwLC0zNDIyNDI3
-NTMsMTE3NTEyNzg1NF19
+eyJoaXN0b3J5IjpbMTE3OTU2MjEwLDcyOTUwNjc2MSwxNDI2OT
+Q0OTUxLC0xODMwMTE0NzY1LDE3NjIwNDczNDAsLTM0MjI0Mjc1
+MywxMTc1MTI3ODU0XX0=
 -->

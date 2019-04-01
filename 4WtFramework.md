@@ -16,7 +16,7 @@
 5. 夾娃娃機PC端操作介面
   - PC端手臂模擬程式
   ```
-IP 127.0.0.1 ,Port 54600
+IP 127.0.0.1 , Port 54600
 前 <Data><Direction>1</Direction></Data>
 後 <Data><Direction>2</Direction></Data>
 左 <Data><Direction>3</Direction></Data>
@@ -24,8 +24,7 @@ IP 127.0.0.1 ,Port 54600
 夾 <Data><Direction>5</Direction></Data>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjIwMjM0NSwxNzM3OTQ2MTU5LDE0ND
-M0ODE3NDUsNzI5NTA2NzYxLDE0MjY5NDQ5NTEsLTE4MzAxMTQ3
-NjUsMTc2MjA0NzM0MCwtMzQyMjQyNzUzLDExNzUxMjc4NTRdfQ
-==
+eyJoaXN0b3J5IjpbNDQ0MjUwMzksMTczNzk0NjE1OSwxNDQzND
+gxNzQ1LDcyOTUwNjc2MSwxNDI2OTQ0OTUxLC0xODMwMTE0NzY1
+LDE3NjIwNDczNDAsLTM0MjI0Mjc1MywxMTc1MTI3ODU0XX0=
 -->

@@ -60,7 +60,7 @@
   - 常用函式
   - 動作指令
   - 流程控制
-3. 匯入第二週匯出程式-實機測試
+3. 實機測試
 
 ### 四、WtFramework 開發框架(4/24) [教學頁面](./4WtFramework.html)
 ```
@@ -107,7 +107,7 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQxNDkwNCwyMDAzNzIyODcwLC0zMj
+eyJoaXN0b3J5IjpbMjAxOTY3MzEyNSwyMDAzNzIyODcwLC0zMj
 Q1Mzk5NDgsMjAwMzcyMjg3MCwxMTQ2NzI5MjQ1LC0xMDc4ODQx
 MDUsLTExNzk0Mjc1OTYsLTE5OTY1MjYyOTEsNTU5OTkwNTgzLD
 E1MDgyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4ODMsLTk3NDcy

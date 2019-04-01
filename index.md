@@ -70,9 +70,10 @@
   - Core
   - Action
 2. 安裝
-3. 網路通訊 EKI 
+3. 網路通訊
+  - EKI 
   - Server
-4. 練習
+5. 練習
 
 ### 五、自動化專案實作 一(5/08) [教學頁面](./5Project1.html)
 ```
@@ -106,7 +107,7 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDEyNjg5MywyMDAzNzIyODcwLC0zMj
+eyJoaXN0b3J5IjpbMTQwNzgyMDgyNywyMDAzNzIyODcwLC0zMj
 Q1Mzk5NDgsMjAwMzcyMjg3MCwxMTQ2NzI5MjQ1LC0xMDc4ODQx
 MDUsLTExNzk0Mjc1OTYsLTE5OTY1MjYyOTEsNTU5OTkwNTgzLD
 E1MDgyNTY1NDYsMTk2NTE1MTg0NywzNzE3NTk4ODMsLTk3NDcy

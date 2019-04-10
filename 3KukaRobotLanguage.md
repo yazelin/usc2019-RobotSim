@@ -4,6 +4,9 @@
 - 安全規定
 - 操作教導器SmartPad
 
+### 機器手臂專案
+實踐KUKA KR3 [專案檔](./src/USCITC.wvs)
+
 ### WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
 - 變數
   - BOOL
@@ -29,5 +32,6 @@
 
 ### 實機測試
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzUwOTczNiwxNDc5ODgzMjA2XX0=
+eyJoaXN0b3J5IjpbMTg0Nzc4MDAxNywxODI3NTA5NzM2LDE0Nz
+k4ODMyMDZdfQ==
 -->

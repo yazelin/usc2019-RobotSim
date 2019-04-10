@@ -5,7 +5,7 @@
 - 操作教導器SmartPad
 
 ### 機器手臂專案
-實踐KUKA KR3 [專案檔](./src/USCITC.wvs)
+實踐KUKA KR3 [專案檔](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/USCITC.wvs)
 
 ### WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
 - 變數
@@ -32,6 +32,6 @@
 
 ### 實機測試
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Nzc4MDAxNywxODI3NTA5NzM2LDE0Nz
-k4ODMyMDZdfQ==
+eyJoaXN0b3J5IjpbLTIxMDg2NjczNjcsMTg0Nzc4MDAxNywxOD
+I3NTA5NzM2LDE0Nzk4ODMyMDZdfQ==
 -->

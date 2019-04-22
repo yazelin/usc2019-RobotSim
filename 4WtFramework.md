@@ -221,7 +221,7 @@
   ```cs
   	private void SetData(string buttonNumber)
 		{
-　			string dataSend = " ";
+			string dataSend = " ";
 			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
 			client.Send(dataSend);
 		}
@@ -243,8 +243,8 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDgwOTMzMzgsLTE0MTA2ODUxNDYsLT
-E2NDI3MDkzNTksNDQ0MjUwMzksMTczNzk0NjE1OSwxNDQzNDgx
-NzQ1LDcyOTUwNjc2MSwxNDI2OTQ0OTUxLC0xODMwMTE0NzY1LD
-E3NjIwNDczNDAsLTM0MjI0Mjc1MywxMTc1MTI3ODU0XX0=
+eyJoaXN0b3J5IjpbMTQ3NDg4NzczOCwtMTQxMDY4NTE0NiwtMT
+Y0MjcwOTM1OSw0NDQyNTAzOSwxNzM3OTQ2MTU5LDE0NDM0ODE3
+NDUsNzI5NTA2NzYxLDE0MjY5NDQ5NTEsLTE4MzAxMTQ3NjUsMT
+c2MjA0NzM0MCwtMzQyMjQyNzUzLDExNzUxMjc4NTRdfQ==
 -->

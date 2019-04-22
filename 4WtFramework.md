@@ -77,7 +77,7 @@
   - Client 啟動及關閉
   
   ```cs
-    Client client = new Client();
+   		 Client client = new Client();
 		private void buttonStart_Click(object sender, EventArgs e)
 		{
 			client.Start("127.0.0.1", 54600);
@@ -128,7 +128,7 @@
   - 建立各項按鈕需傳入資料
   
   ```cs
-private void SetData(string buttonNumber)
+		private void SetData(string buttonNumber)
 		{
 			client.Send(buttonNumber);
 		}
@@ -138,7 +138,7 @@ private void SetData(string buttonNumber)
 			SetData("1");
 		}
 
-　　private void button4_Click(object sender, EventArgs e)
+		private void button4_Click(object sender, EventArgs e)
 		{
 			SetData("2");
 		}
@@ -162,7 +162,7 @@ private void SetData(string buttonNumber)
   - Client端傳送程式
   
   ```cs
-  　　private string sendData = string.Empty;
+  		private string sendData = string.Empty;
 
 		public void Start(string ip, int port)
 		{

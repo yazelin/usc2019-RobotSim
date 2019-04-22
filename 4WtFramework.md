@@ -11,9 +11,64 @@
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
 3. 網路通訊
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
-  - Server
+  - 於 WorkVisual 內 File 視窗點選 WINDOWS-IDACDUB/Config/User/Common/EthernetKRL/XmlServer
+  - Server設定
+  ```
+<ETHERNETKRL>
+   <CONFIGURATION>
+      <EXTERNAL>
+         <TYPE>Client</TYPE>			;設定外部Client
+      </EXTERNAL>
+      <INTERNAL>
+         <IP>192.168.1.147</IP>			;設定手臂IP
+         <PORT>54600</PORT>				;設定連線串口
+         <ALIVE Set_Flag="1"/>			;當確定連線後Flag[1] = TRUE
+      </INTERNAL>
+   </CONFIGURATION>
+   <RECEIVE>
+      <XML>
+         <ELEMENT Tag="Data/Direction" Type="INT" Set_Flag="2"/>   ;設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後Flag[2]=TRUE
+      </XML>
+   </RECEIVE>
+   <SEND>
+      <XML>
+         <ELEMENT Tag="Result/Answer" Type="STRING"/>  ;設定輸出資料
+      </XML>
+   </SEND>
+</ETHERNETKRL>
+  ```
+  - 簡單EKI範例程式
+  ```
+DECL EKI_STATUS RET
+CHAR valueChar[20]
+  RET=EKI_Init("XmlServer")		;初始化
+  RET=EKI_Open("XmlServer")		;啟動
+
+  waitfor $FLAG[1]					;等待接收到訊息
+
+  FOR i=(1)TO(20)
+     valueChar[i]=0					;清空
+  ENDFOR								
+
+  WAITFOR $FLAG[2]==TRUE
+
+  RET=EKI_GetString("XmlServer","Data/Direction",valueChar[])		;取資料 並且存入valueChar[]
+
+  MsgNotify(valueChar[])		
+
+  RET = EKI_Setstring("XmlServer","Result/Answer", valueChar[]) ; 設定"Result/Answer"資料為valueChar[]
+  RET = EKI_Send("XmlServer","Result/Answer")                   ; 將資料傳送
+
+  ;  RET = EKI_Send =("XmlServer",valueChar[])   <<也可以用此方法直接傳輸
+
+  waitfor $FLAG[1]==FALSE			
+
+  RET=EKI_Clear("XmlServer")	
+  ```
 4. 練習
 5. 夾娃娃機PC端操作介面
+  - Winform 介面設計
+
   - PC端手臂模擬程式
  <iframe width="560" height="315" src="https://www.youtube.com/embed/W62LbDkruTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  

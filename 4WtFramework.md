@@ -173,7 +173,7 @@
 
 			Task.Run(() => ClientService());        //在另一個執行續中執行  ClientService()  ; 由電腦決定是否產生新執行續
 		}
-　　
+		
 		public void Send(string data)
 		{
 			sendData = data;
@@ -243,8 +243,8 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMTU1ODYyLC0xNDEwNjg1MTQ2LC0xNj
-QyNzA5MzU5LDQ0NDI1MDM5LDE3Mzc5NDYxNTksMTQ0MzQ4MTc0
-NSw3Mjk1MDY3NjEsMTQyNjk0NDk1MSwtMTgzMDExNDc2NSwxNz
-YyMDQ3MzQwLC0zNDIyNDI3NTMsMTE3NTEyNzg1NF19
+eyJoaXN0b3J5IjpbLTEzNDgwOTMzMzgsLTE0MTA2ODUxNDYsLT
+E2NDI3MDkzNTksNDQ0MjUwMzksMTczNzk0NjE1OSwxNDQzNDgx
+NzQ1LDcyOTUwNjc2MSwxNDI2OTQ0OTUxLC0xODMwMTE0NzY1LD
+E3NjIwNDczNDAsLTM0MjI0Mjc1MywxMTc1MTI3ODU0XX0=
 -->

@@ -163,7 +163,7 @@
   - Client端傳送程式
   
   ```cs
-  		private string sendData = string.Empty;
+  	private string sendData = string.Empty;
 
 		public void Start(string ip, int port)
 		{
@@ -217,6 +217,15 @@
 					break;
 				}
 			}
+		}
+  ```
+  - 改寫傳送資料為XML
+  ```cs
+  	private void SetData(string buttonNumber)
+		{
+　			string dataSend = " ";
+			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
+			client.Send(dataSend);
 		}
   ```
   

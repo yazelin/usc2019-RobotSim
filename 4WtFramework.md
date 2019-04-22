@@ -109,8 +109,6 @@
 				return;
 			}
 			myClient = new TcpClient(ip, port);     //設定Ip跟Port
-
-			Task.Run(() => ClientService());        //在另一個執行續中執行  ClientService()  ; 由電腦決定是否產生新執行續
 		}
 
 		public void Stop()

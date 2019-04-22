@@ -13,6 +13,7 @@
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - 於 WorkVisual 內 File 視窗點選 WINDOWS-IDACDUB/Config/User/Common/EthernetKRL/XmlServer
   - Server設定
+  
   ```
 <ETHERNETKRL>
    <CONFIGURATION>
@@ -37,7 +38,9 @@
    </SEND>
 </ETHERNETKRL>
   ```
+  
   - 簡單EKI範例程式
+  
   ```
 DECL EKI_STATUS RET
 CHAR valueChar[20]
@@ -65,11 +68,13 @@ CHAR valueChar[20]
 
   RET=EKI_Clear("XmlServer")	
   ```
+  
 4. 練習
 5. 夾娃娃機PC端操作介面
   - Winform 介面設計
   
   - Client 啟動及關閉
+  
   ```cs
     Client client = new Client();
 		private void buttonStart_Click(object sender, EventArgs e)
@@ -82,7 +87,9 @@ CHAR valueChar[20]
 			client.Stop();
 		}
   ```
+  
   - 產生Client類別
+  
   ```cs
   namespace ClawMachine
 {
@@ -116,7 +123,9 @@ CHAR valueChar[20]
 
 }
 ```
+
   - 建立各項按鈕需傳入資料
+  
   ```cs
 private void SetData(string buttonNumber)
 		{
@@ -148,7 +157,9 @@ private void SetData(string buttonNumber)
 			SetData("5");
 		}
   ```
+  
   - Client端傳送程式
+  
   ```cs
   　　private string sendData = string.Empty;
 
@@ -206,6 +217,7 @@ private void SetData(string buttonNumber)
 			}
 		}
   ```
+  
   - PC端手臂模擬程式
  <iframe width="560" height="315" src="https://www.youtube.com/embed/W62LbDkruTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  

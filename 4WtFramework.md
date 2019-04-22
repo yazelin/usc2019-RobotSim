@@ -42,31 +42,31 @@
   - 簡單EKI範例程式
   
   ```
-DECL EKI_STATUS RET
-CHAR valueChar[20]
-  RET=EKI_Init("XmlServer")		;初始化
-  RET=EKI_Open("XmlServer")		;啟動
+	DECL EKI_STATUS RET
+	CHAR valueChar[20]
+  	RET=EKI_Init("XmlServer")		;初始化
+  	RET=EKI_Open("XmlServer")		;啟動
 
-  waitfor $FLAG[1]					;等待接收到訊息
+ 	 waitfor $FLAG[1]					;等待接收到訊息
 
-  FOR i=(1)TO(20)
-     valueChar[i]=0					;清空
-  ENDFOR								
+ 	 FOR i=(1)TO(20)
+  	   valueChar[i]=0					;清空
+  	ENDFOR								
 
-  WAITFOR $FLAG[2]==TRUE
+  	WAITFOR $FLAG[2]==TRUE
 
-  RET=EKI_GetString("XmlServer","Data/Direction",valueChar[])		;取資料 並且存入valueChar[]
+  	RET=EKI_GetString("XmlServer","Data/Direction",valueChar[])		;取資料 並且存入valueChar[]
 
-  MsgNotify(valueChar[])		
+ 	 MsgNotify(valueChar[])		
 
-  RET = EKI_Setstring("XmlServer","Result/Answer", valueChar[]) ; 設定"Result/Answer"資料為valueChar[]
-  RET = EKI_Send("XmlServer","Result/Answer")                   ; 將資料傳送
+  	RET = EKI_Setstring("XmlServer","Result/Answer", valueChar[]) ; 設定"Result/Answer"資料為valueChar[]
+  	RET = EKI_Send("XmlServer","Result/Answer")                   ; 將資料傳送
 
-  ;  RET = EKI_Send =("XmlServer",valueChar[])   <<也可以用此方法直接傳輸
+ 	 ;  RET = EKI_Send =("XmlServer",valueChar[])   <<也可以用此方法直接傳輸
 
-  waitfor $FLAG[1]==FALSE			
+  	waitfor $FLAG[1]==FALSE			
 
-  RET=EKI_Clear("XmlServer")	
+  	RET=EKI_Clear("XmlServer")	
  ```
   
 4. 練習

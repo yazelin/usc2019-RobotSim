@@ -141,7 +141,7 @@
 		{
 			SetData("2");
 		}
-　　
+		
 		private void button5_Click(object sender, EventArgs e)
 		{
 			SetData("3");
@@ -243,8 +243,8 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA2ODUxNDYsLTE2NDI3MDkzNTksND
-Q0MjUwMzksMTczNzk0NjE1OSwxNDQzNDgxNzQ1LDcyOTUwNjc2
-MSwxNDI2OTQ0OTUxLC0xODMwMTE0NzY1LDE3NjIwNDczNDAsLT
-M0MjI0Mjc1MywxMTc1MTI3ODU0XX0=
+eyJoaXN0b3J5IjpbNTcxMTU1ODYyLC0xNDEwNjg1MTQ2LC0xNj
+QyNzA5MzU5LDQ0NDI1MDM5LDE3Mzc5NDYxNTksMTQ0MzQ4MTc0
+NSw3Mjk1MDY3NjEsMTQyNjk0NDk1MSwtMTgzMDExNDc2NSwxNz
+YyMDQ3MzQwLC0zNDIyNDI3NTMsMTE3NTEyNzg1NF19
 -->

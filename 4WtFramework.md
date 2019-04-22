@@ -77,7 +77,7 @@
   - Client 啟動及關閉
   
   ```cs
-   		 Client client = new Client();
+ 		Client client = new Client();
 		private void buttonStart_Click(object sender, EventArgs e)
 		{
 			client.Start("127.0.0.1", 54600);

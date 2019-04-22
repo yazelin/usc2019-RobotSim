@@ -67,10 +67,11 @@ CHAR valueChar[20]
   waitfor $FLAG[1]==FALSE			
 
   RET=EKI_Clear("XmlServer")	
-  ```
+ ```
   
 4. 練習
 5. 夾娃娃機PC端操作介面
+
   - Winform 介面設計
   
   - Client 啟動及關閉

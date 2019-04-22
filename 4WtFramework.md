@@ -68,7 +68,144 @@ CHAR valueChar[20]
 4. 練習
 5. 夾娃娃機PC端操作介面
   - Winform 介面設計
+  
+  - Client 啟動及關閉
+  ```cs
+    Client client = new Client();
+		private void buttonStart_Click(object sender, EventArgs e)
+		{
+			client.Start("127.0.0.1", 54600);
+		}
 
+		private void buttonStop_Click(object sender, EventArgs e)
+		{
+			client.Stop();
+		}
+  ```
+  - 產生Client類別
+  ```cs
+  namespace ClawMachine
+{
+	class Client
+	{
+		TcpClient myClient;         //建立TcpClient
+
+		public Client() { }
+
+
+		public void Start(string ip, int port)
+		{
+			if (myClient != null)                   //myClient有資料的話 結束
+			{
+				return;
+			}
+			myClient = new TcpClient(ip, port);     //設定Ip跟Port
+
+			Task.Run(() => ClientService());        //在另一個執行續中執行  ClientService()  ; 由電腦決定是否產生新執行續
+		}
+
+		public void Stop()
+		{
+			if (myClient != null)
+			{
+				myClient.Close();       //關閉Client
+				myClient = null;
+			}
+		}
+	}
+
+}
+```
+  - 建立各項按鈕需傳入資料
+  ```cs
+private void SetData(string buttonNumber)
+		{
+			client.Send(buttonNumber);
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			SetData("1");
+		}
+
+　　private void button4_Click(object sender, EventArgs e)
+		{
+			SetData("2");
+		}
+　　
+		private void button5_Click(object sender, EventArgs e)
+		{
+			SetData("3");
+		}
+
+		private void button6_Click(object sender, EventArgs e)
+		{
+			SetData("4");
+		}
+
+		private void button7_Click(object sender, EventArgs e)
+		{
+			SetData("5");
+		}
+  ```
+  - Client端傳送程式
+  ```cs
+  　　private string sendData = string.Empty;
+
+		public void Start(string ip, int port)
+		{
+			if (myClient != null)                   //myClient有資料的話 結束
+			{
+				return;
+			}
+			myClient = new TcpClient(ip, port);     //設定Ip跟Port
+
+			Task.Run(() => ClientService());        //在另一個執行續中執行  ClientService()  ; 由電腦決定是否產生新執行續
+		}
+　　
+		public void Send(string data)
+		{
+			sendData = data;
+		}
+
+		private void ClientService()
+		{
+			while (true)
+			{
+
+				try
+				{
+
+					if (myClient != null)           //mtClient有連線資料
+					{
+						StreamReader streamReader = new StreamReader(myClient.GetStream());     //建立StreamReader
+						StreamWriter streamWriter = new StreamWriter(myClient.GetStream());     //建立StreamWriter
+
+						while (myClient.Connected)      //mtClient連線
+						{
+							if (sendData != string.Empty)       //sendData不是空字串
+							{
+								streamWriter.WriteLine(sendData);       //寫出sendData資料
+								streamWriter.Flush();                   //傳送
+								Console.WriteLine("Client To Server : " + sendData);
+
+								var data = streamReader.ReadLine();     //讀取Server端傳回資料
+								Console.WriteLine("From Server : " + data);
+
+								sendData = string.Empty;
+							}
+							SpinWait.SpinUntil(() => { return false; }, 10);    //等待0.001秒
+						}
+					}
+				}
+				catch (Exception ex)        // 執行try發生錯誤
+				{
+					Console.WriteLine(ex.ToString());       //印出錯誤訊息
+					break;
+				}
+			}
+		}
+  ```
   - PC端手臂模擬程式
  <iframe width="560" height="315" src="https://www.youtube.com/embed/W62LbDkruTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  

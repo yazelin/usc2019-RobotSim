@@ -11,7 +11,7 @@
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
 3. 網路通訊
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
-  - 下載xml檔案:
+  - 下載xml檔案:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - 在 EthernetKRL 點右鍵選擇 Add external file 加入 Xml.Servver.xml
   - ![Image](./img/Demonstration.PNG)
   
@@ -224,6 +224,9 @@
 			}
 		}
   ```
+  
+  -Server端測試程式:
+  
   - 改寫傳送資料為XML
   ```cs
   	private void SetData(string buttonNumber)
@@ -250,11 +253,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMwMTU1MjIsMTY4OTIwMjAxOCwtMT
-EzNjgyNzIsNTk5NTAyMjc0LDQzNjc0NDA5NiwtNzQ3MTI3MTM1
-LC0xODUyMzAxNjQ1LDE0NTA3MDAzNDcsLTgyNDk2MTI2MiwxND
-c0ODg3NzM4LC0xNDEwNjg1MTQ2LC0xNjQyNzA5MzU5LDQ0NDI1
-MDM5LDE3Mzc5NDYxNTksMTQ0MzQ4MTc0NSw3Mjk1MDY3NjEsMT
-QyNjk0NDk1MSwtMTgzMDExNDc2NSwxNzYyMDQ3MzQwLC0zNDIy
-NDI3NTNdfQ==
+eyJoaXN0b3J5IjpbMjA1MjE0MTI1MCwxNjg5MjAyMDE4LC0xMT
+M2ODI3Miw1OTk1MDIyNzQsNDM2NzQ0MDk2LC03NDcxMjcxMzUs
+LTE4NTIzMDE2NDUsMTQ1MDcwMDM0NywtODI0OTYxMjYyLDE0Nz
+Q4ODc3MzgsLTE0MTA2ODUxNDYsLTE2NDI3MDkzNTksNDQ0MjUw
+MzksMTczNzk0NjE1OSwxNDQzNDgxNzQ1LDcyOTUwNjc2MSwxND
+I2OTQ0OTUxLC0xODMwMTE0NzY1LDE3NjIwNDczNDAsLTM0MjI0
+Mjc1M119
 -->

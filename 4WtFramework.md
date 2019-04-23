@@ -225,7 +225,7 @@
 		}
   ```
   
-  -Server端測試程式:
+  - Server端測試程式:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip)
   
   - 改寫傳送資料為XML
   ```cs
@@ -253,7 +253,7 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjE0MTI1MCwxNjg5MjAyMDE4LC0xMT
+eyJoaXN0b3J5IjpbMTE5MjU3OTA2NSwxNjg5MjAyMDE4LC0xMT
 M2ODI3Miw1OTk1MDIyNzQsNDM2NzQ0MDk2LC03NDcxMjcxMzUs
 LTE4NTIzMDE2NDUsMTQ1MDcwMDM0NywtODI0OTYxMjYyLDE0Nz
 Q4ODc3MzgsLTE0MTA2ODUxNDYsLTE2NDI3MDkzNTksNDQ0MjUw

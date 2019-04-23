@@ -12,7 +12,8 @@
 3. 網路通訊
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - 點選XmlServer.Xml
-  - ![Image](./img/AddKRLTemplates.png)
+  - ![Image](./img/Demonstration.PGN)
+  - ![Image](./img/Demonstration2.PGN)
   - Server設定
   
   ```xml
@@ -245,10 +246,10 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzEyNzEzNSwtMTg1MjMwMTY0NSwxND
-UwNzAwMzQ3LC04MjQ5NjEyNjIsMTQ3NDg4NzczOCwtMTQxMDY4
-NTE0NiwtMTY0MjcwOTM1OSw0NDQyNTAzOSwxNzM3OTQ2MTU5LD
-E0NDM0ODE3NDUsNzI5NTA2NzYxLDE0MjY5NDQ5NTEsLTE4MzAx
-MTQ3NjUsMTc2MjA0NzM0MCwtMzQyMjQyNzUzLDExNzUxMjc4NT
-RdfQ==
+eyJoaXN0b3J5IjpbNDM2NzQ0MDk2LC03NDcxMjcxMzUsLTE4NT
+IzMDE2NDUsMTQ1MDcwMDM0NywtODI0OTYxMjYyLDE0NzQ4ODc3
+MzgsLTE0MTA2ODUxNDYsLTE2NDI3MDkzNTksNDQ0MjUwMzksMT
+czNzk0NjE1OSwxNDQzNDgxNzQ1LDcyOTUwNjc2MSwxNDI2OTQ0
+OTUxLC0xODMwMTE0NzY1LDE3NjIwNDczNDAsLTM0MjI0Mjc1My
+wxMTc1MTI3ODU0XX0=
 -->

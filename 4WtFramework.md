@@ -74,7 +74,7 @@
 5. 夾娃娃機PC端操作介面
 
   - Winform 介面設計
-  - ![[Image](./img/WinFormInterface.PNG)
+  -  ![Image](./img/WinFormInterface.PNG)
   
   - Client 啟動及關閉
   
@@ -244,7 +244,7 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODI1NTk2MiwtODI0OTYxMjYyLDE0Nz
+eyJoaXN0b3J5IjpbLTMwNjkzNjgxMywtODI0OTYxMjYyLDE0Nz
 Q4ODc3MzgsLTE0MTA2ODUxNDYsLTE2NDI3MDkzNTksNDQ0MjUw
 MzksMTczNzk0NjE1OSwxNDQzNDgxNzQ1LDcyOTUwNjc2MSwxND
 I2OTQ0OTUxLC0xODMwMTE0NzY1LDE3NjIwNDczNDAsLTM0MjI0

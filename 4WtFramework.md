@@ -206,7 +206,7 @@
 
 								sendData = string.Empty;
 							}
-							SpinWait.SpinUntil(() => { return false; }, 10);    //等待0.001秒
+							SpinWait.SpinUntil(() => { return false; }, 10);    //等待0.01秒
 						}
 					}
 				}
@@ -244,9 +244,9 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDcwMDM0NywtODI0OTYxMjYyLDE0Nz
-Q4ODc3MzgsLTE0MTA2ODUxNDYsLTE2NDI3MDkzNTksNDQ0MjUw
-MzksMTczNzk0NjE1OSwxNDQzNDgxNzQ1LDcyOTUwNjc2MSwxND
-I2OTQ0OTUxLC0xODMwMTE0NzY1LDE3NjIwNDczNDAsLTM0MjI0
-Mjc1MywxMTc1MTI3ODU0XX0=
+eyJoaXN0b3J5IjpbLTE4NTIzMDE2NDUsMTQ1MDcwMDM0NywtOD
+I0OTYxMjYyLDE0NzQ4ODc3MzgsLTE0MTA2ODUxNDYsLTE2NDI3
+MDkzNTksNDQ0MjUwMzksMTczNzk0NjE1OSwxNDQzNDgxNzQ1LD
+cyOTUwNjc2MSwxNDI2OTQ0OTUxLC0xODMwMTE0NzY1LDE3NjIw
+NDczNDAsLTM0MjI0Mjc1MywxMTc1MTI3ODU0XX0=
 -->

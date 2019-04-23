@@ -11,7 +11,7 @@
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
 3. 網路通訊
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
-  - 在EthernetKRL 點右鍵 選擇
+  - 在 EthernetKRL 點右鍵選擇 Add external file 加入 Xml.Servver.xml
   - ![Image](./img/Demonstration.PGN)
 
   - 點選XmlServer.Xml
@@ -248,10 +248,10 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzM1NTg2Miw0MzY3NDQwOTYsLTc0Nz
-EyNzEzNSwtMTg1MjMwMTY0NSwxNDUwNzAwMzQ3LC04MjQ5NjEy
-NjIsMTQ3NDg4NzczOCwtMTQxMDY4NTE0NiwtMTY0MjcwOTM1OS
-w0NDQyNTAzOSwxNzM3OTQ2MTU5LDE0NDM0ODE3NDUsNzI5NTA2
-NzYxLDE0MjY5NDQ5NTEsLTE4MzAxMTQ3NjUsMTc2MjA0NzM0MC
-wtMzQyMjQyNzUzLDExNzUxMjc4NTRdfQ==
+eyJoaXN0b3J5IjpbNTk5NTAyMjc0LDQzNjc0NDA5NiwtNzQ3MT
+I3MTM1LC0xODUyMzAxNjQ1LDE0NTA3MDAzNDcsLTgyNDk2MTI2
+MiwxNDc0ODg3NzM4LC0xNDEwNjg1MTQ2LC0xNjQyNzA5MzU5LD
+Q0NDI1MDM5LDE3Mzc5NDYxNTksMTQ0MzQ4MTc0NSw3Mjk1MDY3
+NjEsMTQyNjk0NDk1MSwtMTgzMDExNDc2NSwxNzYyMDQ3MzQwLC
+0zNDIyNDI3NTMsMTE3NTEyNzg1NF19
 -->

@@ -17,10 +17,8 @@
   - ![Image](./img/Demonstration.PNG)
   - 點選XmlServer.Xml
   - ![Image](./img/Demonstration2.PNG)
-  
   - Server設定
-  
-  ```xml
+   ```xml
 <ETHERNETKRL>
    <CONFIGURATION>
       <EXTERNAL>
@@ -43,10 +41,8 @@
       </XML>
    </SEND>
 </ETHERNETKRL>
-  ```
-  
-  - 簡單EKI範例程式
-  
+  ``` 
+   - 簡單EKI範例程式
   ```
 	DECL EKI_STATUS RET
 	CHAR valueChar[20]
@@ -74,8 +70,7 @@
 
   	RET=EKI_Clear("XmlServer")	
  ```
-  
-4. 練習
+ 4. 練習
 
 5. 夾娃娃機PC端操作介面
 
@@ -253,11 +248,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTIzNTY2NTksODg4MDUwODcsMTE0MD
-Q4NTA4NywtNTY2ODg2OTEzLDE1MzM1NjA5NTcsLTE3NzIwNzMw
-NDAsMTY4OTIwMjAxOCwtMTEzNjgyNzIsNTk5NTAyMjc0LDQzNj
-c0NDA5NiwtNzQ3MTI3MTM1LC0xODUyMzAxNjQ1LDE0NTA3MDAz
-NDcsLTgyNDk2MTI2MiwxNDc0ODg3NzM4LC0xNDEwNjg1MTQ2LC
-0xNjQyNzA5MzU5LDQ0NDI1MDM5LDE3Mzc5NDYxNTksMTQ0MzQ4
-MTc0NV19
+eyJoaXN0b3J5IjpbMjAxNjk2OTU0OSwtMTY1MjM1NjY1OSw4OD
+gwNTA4NywxMTQwNDg1MDg3LC01NjY4ODY5MTMsMTUzMzU2MDk1
+NywtMTc3MjA3MzA0MCwxNjg5MjAyMDE4LC0xMTM2ODI3Miw1OT
+k1MDIyNzQsNDM2NzQ0MDk2LC03NDcxMjcxMzUsLTE4NTIzMDE2
+NDUsMTQ1MDcwMDM0NywtODI0OTYxMjYyLDE0NzQ4ODc3MzgsLT
+E0MTA2ODUxNDYsLTE2NDI3MDkzNTksNDQ0MjUwMzksMTczNzk0
+NjE1OV19
 -->

@@ -15,10 +15,9 @@
   - 下載xml檔案:[https://github.com/yazelin/usc2019-RobotSim/raw/masteㄙr/src/XmlServer.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - 在 EthernetKRL 點右鍵選擇 Add external file 加入 Xml.Servver.xml
   - ![Image](./img/Demonstration.PNG)
-  
   - 點選XmlServer.Xml
   - ![Image](./img/Demonstration2.PNG)
-
+  
   - Server設定
   
   ```xml
@@ -254,11 +253,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4MDUwODcsMTE0MDQ4NTA4NywtNTY2OD
-g2OTEzLDE1MzM1NjA5NTcsLTE3NzIwNzMwNDAsMTY4OTIwMjAx
-OCwtMTEzNjgyNzIsNTk5NTAyMjc0LDQzNjc0NDA5NiwtNzQ3MT
-I3MTM1LC0xODUyMzAxNjQ1LDE0NTA3MDAzNDcsLTgyNDk2MTI2
-MiwxNDc0ODg3NzM4LC0xNDEwNjg1MTQ2LC0xNjQyNzA5MzU5LD
-Q0NDI1MDM5LDE3Mzc5NDYxNTksMTQ0MzQ4MTc0NSw3Mjk1MDY3
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTE2NTIzNTY2NTksODg4MDUwODcsMTE0MD
+Q4NTA4NywtNTY2ODg2OTEzLDE1MzM1NjA5NTcsLTE3NzIwNzMw
+NDAsMTY4OTIwMjAxOCwtMTEzNjgyNzIsNTk5NTAyMjc0LDQzNj
+c0NDA5NiwtNzQ3MTI3MTM1LC0xODUyMzAxNjQ1LDE0NTA3MDAz
+NDcsLTgyNDk2MTI2MiwxNDc0ODg3NzM4LC0xNDEwNjg1MTQ2LC
+0xNjQyNzA5MzU5LDQ0NDI1MDM5LDE3Mzc5NDYxNTksMTQ0MzQ4
+MTc0NV19
 -->

@@ -13,7 +13,6 @@
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - 在 EthernetKRL 點右鍵選擇 Add external file 加入 Xml.Servver.xml
   - ![Image](./img/Demonstration.PGN)
-
   - 點選XmlServer.Xml
   - ![Image](./img/Demonstration2.PGN)
   - Server設定
@@ -248,10 +247,10 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5NTAyMjc0LDQzNjc0NDA5NiwtNzQ3MT
-I3MTM1LC0xODUyMzAxNjQ1LDE0NTA3MDAzNDcsLTgyNDk2MTI2
-MiwxNDc0ODg3NzM4LC0xNDEwNjg1MTQ2LC0xNjQyNzA5MzU5LD
-Q0NDI1MDM5LDE3Mzc5NDYxNTksMTQ0MzQ4MTc0NSw3Mjk1MDY3
-NjEsMTQyNjk0NDk1MSwtMTgzMDExNDc2NSwxNzYyMDQ3MzQwLC
-0zNDIyNDI3NTMsMTE3NTEyNzg1NF19
+eyJoaXN0b3J5IjpbLTExMzY4MjcyLDU5OTUwMjI3NCw0MzY3ND
+QwOTYsLTc0NzEyNzEzNSwtMTg1MjMwMTY0NSwxNDUwNzAwMzQ3
+LC04MjQ5NjEyNjIsMTQ3NDg4NzczOCwtMTQxMDY4NTE0NiwtMT
+Y0MjcwOTM1OSw0NDQyNTAzOSwxNzM3OTQ2MTU5LDE0NDM0ODE3
+NDUsNzI5NTA2NzYxLDE0MjY5NDQ5NTEsLTE4MzAxMTQ3NjUsMT
+c2MjA0NzM0MCwtMzQyMjQyNzUzLDExNzUxMjc4NTRdfQ==
 -->

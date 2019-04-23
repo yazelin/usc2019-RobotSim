@@ -5,12 +5,12 @@
   - [流程圖](./src/WtFrameworkFlowCharts.pdf)
   - Core
   - Action
-3. 安裝
+2. 安裝
   - 於 WorkVisual 內點選 File/Cataloghandling...
   - 於 Catalogs 視窗點選 KRL Templates 後按 > 按鈕 加入功能
   - ![Image](./img/AddKRLTemplates.png)
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
-4. 網路通訊
+3. 網路通訊
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - 下載xml檔案:[https://github.com/yazelin/usc2019-RobotSim/raw/masteㄙr/src/XmlServer.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - 在 EthernetKRL 點右鍵選擇 Add external file 加入 Xml.Servver.xml
@@ -254,11 +254,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Njg4NjkxMywxNTMzNTYwOTU3LC0xNz
-cyMDczMDQwLDE2ODkyMDIwMTgsLTExMzY4MjcyLDU5OTUwMjI3
-NCw0MzY3NDQwOTYsLTc0NzEyNzEzNSwtMTg1MjMwMTY0NSwxND
-UwNzAwMzQ3LC04MjQ5NjEyNjIsMTQ3NDg4NzczOCwtMTQxMDY4
-NTE0NiwtMTY0MjcwOTM1OSw0NDQyNTAzOSwxNzM3OTQ2MTU5LD
-E0NDM0ODE3NDUsNzI5NTA2NzYxLDE0MjY5NDQ5NTEsLTE4MzAx
-MTQ3NjVdfQ==
+eyJoaXN0b3J5IjpbMTE0MDQ4NTA4NywtNTY2ODg2OTEzLDE1Mz
+M1NjA5NTcsLTE3NzIwNzMwNDAsMTY4OTIwMjAxOCwtMTEzNjgy
+NzIsNTk5NTAyMjc0LDQzNjc0NDA5NiwtNzQ3MTI3MTM1LC0xOD
+UyMzAxNjQ1LDE0NTA3MDAzNDcsLTgyNDk2MTI2MiwxNDc0ODg3
+NzM4LC0xNDEwNjg1MTQ2LC0xNjQyNzA5MzU5LDQ0NDI1MDM5LD
+E3Mzc5NDYxNTksMTQ0MzQ4MTc0NSw3Mjk1MDY3NjEsMTQyNjk0
+NDk1MV19
 -->

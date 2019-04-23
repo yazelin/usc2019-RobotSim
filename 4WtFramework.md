@@ -1,15 +1,16 @@
 ## 四、WtFramework 開發框架
 1. WtFramework開發框架介紹
+  - WtFramework下載:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WtFramework.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WtFramework.zip)
   - [架構圖](./src/Wt專案架構圖.pdf)
   - [流程圖](./src/WtFrameworkFlowCharts.pdf)
   - Core
   - Action
-2. 安裝
+3. 安裝
   - 於 WorkVisual 內點選 File/Cataloghandling...
   - 於 Catalogs 視窗點選 KRL Templates 後按 > 按鈕 加入功能
   - ![Image](./img/AddKRLTemplates.png)
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
-3. 網路通訊
+4. 網路通訊
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - 下載xml檔案:[https://github.com/yazelin/usc2019-RobotSim/raw/masteㄙr/src/XmlServer.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - 在 EthernetKRL 點右鍵選擇 Add external file 加入 Xml.Servver.xml
@@ -253,11 +254,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIwNzMwNDAsMTY4OTIwMjAxOCwtMT
-EzNjgyNzIsNTk5NTAyMjc0LDQzNjc0NDA5NiwtNzQ3MTI3MTM1
-LC0xODUyMzAxNjQ1LDE0NTA3MDAzNDcsLTgyNDk2MTI2MiwxND
-c0ODg3NzM4LC0xNDEwNjg1MTQ2LC0xNjQyNzA5MzU5LDQ0NDI1
-MDM5LDE3Mzc5NDYxNTksMTQ0MzQ4MTc0NSw3Mjk1MDY3NjEsMT
-QyNjk0NDk1MSwtMTgzMDExNDc2NSwxNzYyMDQ3MzQwLC0zNDIy
-NDI3NTNdfQ==
+eyJoaXN0b3J5IjpbMTUzMzU2MDk1NywtMTc3MjA3MzA0MCwxNj
+g5MjAyMDE4LC0xMTM2ODI3Miw1OTk1MDIyNzQsNDM2NzQ0MDk2
+LC03NDcxMjcxMzUsLTE4NTIzMDE2NDUsMTQ1MDcwMDM0NywtOD
+I0OTYxMjYyLDE0NzQ4ODc3MzgsLTE0MTA2ODUxNDYsLTE2NDI3
+MDkzNTksNDQ0MjUwMzksMTczNzk0NjE1OSwxNDQzNDgxNzQ1LD
+cyOTUwNjc2MSwxNDI2OTQ0OTUxLC0xODMwMTE0NzY1LDE3NjIw
+NDczNDBdfQ==
 -->

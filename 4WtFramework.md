@@ -44,39 +44,7 @@
    </SEND>
 </ETHERNETKRL>
    ```
-   - 簡單範例程式
-  ```xml
-DEF XmlServer()  
-INT i  
-DECL EKI_STATUS RET  
-CHAR valueChar[20]  
-RET=EKI_Init("XmlServer")  ;初始化  
-RET=EKI_Open("XmlServer")  ;啟動  
-  
-waitfor $FLAG[1]  ;等待接收到訊息  
-  
-FOR i=(1)TO(20)  
-valueChar[i]=0  ;清空  
-ENDFOR  
-  
-WAITFOR $FLAG[2]==TRUE  
-  
-RET=EKI_GetString("XmlServer","Data/Direction",valueChar[])  ;取資料 並且存入valueChar[]  
-  
-MsgNotify(valueChar[])
-
-RET = EKI_Setstring("XmlServer","Result/Answer", valueChar[]) ; 設定資料為valueChar[]
-
-RET = EKI_Send("XmlServer","Result/Answer")
-
-; RET = EKI_Send =("XmlServer",valueChar[])
-
-  
-waitfor $FLAG[1]==FALSE  
-  
-RET=EKI_Clear("XmlServer")  
-END
-   ```
+ 
  4. 練習
 
 5. 夾娃娃機PC端操作介面
@@ -255,11 +223,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NzQzNjEyLC0xMjg2NTgxMTI1LDIxMz
-kwNzc1NTEsMTIxODY4OTc4MCwtMTI2NjI3OTE4MCwxMzk1MDQ4
-OTMwLC03OTgzMzU0MjEsMTExODU1MjI1MywtMTAwMjQ2Mjk3OS
-wxNDM0NDkxMDA1LC03ODc1MjQ1NjcsMjAxNjk2OTU0OSwtMTY1
-MjM1NjY1OSw4ODgwNTA4NywxMTQwNDg1MDg3LC01NjY4ODY5MT
-MsMTUzMzU2MDk1NywtMTc3MjA3MzA0MCwxNjg5MjAyMDE4LC0x
-MTM2ODI3Ml19
+eyJoaXN0b3J5IjpbNDY2OTY1MDkwLDg5ODc0MzYxMiwtMTI4Nj
+U4MTEyNSwyMTM5MDc3NTUxLDEyMTg2ODk3ODAsLTEyNjYyNzkx
+ODAsMTM5NTA0ODkzMCwtNzk4MzM1NDIxLDExMTg1NTIyNTMsLT
+EwMDI0NjI5NzksMTQzNDQ5MTAwNSwtNzg3NTI0NTY3LDIwMTY5
+Njk1NDksLTE2NTIzNTY2NTksODg4MDUwODcsMTE0MDQ4NTA4Ny
+wtNTY2ODg2OTEzLDE1MzM1NjA5NTcsLTE3NzIwNzMwNDAsMTY4
+OTIwMjAxOF19
 -->

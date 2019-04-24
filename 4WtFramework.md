@@ -138,27 +138,27 @@
 			client.Send(buttonNumber);
 		}
 
-		private void button3_Click(object sender, EventArgs e)
+		private void buttonFront(object sender, EventArgs e)
 		{
 			SetData("1");
 		}
 
-		private void button4_Click(object sender, EventArgs e)
+		private void buttonBack(object sender, EventArgs e)
 		{
 			SetData("2");
 		}
 		
-		private void button5_Click(object sender, EventArgs e)
+		private void buttonLeft(object sender, EventArgs e)
 		{
 			SetData("3");
 		}
 
-		private void button6_Click(object sender, EventArgs e)
+		private void buttonRight(object sender, EventArgs e)
 		{
 			SetData("4");
 		}
 
-		private void button7_Click(object sender, EventArgs e)
+		private void buttonGet(object sender, EventArgs e)
 		{
 			SetData("5");
 		}
@@ -252,11 +252,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODMzNTQyMSwxMTE4NTUyMjUzLC0xMD
-AyNDYyOTc5LDE0MzQ0OTEwMDUsLTc4NzUyNDU2NywyMDE2OTY5
-NTQ5LC0xNjUyMzU2NjU5LDg4ODA1MDg3LDExNDA0ODUwODcsLT
-U2Njg4NjkxMywxNTMzNTYwOTU3LC0xNzcyMDczMDQwLDE2ODky
-MDIwMTgsLTExMzY4MjcyLDU5OTUwMjI3NCw0MzY3NDQwOTYsLT
-c0NzEyNzEzNSwtMTg1MjMwMTY0NSwxNDUwNzAwMzQ3LC04MjQ5
-NjEyNjJdfQ==
+eyJoaXN0b3J5IjpbMTM5NTA0ODkzMCwtNzk4MzM1NDIxLDExMT
+g1NTIyNTMsLTEwMDI0NjI5NzksMTQzNDQ5MTAwNSwtNzg3NTI0
+NTY3LDIwMTY5Njk1NDksLTE2NTIzNTY2NTksODg4MDUwODcsMT
+E0MDQ4NTA4NywtNTY2ODg2OTEzLDE1MzM1NjA5NTcsLTE3NzIw
+NzMwNDAsMTY4OTIwMjAxOCwtMTEzNjgyNzIsNTk5NTAyMjc0LD
+QzNjc0NDA5NiwtNzQ3MTI3MTM1LC0xODUyMzAxNjQ1LDE0NTA3
+MDAzNDddfQ==
 -->

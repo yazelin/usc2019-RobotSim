@@ -86,6 +86,7 @@
 				return;
 			}
 			myClient = new TcpClient(ip, port);     //設定Ip跟Port
+			Task.Run(() => ClientService());        //在另一個執行續中執行  ClientService()  ; 由電腦決定是否產生新執行續
 		}
 
 		public void Stop()
@@ -139,17 +140,6 @@
   
   ```cs
   	private string sendData = string.Empty;
-
-		public void Start(string ip, int port)
-		{
-			if (myClient != null)                   //myClient有資料的話 結束
-			{
-				return;
-			}
-			myClient = new TcpClient(ip, port);     //設定Ip跟Port
-
-			Task.Run(() => ClientService());        //在另一個執行續中執行  ClientService()  ; 由電腦決定是否產生新執行續
-		}
 		
 		public void Send(string data)
 		{
@@ -223,11 +213,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDIyODgxOTUsNDY2OTY1MDkwLDg5OD
-c0MzYxMiwtMTI4NjU4MTEyNSwyMTM5MDc3NTUxLDEyMTg2ODk3
-ODAsLTEyNjYyNzkxODAsMTM5NTA0ODkzMCwtNzk4MzM1NDIxLD
-ExMTg1NTIyNTMsLTEwMDI0NjI5NzksMTQzNDQ5MTAwNSwtNzg3
-NTI0NTY3LDIwMTY5Njk1NDksLTE2NTIzNTY2NTksODg4MDUwOD
-csMTE0MDQ4NTA4NywtNTY2ODg2OTEzLDE1MzM1NjA5NTcsLTE3
-NzIwNzMwNDBdfQ==
+eyJoaXN0b3J5IjpbMTUzODk2MjY0NiwtMjA0MjI4ODE5NSw0Nj
+Y5NjUwOTAsODk4NzQzNjEyLC0xMjg2NTgxMTI1LDIxMzkwNzc1
+NTEsMTIxODY4OTc4MCwtMTI2NjI3OTE4MCwxMzk1MDQ4OTMwLC
+03OTgzMzU0MjEsMTExODU1MjI1MywtMTAwMjQ2Mjk3OSwxNDM0
+NDkxMDA1LC03ODc1MjQ1NjcsMjAxNjk2OTU0OSwtMTY1MjM1Nj
+Y1OSw4ODgwNTA4NywxMTQwNDg1MDg3LC01NjY4ODY5MTMsMTUz
+MzU2MDk1N119
 -->

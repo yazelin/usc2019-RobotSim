@@ -1,7 +1,7 @@
 ## 三、手臂操作訓練及KRL程式語言
 ### [繳交作業](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 ### 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
-- 安全規定
+- 安全規定    [手臂安全](http://www.wtech.com.tw/public/download/manual/%E6%A9%9F%E6%A2%B0%E6%89%8B%E8%87%82%E5%AE%89%E5%85%A8%E6%AA%A2%E6%9F%A5%E8%A1%A8.pdf)
 - 操作教導器SmartPad
 
 ### 機器手臂專案
@@ -32,6 +32,6 @@
 
 ### 實機測試
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg2NjczNjcsMTg0Nzc4MDAxNywxOD
-I3NTA5NzM2LDE0Nzk4ODMyMDZdfQ==
+eyJoaXN0b3J5IjpbLTE2MDM2NjM3NzEsLTIxMDg2NjczNjcsMT
+g0Nzc4MDAxNywxODI3NTA5NzM2LDE0Nzk4ODMyMDZdfQ==
 -->

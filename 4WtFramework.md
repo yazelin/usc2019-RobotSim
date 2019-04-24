@@ -43,46 +43,6 @@
    </SEND>
 </ETHERNETKRL>
    ```
-  
-   - 簡單EKI範例程式
-  
-  ```
-INT i  
-DECL EKI_STATUS RET  
-CHAR valueChar[20]  
-;ENDFOLD (Declaration)  
-;FOLD INI  
-;FOLD BASISTECH INI  
-BAS (#INITMOV,0 )  
-;ENDFOLD (BASISTECH INI)  
-;FOLD USER INI  
-;Make your modifications here  
-;ENDFOLD (USER INI)  
-;ENDFOLD (INI)  
-  
-RET=EKI_Init("XmlServer")  
-RET=EKI_Open("XmlServer")  
-  
-; wait until server is conntected  
-wait for $FLAG[1]  
-; wait until server is deconnected  
-  
-  
-FOR i=(1) TO (20)  
-valueChar[i]=0  
-ENDFOR  
-  
-WAIT FOR $FLAG[2] == TRUE  
-  
-RET=EKI_GetString("XmlServer","Sensor/A",valueChar[])  
-  
-MsgNotify(valueChar[])  
-  
-wait for $FLAG[1]==FALSE  
-  
-RET=EKI_Clear("XmlServer")
- ```
- 
  4. 練習
 
 5. 夾娃娃機PC端操作介面
@@ -261,11 +221,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjYyNzkxODAsMTM5NTA0ODkzMCwtNz
-k4MzM1NDIxLDExMTg1NTIyNTMsLTEwMDI0NjI5NzksMTQzNDQ5
-MTAwNSwtNzg3NTI0NTY3LDIwMTY5Njk1NDksLTE2NTIzNTY2NT
-ksODg4MDUwODcsMTE0MDQ4NTA4NywtNTY2ODg2OTEzLDE1MzM1
-NjA5NTcsLTE3NzIwNzMwNDAsMTY4OTIwMjAxOCwtMTEzNjgyNz
-IsNTk5NTAyMjc0LDQzNjc0NDA5NiwtNzQ3MTI3MTM1LC0xODUy
-MzAxNjQ1XX0=
+eyJoaXN0b3J5IjpbMTIxODY4OTc4MCwtMTI2NjI3OTE4MCwxMz
+k1MDQ4OTMwLC03OTgzMzU0MjEsMTExODU1MjI1MywtMTAwMjQ2
+Mjk3OSwxNDM0NDkxMDA1LC03ODc1MjQ1NjcsMjAxNjk2OTU0OS
+wtMTY1MjM1NjY1OSw4ODgwNTA4NywxMTQwNDg1MDg3LC01NjY4
+ODY5MTMsMTUzMzU2MDk1NywtMTc3MjA3MzA0MCwxNjg5MjAyMD
+E4LC0xMTM2ODI3Miw1OTk1MDIyNzQsNDM2NzQ0MDk2LC03NDcx
+MjcxMzVdfQ==
 -->

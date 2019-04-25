@@ -4,6 +4,9 @@
 - 安全規定    [手臂安全](http://www.wtech.com.tw/public/download/manual/%E6%A9%9F%E6%A2%B0%E6%89%8B%E8%87%82%E5%AE%89%E5%85%A8%E6%AA%A2%E6%9F%A5%E8%A1%A8.pdf)
 - 操作教導器SmartPad
 
+### 機器手臂操作
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3UZCKB1lnW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 機器手臂專案
 實踐KUKA KR3 [專案檔](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/USCITC.wvs)
 
@@ -31,7 +34,10 @@
   - SWICTH-CASE
 
 ### 實機測試
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDM2NjM3NzEsLTIxMDg2NjczNjcsMT
-g0Nzc4MDAxNywxODI3NTA5NzM2LDE0Nzk4ODMyMDZdfQ==
+eyJoaXN0b3J5IjpbMTMxNTQyNzM2NiwtMTYwMzY2Mzc3MSwtMj
+EwODY2NzM2NywxODQ3NzgwMDE3LDE4Mjc1MDk3MzYsMTQ3OTg4
+MzIwNl19
 -->

@@ -101,11 +101,13 @@
   - 建立各項按鈕需傳入資料
   
   ```cs
-		private void SetData(string buttonNumber)
+  	private void SetData(string buttonNumber)
 		{
-			client.Send(buttonNumber);
+			string dataSend = " ";
+			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
+			client.Send(dataSend);
 		}
-
+		
 		private void buttonFront_Click(object sender, EventArgs e)
 		{
 			SetData("1");
@@ -182,17 +184,7 @@
   ```
   
   - Server端測試程式:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip)
-  
-  - 改寫傳送資料為XML
-  ```cs
-  	private void SetData(string buttonNumber)
-		{
-			string dataSend = " ";
-			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
-			client.Send(dataSend);
-		}
-  ```
-  
+
   - PC端手臂模擬程式
  <iframe width="560" height="315" src="https://www.youtube.com/embed/W62LbDkruTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
@@ -209,11 +201,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzY1MjA2Niw2NzM3NTM5MjEsMTUzOD
-k2MjY0NiwtMjA0MjI4ODE5NSw0NjY5NjUwOTAsODk4NzQzNjEy
-LC0xMjg2NTgxMTI1LDIxMzkwNzc1NTEsMTIxODY4OTc4MCwtMT
-I2NjI3OTE4MCwxMzk1MDQ4OTMwLC03OTgzMzU0MjEsMTExODU1
-MjI1MywtMTAwMjQ2Mjk3OSwxNDM0NDkxMDA1LC03ODc1MjQ1Nj
-csMjAxNjk2OTU0OSwtMTY1MjM1NjY1OSw4ODgwNTA4NywxMTQw
-NDg1MDg3XX0=
+eyJoaXN0b3J5IjpbLTI3MTkzMzkyOCwtNDgzNjUyMDY2LDY3Mz
+c1MzkyMSwxNTM4OTYyNjQ2LC0yMDQyMjg4MTk1LDQ2Njk2NTA5
+MCw4OTg3NDM2MTIsLTEyODY1ODExMjUsMjEzOTA3NzU1MSwxMj
+E4Njg5NzgwLC0xMjY2Mjc5MTgwLDEzOTUwNDg5MzAsLTc5ODMz
+NTQyMSwxMTE4NTUyMjUzLC0xMDAyNDYyOTc5LDE0MzQ0OTEwMD
+UsLTc4NzUyNDU2NywyMDE2OTY5NTQ5LC0xNjUyMzU2NjU5LDg4
+ODA1MDg3XX0=
 -->

@@ -1,6 +1,4 @@
 ## 四、WtFramework 開發框架
-### 機器手臂操作
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3UZCKB1lnW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Winform Client 端通訊程式
 
@@ -215,11 +213,11 @@ Port 54600
 夾 <Data><Direction>5</Direction></Data>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzOTE3ODY5LC03MjkxNzQ3MjEsLTQ4Mz
-Y1MjA2NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMSwxNTM4OTYyNjQ2
-LC0yMDQyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2MTIsLTEyOD
-Y1ODExMjUsMjEzOTA3NzU1MSwxMjE4Njg5NzgwLC0xMjY2Mjc5
-MTgwLDEzOTUwNDg5MzAsLTc5ODMzNTQyMSwxMTE4NTUyMjUzLC
-0xMDAyNDYyOTc5LDE0MzQ0OTEwMDUsLTc4NzUyNDU2NywyMDE2
-OTY5NTQ5XX0=
+eyJoaXN0b3J5IjpbMTg3MjI2MzMwMCwtNzI5MTc0NzIxLC00OD
+M2NTIwNjYsLTQ4MzY1MjA2Niw2NzM3NTM5MjEsMTUzODk2MjY0
+NiwtMjA0MjI4ODE5NSw0NjY5NjUwOTAsODk4NzQzNjEyLC0xMj
+g2NTgxMTI1LDIxMzkwNzc1NTEsMTIxODY4OTc4MCwtMTI2NjI3
+OTE4MCwxMzk1MDQ4OTMwLC03OTgzMzU0MjEsMTExODU1MjI1My
+wtMTAwMjQ2Mjk3OSwxNDM0NDkxMDA1LC03ODc1MjQ1NjcsMjAx
+Njk2OTU0OV19
 -->

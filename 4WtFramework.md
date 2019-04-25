@@ -52,7 +52,7 @@
   - Winform 介面設計
   - ![Image](./img/WinFormInterface.PNG)
   
-  - Client 啟動及關閉按鍵
+  - Client 啟動及關閉按鍵 From1
   
   ```cs
  		Client client = new Client();
@@ -67,7 +67,7 @@
 		}
 ```
   
-  - Client 啟動及關閉程式
+  - Client 啟動及關閉程式 Client
   
   ```cs
   namespace ClawMachine
@@ -213,11 +213,11 @@ Port 54600
   ```
   - 操作介面範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTg4MTI3MSwxNTM4OTYyNjQ2LC0yMD
-QyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2MTIsLTEyODY1ODEx
-MjUsMjEzOTA3NzU1MSwxMjE4Njg5NzgwLC0xMjY2Mjc5MTgwLD
-EzOTUwNDg5MzAsLTc5ODMzNTQyMSwxMTE4NTUyMjUzLC0xMDAy
-NDYyOTc5LDE0MzQ0OTEwMDUsLTc4NzUyNDU2NywyMDE2OTY5NT
-Q5LC0xNjUyMzU2NjU5LDg4ODA1MDg3LDExNDA0ODUwODcsLTU2
-Njg4NjkxM119
+eyJoaXN0b3J5IjpbNjczNzUzOTIxLDE1Mzg5NjI2NDYsLTIwND
+IyODgxOTUsNDY2OTY1MDkwLDg5ODc0MzYxMiwtMTI4NjU4MTEy
+NSwyMTM5MDc3NTUxLDEyMTg2ODk3ODAsLTEyNjYyNzkxODAsMT
+M5NTA0ODkzMCwtNzk4MzM1NDIxLDExMTg1NTIyNTMsLTEwMDI0
+NjI5NzksMTQzNDQ5MTAwNSwtNzg3NTI0NTY3LDIwMTY5Njk1ND
+ksLTE2NTIzNTY2NTksODg4MDUwODcsMTE0MDQ4NTA4NywtNTY2
+ODg2OTEzXX0=
 -->

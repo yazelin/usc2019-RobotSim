@@ -181,8 +181,7 @@
 			}
 		}
   ```
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/BjcpQxx5orA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
+
   - Server端測試程式:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip)
   
   - 改寫傳送資料為XML
@@ -196,7 +195,7 @@
   ```
   
   - PC端手臂模擬程式
- <iframe width="560" height="315" src="https://www.youtube.com/embed/W62LbDkruTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
  
   模擬程式下載: [https://github.com/yazelin/usc2019-RobotSim/raw/master/src/Play.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/Play.zip)  
 解壓縮後執行 USC2019RobotSim.exe
@@ -211,11 +210,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQzMDIwMzMsLTEyMTczMTA3NzksNT
-g0Njc1MjcyLC0xMzI0ODAzMTg2LDMzOTE1NjUzNSwtNjM4MTMw
-ODQ4LC03MjkxNzQ3MjEsLTQ4MzY1MjA2NiwtNDgzNjUyMDY2LD
-Y3Mzc1MzkyMSwxNTM4OTYyNjQ2LC0yMDQyMjg4MTk1LDQ2Njk2
-NTA5MCw4OTg3NDM2MTIsLTEyODY1ODExMjUsMjEzOTA3NzU1MS
-wxMjE4Njg5NzgwLC0xMjY2Mjc5MTgwLDEzOTUwNDg5MzAsLTc5
-ODMzNTQyMV19
+eyJoaXN0b3J5IjpbNDc3OTUwMDQ0LC0xMjE3MzEwNzc5LDU4ND
+Y3NTI3MiwtMTMyNDgwMzE4NiwzMzkxNTY1MzUsLTYzODEzMDg0
+OCwtNzI5MTc0NzIxLC00ODM2NTIwNjYsLTQ4MzY1MjA2Niw2Nz
+M3NTM5MjEsMTUzODk2MjY0NiwtMjA0MjI4ODE5NSw0NjY5NjUw
+OTAsODk4NzQzNjEyLC0xMjg2NTgxMTI1LDIxMzkwNzc1NTEsMT
+IxODY4OTc4MCwtMTI2NjI3OTE4MCwxMzk1MDQ4OTMwLC03OTgz
+MzU0MjFdfQ==
 -->

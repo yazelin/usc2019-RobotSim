@@ -47,10 +47,8 @@
    </SEND>
 </ETHERNETKRL>
    ```
- 
- 4. 練習
 
-5. 夾娃娃機PC端操作介面
+4. 夾娃娃機PC端操作介面
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/EbK_1YZMo7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -217,11 +215,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0Njc1MjcyLC0xMzI0ODAzMTg2LDMzOT
-E1NjUzNSwtNjM4MTMwODQ4LC03MjkxNzQ3MjEsLTQ4MzY1MjA2
-NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMSwxNTM4OTYyNjQ2LC0yMD
-QyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2MTIsLTEyODY1ODEx
-MjUsMjEzOTA3NzU1MSwxMjE4Njg5NzgwLC0xMjY2Mjc5MTgwLD
-EzOTUwNDg5MzAsLTc5ODMzNTQyMSwxMTE4NTUyMjUzLC0xMDAy
-NDYyOTc5XX0=
+eyJoaXN0b3J5IjpbMzIwNDE0ODI3LDU4NDY3NTI3MiwtMTMyND
+gwMzE4NiwzMzkxNTY1MzUsLTYzODEzMDg0OCwtNzI5MTc0NzIx
+LC00ODM2NTIwNjYsLTQ4MzY1MjA2Niw2NzM3NTM5MjEsMTUzOD
+k2MjY0NiwtMjA0MjI4ODE5NSw0NjY5NjUwOTAsODk4NzQzNjEy
+LC0xMjg2NTgxMTI1LDIxMzkwNzc1NTEsMTIxODY4OTc4MCwtMT
+I2NjI3OTE4MCwxMzk1MDQ4OTMwLC03OTgzMzU0MjEsMTExODU1
+MjI1M119
 -->

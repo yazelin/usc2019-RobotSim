@@ -73,6 +73,7 @@
 ```
   
   - Client 啟動及關閉程式 Client
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8eXk7saxRvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   ```cs
 	class Client
@@ -214,7 +215,7 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwNjM2NzMwLC0xMzI0ODAzMTg2LDMzOT
+eyJoaXN0b3J5IjpbOTI1OTQ4NTkzLC0xMzI0ODAzMTg2LDMzOT
 E1NjUzNSwtNjM4MTMwODQ4LC03MjkxNzQ3MjEsLTQ4MzY1MjA2
 NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMSwxNTM4OTYyNjQ2LC0yMD
 QyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2MTIsLTEyODY1ODEx

@@ -52,6 +52,8 @@
 
 5. 夾娃娃機PC端操作介面
 
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/EbK_1YZMo7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   - Winform 介面設計
   - ![Image](./img/WinFormInterface.PNG)
   
@@ -212,11 +214,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ4MDMxODYsMzM5MTU2NTM1LC02Mz
-gxMzA4NDgsLTcyOTE3NDcyMSwtNDgzNjUyMDY2LC00ODM2NTIw
-NjYsNjczNzUzOTIxLDE1Mzg5NjI2NDYsLTIwNDIyODgxOTUsND
-Y2OTY1MDkwLDg5ODc0MzYxMiwtMTI4NjU4MTEyNSwyMTM5MDc3
-NTUxLDEyMTg2ODk3ODAsLTEyNjYyNzkxODAsMTM5NTA0ODkzMC
-wtNzk4MzM1NDIxLDExMTg1NTIyNTMsLTEwMDI0NjI5NzksMTQz
-NDQ5MTAwNV19
+eyJoaXN0b3J5IjpbNTMwNjM2NzMwLC0xMzI0ODAzMTg2LDMzOT
+E1NjUzNSwtNjM4MTMwODQ4LC03MjkxNzQ3MjEsLTQ4MzY1MjA2
+NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMSwxNTM4OTYyNjQ2LC0yMD
+QyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2MTIsLTEyODY1ODEx
+MjUsMjEzOTA3NzU1MSwxMjE4Njg5NzgwLC0xMjY2Mjc5MTgwLD
+EzOTUwNDg5MzAsLTc5ODMzNTQyMSwxMTE4NTUyMjUzLC0xMDAy
+NDYyOTc5XX0=
 -->

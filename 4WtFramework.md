@@ -105,6 +105,7 @@
 ```
 
   - 建立各項按鈕需傳入資料
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qrXvXTqZUNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   ```cs
 		private void SetData(string buttonNumber)
@@ -186,6 +187,7 @@
 			}
 		}
   ```
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/BjcpQxx5orA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   - Server端測試程式:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip)
   
@@ -215,7 +217,7 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1OTQ4NTkzLC0xMzI0ODAzMTg2LDMzOT
+eyJoaXN0b3J5IjpbNTg0Njc1MjcyLC0xMzI0ODAzMTg2LDMzOT
 E1NjUzNSwtNjM4MTMwODQ4LC03MjkxNzQ3MjEsLTQ4MzY1MjA2
 NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMSwxNTM4OTYyNjQ2LC0yMD
 QyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2MTIsLTEyODY1ODEx

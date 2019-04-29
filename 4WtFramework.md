@@ -50,13 +50,10 @@
 
 4. 夾娃娃機PC端操作介面
 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/EbK_1YZMo7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
   - Winform 介面設計
   - ![Image](./img/WinFormInterface.PNG)
   
   - Client 啟動及關閉按鍵 From1
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/8eXk7saxRvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   ```cs
  		Client client = new Client();
@@ -103,7 +100,6 @@
 ```
 
   - 建立各項按鈕需傳入資料
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/qrXvXTqZUNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   ```cs
 		private void SetData(string buttonNumber)
@@ -215,11 +211,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTczMTA3NzksNTg0Njc1MjcyLC0xMz
-I0ODAzMTg2LDMzOTE1NjUzNSwtNjM4MTMwODQ4LC03MjkxNzQ3
-MjEsLTQ4MzY1MjA2NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMSwxNT
-M4OTYyNjQ2LC0yMDQyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2
-MTIsLTEyODY1ODExMjUsMjEzOTA3NzU1MSwxMjE4Njg5NzgwLC
-0xMjY2Mjc5MTgwLDEzOTUwNDg5MzAsLTc5ODMzNTQyMSwxMTE4
-NTUyMjUzXX0=
+eyJoaXN0b3J5IjpbLTExMzQzMDIwMzMsLTEyMTczMTA3NzksNT
+g0Njc1MjcyLC0xMzI0ODAzMTg2LDMzOTE1NjUzNSwtNjM4MTMw
+ODQ4LC03MjkxNzQ3MjEsLTQ4MzY1MjA2NiwtNDgzNjUyMDY2LD
+Y3Mzc1MzkyMSwxNTM4OTYyNjQ2LC0yMDQyMjg4MTk1LDQ2Njk2
+NTA5MCw4OTg3NDM2MTIsLTEyODY1ODExMjUsMjEzOTA3NzU1MS
+wxMjE4Njg5NzgwLC0xMjY2Mjc5MTgwLDEzOTUwNDg5MzAsLTc5
+ODMzNTQyMV19
 -->

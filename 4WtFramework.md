@@ -56,6 +56,7 @@
   - ![Image](./img/WinFormInterface.PNG)
   
   - Client 啟動及關閉按鍵 From1
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/8eXk7saxRvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   ```cs
  		Client client = new Client();
@@ -71,7 +72,6 @@
 ```
   
   - Client 啟動及關閉程式 Client
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/8eXk7saxRvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   ```cs
 	class Client
@@ -215,11 +215,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNDE0ODI3LDU4NDY3NTI3MiwtMTMyND
-gwMzE4NiwzMzkxNTY1MzUsLTYzODEzMDg0OCwtNzI5MTc0NzIx
-LC00ODM2NTIwNjYsLTQ4MzY1MjA2Niw2NzM3NTM5MjEsMTUzOD
-k2MjY0NiwtMjA0MjI4ODE5NSw0NjY5NjUwOTAsODk4NzQzNjEy
-LC0xMjg2NTgxMTI1LDIxMzkwNzc1NTEsMTIxODY4OTc4MCwtMT
-I2NjI3OTE4MCwxMzk1MDQ4OTMwLC03OTgzMzU0MjEsMTExODU1
-MjI1M119
+eyJoaXN0b3J5IjpbLTEyMTczMTA3NzksNTg0Njc1MjcyLC0xMz
+I0ODAzMTg2LDMzOTE1NjUzNSwtNjM4MTMwODQ4LC03MjkxNzQ3
+MjEsLTQ4MzY1MjA2NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMSwxNT
+M4OTYyNjQ2LC0yMDQyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2
+MTIsLTEyODY1ODExMjUsMjEzOTA3NzU1MSwxMjE4Njg5NzgwLC
+0xMjY2Mjc5MTgwLDEzOTUwNDg5MzAsLTc5ODMzNTQyMSwxMTE4
+NTUyMjUzXX0=
 -->

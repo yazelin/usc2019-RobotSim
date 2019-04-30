@@ -51,8 +51,11 @@
 4. 夾娃娃機PC端操作介面
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DQzu3EQPiYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   - Winform 介面設計
   - ![Image](./img/WinFormInterface.PNG)
+  
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/whyCVhJ1Opo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   - Client 啟動及關閉按鍵 From1
   
@@ -99,6 +102,8 @@
 		}
 	}
 ```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/shkiS5mD5nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - 建立各項按鈕需傳入資料
   
@@ -211,11 +216,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTI2MjAyOCwxMTk1MzkyNjczLC0xNj
-E2NDg2MTQ3LDQ3Nzk1MDA0NCwtMTIxNzMxMDc3OSw1ODQ2NzUy
-NzIsLTEzMjQ4MDMxODYsMzM5MTU2NTM1LC02MzgxMzA4NDgsLT
-cyOTE3NDcyMSwtNDgzNjUyMDY2LC00ODM2NTIwNjYsNjczNzUz
-OTIxLDE1Mzg5NjI2NDYsLTIwNDIyODgxOTUsNDY2OTY1MDkwLD
-g5ODc0MzYxMiwtMTI4NjU4MTEyNSwyMTM5MDc3NTUxLDEyMTg2
-ODk3ODBdfQ==
+eyJoaXN0b3J5IjpbMTE5MjYzMTQ0LDExOTUzOTI2NzMsLTE2MT
+Y0ODYxNDcsNDc3OTUwMDQ0LC0xMjE3MzEwNzc5LDU4NDY3NTI3
+MiwtMTMyNDgwMzE4NiwzMzkxNTY1MzUsLTYzODEzMDg0OCwtNz
+I5MTc0NzIxLC00ODM2NTIwNjYsLTQ4MzY1MjA2Niw2NzM3NTM5
+MjEsMTUzODk2MjY0NiwtMjA0MjI4ODE5NSw0NjY5NjUwOTAsOD
+k4NzQzNjEyLC0xMjg2NTgxMTI1LDIxMzkwNzc1NTEsMTIxODY4
+OTc4MF19
 -->

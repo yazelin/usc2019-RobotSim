@@ -57,7 +57,7 @@
   
   <iframe width="560" height="315" src="https://www.youtube.com/embed/whyCVhJ1Opo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-  - Client 啟動及關閉按鍵 From1
+  - Client 啟動及關閉按鍵 Form1
   
   ```cs
  		Client client = new Client();
@@ -105,7 +105,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/shkiS5mD5nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  - 建立各項按鈕需傳入資料
+  - 建立各項按鈕需傳入資料 Form1
   
   ```cs
 		private void SetData(string command)
@@ -192,7 +192,7 @@
 
   - Server端測試程式:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip)
   
-  - 改寫傳送資料為XML
+  - 改寫傳送資料為XML Form1
   ```cs
   	private void SetData(string buttonNumber)
 		{
@@ -218,11 +218,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzYzNDE1MywtNTAxODY3NzQ5LDExOT
-UzOTI2NzMsLTE2MTY0ODYxNDcsNDc3OTUwMDQ0LC0xMjE3MzEw
-Nzc5LDU4NDY3NTI3MiwtMTMyNDgwMzE4NiwzMzkxNTY1MzUsLT
-YzODEzMDg0OCwtNzI5MTc0NzIxLC00ODM2NTIwNjYsLTQ4MzY1
-MjA2Niw2NzM3NTM5MjEsMTUzODk2MjY0NiwtMjA0MjI4ODE5NS
-w0NjY5NjUwOTAsODk4NzQzNjEyLC0xMjg2NTgxMTI1LDIxMzkw
-Nzc1NTFdfQ==
+eyJoaXN0b3J5IjpbNTUxOTUzMjQ1LC04NDc2MzQxNTMsLTUwMT
+g2Nzc0OSwxMTk1MzkyNjczLC0xNjE2NDg2MTQ3LDQ3Nzk1MDA0
+NCwtMTIxNzMxMDc3OSw1ODQ2NzUyNzIsLTEzMjQ4MDMxODYsMz
+M5MTU2NTM1LC02MzgxMzA4NDgsLTcyOTE3NDcyMSwtNDgzNjUy
+MDY2LC00ODM2NTIwNjYsNjczNzUzOTIxLDE1Mzg5NjI2NDYsLT
+IwNDIyODgxOTUsNDY2OTY1MDkwLDg5ODc0MzYxMiwtMTI4NjU4
+MTEyNV19
 -->

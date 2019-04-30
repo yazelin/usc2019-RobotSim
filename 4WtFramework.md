@@ -49,6 +49,9 @@
    ```
 
 4. 夾娃娃機PC端操作介面
+- 步驟
+	1. 介面設計
+	2. 開啟關閉功能
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DQzu3EQPiYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -218,11 +221,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDEwODIyNCwtODQ3NjM0MTUzLC01MD
-E4Njc3NDksMTE5NTM5MjY3MywtMTYxNjQ4NjE0Nyw0Nzc5NTAw
-NDQsLTEyMTczMTA3NzksNTg0Njc1MjcyLC0xMzI0ODAzMTg2LD
-MzOTE1NjUzNSwtNjM4MTMwODQ4LC03MjkxNzQ3MjEsLTQ4MzY1
-MjA2NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMSwxNTM4OTYyNjQ2LC
-0yMDQyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2MTIsLTEyODY1
-ODExMjVdfQ==
+eyJoaXN0b3J5IjpbLTE2ODQxNzQ2MzcsLTg0NzYzNDE1MywtNT
+AxODY3NzQ5LDExOTUzOTI2NzMsLTE2MTY0ODYxNDcsNDc3OTUw
+MDQ0LC0xMjE3MzEwNzc5LDU4NDY3NTI3MiwtMTMyNDgwMzE4Ni
+wzMzkxNTY1MzUsLTYzODEzMDg0OCwtNzI5MTc0NzIxLC00ODM2
+NTIwNjYsLTQ4MzY1MjA2Niw2NzM3NTM5MjEsMTUzODk2MjY0Ni
+wtMjA0MjI4ODE5NSw0NjY5NjUwOTAsODk4NzQzNjEyLC0xMjg2
+NTgxMTI1XX0=
 -->

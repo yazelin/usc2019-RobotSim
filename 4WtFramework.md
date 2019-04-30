@@ -188,6 +188,8 @@
 		}
   ```
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MR59pzw0iq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   - Server端測試程式:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip)
   
   - 改寫傳送資料為XML
@@ -216,11 +218,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjYzMTQ0LDExOTUzOTI2NzMsLTE2MT
-Y0ODYxNDcsNDc3OTUwMDQ0LC0xMjE3MzEwNzc5LDU4NDY3NTI3
-MiwtMTMyNDgwMzE4NiwzMzkxNTY1MzUsLTYzODEzMDg0OCwtNz
-I5MTc0NzIxLC00ODM2NTIwNjYsLTQ4MzY1MjA2Niw2NzM3NTM5
-MjEsMTUzODk2MjY0NiwtMjA0MjI4ODE5NSw0NjY5NjUwOTAsOD
-k4NzQzNjEyLC0xMjg2NTgxMTI1LDIxMzkwNzc1NTEsMTIxODY4
-OTc4MF19
+eyJoaXN0b3J5IjpbLTUwMTg2Nzc0OSwxMTk1MzkyNjczLC0xNj
+E2NDg2MTQ3LDQ3Nzk1MDA0NCwtMTIxNzMxMDc3OSw1ODQ2NzUy
+NzIsLTEzMjQ4MDMxODYsMzM5MTU2NTM1LC02MzgxMzA4NDgsLT
+cyOTE3NDcyMSwtNDgzNjUyMDY2LC00ODM2NTIwNjYsNjczNzUz
+OTIxLDE1Mzg5NjI2NDYsLTIwNDIyODgxOTUsNDY2OTY1MDkwLD
+g5ODc0MzYxMiwtMTI4NjU4MTEyNSwyMTM5MDc3NTUxLDEyMTg2
+ODk3ODBdfQ==
 -->

@@ -108,9 +108,9 @@
   - 建立各項按鈕需傳入資料
   
   ```cs
-		private void SetData(string buttonNumber)
+		private void SetData(string command)
 		{
-			client.Send(buttonNumber);
+			client.Send(command);
 		}
 
 		private void buttonFront_Click(object sender, EventArgs e)
@@ -218,11 +218,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTg2Nzc0OSwxMTk1MzkyNjczLC0xNj
-E2NDg2MTQ3LDQ3Nzk1MDA0NCwtMTIxNzMxMDc3OSw1ODQ2NzUy
-NzIsLTEzMjQ4MDMxODYsMzM5MTU2NTM1LC02MzgxMzA4NDgsLT
-cyOTE3NDcyMSwtNDgzNjUyMDY2LC00ODM2NTIwNjYsNjczNzUz
-OTIxLDE1Mzg5NjI2NDYsLTIwNDIyODgxOTUsNDY2OTY1MDkwLD
-g5ODc0MzYxMiwtMTI4NjU4MTEyNSwyMTM5MDc3NTUxLDEyMTg2
-ODk3ODBdfQ==
+eyJoaXN0b3J5IjpbLTg0NzYzNDE1MywtNTAxODY3NzQ5LDExOT
+UzOTI2NzMsLTE2MTY0ODYxNDcsNDc3OTUwMDQ0LC0xMjE3MzEw
+Nzc5LDU4NDY3NTI3MiwtMTMyNDgwMzE4NiwzMzkxNTY1MzUsLT
+YzODEzMDg0OCwtNzI5MTc0NzIxLC00ODM2NTIwNjYsLTQ4MzY1
+MjA2Niw2NzM3NTM5MjEsMTUzODk2MjY0NiwtMjA0MjI4ODE5NS
+w0NjY5NjUwOTAsODk4NzQzNjEyLC0xMjg2NTgxMTI1LDIxMzkw
+Nzc1NTFdfQ==
 -->

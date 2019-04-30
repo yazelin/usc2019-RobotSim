@@ -23,7 +23,7 @@
   - 驗收
  
 ## 步驟
-### 一、RobotSim基礎(3/13) [教學頁面](./1RobotSimBasic.html) / [繳交作業](https://drive.google.com/drive/folders/1FMey_NlWkC3YxeOpwVbmjqgbFMcu3iXU?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
+### 一、RobotSim基礎(3/13) [教學頁面](./1RobotSimBasic.html) / [繳交作業(基礎)](https://drive.google.com/drive/folders/1FMey_NlWkC3YxeOpwVbmjqgbFMcu3iXU?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 ```
 千里之行 始於足下
 一日之所需 百工斯為備
@@ -40,7 +40,7 @@
   - 動作 Motion
   - 流程控制 Flow
 
-### 二、RobotSim專案制作(3/27) [教學頁面](./2RobotSimProject.html) / [繳交作業](https://drive.google.com/drive/folders/104_rw30SUGLiESvD4R0ukJIDlGs7t98Y?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
+### 二、RobotSim專案制作(3/27) [教學頁面](./2RobotSimProject.html) / [繳交作業(檔案匯出)](https://drive.google.com/drive/folders/104_rw30SUGLiESvD4R0ukJIDlGs7t98Y?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 ```
 昨日種種，皆成今我，切莫思量，更莫哀，從今往後，怎麼收穫，怎麼栽。
 ```
@@ -49,7 +49,7 @@
   - RobotSim程式設計擴充 夾娃娃機 [參考教學](https://yazelin.github.io/cnu2018-RobotSim/)
 2. RobotSim匯出 並匯入WorkVisual專案
 
-### 三、手臂操作訓練及KRL程式語言(4/10) [教學頁面](./3KukaRobotLanguage.html) / [繳交作業](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
+### 三、手臂操作訓練及KRL程式語言(4/10) [教學頁面](./3KukaRobotLanguage.html) / [繳交作業(夾娃娃機)](https://drive.google.com/drive/folders/1Y3z2fzKdRJWUsqoRW0wzBV0vf2mGEnmF?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 ```
 欲速則不達
 慢慢來，比較快
@@ -107,11 +107,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDAxODc0NTEsNDM1OTgxNTA4LDIwMT
-k2NzMxMjUsMjAwMzcyMjg3MCwtMzI0NTM5OTQ4LDIwMDM3MjI4
-NzAsMTE0NjcyOTI0NSwtMTA3ODg0MTA1LC0xMTc5NDI3NTk2LC
-0xOTk2NTI2MjkxLDU1OTk5MDU4MywxNTA4MjU2NTQ2LDE5NjUx
-NTE4NDcsMzcxNzU5ODgzLC05NzQ3MjQ0NzcsMTMzNzQwMTQ0Ny
-wtMTk0Nzc3NTY5LC00NDEzMjM5MjAsMTY2MTA5MjI3MiwtMjAw
-MzM5MjQwOF19
+eyJoaXN0b3J5IjpbLTE4NTg1NTI4NzAsLTE0MDAxODc0NTEsND
+M1OTgxNTA4LDIwMTk2NzMxMjUsMjAwMzcyMjg3MCwtMzI0NTM5
+OTQ4LDIwMDM3MjI4NzAsMTE0NjcyOTI0NSwtMTA3ODg0MTA1LC
+0xMTc5NDI3NTk2LC0xOTk2NTI2MjkxLDU1OTk5MDU4MywxNTA4
+MjU2NTQ2LDE5NjUxNTE4NDcsMzcxNzU5ODgzLC05NzQ3MjQ0Nz
+csMTMzNzQwMTQ0NywtMTk0Nzc3NTY5LC00NDEzMjM5MjAsMTY2
+MTA5MjI3Ml19
 -->

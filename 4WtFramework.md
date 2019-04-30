@@ -53,6 +53,9 @@
 	1. 介面設計
 	2. 開啟關閉功能
 	3. 建立按鈕傳送訊息
+	4. 註冊Click事件
+	5. 傳送接收
+	6. 測試及改寫
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DQzu3EQPiYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -222,7 +225,7 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM4NTM3MjgsLTE2ODQxNzQ2MzcsLT
+eyJoaXN0b3J5IjpbLTIwMTA4MDQ2MDIsLTE2ODQxNzQ2MzcsLT
 g0NzYzNDE1MywtNTAxODY3NzQ5LDExOTUzOTI2NzMsLTE2MTY0
 ODYxNDcsNDc3OTUwMDQ0LC0xMjE3MzEwNzc5LDU4NDY3NTI3Mi
 wtMTMyNDgwMzE4NiwzMzkxNTY1MzUsLTYzODEzMDg0OCwtNzI5

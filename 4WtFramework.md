@@ -80,7 +80,7 @@
 
 		public void Start(string ip, int port)
 		{
-			if (myClient != null)                   //myClient有資料的話 結束
+			if (myClient != null)                   //myClient有被new出來的話 結束
 			{
 				return;
 			}
@@ -151,7 +151,7 @@
 				try
 				{
 
-					if (myClient != null)           //mtClient有連線資料
+					if (myClient != null)           //myClient有被new出來
 					{
 						StreamReader streamReader = new StreamReader(myClient.GetStream());     //建立StreamReader
 						StreamWriter streamWriter = new StreamWriter(myClient.GetStream());     //建立StreamWriter
@@ -210,11 +210,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY0ODYxNDcsNDc3OTUwMDQ0LC0xMj
-E3MzEwNzc5LDU4NDY3NTI3MiwtMTMyNDgwMzE4NiwzMzkxNTY1
-MzUsLTYzODEzMDg0OCwtNzI5MTc0NzIxLC00ODM2NTIwNjYsLT
-Q4MzY1MjA2Niw2NzM3NTM5MjEsMTUzODk2MjY0NiwtMjA0MjI4
-ODE5NSw0NjY5NjUwOTAsODk4NzQzNjEyLC0xMjg2NTgxMTI1LD
-IxMzkwNzc1NTEsMTIxODY4OTc4MCwtMTI2NjI3OTE4MCwxMzk1
-MDQ4OTMwXX0=
+eyJoaXN0b3J5IjpbMTE5NTM5MjY3MywtMTYxNjQ4NjE0Nyw0Nz
+c5NTAwNDQsLTEyMTczMTA3NzksNTg0Njc1MjcyLC0xMzI0ODAz
+MTg2LDMzOTE1NjUzNSwtNjM4MTMwODQ4LC03MjkxNzQ3MjEsLT
+Q4MzY1MjA2NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMSwxNTM4OTYy
+NjQ2LC0yMDQyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3NDM2MTIsLT
+EyODY1ODExMjUsMjEzOTA3NzU1MSwxMjE4Njg5NzgwLC0xMjY2
+Mjc5MTgwXX0=
 -->

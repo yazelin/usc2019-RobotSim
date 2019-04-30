@@ -52,6 +52,7 @@
 - 步驟
 	1. 介面設計
 	2. 開啟關閉功能
+	3. 建立按鈕傳送訊息
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DQzu3EQPiYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -221,11 +222,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQxNzQ2MzcsLTg0NzYzNDE1MywtNT
-AxODY3NzQ5LDExOTUzOTI2NzMsLTE2MTY0ODYxNDcsNDc3OTUw
-MDQ0LC0xMjE3MzEwNzc5LDU4NDY3NTI3MiwtMTMyNDgwMzE4Ni
-wzMzkxNTY1MzUsLTYzODEzMDg0OCwtNzI5MTc0NzIxLC00ODM2
-NTIwNjYsLTQ4MzY1MjA2Niw2NzM3NTM5MjEsMTUzODk2MjY0Ni
-wtMjA0MjI4ODE5NSw0NjY5NjUwOTAsODk4NzQzNjEyLC0xMjg2
-NTgxMTI1XX0=
+eyJoaXN0b3J5IjpbLTEwMTM4NTM3MjgsLTE2ODQxNzQ2MzcsLT
+g0NzYzNDE1MywtNTAxODY3NzQ5LDExOTUzOTI2NzMsLTE2MTY0
+ODYxNDcsNDc3OTUwMDQ0LC0xMjE3MzEwNzc5LDU4NDY3NTI3Mi
+wtMTMyNDgwMzE4NiwzMzkxNTY1MzUsLTYzODEzMDg0OCwtNzI5
+MTc0NzIxLC00ODM2NTIwNjYsLTQ4MzY1MjA2Niw2NzM3NTM5Mj
+EsMTUzODk2MjY0NiwtMjA0MjI4ODE5NSw0NjY5NjUwOTAsODk4
+NzQzNjEyXX0=
 -->

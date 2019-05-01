@@ -7,6 +7,10 @@
 ### 機器手臂操作
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3UZCKB1lnW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+影片中解釋錯誤的部份： 
+- 不是把電腦的IP改成跟手臂的一樣
+- 而是將電腦的IP設成和手臂相同網段不能一樣
+
 ### 機器手臂專案
 實踐KUKA KR3 [專案檔](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/USCITC.wvs)
 
@@ -37,7 +41,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTQyNzM2NiwtMTYwMzY2Mzc3MSwtMj
-EwODY2NzM2NywxODQ3NzgwMDE3LDE4Mjc1MDk3MzYsMTQ3OTg4
-MzIwNl19
+eyJoaXN0b3J5IjpbLTEwMDYyNDM4NywxMzE1NDI3MzY2LC0xNj
+AzNjYzNzcxLC0yMTA4NjY3MzY3LDE4NDc3ODAwMTcsMTgyNzUw
+OTczNiwxNDc5ODgzMjA2XX0=
 -->

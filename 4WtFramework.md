@@ -149,6 +149,7 @@
  - 提示-注意
 	1.  元件名稱
 	2.  註冊事件
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GnbQULTbTcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
   - Client端傳送程式 Client
   
@@ -229,11 +230,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDAxMjI2NSwtMTY4NDE3NDYzNywtOD
-Q3NjM0MTUzLC01MDE4Njc3NDksMTE5NTM5MjY3MywtMTYxNjQ4
-NjE0Nyw0Nzc5NTAwNDQsLTEyMTczMTA3NzksNTg0Njc1MjcyLC
-0xMzI0ODAzMTg2LDMzOTE1NjUzNSwtNjM4MTMwODQ4LC03Mjkx
-NzQ3MjEsLTQ4MzY1MjA2NiwtNDgzNjUyMDY2LDY3Mzc1MzkyMS
-wxNTM4OTYyNjQ2LC0yMDQyMjg4MTk1LDQ2Njk2NTA5MCw4OTg3
-NDM2MTJdfQ==
+eyJoaXN0b3J5IjpbMTMxMzY1ODQ4NywtMTIwMDEyMjY1LC0xNj
+g0MTc0NjM3LC04NDc2MzQxNTMsLTUwMTg2Nzc0OSwxMTk1Mzky
+NjczLC0xNjE2NDg2MTQ3LDQ3Nzk1MDA0NCwtMTIxNzMxMDc3OS
+w1ODQ2NzUyNzIsLTEzMjQ4MDMxODYsMzM5MTU2NTM1LC02Mzgx
+MzA4NDgsLTcyOTE3NDcyMSwtNDgzNjUyMDY2LC00ODM2NTIwNj
+YsNjczNzUzOTIxLDE1Mzg5NjI2NDYsLTIwNDIyODgxOTUsNDY2
+OTY1MDkwXX0=
 -->

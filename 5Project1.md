@@ -71,11 +71,12 @@ END
 
 2.程式上傳至手臂
 - 需先變更電腦系統地區設定
-	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)
+	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)		PS.需要重新啟動電腦
+
 - 將電腦IP設成和手臂相同網段
-	- 開啟網路和忘記網路設定>變更介面卡選項>選擇乙太網路案右鍵>內容>網際網路通訊協定
+	- 開啟網路和忘記網路設定>變更介面卡選項>選擇乙太網路案右鍵>內容>網際網路通訊協定第4版(TCP/IPv4)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMyMTY1MjcsMTc4NzgzODI1NSwxNz
+eyJoaXN0b3J5IjpbLTIwMjEyNjc0MTMsMTc4NzgzODI1NSwxNz
 M2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNzE0MjUsODYwODQx
 OTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NC
 wxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19

@@ -32,9 +32,9 @@
   ```
 
   - 在資料夾中新增程式
-	  - 在KRL\R1
+	  - 在KRL\R1\Program\test資料夾點擊右鍵 選取Add>Mo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NDY1MjUsODYwODQxOTIzLC05Mjg1OD
-Q1ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NCwxNzQ2NjQwMTYz
-LDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
+eyJoaXN0b3J5IjpbOTU4NzE2NzY2LDg2MDg0MTkyMywtOTI4NT
+g0NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMTc0NjY0MDE2
+MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
 -->

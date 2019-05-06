@@ -35,7 +35,7 @@
 	  - 在 KRL\R1\Program\test 資料夾點擊右鍵 選取 Add>Module 加入後命名程式名稱
 
   - EKI手臂程式
-  ```xml
+  ```
 DEF XmlServer( )
    INT i
    DECL EKI_STATUS RET
@@ -69,8 +69,8 @@ END
 
 2.程式上傳至手臂
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwNzg0NjE2LDE3ODc4MzgyNTUsMTczNj
-czODU5MSwtMTkyNDgzODI4OCwxODgxMjcxNDI1LDg2MDg0MTky
-MywtOTI4NTg0NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMT
-c0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
+eyJoaXN0b3J5IjpbMTM3MjAyNjgzMSwxNzg3ODM4MjU1LDE3Mz
+Y3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3MTQyNSw4NjA4NDE5
+MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC0yMDI2NzM4Mjk0LD
+E3NDY2NDAxNjMsMTc0OTY2NzEwNywxODExMTY1NTkyXX0=
 -->

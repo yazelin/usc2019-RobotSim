@@ -34,7 +34,7 @@
 
   - 在資料夾中新增程式
 	  - 在 KRL\R1\Program\test 資料夾點擊右鍵 選取 Add>Module 加入後命名程式名稱為: XmlServer
-	   ![Image](./img/Demonstration2.PNG)
+	   ![Image](./img/addFiles_Function.pgn)
 	   ![Image](./img/Demonstration2.PNG)
 
  - EKI手臂程式
@@ -114,11 +114,11 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY3MjMwMzIsLTM1MzIzNzkxMiwtMT
-M5MTg2MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5NDg2LDM4MDI5
-NTg0MCwxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC0xMzg0Mjg2Nj
-c0LDE3ODc4MzgyNTUsMTczNjczODU5MSwtMTkyNDgzODI4OCwx
-ODgxMjcxNDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMD
-YxMTksLTIwMjY3MzgyOTQsMTc0NjY0MDE2MywxNzQ5NjY3MTA3
-LDE4MTExNjU1OTJdfQ==
+eyJoaXN0b3J5IjpbLTkwMjc0MzcwOCwtMzUzMjM3OTEyLC0xMz
+kxODYyMDA4LC0xMzkxODYyMDA4LDE2NDczMjk0ODYsMzgwMjk1
+ODQwLDE2MDExODQ5MjcsLTE3MDY2NDcwMzMsLTEzODQyODY2Nz
+QsMTc4NzgzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4
+ODEyNzE0MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNj
+ExOSwtMjAyNjczODI5NCwxNzQ2NjQwMTYzLDE3NDk2NjcxMDcs
+MTgxMTE2NTU5Ml19
 -->

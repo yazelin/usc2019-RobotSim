@@ -83,7 +83,7 @@ END
 	- 直接點選Finish
 	- 手臂Smart-Pad點選Yes
 	
-2.通訊測試
+3.通訊測試
 - 電腦PC連線測試
 	- 開啟cmd命令提示字元
 	- 輸入 telnet + IP + Port
@@ -101,10 +101,14 @@ Port 54600
 - VisualStudio WinForm Client程式測試
 	- 提示 - 需要注意程式IP位置設定
 
+
+### 作業內容
+-利用手臂與PC、WinForm
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTg0NTUwLC0xMzg0Mjg2Njc0LDE3OD
-c4MzgyNTUsMTczNjczODU5MSwtMTkyNDgzODI4OCwxODgxMjcx
-NDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYxMTksLT
-IwMjY3MzgyOTQsMTc0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTEx
-NjU1OTJdfQ==
+eyJoaXN0b3J5IjpbLTM0MzIxNDkxNywtMTM4NDI4NjY3NCwxNz
+g3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3
+MTQyNSw4NjA4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC
+0yMDI2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODEx
+MTY1NTkyXX0=
 -->

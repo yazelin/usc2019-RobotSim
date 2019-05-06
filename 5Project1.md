@@ -34,6 +34,7 @@
   - 在資料夾中新增程式
 	  - 在 KRL\R1\Program\test 資料夾點擊右鍵 選取 Add>Module 加入後命名程式名稱
 
+
   - EKI手臂程式
   
   ```
@@ -71,8 +72,9 @@ END
 2.程式上傳至手臂
 - 需先變更電腦系統地區設定
 	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTg0OTI0NCwxNzg3ODM4MjU1LDE3Mz
+eyJoaXN0b3J5IjpbLTUzMzI3MDM2NCwxNzg3ODM4MjU1LDE3Mz
 Y3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3MTQyNSw4NjA4NDE5
 MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC0yMDI2NzM4Mjk0LD
 E3NDY2NDAxNjMsMTc0OTY2NzEwNywxODExMTY1NTkyXX0=

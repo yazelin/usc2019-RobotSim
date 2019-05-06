@@ -6,7 +6,8 @@
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)(https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - Server設定
 	  - 
-	  - 在Files中 打開Config\User\Commoon\EthernetKRL\XmlServer.xml![Image](./img/Demonstration2.PNG)
+	  - 在Files中 打開Config\User\Commoon\EthernetKRL\XmlServer.xml
+	  - ![Image](./img/Demonstration2.PNG)
 
   ```xml
   <ETHERNETKRL>
@@ -32,6 +33,6 @@
 </ETHERNETKRL>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjE2MzI3NSwtMjAyNjczODI5NCwxNz
+eyJoaXN0b3J5IjpbLTEyOTg5MDAwMiwtMjAyNjczODI5NCwxNz
 Q2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
 -->

@@ -76,9 +76,11 @@ END
 - 將電腦IP設成和手臂相同網段
 	- 開啟網路和忘記網路設定>變更介面卡選項>選擇乙太網路案右鍵>內容>網際網路通訊協定第4版(TCP/IPv4)
 	
-- 與手臂網路線連接>打開虛傳
+- 傳送程式至手臂端
+	- 需先確認手臂用戶為Expert、並且吳
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzgwODUyMjEsMTc4NzgzODI1NSwxNz
+eyJoaXN0b3J5IjpbLTE4NTI5OTYyNjUsMTc4NzgzODI1NSwxNz
 M2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNzE0MjUsODYwODQx
 OTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NC
 wxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19

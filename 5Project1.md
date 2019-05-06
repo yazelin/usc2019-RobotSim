@@ -43,7 +43,7 @@ DEF XmlServer( )
    INT i
    DECL EKI_STATUS RET
    CHAR valueChar[20]
-   char EOL[2]	
+   CHAR EOL[2]	
    EOL[1] = 13	
    EOL[2] = 10	
    
@@ -56,8 +56,8 @@ DEF XmlServer( )
       valueChar[i]=0
    ENDFOR
    
-   WAIT FOR $FLAG[2] == TRUE
-   RET=EKI_GetString("XmlServer","Data/Direction",valueChar[])
+   WAIT FOR $FLAG[2] == TRUE	;等待有資料傳入
+   RET=EKI_GetString("XmlServer","Data/Direction",valueChar[])	;讀取資料存入valueChar[]
    
    MsgNotify(valueChar[])
    
@@ -113,9 +113,9 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExNDU2OTEsLTEzODQyODY2NzQsMTc4Nz
-gzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNzE0
-MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOSwtMj
-AyNjczODI5NCwxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2
-NTU5Ml19
+eyJoaXN0b3J5IjpbNDY4MDQzNDE4LC0xMzg0Mjg2Njc0LDE3OD
+c4MzgyNTUsMTczNjczODU5MSwtMTkyNDgzODI4OCwxODgxMjcx
+NDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYxMTksLT
+IwMjY3MzgyOTQsMTc0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTEx
+NjU1OTJdfQ==
 -->

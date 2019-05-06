@@ -82,11 +82,13 @@ END
 
 - 將電腦IP設成和手臂相同網段
 	- 開啟網路和忘記網路設定>變更介面卡選項>選擇乙太網路案右鍵>內容>網際網路通訊協定第4版(TCP/IPv4)
+	![Image](./img/Change_IP.png) 
 	
 - 傳送程式至手臂端
 	- 需先確認手臂用戶為Expert、並且無任何程式正在執行或預備狀態
 	- PC與手臂進行網路線連接
 	- 點選WorkVisual上方橘色向右鍵頭
+	![Image](./img/UpProgarm.png) 
 	- 直接點選Finish
 	- 手臂Smart-Pad點選Yes
 	
@@ -115,7 +117,7 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2Nzc2NjA1LDE0Nzk2OTQ1OTIsLTM1Mz
+eyJoaXN0b3J5IjpbMjQ3NDkwMjA4LDE0Nzk2OTQ1OTIsLTM1Mz
 IzNzkxMiwtMTM5MTg2MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5
 NDg2LDM4MDI5NTg0MCwxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC
 0xMzg0Mjg2Njc0LDE3ODc4MzgyNTUsMTczNjczODU5MSwtMTky

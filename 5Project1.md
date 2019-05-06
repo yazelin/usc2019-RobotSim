@@ -59,10 +59,10 @@ DEF XmlServer( )
    WAIT FOR $FLAG[2] == TRUE	;等待有資料傳入
    RET=EKI_GetString("XmlServer","Data/Direction",valueChar[])	;讀取資料存入valueChar[]
    
-   MsgNotify(valueChar[])
+   MsgNotify(valueChar[])	;將資料印在Smart-Pad訊息欄上
    
-   RET = EKI_Send("XmlServer", "Comfirm")
-   RET = EKI_Send("XmlServer", EOL[])
+   RET = EKI_Send("XmlServer", "Comfirm")	;傳送Comfirm確定有接收到資料
+   RET = EKI_Send("XmlServer", EOL[])	;
    
    ;Send 可將資料先進行存取在傳送
    ;例: RET = EKI_Set("XmlServer","Data/Direction", "Comfirm")
@@ -113,9 +113,9 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4MDQzNDE4LC0xMzg0Mjg2Njc0LDE3OD
-c4MzgyNTUsMTczNjczODU5MSwtMTkyNDgzODI4OCwxODgxMjcx
-NDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYxMTksLT
-IwMjY3MzgyOTQsMTc0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTEx
-NjU1OTJdfQ==
+eyJoaXN0b3J5IjpbLTE3MDY2NDcwMzMsLTEzODQyODY2NzQsMT
+c4NzgzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEy
+NzE0MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOS
+wtMjAyNjczODI5NCwxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgx
+MTE2NTU5Ml19
 -->

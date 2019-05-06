@@ -65,7 +65,7 @@ DEF XmlServer( )
    RET = EKI_Send("XmlServer", EOL[])
    
    ;Send 可將資料先進行存取在傳送
-   ;例: RET = EKI_Send("XmlServer","Data/Direction", "Comfirm")
+   ;例: RET = EKI_Set("XmlServer","Data/Direction", "Comfirm")
    
    wait for $FLAG[1]==FALSE
    
@@ -112,7 +112,7 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTE1NDQ4OSwtMTM4NDI4NjY3NCwxNz
+eyJoaXN0b3J5IjpbMjA1NjgzNjU4MywtMTM4NDI4NjY3NCwxNz
 g3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3
 MTQyNSw4NjA4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC
 0yMDI2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODEx

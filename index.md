@@ -80,7 +80,7 @@
 ```
 滴水穿石，不是水多厲害，更不是石頭不厲害，而是時間太厲害。
 ```
-1. WtFramework 自動化專案 實作
+1. 網路通訊手臂EKI
   - PC端 為主控端 C# WinForm TcpClient
   - Robot端 為被控設備 KRL TcpServer
 
@@ -89,9 +89,9 @@
 種瓜得瓜 種豆得豆。
 種瓠仔 不會生菜瓜。
 ```
-1. WtFramework 自動化專案 實作
-  - PC端 為被控端 Unity C# TcpServer
-  - Robot端 為主控設備 KRL TcpClient
+1. 網路通訊手臂EKI
+2. 程式匯入至手臂
+3. 通訊測試
 
 ## 環境需求
 - Unity 2017 (3D環境) 
@@ -107,11 +107,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg1NTI4NzAsLTE0MDAxODc0NTEsND
-M1OTgxNTA4LDIwMTk2NzMxMjUsMjAwMzcyMjg3MCwtMzI0NTM5
-OTQ4LDIwMDM3MjI4NzAsMTE0NjcyOTI0NSwtMTA3ODg0MTA1LC
-0xMTc5NDI3NTk2LC0xOTk2NTI2MjkxLDU1OTk5MDU4MywxNTA4
-MjU2NTQ2LDE5NjUxNTE4NDcsMzcxNzU5ODgzLC05NzQ3MjQ0Nz
-csMTMzNzQwMTQ0NywtMTk0Nzc3NTY5LC00NDEzMjM5MjAsMTY2
-MTA5MjI3Ml19
+eyJoaXN0b3J5IjpbLTE0MDE4MjI0MzUsLTE4NTg1NTI4NzAsLT
+E0MDAxODc0NTEsNDM1OTgxNTA4LDIwMTk2NzMxMjUsMjAwMzcy
+Mjg3MCwtMzI0NTM5OTQ4LDIwMDM3MjI4NzAsMTE0NjcyOTI0NS
+wtMTA3ODg0MTA1LC0xMTc5NDI3NTk2LC0xOTk2NTI2MjkxLDU1
+OTk5MDU4MywxNTA4MjU2NTQ2LDE5NjUxNTE4NDcsMzcxNzU5OD
+gzLC05NzQ3MjQ0NzcsMTMzNzQwMTQ0NywtMTk0Nzc3NTY5LC00
+NDEzMjM5MjBdfQ==
 -->

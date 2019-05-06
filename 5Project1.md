@@ -21,7 +21,7 @@
 	</CONFIGURATION>
 	<RECEIVE>
 		<XML>
-		   <ELEMENT Tag="Data/Direction" Type="INT" Set_Flag="2"/>	;設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後Flag[2]=TRUE
+		   <ELEMENT Tag="Data/Direction" Type="String" Set_Flag="2"/>	;設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後Flag[2]=TRUE
 		</XML>
 	</RECEIVE>
 	<SEND>
@@ -39,8 +39,8 @@
 
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjczODU5MSwtMTkyNDgzODI4OCwxOD
-gxMjcxNDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYx
-MTksLTIwMjY3MzgyOTQsMTc0NjY0MDE2MywxNzQ5NjY3MTA3LD
-E4MTExNjU1OTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMTAyODQyMjcsMTczNjczODU5MSwtMT
+kyNDgzODI4OCwxODgxMjcxNDI1LDg2MDg0MTkyMywtOTI4NTg0
+NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMTc0NjY0MDE2My
+wxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
 -->

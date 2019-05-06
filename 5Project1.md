@@ -6,8 +6,6 @@
   - Server設定
 	  - 在Files中打開Config\User\Commoon\EthernetKRL\XmlServer.xml
 	  - ![Image](./img/Demonstration2.PNG)
-	  ```xml
-	  ```
 
   ```xml
   <ETHERNETKRL>
@@ -33,7 +31,7 @@
 </ETHERNETKRL>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTk0MDc2NSwxNjUzMjA2MTE5LC0yMD
+eyJoaXN0b3J5IjpbLTkyODU4NDU4MiwxNjUzMjA2MTE5LC0yMD
 I2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODExMTY1
 NTkyXX0=
 -->

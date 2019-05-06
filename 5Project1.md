@@ -81,8 +81,9 @@ END
 	- PC與手臂進行網路線連接
 	- 點選WorkVisual上方橘色向右鍵頭(F2)
 	- 直接點選Finish
+	- 手臂Smart-Pad點選Yes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjcxMDYxNCwtMTM4NDI4NjY3NCwxNz
+eyJoaXN0b3J5IjpbLTg1MzYwMjYwMCwtMTM4NDI4NjY3NCwxNz
 g3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3
 MTQyNSw4NjA4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC
 0yMDI2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODEx

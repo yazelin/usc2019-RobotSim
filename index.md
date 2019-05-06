@@ -90,8 +90,11 @@
 種瓠仔 不會生菜瓜。
 ```
 1. 網路通訊手臂EKI
+	- Server設定
+	- EKI通訊程式
 2. 程式匯入至手臂
 3. 通訊測試
+	- 利用cmd以及WinForm成
 
 ## 環境需求
 - Unity 2017 (3D環境) 
@@ -107,7 +110,7 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE4MjI0MzUsLTE4NTg1NTI4NzAsLT
+eyJoaXN0b3J5IjpbLTE1Nzc2NDAxMDEsLTE4NTg1NTI4NzAsLT
 E0MDAxODc0NTEsNDM1OTgxNTA4LDIwMTk2NzMxMjUsMjAwMzcy
 Mjg3MCwtMzI0NTM5OTQ4LDIwMDM3MjI4NzAsMTE0NjcyOTI0NS
 wtMTA3ODg0MTA1LC0xMTc5NDI3NTk2LC0xOTk2NTI2MjkxLDU1

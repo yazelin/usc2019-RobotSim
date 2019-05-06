@@ -33,8 +33,10 @@
 
   - 在資料夾中新增程式
 	  - 在 KRL\R1\Program\test 資料夾點擊右鍵 選取 Add>Module 加入後命名 Funtion 名稱
+
+  - 在資料夾中新增程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY0MjI0MTYsODYwODQxOTIzLC05Mj
-g1ODQ1ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NCwxNzQ2NjQw
-MTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
+eyJoaXN0b3J5IjpbNzY1NDIyNjg4LDg2MDg0MTkyMywtOTI4NT
+g0NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMTc0NjY0MDE2
+MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
 -->

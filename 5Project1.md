@@ -1,8 +1,12 @@
 ## 五、自動化專案實作 一
 ### KUKA Srver端通訊程式 EKI基礎
+
 1.網路通訊手臂EKI
+-
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)(https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - Server設定
+	  - 
+	  - 
   ```xml
   <ETHERNETKRL>
 	<CONFIGURATION>
@@ -27,6 +31,6 @@
 </ETHERNETKRL>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjMxNDQ2MiwtMjAyNjczODI5NCwxNz
-Q2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
+eyJoaXN0b3J5IjpbLTEyNjk0ODcxNzMsLTIwMjY3MzgyOTQsMT
+c0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
 -->

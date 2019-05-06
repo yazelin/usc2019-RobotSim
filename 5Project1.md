@@ -14,7 +14,7 @@
 			<TYPE>Client</TYPE>   ;設定外部為Client
 		</EXTERNAL>
 		<INTERNAL>
-			<IP>192.168.1.147</IP>	;設定連線IP
+			<IP>192.168.1.148</IP>	;設定連線IP
 			<PORT>54600</PORT>		;這定通訊埠
 			<ALIVE Set_Flag="1"/>	;當確定連線後Flag[1] = TRUE
 		</INTERNAL>
@@ -93,7 +93,7 @@ END
 	- 輸入 telnet + IP + Port
 	- 將XML格式複製 在cmd介面點擊滑鼠右鍵
  ```
-IP 192.168.1.147
+IP 192.168.1.148
 Port 54600
 前 <Data><Direction>1</Direction></Data>
 後 <Data><Direction>2</Direction></Data>
@@ -112,10 +112,11 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE4NjIwMDgsLTEzOTE4NjIwMDgsMT
-Y0NzMyOTQ4NiwzODAyOTU4NDAsMTYwMTE4NDkyNywtMTcwNjY0
-NzAzMywtMTM4NDI4NjY3NCwxNzg3ODM4MjU1LDE3MzY3Mzg1OT
-EsLTE5MjQ4MzgyODgsMTg4MTI3MTQyNSw4NjA4NDE5MjMsLTky
-ODU4NDU4MiwxNjUzMjA2MTE5LC0yMDI2NzM4Mjk0LDE3NDY2ND
-AxNjMsMTc0OTY2NzEwNywxODExMTY1NTkyXX0=
+eyJoaXN0b3J5IjpbLTM1MzIzNzkxMiwtMTM5MTg2MjAwOCwtMT
+M5MTg2MjAwOCwxNjQ3MzI5NDg2LDM4MDI5NTg0MCwxNjAxMTg0
+OTI3LC0xNzA2NjQ3MDMzLC0xMzg0Mjg2Njc0LDE3ODc4MzgyNT
+UsMTczNjczODU5MSwtMTkyNDgzODI4OCwxODgxMjcxNDI1LDg2
+MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYxMTksLTIwMjY3Mz
+gyOTQsMTc0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJd
+fQ==
 -->

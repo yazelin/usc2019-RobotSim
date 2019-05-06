@@ -77,11 +77,12 @@ END
 	- 開啟網路和忘記網路設定>變更介面卡選項>選擇乙太網路案右鍵>內容>網際網路通訊協定第4版(TCP/IPv4)
 	
 - 傳送程式至手臂端
-	- 需先確認手臂用戶為Expert、並且吳
+	- 需先確認手臂用戶為Expert、並且無任何程式正在執行或預備狀態
+	- PC與手臂進行網路線連接
 	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI5OTYyNjUsMTc4NzgzODI1NSwxNz
-M2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNzE0MjUsODYwODQx
-OTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NC
-wxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
+eyJoaXN0b3J5IjpbMjE2NDg1NTc2LDE3ODc4MzgyNTUsMTczNj
+czODU5MSwtMTkyNDgzODI4OCwxODgxMjcxNDI1LDg2MDg0MTky
+MywtOTI4NTg0NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMT
+c0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
 -->

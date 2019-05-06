@@ -18,7 +18,7 @@
 	</CONFIGURATION>
 	<RECEIVE>
 		<XML>
-		   <ELEMENT Tag="Data/Direction" Type="INT" Set_Flag="2"/>
+		   <ELEMENT Tag="Data/Direction" Type="INT" Set_Flag="2"/>	;設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後Flag[2]=TRUE
 		</XML>
 	</RECEIVE>
 	<SEND>
@@ -28,6 +28,6 @@
 </ETHERNETKRL>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzk1OTE0MywtMjAyNjczODI5NCwxNz
+eyJoaXN0b3J5IjpbMTk4MDg1ODM2MCwtMjAyNjczODI5NCwxNz
 Q2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
 -->

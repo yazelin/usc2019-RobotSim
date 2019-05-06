@@ -36,40 +36,11 @@
 
   - EKI手臂程式
   ```xml
-DEF XmlServer( )
-   INT i
-   DECL EKI_STATUS RET
-   INT value
-   char EOL[2]
-   EOL[1] = 13
-   EOL[2] = 10
-   
-   RET=EKI_Init("XmlServer")
-   RET=EKI_Open("XmlServer")
-   
-   wait for $FLAG[1]
-   
-   FOR i=(1) TO (20)
-      valueChar[i]=0
-   ENDFOR
-   
-   WAIT FOR $FLAG[2] == TRUE
-   
-   RET=EKI_GetString("XmlServer","Sensor/A",valueChar[])
-   
-   MsgNotify(valueChar[])
-   
-   RET = EKI_Send("XmlServer", "Comfirm")
-   RET = EKI_Send("XmlServer", EOL[])
-   
-   wait for $FLAG[1]==FALSE
-   
-   RET=EKI_Clear("XmlServer")
-END
+
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQ4MzgyODgsMTg4MTI3MTQyNSw4Nj
-A4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC0yMDI2NzM4
-Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODExMTY1NTkyXX
-0=
+eyJoaXN0b3J5IjpbMTczNjczODU5MSwtMTkyNDgzODI4OCwxOD
+gxMjcxNDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYx
+MTksLTIwMjY3MzgyOTQsMTc0NjY0MDE2MywxNzQ5NjY3MTA3LD
+E4MTExNjU1OTJdfQ==
 -->

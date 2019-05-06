@@ -43,16 +43,16 @@ DEF XmlServer( )
    INT i
    DECL EKI_STATUS RET
    CHAR valueChar[20]
-   char EOL[2]
-   EOL[1] = 13
-   EOL[2] = 10
+   char EOL[2]	
+   EOL[1] = 13	
+   EOL[2] = 10	
    
-   RET=EKI_Init("XmlServer")
-   RET=EKI_Open("XmlServer")
+   RET=EKI_Init("XmlServer")	;初始化
+   RET=EKI_Open("XmlServer")	;開啟
    
-   wait for $FLAG[1] 
+   wait for $FLAG[1] 		;等待連線
    
-   FOR i=(1) TO (20)		;需要先初始化 否則程式會有錯誤
+   FOR i=(1) TO (20)		;需要先給初始值 否則程式會有錯誤
       valueChar[i]=0
    ENDFOR
    
@@ -113,9 +113,9 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzAxMjk0MSwtMTM4NDI4NjY3NCwxNz
-g3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3
-MTQyNSw4NjA4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC
-0yMDI2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODEx
-MTY1NTkyXX0=
+eyJoaXN0b3J5IjpbODExNDU2OTEsLTEzODQyODY2NzQsMTc4Nz
+gzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNzE0
+MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOSwtMj
+AyNjczODI5NCwxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2
+NTU5Ml19
 -->

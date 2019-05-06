@@ -35,7 +35,7 @@
   - 在資料夾中新增程式
 	  - 在 KRL\R1\Program\test 資料夾點擊右鍵 選取 Add>Module 加入後命名程式名稱為: XmlServer
 	   ![Image](./img/addFiles_Function.png) 
-	   ![Image](./img/addprogram.png)
+	   ![Image](./img/addFunction.png)
 
  - EKI手臂程式
   
@@ -78,6 +78,7 @@ END
 2.程式上傳至手臂
 - 需先變更電腦系統地區設定
 	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)		         	PS.需要重新啟動電腦
+	![Image](./img/Change_AreaLanguage.png) 
 
 - 將電腦IP設成和手臂相同網段
 	- 開啟網路和忘記網路設定>變更介面卡選項>選擇乙太網路案右鍵>內容>網際網路通訊協定第4版(TCP/IPv4)
@@ -114,11 +115,11 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTY5NDU5MiwtMzUzMjM3OTEyLC0xMz
-kxODYyMDA4LC0xMzkxODYyMDA4LDE2NDczMjk0ODYsMzgwMjk1
-ODQwLDE2MDExODQ5MjcsLTE3MDY2NDcwMzMsLTEzODQyODY2Nz
-QsMTc4NzgzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4
-ODEyNzE0MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNj
-ExOSwtMjAyNjczODI5NCwxNzQ2NjQwMTYzLDE3NDk2NjcxMDcs
-MTgxMTE2NTU5Ml19
+eyJoaXN0b3J5IjpbNzQ2Nzc2NjA1LDE0Nzk2OTQ1OTIsLTM1Mz
+IzNzkxMiwtMTM5MTg2MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5
+NDg2LDM4MDI5NTg0MCwxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC
+0xMzg0Mjg2Njc0LDE3ODc4MzgyNTUsMTczNjczODU5MSwtMTky
+NDgzODI4OCwxODgxMjcxNDI1LDg2MDg0MTkyMywtOTI4NTg0NT
+gyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMTc0NjY0MDE2Mywx
+NzQ5NjY3MTA3XX0=
 -->

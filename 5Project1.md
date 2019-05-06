@@ -84,7 +84,7 @@ END
 	- 需先確認手臂用戶為Expert、並且無任何程式正在執行或預備狀態
 	- PC與手臂進行網路線連接
 	- 點選WorkVisual上方橘色向右鍵頭
-	- 直接點選Finish		PS. 確認是否
+	- 直接點選Finish
 	- 手臂Smart-Pad點選Yes
 	
 3.通訊測試
@@ -112,7 +112,7 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE3OTUyNDEsLTEzOTE4NjIwMDgsMT
+eyJoaXN0b3J5IjpbLTEzOTE4NjIwMDgsLTEzOTE4NjIwMDgsMT
 Y0NzMyOTQ4NiwzODAyOTU4NDAsMTYwMTE4NDkyNywtMTcwNjY0
 NzAzMywtMTM4NDI4NjY3NCwxNzg3ODM4MjU1LDE3MzY3Mzg1OT
 EsLTE5MjQ4MzgyODgsMTg4MTI3MTQyNSw4NjA4NDE5MjMsLTky

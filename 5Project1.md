@@ -1,7 +1,7 @@
 ## 五、自動化專案實作 一
 ### KUKA Srver端通訊程式 EKI基礎
 
-1.網路通訊手臂EKI
+1. 網路通訊手臂EKI
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)(https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - Server設定
 	  - 在Files中打開Config\User\Commoon\EthernetKRL\XmlServer.xml
@@ -74,7 +74,7 @@ DEF XmlServer( )
 END
   ```
 
-2.程式上傳至手臂
+2. 程式上傳至手臂
 - 需先變更電腦系統地區設定
 	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)		         	PS.需要重新啟動電腦
 
@@ -88,7 +88,7 @@ END
 	- 直接點選Finish
 	- 手臂Smart-Pad點選Yes
 	
-3.通訊測試
+3. 通訊測試
 - 電腦PC連線測試
 	- 開啟cmd命令提示字元
 	- 輸入 telnet + IP + Port
@@ -113,9 +113,10 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwMjk1ODQwLDE2MDExODQ5MjcsLTE3MD
-Y2NDcwMzMsLTEzODQyODY2NzQsMTc4NzgzODI1NSwxNzM2NzM4
-NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNzE0MjUsODYwODQxOTIzLC
-05Mjg1ODQ1ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NCwxNzQ2
-NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
+eyJoaXN0b3J5IjpbLTE5MTIyODIxMCwzODAyOTU4NDAsMTYwMT
+E4NDkyNywtMTcwNjY0NzAzMywtMTM4NDI4NjY3NCwxNzg3ODM4
+MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3MTQyNS
+w4NjA4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC0yMDI2
+NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODExMTY1NT
+kyXX0=
 -->

@@ -73,11 +73,10 @@ END
 - 需先變更電腦系統地區設定
 	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)
 - 將電腦IP設成和手臂相同網段
-	- 開啟網路和忘記網路設定>變
-
+	- 開啟網路和忘記網路設定>變更介面卡選項>選擇乙太網路案右鍵>內容>網際網路通訊協定
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2NTkwNTIzLDE3ODc4MzgyNTUsMTczNj
-czODU5MSwtMTkyNDgzODI4OCwxODgxMjcxNDI1LDg2MDg0MTky
-MywtOTI4NTg0NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMT
-c0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
+eyJoaXN0b3J5IjpbLTE2NDMyMTY1MjcsMTc4NzgzODI1NSwxNz
+M2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNzE0MjUsODYwODQx
+OTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NC
+wxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
 -->

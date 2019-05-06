@@ -6,29 +6,7 @@
   - Server設定
 	  - 在Files中打開Config\User\Commoon\EthernetKRL\XmlServer.xml
 	  - ![Image](./img/Demonstration2.PNG)
-	  
 	  ```xml
-	  <ETHERNETKRL>
-	<CONFIGURATION>
-		<EXTERNAL>
-			<TYPE>Client</TYPE>
-		</EXTERNAL>
-		<INTERNAL>
-			<IP>192.168.1.147</IP>
-			<PORT>54600</PORT>
-			<ALIVE Set_Flag="1"/>
-		</INTERNAL>
-	</CONFIGURATION>
-	<RECEIVE>
-		<XML>
-		   <ELEMENT Tag="Data/Direction" Type="INT" Set_Flag="2"/>
-		</XML>
-	</RECEIVE>
-	<SEND>
-		<XML>
-		</XML>
-	</SEND>
-</ETHERNETKRL>
 	  ```
 
   ```xml
@@ -55,6 +33,7 @@
 </ETHERNETKRL>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzIwNjExOSwtMjAyNjczODI5NCwxNz
-Q2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
+eyJoaXN0b3J5IjpbLTc1MTk0MDc2NSwxNjUzMjA2MTE5LC0yMD
+I2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODExMTY1
+NTkyXX0=
 -->

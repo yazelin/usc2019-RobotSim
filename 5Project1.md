@@ -26,7 +26,7 @@
 	</RECEIVE>
 	<SEND>
 		<XML>
-		<ㄤ
+		;此部分可設定手臂傳出資料 例:<ELEMENT Tag="Data/Direction" Type="STRING"/> 
 		</XML>
 	</SEND>
 </ETHERNETKRL>
@@ -63,6 +63,7 @@ DEF XmlServer( )
    
    RET = EKI_Send("XmlServer", "Comfirm")
    RET = EKI_Send("XmlServer", EOL[])
+   ;Send 可將資料
    
    wait for $FLAG[1]==FALSE
    
@@ -109,7 +110,7 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjM1NjA0NCwtMTM4NDI4NjY3NCwxNz
+eyJoaXN0b3J5IjpbLTQ5NDQ5MDU5NywtMTM4NDI4NjY3NCwxNz
 g3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3
 MTQyNSw4NjA4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC
 0yMDI2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODEx

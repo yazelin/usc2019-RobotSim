@@ -36,30 +36,39 @@
 
   - EKI手臂程式
   ```xml
-  <ETHERNETKRL>
-	<CONFIGURATION>
-		<EXTERNAL>
-			<TYPE>Client</TYPE>   ;設定外部為Client
-		</EXTERNAL>
-		<INTERNAL>
-			<IP>192.168.1.147</IP>	;設定連線IP
-			<PORT>54600</PORT>		;這定通訊埠
-			<ALIVE Set_Flag="1"/>	;當確定連線後Flag[1] = TRUE
-		</INTERNAL>
-	</CONFIGURATION>
-	<RECEIVE>
-		<XML>
-		   <ELEMENT Tag="Data/Direction" Type="INT" Set_Flag="2"/>	;設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後Flag[2]=TRUE
-		</XML>
-	</RECEIVE>
-	<SEND>
-		<XML>
-		</XML>
-	</SEND>
-</ETHERNETKRL>
+DEF XmlServer( )
+   INT i
+   DECL EKI_STATUS RET
+   CHAR valueChar[20]
+   char EOL[2]
+   EOL[1] = 13
+   EOL[2] = 10
+   
+   RET=EKI_Init("XmlServer")
+   RET=EKI_Open("XmlServer")
+   
+   wait for $FLAG[1]
+   
+   FOR i=(1) TO (20)
+      valueChar[i]=0
+   ENDFOR
+   
+   WAIT FOR $FLAG[2] == TRUE
+   
+   RET=EKI_GetString("XmlServer","Sensor/A",valueChar[])
+   
+   MsgNotify(valueChar[])
+   
+   RET = EKI_Send("XmlServer", "Comfirm")
+   RET = EKI_Send("XmlServer", EOL[])
+   
+   wait for $FLAG[1]==FALSE
+   
+   RET=EKI_Clear("XmlServer")
+END
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzUwNjgwMTMsODYwODQxOTIzLC05Mj
-g1ODQ1ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NCwxNzQ2NjQw
-MTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
+eyJoaXN0b3J5IjpbMTg4MTI3MTQyNSw4NjA4NDE5MjMsLTkyOD
+U4NDU4MiwxNjUzMjA2MTE5LC0yMDI2NzM4Mjk0LDE3NDY2NDAx
+NjMsMTc0OTY2NzEwNywxODExMTY1NTkyXX0=
 -->

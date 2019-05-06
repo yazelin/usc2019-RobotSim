@@ -70,10 +70,10 @@ END
 
 2.程式上傳至手臂
 - 需先變更電腦系統地區設定
-	- 開啟控制台>變更日期、時間或數字格式>點選左上角系統管理>變更系統地區設定
+	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTU5Nzk1OCwxNzg3ODM4MjU1LDE3Mz
-Y3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3MTQyNSw4NjA4NDE5
-MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC0yMDI2NzM4Mjk0LD
-E3NDY2NDAxNjMsMTc0OTY2NzEwNywxODExMTY1NTkyXX0=
+eyJoaXN0b3J5IjpbNDk1Njg5OTc1LDE3ODc4MzgyNTUsMTczNj
+czODU5MSwtMTkyNDgzODI4OCwxODgxMjcxNDI1LDg2MDg0MTky
+MywtOTI4NTg0NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMT
+c0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
 -->

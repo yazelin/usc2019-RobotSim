@@ -84,7 +84,7 @@ END
 	- 手臂Smart-Pad點選Yes
 	
 2.通訊測試
-- 電腦PC
+- 電腦PC連線測試
 	- 開啟cmd命令提示字元
 	- 輸入 telnet + IP + Port
 	- 將XML格式複製 在cmd介面點擊滑鼠右鍵
@@ -98,10 +98,11 @@ Port 54600
 夾 <Data><Direction>5</Direction></Data>
 ```
 
-- 
+- VisualStudio WinForm Client程式測試
+	-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzM5ODU5NSwtMTM4NDI4NjY3NCwxNz
+eyJoaXN0b3J5IjpbMTY2Mjg0NDY3NiwtMTM4NDI4NjY3NCwxNz
 g3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3
 MTQyNSw4NjA4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC
 0yMDI2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODEx

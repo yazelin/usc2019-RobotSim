@@ -75,7 +75,7 @@ DEF XmlServer( )
 END
   ```
 
-2.程式上傳至手臂
+2.程式匯入至手臂
 - 需先變更電腦系統地區設定
 	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)		         	PS.需要重新啟動電腦
 	![Image](./img/Change_AreaLanguage.png) 
@@ -118,11 +118,11 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDk0MDY0ODMsMTAyNzg0MTk0OSwxND
-c5Njk0NTkyLC0zNTMyMzc5MTIsLTEzOTE4NjIwMDgsLTEzOTE4
-NjIwMDgsMTY0NzMyOTQ4NiwzODAyOTU4NDAsMTYwMTE4NDkyNy
-wtMTcwNjY0NzAzMywtMTM4NDI4NjY3NCwxNzg3ODM4MjU1LDE3
-MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3MTQyNSw4NjA4ND
-E5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC0yMDI2NzM4Mjk0
-LDE3NDY2NDAxNjNdfQ==
+eyJoaXN0b3J5IjpbLTE5NzMzNTY1NCwtMTkwOTQwNjQ4MywxMD
+I3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIzNzkxMiwtMTM5MTg2
+MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5NDg2LDM4MDI5NTg0MC
+wxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC0xMzg0Mjg2Njc0LDE3
+ODc4MzgyNTUsMTczNjczODU5MSwtMTkyNDgzODI4OCwxODgxMj
+cxNDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYxMTks
+LTIwMjY3MzgyOTRdfQ==
 -->

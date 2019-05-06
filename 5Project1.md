@@ -79,13 +79,17 @@ END
 - 傳送程式至手臂端
 	- 需先確認手臂用戶為Expert、並且無任何程式正在執行或預備狀態
 	- PC與手臂進行網路線連接
-	- 點選WorkVisual上方橘色向右鍵頭(F2)
+	- 點選WorkVisual上方橘色向右鍵頭
 	- 直接點選Finish
 	- 手臂Smart-Pad點選Yes
+	
+3. 通訊測試
+- 開啟cmd命令提示字元
+- 輸入
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzYwMjYwMCwtMTM4NDI4NjY3NCwxNz
-g3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3
-MTQyNSw4NjA4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC
-0yMDI2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODEx
-MTY1NTkyXX0=
+eyJoaXN0b3J5IjpbLTEyMDc0MDk2NDgsLTEzODQyODY2NzQsMT
+c4NzgzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEy
+NzE0MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOS
+wtMjAyNjczODI5NCwxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgx
+MTE2NTU5Ml19
 -->

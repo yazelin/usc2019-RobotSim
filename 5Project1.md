@@ -102,12 +102,13 @@ Port 54600
 	- 提示 - 需要注意程式IP位置設定
 
 
+
 ### 作業內容
 - EKI程式內容運作
 - 利用手臂與PC、WinForm進行通訊傳遞
-PS. IP位置需要更改不得為
+PS. IP位置需要更改不得為一樣
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzk3NTQ0NzgsLTEzODQyODY2NzQsMT
+eyJoaXN0b3J5IjpbLTE5MzEyNzYxMjcsLTEzODQyODY2NzQsMT
 c4NzgzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEy
 NzE0MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOS
 wtMjAyNjczODI5NCwxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgx

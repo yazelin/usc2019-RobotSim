@@ -84,9 +84,10 @@ END
 	- 手臂Smart-Pad點選Yes
 	
 2.通訊測試
-- 開啟cmd命令提示字元
-- 輸入 telnet + IP + Port
-- 將XML
+- 電腦PC
+	- 開啟cmd命令提示字元
+	- 輸入 telnet + IP + Port
+	- 將XML格式複製 在cmd介面點擊滑鼠右鍵
  ```
 IP 192.168.1.147
 Port 54600
@@ -97,11 +98,12 @@ Port 54600
 夾 <Data><Direction>5</Direction></Data>
 ```
 
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNzY5MzgsLTEzODQyODY2NzQsMTc4Nz
-gzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNzE0
-MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOSwtMj
-AyNjczODI5NCwxNzQ2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2
-NTU5Ml19
+eyJoaXN0b3J5IjpbMTM4NzM5ODU5NSwtMTM4NDI4NjY3NCwxNz
+g3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3
+MTQyNSw4NjA4NDE5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC
+0yMDI2NzM4Mjk0LDE3NDY2NDAxNjMsMTc0OTY2NzEwNywxODEx
+MTY1NTkyXX0=
 -->

@@ -32,11 +32,34 @@
   ```
 
   - 在資料夾中新增程式
-	  - 在 KRL\R1\Program\test 資料夾點擊右鍵 選取 Add>Module 加入後命名 Funtion 名稱
+	  - 在 KRL\R1\Program\test 資料夾點擊右鍵 選取 Add>Module 加入後命名程式名稱
 
-  - 在資料夾中新增程式
+  - EKI手臂程式
+  ```xml
+  <ETHERNETKRL>
+	<CONFIGURATION>
+		<EXTERNAL>
+			<TYPE>Client</TYPE>   ;設定外部為Client
+		</EXTERNAL>
+		<INTERNAL>
+			<IP>192.168.1.147</IP>	;設定連線IP
+			<PORT>54600</PORT>		;這定通訊埠
+			<ALIVE Set_Flag="1"/>	;當確定連線後Flag[1] = TRUE
+		</INTERNAL>
+	</CONFIGURATION>
+	<RECEIVE>
+		<XML>
+		   <ELEMENT Tag="Data/Direction" Type="INT" Set_Flag="2"/>	;設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後Flag[2]=TRUE
+		</XML>
+	</RECEIVE>
+	<SEND>
+		<XML>
+		</XML>
+	</SEND>
+</ETHERNETKRL>
+  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NDIyNjg4LDg2MDg0MTkyMywtOTI4NT
-g0NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMTc0NjY0MDE2
-MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMzUwNjgwMTMsODYwODQxOTIzLC05Mj
+g1ODQ1ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NCwxNzQ2NjQw
+MTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
 -->

@@ -45,25 +45,25 @@ DEF XmlServer( )
    DECL EKI_STATUS RET
    CHAR valueChar[20]
    CHAR EOL[2]	
-   EOL[1] = 13	;ASCII碼 13 = \r
-   EOL[2] = 10	;10 = \n
+   EOL[1] = 13						;ASCII碼 13 = \r
+   EOL[2] = 10						;10 = \n
    
-   RET=EKI_Init("XmlServer")	;初始化
-   RET=EKI_Open("XmlServer")	;開啟
+   RET=EKI_Init("XmlServer")			;初始化
+   RET=EKI_Open("XmlServer")			;開啟
    
-   wait for $FLAG[1] 		;等待連線
+   wait for $FLAG[1] 					;等待連線
    
-   FOR i=(1) TO (20)		;需要先給初始值 否則程式會有錯誤
+   FOR i=(1) TO (20)					;需要先給初始值 否則程式會有錯誤
       valueChar[i]=0
    ENDFOR
    
-   WAIT FOR $FLAG[2] == TRUE	;等待有資料傳入
+   WAIT FOR $FLAG[2] == TRUE			;等待有資料傳入
    RET=EKI_GetString("XmlServer","Data/Direction",valueChar[])	;讀取資料存入valueChar[]
    
-   MsgNotify(valueChar[])	;將資料印在Smart-Pad訊息欄上
+   MsgNotify(valueChar[])				;將資料印在Smart-Pad訊息欄上
    
-   RET = EKI_Send("XmlServer", "Comfirm")	;傳送Comfirm確定有接收到資料
-   RET = EKI_Send("XmlServer", EOL[])	;傳送換行字元
+   RET = EKI_Send("XmlServer", "Comfirm")		;傳送Comfirm確定有接收到資料
+   RET = EKI_Send("XmlServer", EOL[])			;傳送換行字元
    
    ;Send 可將資料先進行存取在傳送
    ;例: RET = EKI_Set("XmlServer","Data/Direction", "Comfirm")
@@ -118,11 +118,11 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzg0MTk0OSwxNDc5Njk0NTkyLC0zNT
-MyMzc5MTIsLTEzOTE4NjIwMDgsLTEzOTE4NjIwMDgsMTY0NzMy
-OTQ4NiwzODAyOTU4NDAsMTYwMTE4NDkyNywtMTcwNjY0NzAzMy
-wtMTM4NDI4NjY3NCwxNzg3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5
-MjQ4MzgyODgsMTg4MTI3MTQyNSw4NjA4NDE5MjMsLTkyODU4ND
-U4MiwxNjUzMjA2MTE5LC0yMDI2NzM4Mjk0LDE3NDY2NDAxNjMs
-MTc0OTY2NzEwN119
+eyJoaXN0b3J5IjpbLTE5MDk0MDY0ODMsMTAyNzg0MTk0OSwxND
+c5Njk0NTkyLC0zNTMyMzc5MTIsLTEzOTE4NjIwMDgsLTEzOTE4
+NjIwMDgsMTY0NzMyOTQ4NiwzODAyOTU4NDAsMTYwMTE4NDkyNy
+wtMTcwNjY0NzAzMywtMTM4NDI4NjY3NCwxNzg3ODM4MjU1LDE3
+MzY3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3MTQyNSw4NjA4ND
+E5MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC0yMDI2NzM4Mjk0
+LDE3NDY2NDAxNjNdfQ==
 -->

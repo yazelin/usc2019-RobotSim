@@ -36,11 +36,39 @@
 
   - EKI手臂程式
   ```xml
-
+DEF XmlServer( )
+   INT i
+   DECL EKI_STATUS RET
+   CHAR valueChar[20]
+   char EOL[2]
+   EOL[1] = 13
+   EOL[2] = 10
+   
+   RET=EKI_Init("XmlServer")
+   RET=EKI_Open("XmlServer")
+   
+   wait for $FLAG[1]
+   
+   FOR i=(1) TO (20)
+      valueChar[i]=0
+   ENDFOR
+   
+   WAIT FOR $FLAG[2] == TRUE
+   RET=EKI_GetString("XmlServer","Data/Direction",valueChar[])
+   
+   MsgNotify(valueChar[])
+   
+   RET = EKI_Send("XmlServer", "Comfirm")
+   RET = EKI_Send("XmlServer", EOL[])
+   
+   wait for $FLAG[1]==FALSE
+   
+   RET=EKI_Clear("XmlServer")
+END
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAyODQyMjcsMTczNjczODU5MSwtMT
-kyNDgzODI4OCwxODgxMjcxNDI1LDg2MDg0MTkyMywtOTI4NTg0
-NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMTc0NjY0MDE2My
-wxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
+eyJoaXN0b3J5IjpbMTc4NzgzODI1NSwxNzM2NzM4NTkxLC0xOT
+I0ODM4Mjg4LDE4ODEyNzE0MjUsODYwODQxOTIzLC05Mjg1ODQ1
+ODIsMTY1MzIwNjExOSwtMjAyNjczODI5NCwxNzQ2NjQwMTYzLD
+E3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
 -->

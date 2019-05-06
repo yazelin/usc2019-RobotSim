@@ -11,9 +11,9 @@
 			<TYPE>Client</TYPE>   ;設定外部為Client
 		</EXTERNAL>
 		<INTERNAL>
-			<IP>192.168.1.147</IP>
-			<PORT>54600</PORT>
-			<ALIVE Set_Flag="1"/>
+			<IP>192.168.1.147</IP>	;設定連線IP
+			<PORT>54600</PORT>		;這定通訊埠
+			<ALIVE Set_Flag="1"/>	;當確定連線後Flag[1] = TRUE
 		</INTERNAL>
 	</CONFIGURATION>
 	<RECEIVE>
@@ -28,6 +28,6 @@
 </ETHERNETKRL>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDAwNjM2NTEsLTIwMjY3MzgyOTQsMT
-c0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
+eyJoaXN0b3J5IjpbLTIyMzk1OTE0MywtMjAyNjczODI5NCwxNz
+Q2NjQwMTYzLDE3NDk2NjcxMDcsMTgxMTE2NTU5Ml19
 -->

@@ -5,7 +5,7 @@
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)(https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - Server設定
 	  - 在Files中打開Config\User\Commoon\EthernetKRL\XmlServer.xml
-	  - ![Image](./img/Demonstration2.PNG)
+	  ![Image](./img/Demonstration2.PNG)
 
   ```xml
   <ETHERNETKRL>
@@ -72,8 +72,8 @@ END
 - 需先變更電腦系統地區設定
 	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1Njg5OTc1LDE3ODc4MzgyNTUsMTczNj
-czODU5MSwtMTkyNDgzODI4OCwxODgxMjcxNDI1LDg2MDg0MTky
-MywtOTI4NTg0NTgyLDE2NTMyMDYxMTksLTIwMjY3MzgyOTQsMT
-c0NjY0MDE2MywxNzQ5NjY3MTA3LDE4MTExNjU1OTJdfQ==
+eyJoaXN0b3J5IjpbLTQ1OTg0OTI0NCwxNzg3ODM4MjU1LDE3Mz
+Y3Mzg1OTEsLTE5MjQ4MzgyODgsMTg4MTI3MTQyNSw4NjA4NDE5
+MjMsLTkyODU4NDU4MiwxNjUzMjA2MTE5LC0yMDI2NzM4Mjk0LD
+E3NDY2NDAxNjMsMTc0OTY2NzEwNywxODExMTY1NTkyXX0=
 -->

@@ -11,22 +11,22 @@
   <ETHERNETKRL>
 	<CONFIGURATION>
 		<EXTERNAL>
-			<TYPE>Client</TYPE>   ;設定外部為Client-->
+			<TYPE>Client</TYPE>   <!--設定外部為Client-->
 		</EXTERNAL>
 		<INTERNAL>
-			<IP>192.168.1.147</IP>	;設定連線IP-->
-			<PORT>54600</PORT>		;設定通訊埠-->
-			<ALIVE Set_Flag="1"/>	;當確定連線後Flag[1] = TRUE-->
+			<IP>192.168.1.147</IP>	<!--設定連線IP-->
+			<PORT>54600</PORT>		<!--設定通訊埠-->
+			<ALIVE Set_Flag="1"/>	<!--當確定連線後Flag[1] = TRUE-->
 		</INTERNAL>
 	</CONFIGURATION>
 	<RECEIVE>
 		<XML>
-		   <ELEMENT Tag="Data/Direction" Type="String" Set_Flag="2"/>	;設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後-->Flag[2]=TRUE
+		   <ELEMENT Tag="Data/Direction" Type="String" Set_Flag="2"/>	<!--設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後-->Flag[2]=TRUE
 		</XML>
 	</RECEIVE>
 	<SEND>
 		<XML>
-		;此部分可設定手臂傳出資料 例:<ELEMENT Tag="Data/Direction" Type="STRING"/> -->
+		<!--此部分可設定手臂傳出資料 例:<ELEMENT Tag="Data/Direction" Type="STRING"/> -->
 		</XML>
 	</SEND>
 </ETHERNETKRL>
@@ -118,11 +118,11 @@ Port 54600
 - 利用手臂與 PC、WinForm 進行通訊傳遞
 PS. IP 位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjUxNDc5MCwxNzE2MzA1NTkyLC0yMj
-k5MDQ4OTUsLTEwMTI5NDkwMTEsMTY4NDE0MDcwMiwtMTkwOTQw
-NjQ4MywxMDI3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIzNzkxMi
-wtMTM5MTg2MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5NDg2LDM4
-MDI5NTg0MCwxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC0xMzg0Mj
-g2Njc0LDE3ODc4MzgyNTUsMTczNjczODU5MSwtMTkyNDgzODI4
-OCwxODgxMjcxNDI1XX0=
+eyJoaXN0b3J5IjpbOTQzNTc4NTAsMTcxNjMwNTU5MiwtMjI5OT
+A0ODk1LC0xMDEyOTQ5MDExLDE2ODQxNDA3MDIsLTE5MDk0MDY0
+ODMsMTAyNzg0MTk0OSwxNDc5Njk0NTkyLC0zNTMyMzc5MTIsLT
+EzOTE4NjIwMDgsLTEzOTE4NjIwMDgsMTY0NzMyOTQ4NiwzODAy
+OTU4NDAsMTYwMTE4NDkyNywtMTcwNjY0NzAzMywtMTM4NDI4Nj
+Y3NCwxNzg3ODM4MjU1LDE3MzY3Mzg1OTEsLTE5MjQ4MzgyODgs
+MTg4MTI3MTQyNV19
 -->

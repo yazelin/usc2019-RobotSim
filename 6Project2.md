@@ -9,8 +9,8 @@
 - Action資料夾
 	- 加入Action程式
 
-2.將
+2.撰寫框架Server程式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDA4NjMxNCwxOTc2OTMxOTI4LC0yMD
+eyJoaXN0b3J5IjpbLTkwMTI4MDgyNywxOTc2OTMxOTI4LC0yMD
 MzNzQ3NzQ3LC0xOTgxNDk4OTk1XX0=
 -->

@@ -117,9 +117,9 @@ Port 54600
 ### 作業內容
 - EKI 程式內容運作
 - 利用手臂與 PC、WinForm 進行通訊傳遞
-- Xml 標籤名稱需要更換、IP位置須改為
+- Xml 標籤名稱需要更換、IP位置須改為相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4NDc3MTYwLDEzOTczNjcwMDMsLTYzOT
+eyJoaXN0b3J5IjpbNzYwMzk0OTY0LDEzOTczNjcwMDMsLTYzOT
 I3MTEzMyw5NDM1Nzg1MCwxNzE2MzA1NTkyLC0yMjk5MDQ4OTUs
 LTEwMTI5NDkwMTEsMTY4NDE0MDcwMiwtMTkwOTQwNjQ4MywxMD
 I3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIzNzkxMiwtMTM5MTg2

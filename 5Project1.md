@@ -110,16 +110,16 @@ Port 54600
 ```
 
 - VisualStudio WinForm Client 程式測試
-	-- 提示 : 需要注意程式 IP 位置設定
+	- 提示 : 需要注意程式 IP 位置設定
 
 
 
 ### 作業內容
 - EKI 程式內容運作
 - 利用手臂與 PC、WinForm 進行通訊傳遞
--PS. Xml 資料型態要不同於範例
+	- PS. Xml 資料型態要不同於範例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDU3ODEyOCwtNjM5MjcxMTMzLDk0Mz
+eyJoaXN0b3J5IjpbLTYzODUzNzg1OSwtNjM5MjcxMTMzLDk0Mz
 U3ODUwLDE3MTYzMDU1OTIsLTIyOTkwNDg5NSwtMTAxMjk0OTAx
 MSwxNjg0MTQwNzAyLC0xOTA5NDA2NDgzLDEwMjc4NDE5NDksMT
 Q3OTY5NDU5MiwtMzUzMjM3OTEyLC0xMzkxODYyMDA4LC0xMzkx

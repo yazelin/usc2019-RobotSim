@@ -33,7 +33,7 @@
   ```
 
   - 在資料夾中新增程式
-	  - 在 KRL\R1\Program\test 資料夾點擊右鍵 選取 Add>Module 加入後命名程式名稱為: XmlServer
+	  - 在 KRL\R1\Program\test 資料夾點擊右鍵選取 Add > Module 加入後命名程式名稱為 : XmlServer
 	   ![Image](./img/addFiles_Function.png) 
 	   ![Image](./img/addFunction.png)
 
@@ -118,11 +118,11 @@ Port 54600
 - 利用手臂與PC、WinForm進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMzNTY1NCwtMTkwOTQwNjQ4MywxMD
-I3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIzNzkxMiwtMTM5MTg2
-MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5NDg2LDM4MDI5NTg0MC
-wxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC0xMzg0Mjg2Njc0LDE3
-ODc4MzgyNTUsMTczNjczODU5MSwtMTkyNDgzODI4OCwxODgxMj
-cxNDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYxMTks
-LTIwMjY3MzgyOTRdfQ==
+eyJoaXN0b3J5IjpbNjEyNjE2ODk0LC0xOTA5NDA2NDgzLDEwMj
+c4NDE5NDksMTQ3OTY5NDU5MiwtMzUzMjM3OTEyLC0xMzkxODYy
+MDA4LC0xMzkxODYyMDA4LDE2NDczMjk0ODYsMzgwMjk1ODQwLD
+E2MDExODQ5MjcsLTE3MDY2NDcwMzMsLTEzODQyODY2NzQsMTc4
+NzgzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNz
+E0MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOSwt
+MjAyNjczODI5NF19
 -->

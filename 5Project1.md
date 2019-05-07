@@ -5,7 +5,7 @@
   - EKI  [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - Server 設定
 	  - 在 Files 中打開 Config\User\Commoon\EthernetKRL\XmlServer.xml
-	  ![Image](./img/Demonstration2.PNG)
+	  ![Image](./img/XmlServer.png)
 
   ```xml
   <ETHERNETKRL>
@@ -118,11 +118,11 @@ Port 54600
 - 利用手臂與 PC、WinForm 進行通訊傳遞
 PS. IP 位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDE0MDcwMiwtMTkwOTQwNjQ4MywxMD
-I3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIzNzkxMiwtMTM5MTg2
-MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5NDg2LDM4MDI5NTg0MC
-wxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC0xMzg0Mjg2Njc0LDE3
-ODc4MzgyNTUsMTczNjczODU5MSwtMTkyNDgzODI4OCwxODgxMj
-cxNDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYxMTks
-LTIwMjY3MzgyOTRdfQ==
+eyJoaXN0b3J5IjpbLTEwMTI5NDkwMTEsMTY4NDE0MDcwMiwtMT
+kwOTQwNjQ4MywxMDI3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIz
+NzkxMiwtMTM5MTg2MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5ND
+g2LDM4MDI5NTg0MCwxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC0x
+Mzg0Mjg2Njc0LDE3ODc4MzgyNTUsMTczNjczODU5MSwtMTkyND
+gzODI4OCwxODgxMjcxNDI1LDg2MDg0MTkyMywtOTI4NTg0NTgy
+LDE2NTMyMDYxMTldfQ==
 -->

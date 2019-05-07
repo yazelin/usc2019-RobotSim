@@ -2,9 +2,9 @@
 ### KUKA Srver端通訊程式 EKI基礎
 
 1.網路通訊手臂EKI
-  - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
-  - Server設定
-	  - 在Files中打開Config\User\Commoon\EthernetKRL\XmlServer.xml
+  - EKI  [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
+  - Server 設定
+	  - 在 Files 中打開 Config\User\Commoon\EthernetKRL\XmlServer.xml
 	  ![Image](./img/Demonstration2.PNG)
 
   ```xml
@@ -116,13 +116,13 @@ Port 54600
 ### 作業內容
 - EKI 程式內容運作
 - 利用手臂與 PC、WinForm 進行通訊傳遞
-PS. IP位置需要更改不得相同
+PS. IP 位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MzAwODQwLC0xOTA5NDA2NDgzLDEwMj
-c4NDE5NDksMTQ3OTY5NDU5MiwtMzUzMjM3OTEyLC0xMzkxODYy
-MDA4LC0xMzkxODYyMDA4LDE2NDczMjk0ODYsMzgwMjk1ODQwLD
-E2MDExODQ5MjcsLTE3MDY2NDcwMzMsLTEzODQyODY2NzQsMTc4
-NzgzODI1NSwxNzM2NzM4NTkxLC0xOTI0ODM4Mjg4LDE4ODEyNz
-E0MjUsODYwODQxOTIzLC05Mjg1ODQ1ODIsMTY1MzIwNjExOSwt
-MjAyNjczODI5NF19
+eyJoaXN0b3J5IjpbMTY4NDE0MDcwMiwtMTkwOTQwNjQ4MywxMD
+I3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIzNzkxMiwtMTM5MTg2
+MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5NDg2LDM4MDI5NTg0MC
+wxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC0xMzg0Mjg2Njc0LDE3
+ODc4MzgyNTUsMTczNjczODU5MSwtMTkyNDgzODI4OCwxODgxMj
+cxNDI1LDg2MDg0MTkyMywtOTI4NTg0NTgyLDE2NTMyMDYxMTks
+LTIwMjY3MzgyOTRdfQ==
 -->

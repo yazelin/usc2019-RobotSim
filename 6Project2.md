@@ -6,9 +6,11 @@
 	- 加入Main程式、Core資料夾
 - Core資料夾
 	- 加入Core、Server程式，Action、Motion資料夾
+- Action資料夾
+	- 加入Action程式
 
 2.將
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUyNTc2OTksMTk3NjkzMTkyOCwtMj
-AzMzc0Nzc0NywtMTk4MTQ5ODk5NV19
+eyJoaXN0b3J5IjpbLTQwMDA4NjMxNCwxOTc2OTMxOTI4LC0yMD
+MzNzQ3NzQ3LC0xOTgxNDk4OTk1XX0=
 -->

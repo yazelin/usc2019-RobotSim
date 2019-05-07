@@ -77,27 +77,27 @@ END
 
 2.程式匯入至手臂
 - 需先變更電腦系統地區設定
-	- 控制台>變更日期、時間或數字格式>系統管理>變更系統地區設定>選擇英文(美國)		         	PS.需要重新啟動電腦
+	- 控制台 > 變更日期、時間或數字格式> 系統管理 > 變更系統地區設定 > 選擇英文(美國)			PS. 需要重新啟動電腦
 	![Image](./img/Change_AreaLanguage.png) 
 
-- 將電腦IP設成和手臂相同網段
-	- 開啟網路和忘記網路設定>變更介面卡選項>選擇乙太網路案右鍵>內容>網際網路通訊協定第4版(TCP/IPv4)
+- 將電腦 IP 設成和手臂相同網段
+	- 開啟網路和忘記網路設定 > 變更介面卡選項 > 選擇乙太網路案右鍵 > 內容 > 網際網路通訊協定第4版 (TCP/IPv4)
 	![Image](./img/Change_IP.png) 
 	
 - 傳送程式至手臂端
-	- 需先確認手臂用戶為Expert、並且無任何程式正在執行或預備狀態
-	- PC與手臂進行網路線連接
-	- 點選WorkVisual上方橘色向右鍵頭
+	- 需先確認手臂用戶為 Expert、並且無任何程式正在執行或預備狀態
+	- PC 與手臂進行網路線連接
+	- 點選 WorkVisual 上方橘色向右鍵頭
 	![Image](./img/UpProgarm.png) 
-	- 直接點選Finish
-	- 手臂Smart-Pad點選Yes
+	- 直接點選 Finish
+	- 手臂 Smart-Pad 點選 Yes
 	
 3.通訊測試
-- 電腦PC連線測試
-	- 開啟cmd命令提示字元
+- 電腦 PC 連線測試
+	- 開啟 cmd 命令提示字元
 	- 輸入 telnet + IP + Port
 	![Image](./img/cmd.png) 
-	- 將XML格式複製 在cmd介面點擊滑鼠右鍵
+	- 將 XML 格式複製 在 cmd 介面點擊滑鼠右鍵
  ```
 IP 192.168.1.148
 Port 54600
@@ -108,17 +108,17 @@ Port 54600
 夾 <Data><Direction>5</Direction></Data>
 ```
 
-- VisualStudio WinForm Client程式測試
-	- 提示 - 需要注意程式IP位置設定
+- VisualStudio WinForm Client 程式測試
+	- 提示 - 需要注意程式 IP 位置設定
 
 
 
 ### 作業內容
-- EKI程式內容運作
-- 利用手臂與PC、WinForm進行通訊傳遞
+- EKI 程式內容運作
+- 利用手臂與 PC、WinForm 進行通訊傳遞
 PS. IP位置需要更改不得相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyNjE2ODk0LC0xOTA5NDA2NDgzLDEwMj
+eyJoaXN0b3J5IjpbNjQ3MzAwODQwLC0xOTA5NDA2NDgzLDEwMj
 c4NDE5NDksMTQ3OTY5NDU5MiwtMzUzMjM3OTEyLC0xMzkxODYy
 MDA4LC0xMzkxODYyMDA4LDE2NDczMjk0ODYsMzgwMjk1ODQwLD
 E2MDExODQ5MjcsLTE3MDY2NDcwMzMsLTEzODQyODY2NzQsMTc4

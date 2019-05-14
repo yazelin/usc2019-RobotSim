@@ -21,7 +21,7 @@
 	</CONFIGURATION>
 	<RECEIVE>
 		<XML>
-		   <ELEMENT Tag="Data/Direction" Type="String" Set_Flag="2"/>	<!--設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後-->Flag[2]=TRUE
+		   <ELEMENT Tag="Data/Direction" Type="String" Set_Flag="2"/>	<!--設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後Flag[2]=TRUE-->
 		</XML>
 	</RECEIVE>
 	<SEND>
@@ -119,11 +119,11 @@ Port 54600
 - 利用手臂與 PC、WinForm 進行通訊傳遞
 - Xml 標籤名稱需要更換、IP位置須改為相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwMzk0OTY0LDEzOTczNjcwMDMsLTYzOT
-I3MTEzMyw5NDM1Nzg1MCwxNzE2MzA1NTkyLC0yMjk5MDQ4OTUs
-LTEwMTI5NDkwMTEsMTY4NDE0MDcwMiwtMTkwOTQwNjQ4MywxMD
-I3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIzNzkxMiwtMTM5MTg2
-MjAwOCwtMTM5MTg2MjAwOCwxNjQ3MzI5NDg2LDM4MDI5NTg0MC
-wxNjAxMTg0OTI3LC0xNzA2NjQ3MDMzLC0xMzg0Mjg2Njc0LDE3
-ODc4MzgyNTVdfQ==
+eyJoaXN0b3J5IjpbNTMxMzEyMTQ2LDc2MDM5NDk2NCwxMzk3Mz
+Y3MDAzLC02MzkyNzExMzMsOTQzNTc4NTAsMTcxNjMwNTU5Miwt
+MjI5OTA0ODk1LC0xMDEyOTQ5MDExLDE2ODQxNDA3MDIsLTE5MD
+k0MDY0ODMsMTAyNzg0MTk0OSwxNDc5Njk0NTkyLC0zNTMyMzc5
+MTIsLTEzOTE4NjIwMDgsLTEzOTE4NjIwMDgsMTY0NzMyOTQ4Ni
+wzODAyOTU4NDAsMTYwMTE4NDkyNywtMTcwNjY0NzAzMywtMTM4
+NDI4NjY3NF19
 -->

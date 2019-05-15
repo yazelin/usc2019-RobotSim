@@ -3,6 +3,7 @@
 
 1.網路通訊手臂EKI
   - EKI  [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0EpIUP2WEqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   - Server 設定
 	  - 在 Files 中打開 Config\User\Commoon\EthernetKRL\XmlServer.xml
 	  ![Image](./img/XmlServer.png)
@@ -119,11 +120,11 @@ Port 54600
 - 利用手臂與 PC、WinForm 進行通訊傳遞
 - Xml 標籤名稱需要更換、IP位置須改為相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxMzEyMTQ2LDc2MDM5NDk2NCwxMzk3Mz
-Y3MDAzLC02MzkyNzExMzMsOTQzNTc4NTAsMTcxNjMwNTU5Miwt
-MjI5OTA0ODk1LC0xMDEyOTQ5MDExLDE2ODQxNDA3MDIsLTE5MD
-k0MDY0ODMsMTAyNzg0MTk0OSwxNDc5Njk0NTkyLC0zNTMyMzc5
-MTIsLTEzOTE4NjIwMDgsLTEzOTE4NjIwMDgsMTY0NzMyOTQ4Ni
-wzODAyOTU4NDAsMTYwMTE4NDkyNywtMTcwNjY0NzAzMywtMTM4
-NDI4NjY3NF19
+eyJoaXN0b3J5IjpbLTE2MDYwMDk5MzAsNTMxMzEyMTQ2LDc2MD
+M5NDk2NCwxMzk3MzY3MDAzLC02MzkyNzExMzMsOTQzNTc4NTAs
+MTcxNjMwNTU5MiwtMjI5OTA0ODk1LC0xMDEyOTQ5MDExLDE2OD
+QxNDA3MDIsLTE5MDk0MDY0ODMsMTAyNzg0MTk0OSwxNDc5Njk0
+NTkyLC0zNTMyMzc5MTIsLTEzOTE4NjIwMDgsLTEzOTE4NjIwMD
+gsMTY0NzMyOTQ4NiwzODAyOTU4NDAsMTYwMTE4NDkyNywtMTcw
+NjY0NzAzM119
 -->

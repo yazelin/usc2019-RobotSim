@@ -76,7 +76,7 @@
   - Server
 5. 練習
 
-### 五、自動化專案實作 一(5/08) [教學頁面](./5Project1.html)
+### 五、自動化專案實作 一(5/08) [教學頁面](./5Project1.html) / [繳交作業(夾娃娃機)](https://drive.google.com/drive/folders/1U9KEFvolMDbF_lMLNY_12ZOwR7DW7-Hr?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 ```
 滴水穿石，不是水多厲害，更不是石頭不厲害，而是時間太厲害。
 ```
@@ -86,7 +86,9 @@
 - EKI通訊程式
 2. 程式匯入至手臂
 4. 通訊測試
-- 利用cmd以及WinForm程式進行測試
+- 利用cmd以及WinForm程式進行測試WtFramework 自動化專案 實作
+  - PC端 為主控端 C# WinForm TcpClient
+  - Robot端 為被控設備 KRL TcpServer
 
 ### 六、自動化專案實作 二(5/22) [教學頁面](./6Project2.html)
 ```
@@ -95,7 +97,7 @@
 ```
 
 1. WtFramework 自動化專案 實作
-  - PC端 為主控端 C# WinForm TcpClient
+  - PC端 為主被控端 C# WinForm TcpCr
   - Robot端 為被控設備 KRL TcpServer
 
 ## 環境需求
@@ -112,11 +114,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjUwMzUwOTcsLTE4NTg1NTI4NzAsLT
-E0MDAxODc0NTEsNDM1OTgxNTA4LDIwMTk2NzMxMjUsMjAwMzcy
-Mjg3MCwtMzI0NTM5OTQ4LDIwMDM3MjI4NzAsMTE0NjcyOTI0NS
-wtMTA3ODg0MTA1LC0xMTc5NDI3NTk2LC0xOTk2NTI2MjkxLDU1
-OTk5MDU4MywxNTA4MjU2NTQ2LDE5NjUxNTE4NDcsMzcxNzU5OD
-gzLC05NzQ3MjQ0NzcsMTMzNzQwMTQ0NywtMTk0Nzc3NTY5LC00
-NDEzMjM5MjBdfQ==
+eyJoaXN0b3J5IjpbMTQyMjU1MzE4MCwtMTU2NTAzNTA5NywtMT
+g1ODU1Mjg3MCwtMTQwMDE4NzQ1MSw0MzU5ODE1MDgsMjAxOTY3
+MzEyNSwyMDAzNzIyODcwLC0zMjQ1Mzk5NDgsMjAwMzcyMjg3MC
+wxMTQ2NzI5MjQ1LC0xMDc4ODQxMDUsLTExNzk0Mjc1OTYsLTE5
+OTY1MjYyOTEsNTU5OTkwNTgzLDE1MDgyNTY1NDYsMTk2NTE1MT
+g0NywzNzE3NTk4ODMsLTk3NDcyNDQ3NywxMzM3NDAxNDQ3LC0x
+OTQ3Nzc1NjldfQ==
 -->

@@ -84,8 +84,8 @@ GLOBAL DEF Core ()
    Exception()  		;事件初始化
   
    Server_Set_Ready(FALSE)		;Server初始化  
-   Server()  					;定義中斷
-   Server_Start(1)  				;開啟Server
+   Server()  				;定義中斷
+   Server_Start(1)  			;開啟Server
 END
 ```
 
@@ -93,8 +93,8 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1ODg5Mjk4LDMzODY1MDI4MywxNDIwMz
-QwOTYzLDEyNDMwMzI2ODIsLTEwNTAxMDAxNTMsLTkwMTI4MDgy
-NywxOTc2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgxNDk4OTk1XX
-0=
+eyJoaXN0b3J5IjpbMjA1MDYzODg2NiwzMzg2NTAyODMsMTQyMD
+M0MDk2MywxMjQzMDMyNjgyLC0xMDUwMTAwMTUzLC05MDEyODA4
+MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5ODk5NV
+19
 -->

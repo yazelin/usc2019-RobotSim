@@ -71,6 +71,7 @@ END
 
 - 定義Server.dat檔
 	- SERVER_CONNECTION_LIST[1].NAME[ ] 設定為 "XmlServer"
+
 3.在Core需初始化及判斷條件進入Action
 - Core初始化
 
@@ -93,7 +94,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDYzODg2NiwzMzg2NTAyODMsMTQyMD
+eyJoaXN0b3J5IjpbLTE3ODg2NTkyMCwzMzg2NTAyODMsMTQyMD
 M0MDk2MywxMjQzMDMyNjgyLC0xMDUwMTAwMTUzLC05MDEyODA4
 MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5ODk5NV
 19

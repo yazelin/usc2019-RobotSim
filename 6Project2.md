@@ -18,13 +18,14 @@ $FLAG[2] = FALSE
 
 INTERRUPT ON 102
 ```
-
+- 將Data_In_CCD( )
 3.在Core需初始化、Core需判斷Ready
 
 4.Action判斷條件
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAxMDAxNTMsLTkwMTI4MDgyNywxOT
-c2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgxNDk4OTk1XX0=
+eyJoaXN0b3J5IjpbNTI0Nzc1MDg1LC0xMDUwMTAwMTUzLC05MD
+EyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5
+ODk5NV19
 -->

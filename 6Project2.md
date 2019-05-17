@@ -40,10 +40,10 @@ DEF Data_In()
    IF Action_Get_Idle() THEN  ;Idle為閒置狀態
       Action_Set_Command_Info(_DIRECTION)  ;將收到資料傳至Info
       Action_Set_Command_Type(#COMMAND_DECIDE)  ;將Action Type改為判斷
-      Server_Set_Ready(TRUE)  ;卻ㄖ
+      Server_Set_Ready(TRUE)  ;Server確認收到資料 可執行
    ENDIF  
   
-   $FLAG[2] = FALSE  
+   $FLAG[2] = FALSE  ;初始化Flag[2]
 END
 ```
 - 加入回傳訊息程式，告訴 PC 已完成動作
@@ -54,8 +54,8 @@ GLOBAL DEF Send()
    EOL[1] = 13  
    EOL[2] = 10  
 
-   RET = EKI_Send("XmlServer", "Finish")  
-   RET = EKI_Send("XmlServer", EOL[])  
+   RET = EKI_Send("XmlServer", "Finish")  ;傳送結束字串
+   RET = EKI_Send("XmlServer", EOL[])  ;傳送換行字元
 END
 ```
 3.在Core需初始化、Core需判斷Ready
@@ -64,7 +64,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc5MTk3MTMsLTEwNTAxMDAxNTMsLT
-kwMTI4MDgyNywxOTc2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgx
-NDk4OTk1XX0=
+eyJoaXN0b3J5IjpbMTI0MzAzMjY4MiwtMTA1MDEwMDE1MywtOT
+AxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0
+OTg5OTVdfQ==
 -->

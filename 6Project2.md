@@ -95,13 +95,13 @@ END
  ```
 GLOBAL DEF Core_Run()  
   
-   PTP XHOME  
+   PTP XHOME  		;home點
   
    REPEAT  
   
    WHILE ( ( NOT Event() ) AND ( NOT Error() ) )  
   
-   IF Server_Get_Ready() THEN  
+   IF Server_Get_Ready() THEN  		;判斷Ready
       Action()  
    ENDIF  
   
@@ -120,8 +120,8 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0NDQzNjM3LDMzODY1MDI4MywxNDIwMz
-QwOTYzLDEyNDMwMzI2ODIsLTEwNTAxMDAxNTMsLTkwMTI4MDgy
-NywxOTc2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgxNDk4OTk1XX
-0=
+eyJoaXN0b3J5IjpbLTU3NDg2MTQ0NCw3NjQ0NDM2MzcsMzM4Nj
+UwMjgzLDE0MjAzNDA5NjMsMTI0MzAzMjY4MiwtMTA1MDEwMDE1
+MywtOTAxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLT
+E5ODE0OTg5OTVdfQ==
 -->

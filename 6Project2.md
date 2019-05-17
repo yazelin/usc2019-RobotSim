@@ -153,28 +153,29 @@ END
  ```
 DEF Action_After()  
   
-IF (NOT Event()) AND (NOT Error()) THEN  
-SWITCH ACTION_COMMAND.TYPE  
-CASE #COMMAND_MOV  
-Server_Set_Ready(FALSE)  
-Action_Set_Idle(TRUE)  
-Send()  
-CASE #COMMAND_GETPUT  
-Server_Set_Ready(FALSE)  
-Action_Set_Idle(TRUE)  
-Send()  
-DEFAULT  
-ENDSWITCH  
-ENDIF  
+   IF (NOT Event()) AND (NOT Error()) THEN  
+   
+      SWITCH ACTION_COMMAND.TYPE  
+         CASE #COMMAND_MOV  
+            Server_Set_Ready(FALSE)  
+            Action_Set_Idle(TRUE)  
+            Send()  
+         CASE #COMMAND_GETPUT  
+            Server_Set_Ready(FALSE)  
+            Action_Set_Idle(TRUE)  
+            Send()  
+         DEFAULT  
+      ENDSWITCH  
+   ENDIF  
 END
 ```
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjczNjA5OTAsMjU2MzAwODg4LDc1Nz
-UxMTY2NSwtNDAwMjAwNDQ0LC0yMDQ5OTI3NTAsLTE0MDc3MzY1
-MCwtNzM2MzQxNjM1LC0xODA3NDgxOTM5LC00MDUxOTcwMTMsLT
-U3NDg2MTQ0NCw3NjQ0NDM2MzcsMzM4NjUwMjgzLDE0MjAzNDA5
-NjMsMTI0MzAzMjY4MiwtMTA1MDEwMDE1MywtOTAxMjgwODI3LD
-E5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0OTg5OTVdfQ==
-
+eyJoaXN0b3J5IjpbMTA4Njc4NjE2NCwtMTE2NzM2MDk5MCwyNT
+YzMDA4ODgsNzU3NTExNjY1LC00MDAyMDA0NDQsLTIwNDk5Mjc1
+MCwtMTQwNzczNjUwLC03MzYzNDE2MzUsLTE4MDc0ODE5MzksLT
+QwNTE5NzAxMywtNTc0ODYxNDQ0LDc2NDQ0MzYzNywzMzg2NTAy
+ODMsMTQyMDM0MDk2MywxMjQzMDMyNjgyLC0xMDUwMTAwMTUzLC
+05MDEyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4
+MTQ5ODk5NV19
 -->

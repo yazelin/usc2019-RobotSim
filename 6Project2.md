@@ -11,7 +11,13 @@
 
 2.撰寫框架Server程式
   - 定義中斷條件，確認手臂是否有收到資料
-	  - 
+ ```
+GLOBAL INTERRUPT DECL 102 WHEN $FLAG[2]==TRUE DO Data_In()
+
+$FLAG[2] = FALSE
+
+INTERRUPT ON 102
+```
 
 3.在Core需初始化、Core需判斷Ready
 
@@ -19,6 +25,6 @@
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTkxNTYyMiwtOTAxMjgwODI3LDE5Nz
-Y5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0OTg5OTVdfQ==
+eyJoaXN0b3J5IjpbLTEwNTAxMDAxNTMsLTkwMTI4MDgyNywxOT
+c2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgxNDk4OTk1XX0=
 -->

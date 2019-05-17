@@ -58,7 +58,7 @@ GLOBAL DEF Send()
    RET = EKI_Send("XmlServer", EOL[])  ;傳送換行字元
 END
 ```
-3.在Core需初始化、Core需判斷Ready
+3.在Core需初始化及判斷條件進入Action
  ```
 GLOBAL DEF Core ()  
    BAS(#BASE, 0)  ;設定base
@@ -69,7 +69,7 @@ GLOBAL DEF Core ()
   
    Server_Set_Ready(FALSE)	;Server初始化  
    Server()  ;定義中斷
-   Server_Start(1)  ;開啟Server
+   Server_Start()  ;開啟Server
 END
 ```
 
@@ -77,7 +77,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDM0MDk2MywxMjQzMDMyNjgyLC0xMD
-UwMTAwMTUzLC05MDEyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0
-Nzc0NywtMTk4MTQ5ODk5NV19
+eyJoaXN0b3J5IjpbLTIwMTkwODMyNDEsMTQyMDM0MDk2MywxMj
+QzMDMyNjgyLC0xMDUwMTAwMTUzLC05MDEyODA4MjcsMTk3Njkz
+MTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5ODk5NV19
 -->

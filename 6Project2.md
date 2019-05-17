@@ -59,12 +59,25 @@ GLOBAL DEF Send()
 END
 ```
 3.在Core需初始化、Core需判斷Ready
+ ```
+GLOBAL DEF Core ()  
+   BAS(#BASE, 0)  ;設定base
+   BAS(#TOOL, 1)  ;設定
+  
+   IOControl()  
+   Exception()  
+  
+   Server_Set_Ready(FALSE)  
+   Server()  
+   Server_Start(1)  
+END
+```
 
 4.Action判斷條件
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzAzMjY4MiwtMTA1MDEwMDE1MywtOT
-AxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0
-OTg5OTVdfQ==
+eyJoaXN0b3J5IjpbMTk1NDQ4NjUzNCwxMjQzMDMyNjgyLC0xMD
+UwMTAwMTUzLC05MDEyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0
+Nzc0NywtMTk4MTQ5ODk5NV19
 -->

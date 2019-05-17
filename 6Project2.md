@@ -11,6 +11,7 @@
 
 2.撰寫框架Server程式
   - 定義中斷條件，確認手臂是否有收到資料
+  
  ```
 GLOBAL DEF Server()  
    
@@ -21,7 +22,9 @@ GLOBAL DEF Server()
   
 END
 ```
+
 - Data_In_CCD( )為判斷接收資料後執行程式
+
  ```
 DEF Data_In()  
    DECL EKI_STATUS RET  
@@ -46,7 +49,9 @@ DEF Data_In()
    $FLAG[2] = FALSE  ;初始化Flag[2]
 END
 ```
+
 - 加入回傳訊息程式，告訴 PC 已完成動作
+
  ```
 GLOBAL DEF Send()  
    DECL EKI_STATUS RET  
@@ -58,8 +63,10 @@ GLOBAL DEF Send()
    RET = EKI_Send("XmlServer", EOL[])  ;傳送換行字元
 END
 ```
+
 3.在Core需初始化及判斷條件進入Action
 - Core初始化
+
  ```
 GLOBAL DEF Core ()  
    BAS(#BASE, 0)  ;設定base
@@ -74,11 +81,12 @@ GLOBAL DEF Core ()
    Server_Start()  ;開啟Server
 END
 ```
+
 4.Action判斷條件
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3MDEzOTM5LDE0MjAzNDA5NjMsMTI0Mz
+eyJoaXN0b3J5IjpbMzM4NjUwMjgzLDE0MjAzNDA5NjMsMTI0Mz
 AzMjY4MiwtMTA1MDEwMDE1MywtOTAxMjgwODI3LDE5NzY5MzE5
 MjgsLTIwMzM3NDc3NDcsLTE5ODE0OTg5OTVdfQ==
 -->

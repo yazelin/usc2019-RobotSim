@@ -10,7 +10,11 @@
 	- 加入Action程式
 
 2.撰寫框架Server程式
+
+3.在Core需初始化、Core需判斷Ready
+
+4.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTI4MDgyNywxOTc2OTMxOTI4LC0yMD
-MzNzQ3NzQ3LC0xOTgxNDk4OTk1XX0=
+eyJoaXN0b3J5IjpbMjI1OTU5MTQzLC05MDEyODA4MjcsMTk3Nj
+kzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5ODk5NV19
 -->

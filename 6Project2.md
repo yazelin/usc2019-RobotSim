@@ -131,7 +131,7 @@ GLOBAL DEF Action ( )
 	   Wt_Action_Next(ACTION_INFO)  	
 	   RETURN  
    
-   CASE #COMMAND_MOV  			;移動
+   CASE #COMMAND_MOV  		;移動
 	   Wt_Action_Mov(ACTION_INFO)  
   
    CASE #COMMAND_GETPUT  		;夾
@@ -152,8 +152,8 @@ DEF Action_After()
       SWITCH ACTION_COMMAND.TYPE  			;如果是移動or夾
          CASE #COMMAND_MOV  
             Server_Set_Ready(FALSE)  		;Ready = FALSE
-            Action_Set_Idle(TRUE)  			;Idle改回TRUE
-            Send()  							;傳送結束指令
+            Action_Set_Idle(TRUE)  		;Idle改回TRUE
+            Send()  		;傳送結束指令
          CASE #COMMAND_GETPUT  
             Server_Set_Ready(FALSE)  
             Action_Set_Idle(TRUE)  			
@@ -165,7 +165,7 @@ END
 ```
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTAwMTMyMiwtMjAyMjU2NjY1OCwtMT
+eyJoaXN0b3J5IjpbMTQ3MjYyNDMwNiwtMjAyMjU2NjY1OCwtMT
 E2NzM2MDk5MCwyNTYzMDA4ODgsNzU3NTExNjY1LC00MDAyMDA0
 NDQsLTIwNDk5Mjc1MCwtMTQwNzczNjUwLC03MzYzNDE2MzUsLT
 E4MDc0ODE5MzksLTQwNTE5NzAxMywtNTc0ODYxNDQ0LDc2NDQ0

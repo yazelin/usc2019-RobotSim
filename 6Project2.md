@@ -13,10 +13,11 @@
   - 定義中斷條件，確認手臂是否有收到資料
  ```
 GLOBAL DEF Server()  
-  
-   GLOBAL INTERRUPT DECL 101 WHEN $FLAG[2]==TRUE DO Data_In()  
-   $FLAG[2] = FALSE  
-   INTERRUPT ON 101  
+   
+   ;定義Flag[2]=true 中斷所有動作
+   GLOBAL INTERRUPT DECL 101 WHEN $FLAG[2]==TRUE DO Data_In()
+   $FLAG[2] = FALSE  ;初始化
+   INTERRUPT ON 101  ;宣告
   
 END
 ```
@@ -57,8 +58,8 @@ GLOBAL DEF Send()
    EOL[2] = 10  
 
    CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]  
-RET = EKI_Send(CHANNEL_NAME[], "Finish")  
-RET = EKI_Send(CHANNEL_NAME[], EOL[])  
+   RET = EKI_Send(CHANNEL_NAME[], "Finish")  
+   RET = EKI_Send(CHANNEL_NAME[], EOL[])  
 END
 ```
 3.在Core需初始化、Core需判斷Ready
@@ -67,7 +68,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzA3MDg3MSwtMTA1MDEwMDE1MywtOT
-AxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0
-OTg5OTVdfQ==
+eyJoaXN0b3J5IjpbLTEzOTk5NDYxMTMsLTEwNTAxMDAxNTMsLT
+kwMTI4MDgyNywxOTc2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgx
+NDk4OTk1XX0=
 -->

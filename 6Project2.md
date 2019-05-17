@@ -154,15 +154,14 @@ END
 DEF Action_After()  
   
    IF (NOT Event()) AND (NOT Error()) THEN  
-   
-      SWITCH ACTION_COMMAND.TYPE  
+      SWITCH ACTION_COMMAND.TYPE  			;如果是移動or夾
          CASE #COMMAND_MOV  
-            Server_Set_Ready(FALSE)  
-            Action_Set_Idle(TRUE)  
-            Send()  
+            Server_Set_Ready(FALSE)  		;Ready = FALSE
+            Action_Set_Idle(TRUE)  			;Idle改回TRUE
+            Send()  							;傳送結束指令
          CASE #COMMAND_GETPUT  
             Server_Set_Ready(FALSE)  
-            Action_Set_Idle(TRUE)  
+            Action_Set_Idle(TRUE)  			
             Send()  
          DEFAULT  
       ENDSWITCH  
@@ -171,11 +170,11 @@ END
 ```
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Njc4NjE2NCwtMTE2NzM2MDk5MCwyNT
-YzMDA4ODgsNzU3NTExNjY1LC00MDAyMDA0NDQsLTIwNDk5Mjc1
-MCwtMTQwNzczNjUwLC03MzYzNDE2MzUsLTE4MDc0ODE5MzksLT
-QwNTE5NzAxMywtNTc0ODYxNDQ0LDc2NDQ0MzYzNywzMzg2NTAy
-ODMsMTQyMDM0MDk2MywxMjQzMDMyNjgyLC0xMDUwMTAwMTUzLC
-05MDEyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4
-MTQ5ODk5NV19
+eyJoaXN0b3J5IjpbLTIwMjI1NjY2NTgsLTExNjczNjA5OTAsMj
+U2MzAwODg4LDc1NzUxMTY2NSwtNDAwMjAwNDQ0LC0yMDQ5OTI3
+NTAsLTE0MDc3MzY1MCwtNzM2MzQxNjM1LC0xODA3NDgxOTM5LC
+00MDUxOTcwMTMsLTU3NDg2MTQ0NCw3NjQ0NDM2MzcsMzM4NjUw
+MjgzLDE0MjAzNDA5NjMsMTI0MzAzMjY4MiwtMTA1MDEwMDE1My
+wtOTAxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5
+ODE0OTg5OTVdfQ==
 -->

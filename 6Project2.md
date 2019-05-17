@@ -18,14 +18,19 @@ $FLAG[2] = FALSE
 
 INTERRUPT ON 102
 ```
-- 將Data_In_CCD( )
+- Data_In_CCD( )為判斷接收資料後執行程式
+ ```
+ 
+INT _DIRECTION
+DECL CHAR EOL[2]
+```
 3.在Core需初始化、Core需判斷Ready
 
 4.Action判斷條件
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0Nzc1MDg1LC0xMDUwMTAwMTUzLC05MD
-EyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5
-ODk5NV19
+eyJoaXN0b3J5IjpbLTg5OTg1Mjc5MiwtMTA1MDEwMDE1MywtOT
+AxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0
+OTg5OTVdfQ==
 -->

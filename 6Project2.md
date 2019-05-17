@@ -62,14 +62,14 @@ END
  ```
 GLOBAL DEF Core ()  
    BAS(#BASE, 0)  ;設定base
-   BAS(#TOOL, 1)  ;設定
+   BAS(#TOOL, 1)  ;設定tool
   
-   IOControl()  
-   Exception()  
+   IOControl()  ;IO初始化
+   Exception()  ;事件初始化
   
-   Server_Set_Ready(FALSE)  
-   Server()  
-   Server_Start(1)  
+   Server_Set_Ready(FALSE)	;Server初始化  
+   Server()  ;定義中斷
+   Server_Start(1)  ;開啟Server
 END
 ```
 
@@ -77,7 +77,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDQ4NjUzNCwxMjQzMDMyNjgyLC0xMD
+eyJoaXN0b3J5IjpbMTQyMDM0MDk2MywxMjQzMDMyNjgyLC0xMD
 UwMTAwMTUzLC05MDEyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0
 Nzc0NywtMTk4MTQ5ODk5NV19
 -->

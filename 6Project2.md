@@ -35,11 +35,11 @@ DEF Data_In()
    RET = EKI_GetInt("XmlServer","Data/Direction",_DIRECTION)  ;接收資料
   
    RET = EKI_Send("XmlServer", "Comfirm")  ;傳送確認字串
-   RET = EKI_Send("XmlServer", EOL[])  ;傳送ㄏㄨㄢ
+   RET = EKI_Send("XmlServer", EOL[])  ;傳送換行字元
   
-   IF Action_Get_Idle() THEN  
-      Action_Set_Command_Info(_DIRECTION)  
-      Action_Set_Command_Type(#COMMAND_DECIDE)  
+   IF Action_Get_Idle() THEN  ;Idle為閒置狀態
+      Action_Set_Command_Info(_DIRECTION)  ;將收到資料傳至Info
+      Action_Set_Command_Type(#COMMAND_DECIDE)  ;
       Server_Set_Ready(TRUE)  
    ENDIF  
   
@@ -64,7 +64,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODUzMDQ3OSwtMTA1MDEwMDE1MywtOT
-AxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0
-OTg5OTVdfQ==
+eyJoaXN0b3J5IjpbMTQ2MzE2NTM2LC0xMDUwMTAwMTUzLC05MD
+EyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5
+ODk5NV19
 -->

@@ -12,11 +12,13 @@
 2.撰寫框架Server程式
   - 定義中斷條件，確認手臂是否有收到資料
  ```
-GLOBAL INTERRUPT DECL 102 WHEN $FLAG[2]==TRUE DO Data_In()
-
-$FLAG[2] = FALSE
-
-INTERRUPT ON 102
+GLOBAL DEF Server()  
+  
+   GLOBAL INTERRUPT DECL 101 WHEN $FLAG[2]==TRUE DO Data_In()  
+   $FLAG[2] = FALSE  
+   INTERRUPT ON 101  
+  
+END
 ```
 - Data_In_CCD( )為判斷接收資料後執行程式
  ```
@@ -30,7 +32,7 @@ DECL CHAR EOL[2]
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTg1Mjc5MiwtMTA1MDEwMDE1MywtOT
+eyJoaXN0b3J5IjpbLTIyNTM5NDAxNywtMTA1MDEwMDE1MywtOT
 AxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0
 OTg5OTVdfQ==
 -->

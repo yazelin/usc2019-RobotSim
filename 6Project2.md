@@ -117,14 +117,15 @@ END
 ```
 
 4.Action判斷條件
-- 需再Action.dat檔內加入enum
+- 需再Action.dat檔內加入宣告
+	- 
 
 
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjkzOTg0NTAsLTU3NDg2MTQ0NCw3Nj
-Q0NDM2MzcsMzM4NjUwMjgzLDE0MjAzNDA5NjMsMTI0MzAzMjY4
-MiwtMTA1MDEwMDE1MywtOTAxMjgwODI3LDE5NzY5MzE5MjgsLT
-IwMzM3NDc3NDcsLTE5ODE0OTg5OTVdfQ==
+eyJoaXN0b3J5IjpbLTQwNTE5NzAxMywtNTc0ODYxNDQ0LDc2ND
+Q0MzYzNywzMzg2NTAyODMsMTQyMDM0MDk2MywxMjQzMDMyNjgy
+LC0xMDUwMTAwMTUzLC05MDEyODA4MjcsMTk3NjkzMTkyOCwtMj
+AzMzc0Nzc0NywtMTk4MTQ5ODk5NV19
 -->

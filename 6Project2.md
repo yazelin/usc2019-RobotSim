@@ -17,8 +17,8 @@ GLOBAL DEF Server()
    
    ;定義Flag[2]=true 中斷所有動作 執行Data_In
    GLOBAL INTERRUPT DECL 101 WHEN $FLAG[2]==TRUE DO Data_In()
-   $FLAG[2] = FALSE  ;初始化
-   INTERRUPT ON 101  ;宣告
+   $FLAG[2] = FALSE  			;初始化
+   INTERRUPT ON 101  			;宣告
   
 END
 ```
@@ -32,21 +32,21 @@ DEF Data_In()
    DECL CHAR EOL[2]  
   
    _DIRECTION = 0  
-   EOL[1] = 13  		;ASCII碼 換行字元
+   EOL[1] = 13  										;ASCII碼 換行字元
    EOL[2] = 10  
   
    RET = EKI_GetInt("XmlServer","Data/Direction",_DIRECTION)  ;接收資料
   
-   RET = EKI_Send("XmlServer", "Comfirm")  ;傳送確認字串
-   RET = EKI_Send("XmlServer", EOL[])  ;傳送換行字元
+   RET = EKI_Send("XmlServer", "Comfirm") 			;傳送確認字串
+   RET = EKI_Send("XmlServer", EOL[])  				;傳送換行字元
   
-   IF Action_Get_Idle() THEN  ;Idle為閒置狀態
-      Action_Set_Command_Info(_DIRECTION)  ;將收到資料傳至Info
-      Action_Set_Command_Type(#COMMAND_DECIDE)  ;將Action Type改為判斷
-      Server_Set_Ready(TRUE)  ;Server確認收到資料 可執行
+   IF Action_Get_Idle() THEN  						;Idle為閒置狀態
+      Action_Set_Command_Info(_DIRECTION)  			;將收到資料傳至Info
+      Action_Set_Command_Type(#COMMAND_DECIDE)  		;將Action Type改為判斷
+      Server_Set_Ready(TRUE)  						;Server確認收到資料 可執行
    ENDIF  
   
-   $FLAG[2] = FALSE  ;初始化Flag[2]
+   $FLAG[2] = FALSE  								;初始化Flag[2]
 END
 ```
 
@@ -59,8 +59,8 @@ GLOBAL DEF Send()
    EOL[1] = 13  
    EOL[2] = 10  
 
-   RET = EKI_Send("XmlServer", "Finish")  ;傳送結束字串
-   RET = EKI_Send("XmlServer", EOL[])  ;傳送換行字元
+   RET = EKI_Send("XmlServer", "Finish")  		;傳送結束字串
+   RET = EKI_Send("XmlServer", EOL[])  			;傳送換行字元
 END
 ```
 
@@ -86,7 +86,8 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4NjUwMjgzLDE0MjAzNDA5NjMsMTI0Mz
-AzMjY4MiwtMTA1MDEwMDE1MywtOTAxMjgwODI3LDE5NzY5MzE5
-MjgsLTIwMzM3NDc3NDcsLTE5ODE0OTg5OTVdfQ==
+eyJoaXN0b3J5IjpbLTE0NzYyMzgyNDEsMzM4NjUwMjgzLDE0Mj
+AzNDA5NjMsMTI0MzAzMjY4MiwtMTA1MDEwMDE1MywtOTAxMjgw
+ODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0OTg5OT
+VdfQ==
 -->

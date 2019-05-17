@@ -30,10 +30,12 @@ DEF Data_In()
    DECL EKI_STATUS RET  
    INT _DIRECTION  
    DECL CHAR EOL[2]  
+   CHAR CHANNEL_NAME[24]
   
    _DIRECTION = 0  
    EOL[1] = 13  										;ASCII碼 換行字元
    EOL[2] = 10  
+   CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]
   
    RET = EKI_GetInt("XmlServer","Data/Direction",_DIRECTION)  ;接收資料
   
@@ -56,8 +58,11 @@ END
 GLOBAL DEF Send()  
    DECL EKI_STATUS RET  
    DECL CHAR EOL[2]  
+   CHAR CHANNEL_NAME[24]
+   
    EOL[1] = 13  
    EOL[2] = 10  
+   CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]
 
    RET = EKI_Send("XmlServer", "Finish")  		;傳送結束字串
    RET = EKI_Send("XmlServer", EOL[])  			;傳送換行字元
@@ -86,8 +91,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzkwMjI2MiwzMzg2NTAyODMsMTQyMD
-M0MDk2MywxMjQzMDMyNjgyLC0xMDUwMTAwMTUzLC05MDEyODA4
-MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5ODk5NV
-19
+eyJoaXN0b3J5IjpbNDk5MzYyMCwzMzg2NTAyODMsMTQyMDM0MD
+k2MywxMjQzMDMyNjgyLC0xMDUwMTAwMTUzLC05MDEyODA4Mjcs
+MTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5ODk5NV19
 -->

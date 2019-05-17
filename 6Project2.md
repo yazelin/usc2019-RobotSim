@@ -14,7 +14,7 @@
  ```
 GLOBAL DEF Server()  
    
-   ;定義Flag[2]=true 中斷所有動作
+   ;定義Flag[2]=true 中斷所有動作 執行Data_In
    GLOBAL INTERRUPT DECL 101 WHEN $FLAG[2]==TRUE DO Data_In()
    $FLAG[2] = FALSE  ;初始化
    INTERRUPT ON 101  ;宣告
@@ -25,19 +25,17 @@ END
  ```
 DEF Data_In()  
    DECL EKI_STATUS RET  
-   CHAR CHANNEL_NAME[24]  
    INT _DIRECTION  
    DECL CHAR EOL[2]  
   
    _DIRECTION = 0  
    EOL[1] = 13  
    EOL[2] = 10  
-   CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]  
   
-   RET = EKI_GetInt(CHANNEL_NAME[],"Data/Direction",_DIRECTION)  
+   RET = EKI_GetInt("XmlServer","Data/Direction",_DIRECTION)  
   
-   RET = EKI_Send(CHANNEL_NAME[], "Comfirm")  
-   RET = EKI_Send(CHANNEL_NAME[], EOL[])  
+   RET = EKI_Send("XmlServer", "Comfirm")  
+   RET = EKI_Send("XmlServer", EOL[])  
   
    IF Action_Get_Idle() THEN  
       Action_Set_Command_Info(_DIRECTION)  
@@ -52,14 +50,12 @@ END
  ```
 GLOBAL DEF Send()  
    DECL EKI_STATUS RET  
-   CHAR CHANNEL_NAME[24]  
    DECL CHAR EOL[2]  
    EOL[1] = 13  
    EOL[2] = 10  
 
-   CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]  
-   RET = EKI_Send(CHANNEL_NAME[], "Finish")  
-   RET = EKI_Send(CHANNEL_NAME[], EOL[])  
+   RET = EKI_Send("XmlServer", "Finish")  
+   RET = EKI_Send("XmlServer", EOL[])  
 END
 ```
 3.在Core需初始化、Core需判斷Ready
@@ -68,7 +64,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk5NDYxMTMsLTEwNTAxMDAxNTMsLT
-kwMTI4MDgyNywxOTc2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgx
-NDk4OTk1XX0=
+eyJoaXN0b3J5IjpbNTExMzMwOTcxLC0xMDUwMTAwMTUzLC05MD
+EyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5
+ODk5NV19
 -->

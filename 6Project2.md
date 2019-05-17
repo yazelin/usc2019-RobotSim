@@ -47,13 +47,27 @@ DEF Data_In()
    $FLAG[2] = FALSE  
 END
 ```
+- 加入回傳訊息程式，告訴 PC 已完成動作
+ ```
+GLOBAL DEF Send()  
+   DECL EKI_STATUS RET  
+   CHAR CHANNEL_NAME[24]  
+   DECL CHAR EOL[2]  
+   EOL[1] = 13  
+   EOL[2] = 10  
+
+   CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]  
+RET = EKI_Send(CHANNEL_NAME[], "Finish")  
+RET = EKI_Send(CHANNEL_NAME[], EOL[])  
+END
+```
 3.在Core需初始化、Core需判斷Ready
 
 4.Action判斷條件
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwMjM2NTQzLC0xMDUwMTAwMTUzLC05MD
-EyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5
-ODk5NV19
+eyJoaXN0b3J5IjpbLTMyMzA3MDg3MSwtMTA1MDEwMDE1MywtOT
+AxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0
+OTg5OTVdfQ==
 -->

@@ -29,13 +29,13 @@ DEF Data_In()
    DECL CHAR EOL[2]  
   
    _DIRECTION = 0  
-   EOL[1] = 13  
+   EOL[1] = 13  		;ASCII碼 換行字元
    EOL[2] = 10  
   
-   RET = EKI_GetInt("XmlServer","Data/Direction",_DIRECTION)  
+   RET = EKI_GetInt("XmlServer","Data/Direction",_DIRECTION)  ;接收資料
   
-   RET = EKI_Send("XmlServer", "Comfirm")  
-   RET = EKI_Send("XmlServer", EOL[])  
+   RET = EKI_Send("XmlServer", "Comfirm")  ;傳送確認字串
+   RET = EKI_Send("XmlServer", EOL[])  ;傳送ㄏㄨㄢ
   
    IF Action_Get_Idle() THEN  
       Action_Set_Command_Info(_DIRECTION)  
@@ -64,7 +64,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExMzMwOTcxLC0xMDUwMTAwMTUzLC05MD
-EyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5
-ODk5NV19
+eyJoaXN0b3J5IjpbLTY1ODUzMDQ3OSwtMTA1MDEwMDE1MywtOT
+AxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0
+OTg5OTVdfQ==
 -->

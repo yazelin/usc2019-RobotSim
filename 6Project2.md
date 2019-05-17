@@ -92,12 +92,36 @@ END
 
 - Core_Run判斷進入Action條件
 
+ ```
+GLOBAL DEF Core_Run()  
+  
+   PTP XHOME  
+  
+   REPEAT  
+  
+   WHILE ( ( NOT Event() ) AND ( NOT Error() ) )  
+  
+   IF Server_Get_Ready() THEN  
+      Action()  
+   ENDIF  
+  
+   ENDWHILE  
+  
+   WHILE Event()  
+   ENDWHILE  
+  
+   WHILE Error()  
+   ENDWHILE  
+   UNTIL SYS_EXIT  
+END
+```
+
 4.Action判斷條件
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzAyOTE1MSwzMzg2NTAyODMsMTQyMD
-M0MDk2MywxMjQzMDMyNjgyLC0xMDUwMTAwMTUzLC05MDEyODA4
-MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5ODk5NV
-19
+eyJoaXN0b3J5IjpbNzY0NDQzNjM3LDMzODY1MDI4MywxNDIwMz
+QwOTYzLDEyNDMwMzI2ODIsLTEwNTAxMDAxNTMsLTkwMTI4MDgy
+NywxOTc2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgxNDk4OTk1XX
+0=
 -->

@@ -40,15 +40,15 @@ DEF Data_In()
    RET = EKI_GetInt(CHANNEL_NAME[],"Data/Direction",_DIRECTION)  ;接收資料
   
    RET = EKI_Send(CHANNEL_NAME[], "Comfirm") 			;傳送確認字串
-   RET = EKI_Send(CHANNEL_NAME[], EOL[])  				;傳送換行字元
+   RET = EKI_Send(CHANNEL_NAME[], EOL[])  			;傳送換行字元
   
-   IF Action_Get_Idle() THEN  						;Idle為閒置狀態
+   IF Action_Get_Idle() THEN  					;Idle為閒置狀態
       Action_Set_Command_Info(_DIRECTION)  			;將收到資料傳至Info
       Action_Set_Command_Type(#COMMAND_DECIDE)  		;將Action Type改為判斷
-      Server_Set_Ready(TRUE)  						;Server確認收到資料 可執行
+      Server_Set_Ready(TRUE)  					;Server確認收到資料 可執行
    ENDIF  
   
-   $FLAG[2] = FALSE  								;初始化Flag[2]
+   $FLAG[2] = FALSE  						;初始化Flag[2]
 END
 ```
 
@@ -65,7 +65,7 @@ GLOBAL DEF Send()
    CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]
 
    RET = EKI_Send(CHANNEL_NAME[], "Finish")  		;傳送結束字串
-   RET = EKI_Send(CHANNEL_NAME[], EOL[])  			;傳送換行字元
+   RET = EKI_Send(CHANNEL_NAME[], EOL[])  		;傳送換行字元
 END
 ```
 
@@ -93,7 +93,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0NDk0ODM0LDMzODY1MDI4MywxNDIwMz
+eyJoaXN0b3J5IjpbNzg1ODg5Mjk4LDMzODY1MDI4MywxNDIwMz
 QwOTYzLDEyNDMwMzI2ODIsLTEwNTAxMDAxNTMsLTkwMTI4MDgy
 NywxOTc2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgxNDk4OTk1XX
 0=

@@ -22,9 +22,30 @@ END
 ```
 - Data_In_CCD( )為判斷接收資料後執行程式
  ```
- 
-INT _DIRECTION
-DECL CHAR EOL[2]
+DEF Data_In()  
+   DECL EKI_STATUS RET  
+   CHAR CHANNEL_NAME[24]  
+   INT _DIRECTION  
+   DECL CHAR EOL[2]  
+  
+   _DIRECTION = 0  
+   EOL[1] = 13  
+   EOL[2] = 10  
+   CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]  
+  
+   RET = EKI_GetInt(CHANNEL_NAME[],"Data/Direction",_DIRECTION)  
+  
+   RET = EKI_Send(CHANNEL_NAME[], "Comfirm")  
+   RET = EKI_Send(CHANNEL_NAME[], EOL[])  
+  
+   IF Action_Get_Idle() THEN  
+      Action_Set_Command_Info(_DIRECTION)  
+      Action_Set_Command_Type(#COMMAND_DECIDE)  
+      Server_Set_Ready(TRUE)  
+   ENDIF  
+  
+   $FLAG[2] = FALSE  
+END
 ```
 3.在Core需初始化、Core需判斷Ready
 
@@ -32,7 +53,7 @@ DECL CHAR EOL[2]
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTM5NDAxNywtMTA1MDEwMDE1MywtOT
-AxMjgwODI3LDE5NzY5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0
-OTg5OTVdfQ==
+eyJoaXN0b3J5IjpbNzYwMjM2NTQzLC0xMDUwMTAwMTUzLC05MD
+EyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5
+ODk5NV19
 -->

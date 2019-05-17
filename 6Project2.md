@@ -10,11 +10,14 @@
 	- 加入Action程式
 
 2.撰寫框架Server程式
+  - 定義中斷條件，用來判斷資料傳
 
 3.在Core需初始化、Core需判斷Ready
 
-4.
+4.Action判斷條件
+
+5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1OTU5MTQzLC05MDEyODA4MjcsMTk3Nj
-kzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5ODk5NV19
+eyJoaXN0b3J5IjpbMTM1NDM1ODE3MSwtOTAxMjgwODI3LDE5Nz
+Y5MzE5MjgsLTIwMzM3NDc3NDcsLTE5ODE0OTg5OTVdfQ==
 -->

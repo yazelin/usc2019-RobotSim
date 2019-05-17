@@ -39,8 +39,8 @@ DEF Data_In()
   
    IF Action_Get_Idle() THEN  ;Idle為閒置狀態
       Action_Set_Command_Info(_DIRECTION)  ;將收到資料傳至Info
-      Action_Set_Command_Type(#COMMAND_DECIDE)  ;
-      Server_Set_Ready(TRUE)  
+      Action_Set_Command_Type(#COMMAND_DECIDE)  ;將Action Type改為判斷
+      Server_Set_Ready(TRUE)  ;卻ㄖ
    ENDIF  
   
    $FLAG[2] = FALSE  
@@ -64,7 +64,7 @@ END
 
 5.Motion執行動作
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzE2NTM2LC0xMDUwMTAwMTUzLC05MD
-EyODA4MjcsMTk3NjkzMTkyOCwtMjAzMzc0Nzc0NywtMTk4MTQ5
-ODk5NV19
+eyJoaXN0b3J5IjpbLTE1OTc5MTk3MTMsLTEwNTAxMDAxNTMsLT
+kwMTI4MDgyNywxOTc2OTMxOTI4LC0yMDMzNzQ3NzQ3LC0xOTgx
+NDk4OTk1XX0=
 -->

@@ -90,7 +90,7 @@
   - PC端 為主控端 C# WinForm TcpClient
   - Robot端 為被控設備 KRL TcpServer
 
-### 六、自動化專案實作 二(5/22) [教學頁面](./6Project2.html)
+### 六、自動化專案實作 二(5/22) [教學頁面](./6Project2.html) / [繳交作業-期末(夾娃娃機)](https://drive.google.com/drive/folders/1AkAqfQzGQfBe4fosgGh4xChGCGDtcEll?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA) / [繳交作業-加分(6軸)](https://drive.google.com/drive/folders/1FkQGS8RPr1OwxEfEqefmQbJhnmMKjB_v?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
 ```
 種瓜得瓜 種豆得豆。
 種瓠仔 不會生菜瓜。
@@ -114,11 +114,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTgzMzU5MDksLTE1NjUwMzUwOTcsLT
-E4NTg1NTI4NzAsLTE0MDAxODc0NTEsNDM1OTgxNTA4LDIwMTk2
-NzMxMjUsMjAwMzcyMjg3MCwtMzI0NTM5OTQ4LDIwMDM3MjI4Nz
-AsMTE0NjcyOTI0NSwtMTA3ODg0MTA1LC0xMTc5NDI3NTk2LC0x
-OTk2NTI2MjkxLDU1OTk5MDU4MywxNTA4MjU2NTQ2LDE5NjUxNT
-E4NDcsMzcxNzU5ODgzLC05NzQ3MjQ0NzcsMTMzNzQwMTQ0Nywt
-MTk0Nzc3NTY5XX0=
+eyJoaXN0b3J5IjpbNTQ4MzkwMDk1LC0xNTE4MzM1OTA5LC0xNT
+Y1MDM1MDk3LC0xODU4NTUyODcwLC0xNDAwMTg3NDUxLDQzNTk4
+MTUwOCwyMDE5NjczMTI1LDIwMDM3MjI4NzAsLTMyNDUzOTk0OC
+wyMDAzNzIyODcwLDExNDY3MjkyNDUsLTEwNzg4NDEwNSwtMTE3
+OTQyNzU5NiwtMTk5NjUyNjI5MSw1NTk5OTA1ODMsMTUwODI1Nj
+U0NiwxOTY1MTUxODQ3LDM3MTc1OTg4MywtOTc0NzI0NDc3LDEz
+Mzc0MDE0NDddfQ==
 -->

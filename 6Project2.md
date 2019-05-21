@@ -12,7 +12,7 @@
 2.撰寫框架Server程式
   - 定義中斷條件，確認手臂是否有收到資料
   
-```AutoIt
+```sh
 GLOBAL DEF Server()  
    
    ;定義Flag[2]=true 中斷所有動作 執行Data_In
@@ -25,7 +25,7 @@ END
 
 - Data_In_CCD( )為判斷接收資料後執行程式
 
-```AutoIt
+```sh
 DEF Data_In()  
    DECL EKI_STATUS RET  
    INT _DIRECTION  
@@ -54,7 +54,7 @@ END
 
 - 加入回傳訊息程式，告訴 PC 已完成動作
 
-```AutoIt
+```sh
 GLOBAL DEF Send()  
    DECL EKI_STATUS RET  
    DECL CHAR EOL[2]  
@@ -75,7 +75,7 @@ END
 3.在Core需初始化及判斷條件進入Action
 - Core初始化
 
-```AutoIt
+```sh
 GLOBAL DEF Core ()  
    BAS(#BASE, 0)  		;設定base
    BAS(#TOOL, 1)  		;設定tool
@@ -92,7 +92,7 @@ END
 
 - Core_Run判斷進入Action條件
 
-```AutoIt
+```sh
 GLOBAL DEF Core_Run()  
   
    PTP XHOME  		;home點
@@ -122,7 +122,7 @@ END
 
 - Action內判斷現在需要執行內容
 
-```AutoIt
+```sh
 GLOBAL DEF Action ( )  
    Action_Before()  		;Action開始前要做的事
   
@@ -146,7 +146,7 @@ END
 
 - Action結束後 After需要判斷此次命令動作是否結束
 
-```AutoIt
+```sh
 DEF Action_After()  
   
    IF (NOT Event()) AND (NOT Error()) THEN  
@@ -167,7 +167,7 @@ END
 
 - 讓程式能從外面變更Type、Info
 
-```AutoIt
+```sh
 GLOBAL DEF Action_Set_Command_Type(_COMMAND_TYPE:IN)  
    DECL ACTION_COMMAND_TYPE _COMMAND_TYPE  
   
@@ -185,7 +185,7 @@ END
 
 - Motion動作移動
 
-```AutoIt
+```sh
 DEF Wt_Motion_Direction (_DIRECTION:IN)  
    INT _DIRECTION, DISTANCE_ADD, DISTANCE_DEL  
    E6POS POSITION  
@@ -213,7 +213,7 @@ END
 
 - Motion動作夾
 
-```AutoIt
+```sh
 DEF Wt_Motion_GetPut ()  
    INT DISTANCE_ADD, DISTANCE_DEL  
    E6POS POSITION  
@@ -234,11 +234,11 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODk5MDM3NywtMTk1OTY0ODYzLC0xMj
-IyMDA1Njg3LC0yMTMxNzMxNTI1LDU1Mjg5NjI2MywtMjA3Njcz
-NzkxNywxOTc5MTQ3MzExLC0xMTI0OTYyODQ2LDU4NTU0NzkxNC
-wxNDcyNjI0MzA2LC0yMDIyNTY2NjU4LC0xMTY3MzYwOTkwLDI1
-NjMwMDg4OCw3NTc1MTE2NjUsLTQwMDIwMDQ0NCwtMjA0OTkyNz
-UwLC0xNDA3NzM2NTAsLTczNjM0MTYzNSwtMTgwNzQ4MTkzOSwt
-NDA1MTk3MDEzXX0=
+eyJoaXN0b3J5IjpbLTEyMTc4NTk0ODksMjEzODk5MDM3NywtMT
+k1OTY0ODYzLC0xMjIyMDA1Njg3LC0yMTMxNzMxNTI1LDU1Mjg5
+NjI2MywtMjA3NjczNzkxNywxOTc5MTQ3MzExLC0xMTI0OTYyOD
+Q2LDU4NTU0NzkxNCwxNDcyNjI0MzA2LC0yMDIyNTY2NjU4LC0x
+MTY3MzYwOTkwLDI1NjMwMDg4OCw3NTc1MTE2NjUsLTQwMDIwMD
+Q0NCwtMjA0OTkyNzUwLC0xNDA3NzM2NTAsLTczNjM0MTYzNSwt
+MTgwNzQ4MTkzOV19
 -->

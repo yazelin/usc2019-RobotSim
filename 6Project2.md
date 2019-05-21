@@ -233,13 +233,14 @@ DEF Wt_Motion_GetPut ()
 END
 ```
 
-(setq markdown-css-paths '("https://raw.githubusercontent.com/yazelin/usc2019-RobotSim/master/src/AutoIt.css"))
+<link rel="stylesheet" type="text/css" media="all" href="URL" />
+<link href="" rel="stylesheet"><style type="text/css"></link>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk2NDg2MywtMTIyMjAwNTY4NywtMj
-EzMTczMTUyNSw1NTI4OTYyNjMsLTIwNzY3Mzc5MTcsMTk3OTE0
-NzMxMSwtMTEyNDk2Mjg0Niw1ODU1NDc5MTQsMTQ3MjYyNDMwNi
-wtMjAyMjU2NjY1OCwtMTE2NzM2MDk5MCwyNTYzMDA4ODgsNzU3
-NTExNjY1LC00MDAyMDA0NDQsLTIwNDk5Mjc1MCwtMTQwNzczNj
-UwLC03MzYzNDE2MzUsLTE4MDc0ODE5MzksLTQwNTE5NzAxMywt
-NTc0ODYxNDQ0XX0=
+eyJoaXN0b3J5IjpbLTIxMDM5MzcyMjcsLTE5NTk2NDg2MywtMT
+IyMjAwNTY4NywtMjEzMTczMTUyNSw1NTI4OTYyNjMsLTIwNzY3
+Mzc5MTcsMTk3OTE0NzMxMSwtMTEyNDk2Mjg0Niw1ODU1NDc5MT
+QsMTQ3MjYyNDMwNiwtMjAyMjU2NjY1OCwtMTE2NzM2MDk5MCwy
+NTYzMDA4ODgsNzU3NTExNjY1LC00MDAyMDA0NDQsLTIwNDk5Mj
+c1MCwtMTQwNzczNjUwLC03MzYzNDE2MzUsLTE4MDc0ODE5Mzks
+LTQwNTE5NzAxM119
 -->

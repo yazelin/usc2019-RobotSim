@@ -145,7 +145,7 @@ END
 
 - Action結束後 After需要判斷此次命令動作是否結束
 
- ```
+ ```cs
 DEF Action_After()  
   
    IF (NOT Event()) AND (NOT Error()) THEN  
@@ -166,7 +166,7 @@ END
 
 - 讓程式能從外面變更Type、Info
 
- ```cs
+ ```
 GLOBAL DEF Action_Set_Command_Type(_COMMAND_TYPE:IN)  
    DECL ACTION_COMMAND_TYPE _COMMAND_TYPE  
   
@@ -232,7 +232,7 @@ DEF Wt_Motion_GetPut ()
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzYyMTc2NzcsLTIwNzY3Mzc5MTcsMT
+eyJoaXN0b3J5IjpbLTIwMjQwODc5ODEsLTIwNzY3Mzc5MTcsMT
 k3OTE0NzMxMSwtMTEyNDk2Mjg0Niw1ODU1NDc5MTQsMTQ3MjYy
 NDMwNiwtMjAyMjU2NjY1OCwtMTE2NzM2MDk5MCwyNTYzMDA4OD
 gsNzU3NTExNjY1LC00MDAyMDA0NDQsLTIwNDk5Mjc1MCwtMTQw

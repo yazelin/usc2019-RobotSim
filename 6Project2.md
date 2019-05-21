@@ -25,7 +25,7 @@ END
 
 - Data_In_CCD( )為判斷接收資料後執行程式
 
-```
+```AutoIt
 DEF Data_In()  
    DECL EKI_STATUS RET  
    INT _DIRECTION  
@@ -54,7 +54,7 @@ END
 
 - 加入回傳訊息程式，告訴 PC 已完成動作
 
-```
+```AutoIt
 GLOBAL DEF Send()  
    DECL EKI_STATUS RET  
    DECL CHAR EOL[2]  
@@ -75,7 +75,7 @@ END
 3.在Core需初始化及判斷條件進入Action
 - Core初始化
 
-```
+```AutoIt
 GLOBAL DEF Core ()  
    BAS(#BASE, 0)  		;設定base
    BAS(#TOOL, 1)  		;設定tool
@@ -92,7 +92,7 @@ END
 
 - Core_Run判斷進入Action條件
 
-```
+```AutoIt
 GLOBAL DEF Core_Run()  
   
    PTP XHOME  		;home點
@@ -114,7 +114,7 @@ END
 4.Action判斷條件
 - 需再Action.dat檔內加入宣告
 
-```
+```AutoIt
  GLOBAL ENUM ACTION_COMMAND_TYPE COMMAND_DECIDE
  GLOBAL STRUC ACTION_INFO_STRUC INT _DIRECTION
  DECL ACTION_INFO_STRUC ACTION_INFO 加入 _DIRECTION 0
@@ -122,7 +122,7 @@ END
 
 - Action內判斷現在需要執行內容
 
-```sh
+```AutoIt
 GLOBAL DEF Action ( )  
    Action_Before()  		;Action開始前要做的事
   
@@ -146,7 +146,7 @@ END
 
 - Action結束後 After需要判斷此次命令動作是否結束
 
-```sh
+```AutoIt
 DEF Action_After()  
   
    IF (NOT Event()) AND (NOT Error()) THEN  
@@ -167,7 +167,7 @@ END
 
 - 讓程式能從外面變更Type、Info
 
- ```
+```AutoIt
 GLOBAL DEF Action_Set_Command_Type(_COMMAND_TYPE:IN)  
    DECL ACTION_COMMAND_TYPE _COMMAND_TYPE  
   
@@ -185,7 +185,7 @@ END
 
 - Motion動作移動
 
- ```vb
+```AutoIt
 DEF Wt_Motion_Direction (_DIRECTION:IN)  
    INT _DIRECTION, DISTANCE_ADD, DISTANCE_DEL  
    E6POS POSITION  
@@ -213,7 +213,7 @@ END
 
 - Motion動作夾
 
- ```vb
+```AutoIt
 DEF Wt_Motion_GetPut ()  
    INT DISTANCE_ADD, DISTANCE_DEL  
    E6POS POSITION  
@@ -233,11 +233,11 @@ DEF Wt_Motion_GetPut ()
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTkxMjIxMSw1NTI4OTYyNjMsLTIwNz
-Y3Mzc5MTcsMTk3OTE0NzMxMSwtMTEyNDk2Mjg0Niw1ODU1NDc5
-MTQsMTQ3MjYyNDMwNiwtMjAyMjU2NjY1OCwtMTE2NzM2MDk5MC
-wyNTYzMDA4ODgsNzU3NTExNjY1LC00MDAyMDA0NDQsLTIwNDk5
-Mjc1MCwtMTQwNzczNjUwLC03MzYzNDE2MzUsLTE4MDc0ODE5Mz
-ksLTQwNTE5NzAxMywtNTc0ODYxNDQ0LDc2NDQ0MzYzNywzMzg2
-NTAyODNdfQ==
+eyJoaXN0b3J5IjpbLTIxMzE3MzE1MjUsNTUyODk2MjYzLC0yMD
+c2NzM3OTE3LDE5NzkxNDczMTEsLTExMjQ5NjI4NDYsNTg1NTQ3
+OTE0LDE0NzI2MjQzMDYsLTIwMjI1NjY2NTgsLTExNjczNjA5OT
+AsMjU2MzAwODg4LDc1NzUxMTY2NSwtNDAwMjAwNDQ0LC0yMDQ5
+OTI3NTAsLTE0MDc3MzY1MCwtNzM2MzQxNjM1LC0xODA3NDgxOT
+M5LC00MDUxOTcwMTMsLTU3NDg2MTQ0NCw3NjQ0NDM2MzcsMzM4
+NjUwMjgzXX0=
 -->

@@ -6,8 +6,12 @@
 	- 加入Main程式、Core資料夾
 - Core資料夾
 	- 加入 Core、Server 程式以及Action、Motion 資料夾
+	![Image](./img/FrameworkMain.pgn)
+	![Image](./img/FrameworkCore.png)
+	![Image](./img/FrameworkServer.png)
 - Action資料夾
 	- 加入Action程式
+	![Image](./img/FrameworkAction.png)
 		 - 加入 Wt_Action_GetPut、Wt_Action_Next
 - Motion資料夾
 	- 加入 Wt_Motion_Direction、Wt_Motion_GetPut 
@@ -271,11 +275,11 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1NjYyNDI1LC0xNDUzMjkwOTk3LDIwMD
-YzMTM0MTYsLTc2NzI2NDEwMSwxNjk0MTA2Mzk0LC00OTM4NzQ0
-NzUsMjQ0MjYzODA2LDIxNzE2Njg5MSwtMTcwMjM1Nzg2MiwxMz
-YzODc0MzE1LDkwODk3MDkzNywtMTcxODM1MjEzOSwyMTM4OTkw
-Mzc3LC0xOTU5NjQ4NjMsLTEyMjIwMDU2ODcsLTIxMzE3MzE1Mj
-UsNTUyODk2MjYzLC0yMDc2NzM3OTE3LDE5NzkxNDczMTEsLTEx
-MjQ5NjI4NDZdfQ==
+eyJoaXN0b3J5IjpbLTIxNDI2NzUzNzAsNTM1NjYyNDI1LC0xND
+UzMjkwOTk3LDIwMDYzMTM0MTYsLTc2NzI2NDEwMSwxNjk0MTA2
+Mzk0LC00OTM4NzQ0NzUsMjQ0MjYzODA2LDIxNzE2Njg5MSwtMT
+cwMjM1Nzg2MiwxMzYzODc0MzE1LDkwODk3MDkzNywtMTcxODM1
+MjEzOSwyMTM4OTkwMzc3LC0xOTU5NjQ4NjMsLTEyMjIwMDU2OD
+csLTIxMzE3MzE1MjUsNTUyODk2MjYzLC0yMDc2NzM3OTE3LDE5
+NzkxNDczMTFdfQ==
 -->

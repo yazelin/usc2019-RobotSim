@@ -22,7 +22,7 @@
   - ![Image](./img/Demonstration2.PNG)
   - Server設定
   
-  ```xml
+```xml
 <ETHERNETKRL>
    <CONFIGURATION>
       <EXTERNAL>
@@ -204,7 +204,7 @@
   - Server端測試程式:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WinFormServerTest.zip)
   
   - 改寫傳送資料為XML Form1
-  ```cs
+```cs
   	private void SetData(string buttonNumber)
 		{
 			string dataSend = " ";
@@ -218,7 +218,7 @@
  
   模擬程式下載: [https://github.com/yazelin/usc2019-RobotSim/raw/master/src/Play.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/Play.zip)  
 解壓縮後執行 USC2019RobotSim.exe
-  ```
+```
 IP 127.0.0.1 
 Port 54600
 前 <Data><Direction>1</Direction></Data>
@@ -229,11 +229,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEzNjAxMDAsMTEzNjEwMzEyNywxMz
-EzNjU4NDg3LC0xMjAwMTIyNjUsLTE2ODQxNzQ2MzcsLTg0NzYz
-NDE1MywtNTAxODY3NzQ5LDExOTUzOTI2NzMsLTE2MTY0ODYxND
-csNDc3OTUwMDQ0LC0xMjE3MzEwNzc5LDU4NDY3NTI3MiwtMTMy
-NDgwMzE4NiwzMzkxNTY1MzUsLTYzODEzMDg0OCwtNzI5MTc0Nz
-IxLC00ODM2NTIwNjYsLTQ4MzY1MjA2Niw2NzM3NTM5MjEsMTUz
-ODk2MjY0Nl19
+eyJoaXN0b3J5IjpbMTAzMTg4MzAzNiwtMTM1MTM2MDEwMCwxMT
+M2MTAzMTI3LDEzMTM2NTg0ODcsLTEyMDAxMjI2NSwtMTY4NDE3
+NDYzNywtODQ3NjM0MTUzLC01MDE4Njc3NDksMTE5NTM5MjY3My
+wtMTYxNjQ4NjE0Nyw0Nzc5NTAwNDQsLTEyMTczMTA3NzksNTg0
+Njc1MjcyLC0xMzI0ODAzMTg2LDMzOTE1NjUzNSwtNjM4MTMwOD
+Q4LC03MjkxNzQ3MjEsLTQ4MzY1MjA2NiwtNDgzNjUyMDY2LDY3
+Mzc1MzkyMV19
 -->

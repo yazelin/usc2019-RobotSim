@@ -4,14 +4,14 @@
 1.建立專案資料夾、加入框架程式
 - 建立ClawMachine資料夾
 	- 加入Main程式、Core資料夾
+	- ![Image](./img/FrameworkMain.pgn)
 - Core資料夾
 	- 加入 Core、Server 程式以及Action、Motion 資料夾
-	![Image](./img/FrameworkMain.pgn)
-	![Image](./img/FrameworkCore.png)
-	![Image](./img/FrameworkServer.png)
+	- ![Image](./img/FrameworkCore.png)
+	- ![Image](./img/FrameworkServer.png)
 - Action資料夾
 	- 加入Action程式
-	![Image](./img/FrameworkAction.png)
+	- ![Image](./img/FrameworkAction.png)
 		 - 加入 Wt_Action_GetPut、Wt_Action_Next
 - Motion資料夾
 	- 加入 Wt_Motion_Direction、Wt_Motion_GetPut 
@@ -278,11 +278,11 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDE5MDQ3LDUzNTY2MjQyNSwtMTQ1Mz
-I5MDk5NywyMDA2MzEzNDE2LC03NjcyNjQxMDEsMTY5NDEwNjM5
-NCwtNDkzODc0NDc1LDI0NDI2MzgwNiwyMTcxNjY4OTEsLTE3MD
-IzNTc4NjIsMTM2Mzg3NDMxNSw5MDg5NzA5MzcsLTE3MTgzNTIx
-MzksMjEzODk5MDM3NywtMTk1OTY0ODYzLC0xMjIyMDA1Njg3LC
-0yMTMxNzMxNTI1LDU1Mjg5NjI2MywtMjA3NjczNzkxNywxOTc5
-MTQ3MzExXX0=
+eyJoaXN0b3J5IjpbLTM3MjE3ODAzMSw1MzU2NjI0MjUsLTE0NT
+MyOTA5OTcsMjAwNjMxMzQxNiwtNzY3MjY0MTAxLDE2OTQxMDYz
+OTQsLTQ5Mzg3NDQ3NSwyNDQyNjM4MDYsMjE3MTY2ODkxLC0xNz
+AyMzU3ODYyLDEzNjM4NzQzMTUsOTA4OTcwOTM3LC0xNzE4MzUy
+MTM5LDIxMzg5OTAzNzcsLTE5NTk2NDg2MywtMTIyMjAwNTY4Ny
+wtMjEzMTczMTUyNSw1NTI4OTYyNjMsLTIwNzY3Mzc5MTcsMTk3
+OTE0NzMxMV19
 -->

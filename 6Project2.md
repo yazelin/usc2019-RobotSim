@@ -1,5 +1,3 @@
-<link href="https://raw.githubusercontent.com/yazelin/usc2019-RobotSim/master/src/AutoIt.css" rel="stylesheet"><style type="text/css">
-
 ## 六、自動化專案實作 二
 ### KUKA Srver端通訊程式
 
@@ -234,12 +232,15 @@ DEF Wt_Motion_GetPut ()
    LIN_REL POSITION  
 END
 ```
+
+
+<link href="https://raw.githubusercontent.com/yazelin/usc2019-RobotSim/master/src/AutoIt.css" rel="stylesheet"><style type="text/css">
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU2MzQ0MjYsLTEyMjIwMDU2ODcsLT
-IxMzE3MzE1MjUsNTUyODk2MjYzLC0yMDc2NzM3OTE3LDE5Nzkx
-NDczMTEsLTExMjQ5NjI4NDYsNTg1NTQ3OTE0LDE0NzI2MjQzMD
-YsLTIwMjI1NjY2NTgsLTExNjczNjA5OTAsMjU2MzAwODg4LDc1
-NzUxMTY2NSwtNDAwMjAwNDQ0LC0yMDQ5OTI3NTAsLTE0MDc3Mz
-Y1MCwtNzM2MzQxNjM1LC0xODA3NDgxOTM5LC00MDUxOTcwMTMs
-LTU3NDg2MTQ0NF19
+eyJoaXN0b3J5IjpbNTQ1MzUxODA2LC0xMjIyMDA1Njg3LC0yMT
+MxNzMxNTI1LDU1Mjg5NjI2MywtMjA3NjczNzkxNywxOTc5MTQ3
+MzExLC0xMTI0OTYyODQ2LDU4NTU0NzkxNCwxNDcyNjI0MzA2LC
+0yMDIyNTY2NjU4LC0xMTY3MzYwOTkwLDI1NjMwMDg4OCw3NTc1
+MTE2NjUsLTQwMDIwMDQ0NCwtMjA0OTkyNzUwLC0xNDA3NzM2NT
+AsLTczNjM0MTYzNSwtMTgwNzQ4MTkzOSwtNDA1MTk3MDEzLC01
+NzQ4NjE0NDRdfQ==
 -->

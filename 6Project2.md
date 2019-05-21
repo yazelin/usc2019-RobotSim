@@ -146,7 +146,7 @@ END
 
 - Action結束後 After需要判斷此次命令動作是否結束
 
-```chs
+```c++
 DEF Action_After()  
   
    IF (NOT Event()) AND (NOT Error()) THEN  
@@ -185,7 +185,7 @@ END
 
 - Motion動作移動
 
-```bsv
+```cpp
 DEF Wt_Motion_Direction (_DIRECTION:IN)  
    INT _DIRECTION, DISTANCE_ADD, DISTANCE_DEL  
    E6POS POSITION  
@@ -234,7 +234,7 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODAwNTU5MSwtMTcxODM1MjEzOSwyMT
+eyJoaXN0b3J5IjpbLTY1MTAwNzUzNCwtMTcxODM1MjEzOSwyMT
 M4OTkwMzc3LC0xOTU5NjQ4NjMsLTEyMjIwMDU2ODcsLTIxMzE3
 MzE1MjUsNTUyODk2MjYzLC0yMDc2NzM3OTE3LDE5NzkxNDczMT
 EsLTExMjQ5NjI4NDYsNTg1NTQ3OTE0LDE0NzI2MjQzMDYsLTIw

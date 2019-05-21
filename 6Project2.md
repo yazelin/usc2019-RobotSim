@@ -185,7 +185,7 @@ END
 
 - Motion動作移動
 
-```PureBasic
+```Visual Basic
 DEF Wt_Motion_Direction (_DIRECTION:IN)  
    INT _DIRECTION, DISTANCE_ADD, DISTANCE_DEL  
    E6POS POSITION  
@@ -234,7 +234,7 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjc2NzE3NSwtMTcwMjM1Nzg2MiwxMz
+eyJoaXN0b3J5IjpbMTE1OTY2MTAwNSwtMTcwMjM1Nzg2MiwxMz
 YzODc0MzE1LDkwODk3MDkzNywtMTcxODM1MjEzOSwyMTM4OTkw
 Mzc3LC0xOTU5NjQ4NjMsLTEyMjIwMDU2ODcsLTIxMzE3MzE1Mj
 UsNTUyODk2MjYzLC0yMDc2NzM3OTE3LDE5NzkxNDczMTEsLTEx

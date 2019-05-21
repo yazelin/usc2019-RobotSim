@@ -8,7 +8,7 @@
 	  - 在 Files 中打開 Config\User\Commoon\EthernetKRL\XmlServer.xml
 	  ![Image](./img/XmlServer.png)
 
-  ```xml
+```xml
   <ETHERNETKRL>
 	<CONFIGURATION>
 		<EXTERNAL>
@@ -39,8 +39,8 @@
 	   ![Image](./img/addFunction.png)
 
  - EKI手臂程式
-  
-  ```sh
+
+```sh
 DEF XmlServer( )
    INT i
    DECL EKI_STATUS RET
@@ -100,7 +100,7 @@ END
 	- 輸入 telnet + IP + Port
 	![Image](./img/cmd.png) 
 	- 將 XML 格式複製 在 cmd 介面點擊滑鼠右鍵
- ```
+```
 IP 192.168.1.147
 Port 54600
 前 <Data><Direction>1</Direction></Data>
@@ -120,11 +120,11 @@ Port 54600
 - 利用手臂與 PC、WinForm 進行通訊傳遞
 - Xml 標籤名稱需要更換、IP位置須改為相同
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY5MjYxMzMsLTEwNzQ0MjE4NjksLT
-E2MDYwMDk5MzAsNTMxMzEyMTQ2LDc2MDM5NDk2NCwxMzk3MzY3
-MDAzLC02MzkyNzExMzMsOTQzNTc4NTAsMTcxNjMwNTU5MiwtMj
-I5OTA0ODk1LC0xMDEyOTQ5MDExLDE2ODQxNDA3MDIsLTE5MDk0
-MDY0ODMsMTAyNzg0MTk0OSwxNDc5Njk0NTkyLC0zNTMyMzc5MT
-IsLTEzOTE4NjIwMDgsLTEzOTE4NjIwMDgsMTY0NzMyOTQ4Niwz
-ODAyOTU4NDBdfQ==
+eyJoaXN0b3J5IjpbMjI2MzU5NzU1LC0xMDc0NDIxODY5LC0xNj
+A2MDA5OTMwLDUzMTMxMjE0Niw3NjAzOTQ5NjQsMTM5NzM2NzAw
+MywtNjM5MjcxMTMzLDk0MzU3ODUwLDE3MTYzMDU1OTIsLTIyOT
+kwNDg5NSwtMTAxMjk0OTAxMSwxNjg0MTQwNzAyLC0xOTA5NDA2
+NDgzLDEwMjc4NDE5NDksMTQ3OTY5NDU5MiwtMzUzMjM3OTEyLC
+0xMzkxODYyMDA4LC0xMzkxODYyMDA4LDE2NDczMjk0ODYsMzgw
+Mjk1ODQwXX0=
 -->

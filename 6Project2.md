@@ -8,6 +8,8 @@
 	- 加入Core、Server程式，Action、Motion資料夾
 - Action資料夾
 	- 加入Action程式
+		 - 加入 Wt_Action_GetPut()、Wt_Action_Next()
+
 
 2.撰寫框架Server程式
   - 定義中斷條件，確認手臂是否有收到資料
@@ -181,8 +183,6 @@ GLOBAL DEF Action_Set_Command_Info(_TO_INDEX:IN)
 END
 ```
 
-- 加入 Wt_Action_GetPut()、Wt_Action_Next()
-
 - 判斷 Wt_Action_Next() 下一步為 Mov 還是 GetPut
 
 ```sh
@@ -272,11 +272,11 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjMxMzQxNiwtNzY3MjY0MTAxLDE2OT
-QxMDYzOTQsLTQ5Mzg3NDQ3NSwyNDQyNjM4MDYsMjE3MTY2ODkx
-LC0xNzAyMzU3ODYyLDEzNjM4NzQzMTUsOTA4OTcwOTM3LC0xNz
-E4MzUyMTM5LDIxMzg5OTAzNzcsLTE5NTk2NDg2MywtMTIyMjAw
-NTY4NywtMjEzMTczMTUyNSw1NTI4OTYyNjMsLTIwNzY3Mzc5MT
-csMTk3OTE0NzMxMSwtMTEyNDk2Mjg0Niw1ODU1NDc5MTQsMTQ3
-MjYyNDMwNl19
+eyJoaXN0b3J5IjpbMTI3NzgwMzU4NiwyMDA2MzEzNDE2LC03Nj
+cyNjQxMDEsMTY5NDEwNjM5NCwtNDkzODc0NDc1LDI0NDI2Mzgw
+NiwyMTcxNjY4OTEsLTE3MDIzNTc4NjIsMTM2Mzg3NDMxNSw5MD
+g5NzA5MzcsLTE3MTgzNTIxMzksMjEzODk5MDM3NywtMTk1OTY0
+ODYzLC0xMjIyMDA1Njg3LC0yMTMxNzMxNTI1LDU1Mjg5NjI2My
+wtMjA3NjczNzkxNywxOTc5MTQ3MzExLC0xMTI0OTYyODQ2LDU4
+NTU0NzkxNF19
 -->

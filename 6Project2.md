@@ -146,7 +146,7 @@ END
 
 - Action結束後 After需要判斷此次命令動作是否結束
 
-```cxx
+```krl
 DEF Action_After()  
   
    IF (NOT Event()) AND (NOT Error()) THEN  
@@ -234,7 +234,7 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTk3NzY3OCwtMTcxODM1MjEzOSwyMT
+eyJoaXN0b3J5IjpbMTAyMjA5ODIyNCwtMTcxODM1MjEzOSwyMT
 M4OTkwMzc3LC0xOTU5NjQ4NjMsLTEyMjIwMDU2ODcsLTIxMzE3
 MzE1MjUsNTUyODk2MjYzLC0yMDc2NzM3OTE3LDE5NzkxNDczMT
 EsLTExMjQ5NjI4NDYsNTg1NTQ3OTE0LDE0NzI2MjQzMDYsLTIw

@@ -201,26 +201,21 @@ END
 - Action_Mov呼叫Motion
 
 ```sh
-DEF Wt_Motion_GetPut ()  
-   INT DISTANCE_ADD, DISTANCE_DEL  
-   E6POS POSITION  
+DEF Wt_Action_Mov ( _ACTION_INFO:IN )  
+   DECL ACTION_INFO_STRUC _ACTION_INFO  
   
-   DISTANCE_ADD = 100  
-   DISTANCE_DEL = -100  
+   Wt_Motion_Direction(_ACTION_INFO._DIRECTION)  
   
-   POSITION = {X 0,Y 0,Z 0,A 0,B 0,C 0}  
-  
-   POSITION.Z = DISTANCE_DEL  
-  
-   LIN_REL POSITION  
-  
-   POSITION.Z = DISTANCE_ADD  
-  
-   LIN_REL POSITION  
 END
 ```
 
+- Action_GetPut()呼叫Motion
 
+```sh
+DEF Wt_Action_GetPut ()  
+   Wt_Motion_GetPut ()  
+END
+```
 
 5.Motion執行動作
 
@@ -275,7 +270,7 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODAyMjYwMCwxNjk0MTA2Mzk0LC00OT
+eyJoaXN0b3J5IjpbMTA4MTAwMTkwMSwxNjk0MTA2Mzk0LC00OT
 M4NzQ0NzUsMjQ0MjYzODA2LDIxNzE2Njg5MSwtMTcwMjM1Nzg2
 MiwxMzYzODc0MzE1LDkwODk3MDkzNywtMTcxODM1MjEzOSwyMT
 M4OTkwMzc3LC0xOTU5NjQ4NjMsLTEyMjIwMDU2ODcsLTIxMzE3

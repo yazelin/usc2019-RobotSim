@@ -122,7 +122,7 @@ END
 
 - Action內判斷現在需要執行內容
 
-```lisp
+```sh
 GLOBAL DEF Action ( )  
    Action_Before()  		;Action開始前要做的事
   
@@ -146,7 +146,7 @@ END
 
 - Action結束後 After需要判斷此次命令動作是否結束
 
-```kml
+```sh
 DEF Action_After()  
   
    IF (NOT Event()) AND (NOT Error()) THEN  
@@ -185,7 +185,7 @@ END
 
 - Motion動作移動
 
-```asd
+```sh
 DEF Wt_Motion_Direction (_DIRECTION:IN)  
    INT _DIRECTION, DISTANCE_ADD, DISTANCE_DEL  
    E6POS POSITION  
@@ -234,11 +234,11 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mzg3NDQ3NSwyNDQyNjM4MDYsMjE3MT
-Y2ODkxLC0xNzAyMzU3ODYyLDEzNjM4NzQzMTUsOTA4OTcwOTM3
-LC0xNzE4MzUyMTM5LDIxMzg5OTAzNzcsLTE5NTk2NDg2MywtMT
-IyMjAwNTY4NywtMjEzMTczMTUyNSw1NTI4OTYyNjMsLTIwNzY3
-Mzc5MTcsMTk3OTE0NzMxMSwtMTEyNDk2Mjg0Niw1ODU1NDc5MT
-QsMTQ3MjYyNDMwNiwtMjAyMjU2NjY1OCwtMTE2NzM2MDk5MCwy
-NTYzMDA4ODhdfQ==
+eyJoaXN0b3J5IjpbMTY5NDEwNjM5NCwtNDkzODc0NDc1LDI0ND
+I2MzgwNiwyMTcxNjY4OTEsLTE3MDIzNTc4NjIsMTM2Mzg3NDMx
+NSw5MDg5NzA5MzcsLTE3MTgzNTIxMzksMjEzODk5MDM3NywtMT
+k1OTY0ODYzLC0xMjIyMDA1Njg3LC0yMTMxNzMxNTI1LDU1Mjg5
+NjI2MywtMjA3NjczNzkxNywxOTc5MTQ3MzExLC0xMTI0OTYyOD
+Q2LDU4NTU0NzkxNCwxNDcyNjI0MzA2LC0yMDIyNTY2NjU4LC0x
+MTY3MzYwOTkwXX0=
 -->

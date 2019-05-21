@@ -146,7 +146,7 @@ END
 
 - Action結束後 After需要判斷此次命令動作是否結束
 
- ```KRL
+```sh
 DEF Action_After()  
   
    IF (NOT Event()) AND (NOT Error()) THEN  
@@ -233,7 +233,7 @@ DEF Wt_Motion_GetPut ()
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjYyODY4MSwtMjA3NjczNzkxNywxOT
+eyJoaXN0b3J5IjpbMTU5Mzc3MDI0NywtMjA3NjczNzkxNywxOT
 c5MTQ3MzExLC0xMTI0OTYyODQ2LDU4NTU0NzkxNCwxNDcyNjI0
 MzA2LC0yMDIyNTY2NjU4LC0xMTY3MzYwOTkwLDI1NjMwMDg4OC
 w3NTc1MTE2NjUsLTQwMDIwMDQ0NCwtMjA0OTkyNzUwLC0xNDA3

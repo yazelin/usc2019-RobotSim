@@ -28,7 +28,8 @@ GLOBAL DEF Server()
    GLOBAL INTERRUPT DECL 101 WHEN $FLAG[2]==TRUE DO Data_In()
    $FLAG[2] = FALSE  			;初始化
    INTERRUPT ON 101  			;宣告
-  
+   
+   Server_Set_Ready(FALSE) 		;Ready凱ㄨ
 END
 ```
 
@@ -88,8 +89,9 @@ GLOBAL DEF Core ()
    IOControl()  		;IO初始化
    Exception()  		;事件初始化
   
-   Server_Set_Ready(FALSE)		;Server初始化  
-   Server()  				;定義中斷
+   		 
+   Server()  			;Server初始化 	
+   Action_Set_Idle(TRUE)
    Server_Start(1)  			;開啟Server
 END
 ```
@@ -273,11 +275,11 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2MDc4MTIwLC0xMDgzNzM2MjIwLC0zNz
-IxNzgwMzEsNTM1NjYyNDI1LC0xNDUzMjkwOTk3LDIwMDYzMTM0
-MTYsLTc2NzI2NDEwMSwxNjk0MTA2Mzk0LC00OTM4NzQ0NzUsMj
-Q0MjYzODA2LDIxNzE2Njg5MSwtMTcwMjM1Nzg2MiwxMzYzODc0
-MzE1LDkwODk3MDkzNywtMTcxODM1MjEzOSwyMTM4OTkwMzc3LC
-0xOTU5NjQ4NjMsLTEyMjIwMDU2ODcsLTIxMzE3MzE1MjUsNTUy
-ODk2MjYzXX0=
+eyJoaXN0b3J5IjpbNTM2Mjc2ODgyLDMyNjA3ODEyMCwtMTA4Mz
+czNjIyMCwtMzcyMTc4MDMxLDUzNTY2MjQyNSwtMTQ1MzI5MDk5
+NywyMDA2MzEzNDE2LC03NjcyNjQxMDEsMTY5NDEwNjM5NCwtND
+kzODc0NDc1LDI0NDI2MzgwNiwyMTcxNjY4OTEsLTE3MDIzNTc4
+NjIsMTM2Mzg3NDMxNSw5MDg5NzA5MzcsLTE3MTgzNTIxMzksMj
+EzODk5MDM3NywtMTk1OTY0ODYzLC0xMjIyMDA1Njg3LC0yMTMx
+NzMxNTI1XX0=
 -->

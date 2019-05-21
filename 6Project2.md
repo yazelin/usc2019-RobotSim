@@ -12,7 +12,7 @@
 - Action資料夾
 	- 加入Action程式
 	- ![Image](./img/FrameworkAction.png)
-		 - 加入 Wt_Action_GetPut、Wt_Action_Next
+		 - 加入 Wt_Action_GetPut、Wt_Action_Direction
 - Motion資料夾
 	- 加入 Wt_Motion_Direction、Wt_Motion_GetPut 
 - ![Image](./img/AllFolder.png)
@@ -137,7 +137,7 @@ GLOBAL DEF Action ( )
    SWITCH ACTION_COMMAND.TYPE  		
   
    CASE #COMMAND_DECIDE  		;判斷是移動還是夾
-	   Wt_Action_Next(ACTION_INFO)  	
+	   Wt_Action_Direction(ACTION_INFO)  	
 	   RETURN  
    
    CASE #COMMAND_MOV  		;移動
@@ -189,7 +189,7 @@ GLOBAL DEF Action_Set_Command_Info(_TO_INDEX:IN)
 END
 ```
 
-- 判斷 Wt_Action_Next() 下一步為 Mov 還是 GetPut
+- 判斷 Wt_Action_Direction() 下一步為 Mov 還是 GetPut
 
 ```sh
 DEF Wt_Action_Next (_ACTION_INFO:IN )  
@@ -275,11 +275,11 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTEyOTc1MywzMjYwNzgxMjAsLTEwOD
-M3MzYyMjAsLTM3MjE3ODAzMSw1MzU2NjI0MjUsLTE0NTMyOTA5
-OTcsMjAwNjMxMzQxNiwtNzY3MjY0MTAxLDE2OTQxMDYzOTQsLT
-Q5Mzg3NDQ3NSwyNDQyNjM4MDYsMjE3MTY2ODkxLC0xNzAyMzU3
-ODYyLDEzNjM4NzQzMTUsOTA4OTcwOTM3LC0xNzE4MzUyMTM5LD
-IxMzg5OTAzNzcsLTE5NTk2NDg2MywtMTIyMjAwNTY4NywtMjEz
-MTczMTUyNV19
+eyJoaXN0b3J5IjpbMTAyMjU1MDA3LDMyNjA3ODEyMCwtMTA4Mz
+czNjIyMCwtMzcyMTc4MDMxLDUzNTY2MjQyNSwtMTQ1MzI5MDk5
+NywyMDA2MzEzNDE2LC03NjcyNjQxMDEsMTY5NDEwNjM5NCwtND
+kzODc0NDc1LDI0NDI2MzgwNiwyMTcxNjY4OTEsLTE3MDIzNTc4
+NjIsMTM2Mzg3NDMxNSw5MDg5NzA5MzcsLTE3MTgzNTIxMzksMj
+EzODk5MDM3NywtMTk1OTY0ODYzLC0xMjIyMDA1Njg3LC0yMTMx
+NzMxNTI1XX0=
 -->

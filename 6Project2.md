@@ -233,14 +233,12 @@ DEF Wt_Motion_GetPut ()
 END
 ```
 
-<link rel="stylesheet" type="text/css" media="all" href="https://raw.githubusercontent.com/yazelin/usc2019-RobotSim/master/src/AutoIt.css" />
-<script src="https://cdn.monetizejs.com/api/js/latest/monetize.min.js"></script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDczMzQ1LC0xOTU5NjQ4NjMsLTEyMj
-IwMDU2ODcsLTIxMzE3MzE1MjUsNTUyODk2MjYzLC0yMDc2NzM3
-OTE3LDE5NzkxNDczMTEsLTExMjQ5NjI4NDYsNTg1NTQ3OTE0LD
-E0NzI2MjQzMDYsLTIwMjI1NjY2NTgsLTExNjczNjA5OTAsMjU2
-MzAwODg4LDc1NzUxMTY2NSwtNDAwMjAwNDQ0LC0yMDQ5OTI3NT
-AsLTE0MDc3MzY1MCwtNzM2MzQxNjM1LC0xODA3NDgxOTM5LC00
-MDUxOTcwMTNdfQ==
+eyJoaXN0b3J5IjpbMjEzODk5MDM3NywtMTk1OTY0ODYzLC0xMj
+IyMDA1Njg3LC0yMTMxNzMxNTI1LDU1Mjg5NjI2MywtMjA3Njcz
+NzkxNywxOTc5MTQ3MzExLC0xMTI0OTYyODQ2LDU4NTU0NzkxNC
+wxNDcyNjI0MzA2LC0yMDIyNTY2NjU4LC0xMTY3MzYwOTkwLDI1
+NjMwMDg4OCw3NTc1MTE2NjUsLTQwMDIwMDQ0NCwtMjA0OTkyNz
+UwLC0xNDA3NzM2NTAsLTczNjM0MTYzNSwtMTgwNzQ4MTkzOSwt
+NDA1MTk3MDEzXX0=
 -->

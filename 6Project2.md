@@ -5,10 +5,12 @@
 - 建立ClawMachine資料夾
 	- 加入Main程式、Core資料夾
 - Core資料夾
-	- 加入Core、Server程式，Action、Motion資料夾
+	- 加入 Core、Server 程式以及Action、Motion 資料夾
 - Action資料夾
 	- 加入Action程式
-		 - 加入 Wt_Action_GetPut()、Wt_Action_Next()
+		 - 加入 Wt_Action_GetPut、Wt_Action_Next
+- Motion資料夾
+	- 加入 Wt_Motion_Direction、Wt_Motion_GetPut 
 
 
 2.撰寫框架Server程式
@@ -218,9 +220,6 @@ END
 
 5.Motion執行動作
 
-- Motion資料夾
-	- 加入Wt_Motion_Direction、Wt_Motion_GetPut 兩個Module
-
 - Motion動作移動
 
 ```sh
@@ -272,11 +271,11 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzgwMzU4NiwyMDA2MzEzNDE2LC03Nj
-cyNjQxMDEsMTY5NDEwNjM5NCwtNDkzODc0NDc1LDI0NDI2Mzgw
-NiwyMTcxNjY4OTEsLTE3MDIzNTc4NjIsMTM2Mzg3NDMxNSw5MD
-g5NzA5MzcsLTE3MTgzNTIxMzksMjEzODk5MDM3NywtMTk1OTY0
-ODYzLC0xMjIyMDA1Njg3LC0yMTMxNzMxNTI1LDU1Mjg5NjI2My
-wtMjA3NjczNzkxNywxOTc5MTQ3MzExLC0xMTI0OTYyODQ2LDU4
-NTU0NzkxNF19
+eyJoaXN0b3J5IjpbLTE0NTMyOTA5OTcsMjAwNjMxMzQxNiwtNz
+Y3MjY0MTAxLDE2OTQxMDYzOTQsLTQ5Mzg3NDQ3NSwyNDQyNjM4
+MDYsMjE3MTY2ODkxLC0xNzAyMzU3ODYyLDEzNjM4NzQzMTUsOT
+A4OTcwOTM3LC0xNzE4MzUyMTM5LDIxMzg5OTAzNzcsLTE5NTk2
+NDg2MywtMTIyMjAwNTY4NywtMjEzMTczMTUyNSw1NTI4OTYyNj
+MsLTIwNzY3Mzc5MTcsMTk3OTE0NzMxMSwtMTEyNDk2Mjg0Niw1
+ODU1NDc5MTRdfQ==
 -->

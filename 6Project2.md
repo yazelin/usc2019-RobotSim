@@ -122,7 +122,7 @@ END
 
 - Action內判斷現在需要執行內容
 
-```cc
+```c
 GLOBAL DEF Action ( )  
    Action_Before()  		;Action開始前要做的事
   
@@ -234,7 +234,7 @@ END
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxNTA5NDE1LC0xNzE4MzUyMTM5LDIxMz
+eyJoaXN0b3J5IjpbLTg2NTQ0ODgwLC0xNzE4MzUyMTM5LDIxMz
 g5OTAzNzcsLTE5NTk2NDg2MywtMTIyMjAwNTY4NywtMjEzMTcz
 MTUyNSw1NTI4OTYyNjMsLTIwNzY3Mzc5MTcsMTk3OTE0NzMxMS
 wtMTEyNDk2Mjg0Niw1ODU1NDc5MTQsMTQ3MjYyNDMwNiwtMjAy

@@ -54,7 +54,7 @@ END
 
 - 加入回傳訊息程式，告訴 PC 已完成動作
 
- ```
+```
 GLOBAL DEF Send()  
    DECL EKI_STATUS RET  
    DECL CHAR EOL[2]  
@@ -75,7 +75,7 @@ END
 3.在Core需初始化及判斷條件進入Action
 - Core初始化
 
- ```
+```
 GLOBAL DEF Core ()  
    BAS(#BASE, 0)  		;設定base
    BAS(#TOOL, 1)  		;設定tool
@@ -92,7 +92,7 @@ END
 
 - Core_Run判斷進入Action條件
 
- ```
+```
 GLOBAL DEF Core_Run()  
   
    PTP XHOME  		;home點
@@ -114,7 +114,7 @@ END
 4.Action判斷條件
 - 需再Action.dat檔內加入宣告
 
- ```
+```
  GLOBAL ENUM ACTION_COMMAND_TYPE COMMAND_DECIDE
  GLOBAL STRUC ACTION_INFO_STRUC INT _DIRECTION
  DECL ACTION_INFO_STRUC ACTION_INFO 加入 _DIRECTION 0
@@ -122,7 +122,7 @@ END
 
 - Action內判斷現在需要執行內容
 
- ```sh
+```sh
 GLOBAL DEF Action ( )  
    Action_Before()  		;Action開始前要做的事
   
@@ -233,11 +233,11 @@ DEF Wt_Motion_GetPut ()
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Mzc3MDI0NywtMjA3NjczNzkxNywxOT
-c5MTQ3MzExLC0xMTI0OTYyODQ2LDU4NTU0NzkxNCwxNDcyNjI0
-MzA2LC0yMDIyNTY2NjU4LC0xMTY3MzYwOTkwLDI1NjMwMDg4OC
-w3NTc1MTE2NjUsLTQwMDIwMDQ0NCwtMjA0OTkyNzUwLC0xNDA3
-NzM2NTAsLTczNjM0MTYzNSwtMTgwNzQ4MTkzOSwtNDA1MTk3MD
-EzLC01NzQ4NjE0NDQsNzY0NDQzNjM3LDMzODY1MDI4MywxNDIw
-MzQwOTYzXX0=
+eyJoaXN0b3J5IjpbLTEwMzg2NzA2NjksLTIwNzY3Mzc5MTcsMT
+k3OTE0NzMxMSwtMTEyNDk2Mjg0Niw1ODU1NDc5MTQsMTQ3MjYy
+NDMwNiwtMjAyMjU2NjY1OCwtMTE2NzM2MDk5MCwyNTYzMDA4OD
+gsNzU3NTExNjY1LC00MDAyMDA0NDQsLTIwNDk5Mjc1MCwtMTQw
+NzczNjUwLC03MzYzNDE2MzUsLTE4MDc0ODE5MzksLTQwNTE5Nz
+AxMywtNTc0ODYxNDQ0LDc2NDQ0MzYzNywzMzg2NTAyODMsMTQy
+MDM0MDk2M119
 -->

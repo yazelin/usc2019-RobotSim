@@ -2,7 +2,7 @@
 
 ### Winform Client 端通訊程式
 
-1. WtFramework開發框架介紹
+1. WtFramework開發框架介紹https://github.com/yazelin/usc2019-RobotSim/raw/master/src/WtFramework.zip
   - [KUKA手臂程式](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/KUKAUSC.zip)
   - [架構圖](./src/Wt專案架構圖.pdf)
   - [流程圖](./src/WtFrameworkFlowCharts.pdf)
@@ -229,11 +229,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTg4MzAzNiwtMTM1MTM2MDEwMCwxMT
-M2MTAzMTI3LDEzMTM2NTg0ODcsLTEyMDAxMjI2NSwtMTY4NDE3
-NDYzNywtODQ3NjM0MTUzLC01MDE4Njc3NDksMTE5NTM5MjY3My
-wtMTYxNjQ4NjE0Nyw0Nzc5NTAwNDQsLTEyMTczMTA3NzksNTg0
-Njc1MjcyLC0xMzI0ODAzMTg2LDMzOTE1NjUzNSwtNjM4MTMwOD
-Q4LC03MjkxNzQ3MjEsLTQ4MzY1MjA2NiwtNDgzNjUyMDY2LDY3
-Mzc1MzkyMV19
+eyJoaXN0b3J5IjpbOTE0MTMwNDA0LDEwMzE4ODMwMzYsLTEzNT
+EzNjAxMDAsMTEzNjEwMzEyNywxMzEzNjU4NDg3LC0xMjAwMTIy
+NjUsLTE2ODQxNzQ2MzcsLTg0NzYzNDE1MywtNTAxODY3NzQ5LD
+ExOTUzOTI2NzMsLTE2MTY0ODYxNDcsNDc3OTUwMDQ0LC0xMjE3
+MzEwNzc5LDU4NDY3NTI3MiwtMTMyNDgwMzE4NiwzMzkxNTY1Mz
+UsLTYzODEzMDg0OCwtNzI5MTc0NzIxLC00ODM2NTIwNjYsLTQ4
+MzY1MjA2Nl19
 -->

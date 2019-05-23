@@ -93,6 +93,13 @@ END
 	![Image](./img/UpProgarm.png) 
 	- 直接點選 Finish
 	- 等待手臂 Smart-Pad 出現對話框 兩次都點選 Yes
+
+- PS. 打開程式出現下圖錯誤訊息 需再做設定程式才能傳上手臂
+ ![Image](./img/ErrorMessage.png)
+	- 打開左上角
+	![Image](./img/ErrorSet.png)
+	![Image](./img/ErrorSet2.png)
+ 
 	
 3.通訊測試
 - 電腦 PC 連線測試
@@ -119,12 +126,14 @@ Port 54600
 - EKI 程式內容運作
 - 利用手臂與 PC、WinForm 進行通訊傳遞
 - Xml 標籤名稱需要更換、IP位置須改為相同
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjEzMTA2MiwyMjYzNTk3NTUsLTEwNz
-Q0MjE4NjksLTE2MDYwMDk5MzAsNTMxMzEyMTQ2LDc2MDM5NDk2
-NCwxMzk3MzY3MDAzLC02MzkyNzExMzMsOTQzNTc4NTAsMTcxNj
-MwNTU5MiwtMjI5OTA0ODk1LC0xMDEyOTQ5MDExLDE2ODQxNDA3
-MDIsLTE5MDk0MDY0ODMsMTAyNzg0MTk0OSwxNDc5Njk0NTkyLC
-0zNTMyMzc5MTIsLTEzOTE4NjIwMDgsLTEzOTE4NjIwMDgsMTY0
-NzMyOTQ4Nl19
+eyJoaXN0b3J5IjpbMTIxNjYxNjk4LDE1MDYxMzEwNjIsMjI2Mz
+U5NzU1LC0xMDc0NDIxODY5LC0xNjA2MDA5OTMwLDUzMTMxMjE0
+Niw3NjAzOTQ5NjQsMTM5NzM2NzAwMywtNjM5MjcxMTMzLDk0Mz
+U3ODUwLDE3MTYzMDU1OTIsLTIyOTkwNDg5NSwtMTAxMjk0OTAx
+MSwxNjg0MTQwNzAyLC0xOTA5NDA2NDgzLDEwMjc4NDE5NDksMT
+Q3OTY5NDU5MiwtMzUzMjM3OTEyLC0xMzkxODYyMDA4LC0xMzkx
+ODYyMDA4XX0=
 -->

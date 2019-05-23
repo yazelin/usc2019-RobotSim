@@ -98,7 +98,8 @@ END
 - ![Image](./img/ErrorMessage.png)
 	- 打開左上角 Extras > DTM-Catalog Management
 	- ![Image](./img/ErrorSet.png)
-	- 需要先按下方 Search for installed DTMs 搜尋已安裝DTM
+	- 需要先按下方 Search for installed DTMs 搜尋已安裝 DTM
+	- 在案上方箭頭指向的按鍵 ">>" 加入當前的DTM
 	- ![Image](./img/ErrorSet2.png)
  
 	
@@ -130,11 +131,11 @@ Port 54600
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDA3MjEwLDIxMjcxNzQzOTEsMTIxNj
-YxNjk4LDE1MDYxMzEwNjIsMjI2MzU5NzU1LC0xMDc0NDIxODY5
-LC0xNjA2MDA5OTMwLDUzMTMxMjE0Niw3NjAzOTQ5NjQsMTM5Nz
-M2NzAwMywtNjM5MjcxMTMzLDk0MzU3ODUwLDE3MTYzMDU1OTIs
-LTIyOTkwNDg5NSwtMTAxMjk0OTAxMSwxNjg0MTQwNzAyLC0xOT
-A5NDA2NDgzLDEwMjc4NDE5NDksMTQ3OTY5NDU5MiwtMzUzMjM3
-OTEyXX0=
+eyJoaXN0b3J5IjpbLTY3MDA3ODM5OSwyMTI3MTc0MzkxLDEyMT
+Y2MTY5OCwxNTA2MTMxMDYyLDIyNjM1OTc1NSwtMTA3NDQyMTg2
+OSwtMTYwNjAwOTkzMCw1MzEzMTIxNDYsNzYwMzk0OTY0LDEzOT
+czNjcwMDMsLTYzOTI3MTEzMyw5NDM1Nzg1MCwxNzE2MzA1NTky
+LC0yMjk5MDQ4OTUsLTEwMTI5NDkwMTEsMTY4NDE0MDcwMiwtMT
+kwOTQwNjQ4MywxMDI3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIz
+NzkxMl19
 -->

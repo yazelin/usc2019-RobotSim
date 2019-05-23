@@ -95,11 +95,10 @@ END
 	- 等待手臂 Smart-Pad 出現對話框 兩次都點選 Yes
 
 - PS. 打開程式出現下圖錯誤訊息 需再做設定程式才能傳上手臂
-  ![Image](./img/ErrorMessage.png)
+- ![Image](./img/ErrorMessage.png)
 	- 打開左上角
-	- 
-	![Image](./img/ErrorSet.png)
-	![Image](./img/ErrorSet2.png)
+	- ![Image](./img/ErrorSet.png)
+	- ![Image](./img/ErrorSet2.png)
  
 	
 3.通訊測試
@@ -130,7 +129,7 @@ Port 54600
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODk5MjAxOSwxMjE2NjE2OTgsMTUwNj
+eyJoaXN0b3J5IjpbMjEyNzE3NDM5MSwxMjE2NjE2OTgsMTUwNj
 EzMTA2MiwyMjYzNTk3NTUsLTEwNzQ0MjE4NjksLTE2MDYwMDk5
 MzAsNTMxMzEyMTQ2LDc2MDM5NDk2NCwxMzk3MzY3MDAzLC02Mz
 kyNzExMzMsOTQzNTc4NTAsMTcxNjMwNTU5MiwtMjI5OTA0ODk1

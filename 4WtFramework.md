@@ -173,7 +173,7 @@
 						StreamReader streamReader = new StreamReader(myClient.GetStream());     //建立StreamReader
 						StreamWriter streamWriter = new StreamWriter(myClient.GetStream());     //建立StreamWriter
 
-						while (myClient.Connected)      //mtClient連線
+						while (myClient.Connected)      //myClient連線
 						{
 							if (sendData != string.Empty)       //sendData不是空字串
 							{
@@ -229,11 +229,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTg4MzAzNiw5MTg4ODc1ODAsMTAzMT
-g4MzAzNiwtMTM1MTM2MDEwMCwxMTM2MTAzMTI3LDEzMTM2NTg0
-ODcsLTEyMDAxMjI2NSwtMTY4NDE3NDYzNywtODQ3NjM0MTUzLC
-01MDE4Njc3NDksMTE5NTM5MjY3MywtMTYxNjQ4NjE0Nyw0Nzc5
-NTAwNDQsLTEyMTczMTA3NzksNTg0Njc1MjcyLC0xMzI0ODAzMT
-g2LDMzOTE1NjUzNSwtNjM4MTMwODQ4LC03MjkxNzQ3MjEsLTQ4
-MzY1MjA2Nl19
+eyJoaXN0b3J5IjpbLTExMzcyMjgxNjksMTAzMTg4MzAzNiw5MT
+g4ODc1ODAsMTAzMTg4MzAzNiwtMTM1MTM2MDEwMCwxMTM2MTAz
+MTI3LDEzMTM2NTg0ODcsLTEyMDAxMjI2NSwtMTY4NDE3NDYzNy
+wtODQ3NjM0MTUzLC01MDE4Njc3NDksMTE5NTM5MjY3MywtMTYx
+NjQ4NjE0Nyw0Nzc5NTAwNDQsLTEyMTczMTA3NzksNTg0Njc1Mj
+cyLC0xMzI0ODAzMTg2LDMzOTE1NjUzNSwtNjM4MTMwODQ4LC03
+MjkxNzQ3MjFdfQ==
 -->

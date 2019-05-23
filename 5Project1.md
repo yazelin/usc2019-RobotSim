@@ -95,7 +95,7 @@ END
 	- 等待手臂 Smart-Pad 出現對話框 兩次都點選 Yes
 
 - PS. 打開程式出現下圖錯誤訊息 需再做設定程式才能傳上手臂
- ![Image](./img/ErrorMessage.png)
+  ![Image](./img/ErrorMessage.png)
 	- 打開左上角
 	![Image](./img/ErrorSet.png)
 	![Image](./img/ErrorSet2.png)
@@ -129,11 +129,11 @@ Port 54600
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjYxNjk4LDE1MDYxMzEwNjIsMjI2Mz
-U5NzU1LC0xMDc0NDIxODY5LC0xNjA2MDA5OTMwLDUzMTMxMjE0
-Niw3NjAzOTQ5NjQsMTM5NzM2NzAwMywtNjM5MjcxMTMzLDk0Mz
-U3ODUwLDE3MTYzMDU1OTIsLTIyOTkwNDg5NSwtMTAxMjk0OTAx
-MSwxNjg0MTQwNzAyLC0xOTA5NDA2NDgzLDEwMjc4NDE5NDksMT
-Q3OTY5NDU5MiwtMzUzMjM3OTEyLC0xMzkxODYyMDA4LC0xMzkx
+eyJoaXN0b3J5IjpbLTE2OTgwNDU5NDIsMTIxNjYxNjk4LDE1MD
+YxMzEwNjIsMjI2MzU5NzU1LC0xMDc0NDIxODY5LC0xNjA2MDA5
+OTMwLDUzMTMxMjE0Niw3NjAzOTQ5NjQsMTM5NzM2NzAwMywtNj
+M5MjcxMTMzLDk0MzU3ODUwLDE3MTYzMDU1OTIsLTIyOTkwNDg5
+NSwtMTAxMjk0OTAxMSwxNjg0MTQwNzAyLC0xOTA5NDA2NDgzLD
+EwMjc4NDE5NDksMTQ3OTY5NDU5MiwtMzUzMjM3OTEyLC0xMzkx
 ODYyMDA4XX0=
 -->

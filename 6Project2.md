@@ -3,8 +3,6 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7dYWyvtd1mo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
 1.建立專案資料夾、加入框架程式
 - 建立ClawMachine資料夾
 	- 加入Main程式、Core資料夾
@@ -314,11 +312,11 @@ END
 </ETHERNETKRL>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5NTMyMDIyLDQ3NzAxNDkwOCwtOTE3Mj
-E2MDYwLC01MjM5NDM0NDEsMjAxODE4NzcyMywtMTU2MjM5NDE2
-NSw5MDMyMzM0MTIsMTUxNzU1MzY4NiwzMjYwNzgxMjAsLTEwOD
-M3MzYyMjAsLTM3MjE3ODAzMSw1MzU2NjI0MjUsLTE0NTMyOTA5
-OTcsMjAwNjMxMzQxNiwtNzY3MjY0MTAxLDE2OTQxMDYzOTQsLT
-Q5Mzg3NDQ3NSwyNDQyNjM4MDYsMjE3MTY2ODkxLC0xNzAyMzU3
-ODYyXX0=
+eyJoaXN0b3J5IjpbMTY0NDQxMTkzMCw0NzcwMTQ5MDgsLTkxNz
+IxNjA2MCwtNTIzOTQzNDQxLDIwMTgxODc3MjMsLTE1NjIzOTQx
+NjUsOTAzMjMzNDEyLDE1MTc1NTM2ODYsMzI2MDc4MTIwLC0xMD
+gzNzM2MjIwLC0zNzIxNzgwMzEsNTM1NjYyNDI1LC0xNDUzMjkw
+OTk3LDIwMDYzMTM0MTYsLTc2NzI2NDEwMSwxNjk0MTA2Mzk0LC
+00OTM4NzQ0NzUsMjQ0MjYzODA2LDIxNzE2Njg5MSwtMTcwMjM1
+Nzg2Ml19
 -->

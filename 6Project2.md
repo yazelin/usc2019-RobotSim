@@ -1,7 +1,7 @@
 ## 六、自動化專案實作 二
 ### KUKA Srver端通訊程式
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7dYWyvtd1mo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -314,11 +314,11 @@ END
 </ETHERNETKRL>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MDE0OTA4LC05MTcyMTYwNjAsLTUyMz
-k0MzQ0MSwyMDE4MTg3NzIzLC0xNTYyMzk0MTY1LDkwMzIzMzQx
-MiwxNTE3NTUzNjg2LDMyNjA3ODEyMCwtMTA4MzczNjIyMCwtMz
-cyMTc4MDMxLDUzNTY2MjQyNSwtMTQ1MzI5MDk5NywyMDA2MzEz
-NDE2LC03NjcyNjQxMDEsMTY5NDEwNjM5NCwtNDkzODc0NDc1LD
-I0NDI2MzgwNiwyMTcxNjY4OTEsLTE3MDIzNTc4NjIsMTM2Mzg3
-NDMxNV19
+eyJoaXN0b3J5IjpbNTg5NTMyMDIyLDQ3NzAxNDkwOCwtOTE3Mj
+E2MDYwLC01MjM5NDM0NDEsMjAxODE4NzcyMywtMTU2MjM5NDE2
+NSw5MDMyMzM0MTIsMTUxNzU1MzY4NiwzMjYwNzgxMjAsLTEwOD
+M3MzYyMjAsLTM3MjE3ODAzMSw1MzU2NjI0MjUsLTE0NTMyOTA5
+OTcsMjAwNjMxMzQxNiwtNzY3MjY0MTAxLDE2OTQxMDYzOTQsLT
+Q5Mzg3NDQ3NSwyNDQyNjM4MDYsMjE3MTY2ODkxLC0xNzAyMzU3
+ODYyXX0=
 -->

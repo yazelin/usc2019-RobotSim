@@ -205,10 +205,10 @@
   
   - 改寫傳送資料為XML Form1
 ```cs
-  	private void SetData(string buttonNumber)
+  	private void SetData(string command)
 		{
 			string dataSend = " ";
-			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
+			dataSend = "<Data><Direction>"+ command +"</Direction></Data>";
 			client.Send(dataSend);
 		}
   ```
@@ -229,11 +229,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzcyMjgxNjksMTAzMTg4MzAzNiw5MT
-g4ODc1ODAsMTAzMTg4MzAzNiwtMTM1MTM2MDEwMCwxMTM2MTAz
-MTI3LDEzMTM2NTg0ODcsLTEyMDAxMjI2NSwtMTY4NDE3NDYzNy
-wtODQ3NjM0MTUzLC01MDE4Njc3NDksMTE5NTM5MjY3MywtMTYx
-NjQ4NjE0Nyw0Nzc5NTAwNDQsLTEyMTczMTA3NzksNTg0Njc1Mj
-cyLC0xMzI0ODAzMTg2LDMzOTE1NjUzNSwtNjM4MTMwODQ4LC03
-MjkxNzQ3MjFdfQ==
+eyJoaXN0b3J5IjpbMTk5OTAzNjA2MSwtMTEzNzIyODE2OSwxMD
+MxODgzMDM2LDkxODg4NzU4MCwxMDMxODgzMDM2LC0xMzUxMzYw
+MTAwLDExMzYxMDMxMjcsMTMxMzY1ODQ4NywtMTIwMDEyMjY1LC
+0xNjg0MTc0NjM3LC04NDc2MzQxNTMsLTUwMTg2Nzc0OSwxMTk1
+MzkyNjczLC0xNjE2NDg2MTQ3LDQ3Nzk1MDA0NCwtMTIxNzMxMD
+c3OSw1ODQ2NzUyNzIsLTEzMjQ4MDMxODYsMzM5MTU2NTM1LC02
+MzgxMzA4NDhdfQ==
 -->

@@ -208,7 +208,7 @@
   	private void SetData(string command)
 		{
 			string dataSend = " ";
-			dataSend = "<Data><Direction>"+ command +"</Direction></Data>";
+			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
 			client.Send(dataSend);
 		}
   ```
@@ -229,11 +229,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTAzNjA2MSwtMTEzNzIyODE2OSwxMD
-MxODgzMDM2LDkxODg4NzU4MCwxMDMxODgzMDM2LC0xMzUxMzYw
-MTAwLDExMzYxMDMxMjcsMTMxMzY1ODQ4NywtMTIwMDEyMjY1LC
-0xNjg0MTc0NjM3LC04NDc2MzQxNTMsLTUwMTg2Nzc0OSwxMTk1
-MzkyNjczLC0xNjE2NDg2MTQ3LDQ3Nzk1MDA0NCwtMTIxNzMxMD
-c3OSw1ODQ2NzUyNzIsLTEzMjQ4MDMxODYsMzM5MTU2NTM1LC02
-MzgxMzA4NDhdfQ==
+eyJoaXN0b3J5IjpbLTIwMDIyNzM1NzMsMTk5OTAzNjA2MSwtMT
+EzNzIyODE2OSwxMDMxODgzMDM2LDkxODg4NzU4MCwxMDMxODgz
+MDM2LC0xMzUxMzYwMTAwLDExMzYxMDMxMjcsMTMxMzY1ODQ4Ny
+wtMTIwMDEyMjY1LC0xNjg0MTc0NjM3LC04NDc2MzQxNTMsLTUw
+MTg2Nzc0OSwxMTk1MzkyNjczLC0xNjE2NDg2MTQ3LDQ3Nzk1MD
+A0NCwtMTIxNzMxMDc3OSw1ODQ2NzUyNzIsLTEzMjQ4MDMxODYs
+MzM5MTU2NTM1XX0=
 -->

@@ -488,22 +488,36 @@ GLOBAL DEF Action ( )
 END 
 --------------------------------------------------------------------------------------------------------------------   
 DEF Action_Before()  
-	Action_Set_Idle(FALSE)  
+
+	Action_Set_Idle(FALSE)
+	  
 END  
 --------------------------------------------------------------------------------------------------------------------
 DEF Action_After()  
+
 	IF (NOT Event()) AND (NOT Error()) THEN  
 		Server_Set_Ready(FALSE)  
 		Action_Set_Idle(TRUE)  
-	ENDIF  
+	ENDIF
+	  
 END 
 ```
 
 - Action_Mov
-	- 呼叫 Motion 並且傳入參數 Axis
+	- 呼叫 Motion 並且傳入參數 Axis 、 Distance
+
+```sh
+DEF Wt_Action_Mov ( INFO:IN)  
+	DECL ACTION_INFO_STRUC INFO  
+  
+	Motion_Mov(INFO._AXIS, INFO._DISTANCE)  
+  
+END
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ5MzAwMDgsMzI3MTcwMjk2LDIwNz
+eyJoaXN0b3J5IjpbLTE0NDE2MzM4MTUsMzI3MTcwMjk2LDIwNz
 UxOTA0MSwtMTc5NTQxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4
 MCwtMjI5OTYzMzU1LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

@@ -2,7 +2,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gm2w0d_TMHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 使用者控制項 ButtonControler - 
+- 使用者控制項 ButtonControler - 點選專案右鍵 > 加入 > 新增項目 > 使用者控制向
 	- 加入屬性
 		- AxisID
 		- CurrentPosition
@@ -318,7 +318,7 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjExMzU3NSwtNTMzMzAxMjEwLDQ3Mz
-IyOTQ4MCwtMjI5OTYzMzU1LDExMzIzNTY5MzgsLTI4NzAzMDcy
-MV19
+eyJoaXN0b3J5IjpbLTE3OTU0MTU4MjcsLTUzMzMwMTIxMCw0Nz
+MyMjk0ODAsLTIyOTk2MzM1NSwxMTMyMzU2OTM4LC0yODcwMzA3
+MjFdfQ==
 -->

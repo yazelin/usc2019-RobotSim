@@ -323,9 +323,9 @@ namespace AxisControler
 
 ### KUAK 手臂 Server端程式
 
-- Core 主迴圈
+- Core
 	- 初始化
-	- 判斷Ready
+	- 主迴圈判斷Ready
 
 ```sh
 GLOBAL DEF Core ()  
@@ -358,7 +358,10 @@ GLOBAL DEF Core_Run()
 END
 ```
 
-- Server 
+- Server
+	- 定義中斷程式
+		- 連線後 Timer初始化、開啟
+		- Timer > 100 m/
 
 ```sh
 
@@ -367,7 +370,7 @@ END
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE3NTg3ODEsMjA3NTE5MDQxLC0xNz
-k1NDE1ODI3LC01MzMzMDEyMTAsNDczMjI5NDgwLC0yMjk5NjMz
-NTUsMTEzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbNTk1NjU2OTE2LDIwNzUxOTA0MSwtMTc5NT
+QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
+LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

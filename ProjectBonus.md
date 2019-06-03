@@ -151,10 +151,10 @@ namespace AxisControler
   ```
 
 - 類別 Client
+ 	- 傳送動作指令
 	- 接收位置訊息
-	- 傳送動作指令
 	- 取出Xml內容
-	- 
+	- 加入事件並且觸發
 
 ```cs
 using System;
@@ -312,6 +312,6 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjUyMjUxMSwtMjI5OTYzMzU1LDExMz
+eyJoaXN0b3J5IjpbLTkwMzQwNTIxNSwtMjI5OTYzMzU1LDExMz
 IzNTY5MzgsLTI4NzAzMDcyMV19
 -->

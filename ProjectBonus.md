@@ -3,7 +3,9 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gm2w0d_TMHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 使用者控制項 ButtonControler
-	- 建立控制項
+	- 加入控制項
+		- AxisID
+		- 
 	- 註冊事件
 
 ```cs
@@ -51,6 +53,7 @@ namespace AxisControler
 	- 註冊事件
 	- 事件出發後 顯示位置訊息、控制項的開關
 	- 處理跨執行續問題
+	- 設定Xml格式動作指令
 
 ```cs
 using System;
@@ -315,6 +318,6 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNjg0NjIzLC0yMjk5NjMzNTUsMTEzMj
-M1NjkzOCwtMjg3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbLTI0ODczNjk4OSwtMjI5OTYzMzU1LDExMz
+IzNTY5MzgsLTI4NzAzMDcyMV19
 -->

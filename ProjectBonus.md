@@ -342,26 +342,26 @@ END
 -----------------------------------------------------------------
 GLOBAL DEF Core_Run()  
   
-PTP XHOME  
+	PTP XHOME  
   
-REPEAT  
+	REPEAT  
   
-WHILE ( ( NOT Event() ) AND ( NOT Error() ) )  
+		WHILE ( ( NOT Event() ) AND ( NOT Error() ) )  
   
-IF Server_Get_Ready() THEN  
-Action()  
-ENDIF  
+			IF Server_Get_Ready() THEN  
+				Action()  
+			ENDIF  
   
-ENDWHILE  
+		ENDWHILE  
   
-UNTIL SYS_EXIT  
+	UNTIL SYS_EXIT  
 END
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0NDE1ODA0LDIwNzUxOTA0MSwtMTc5NT
-QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
-LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbLTE5MTA2MDY4NCwyMDc1MTkwNDEsLTE3OT
+U0MTU4MjcsLTUzMzMwMTIxMCw0NzMyMjk0ODAsLTIyOTk2MzM1
+NSwxMTMyMzU2OTM4LC0yODcwMzA3MjFdfQ==
 -->

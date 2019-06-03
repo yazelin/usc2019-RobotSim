@@ -283,7 +283,8 @@ namespace AxisControler
 }
   ```
 
-- 事件 StatuChangeEventArgs - 紀錄Idle狀態
+- 事件 StatuChangeEventArgs
+	- 紀錄Idle狀態
 
 ```cs
 using System;
@@ -297,7 +298,8 @@ namespace AxisControler
 }
 ```
 
-- 事件  UpDataInEventArgs - 紀錄 A1 至 A6 軸位置
+- 事件  UpDataInEventArgs
+	- 紀錄 A1 至 A6 軸位置
 
 ```cs
 using System;
@@ -318,7 +320,7 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTEwNzM0OSwtMTc5NTQxNTgyNywtNT
-MzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1LDExMzIzNTY5
-MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbMjA3NTE5MDQxLC0xNzk1NDE1ODI3LC01Mz
+MzMDEyMTAsNDczMjI5NDgwLC0yMjk5NjMzNTUsMTEzMjM1Njkz
+OCwtMjg3MDMwNzIxXX0=
 -->

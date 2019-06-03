@@ -226,22 +226,33 @@ namespace AxisControler
   ```
 
 ```cs
-  	private void SetData(string command)
-		{
-			string dataSend = " ";
-			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
-			client.Send(dataSend);
-		}
+using System;
+
+namespace AxisControler
+{
+	public class StatuChangeEventArgs : EventArgs
+	{
+		public bool idle;
+	}
+}
   ```
 
-```
-IP 127.0.0.1 
-Port 54600
-前 <Data><Direction>1</Direction></Data>
-後 <Data><Direction>2</Direction></Data>
-左 <Data><Direction>3</Direction></Data>
-右 <Data><Direction>4</Direction></Data>
-夾 <Data><Direction>5</Direction></Data>
+```cs
+using System;
+
+namespace AxisControler
+{
+	internal class UpDataInEventArgs : EventArgs
+	{
+		public float A1 = 0;
+		public float A2 = 0;
+		public float A3 = 0;
+		public float A4 = 0;
+		public float A5 = 0;
+		public float A6 = 0;
+
+	}
+}
   ```
 
 ```
@@ -254,6 +265,6 @@ Port 54600
 夾 <Data><Direction>5</Direction></Data>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzUzNjMwMjEsMTEzMjM1NjkzOCwtMj
-g3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbMTAzMTQ4NjU5OSwxMTMyMzU2OTM4LC0yOD
+cwMzA3MjFdfQ==
 -->

@@ -45,6 +45,7 @@ namespace AxisControler
 }
   ```
 
+- Form1 程式
 
 ```cs
 using System;
@@ -146,6 +147,8 @@ namespace AxisControler
 	}
 }
   ```
+
+- Client 類別
 
 ```cs
 using System;
@@ -268,6 +271,8 @@ namespace AxisControler
 }
   ```
 
+- 事件 AxisControler
+
 ```cs
 using System;
 
@@ -279,6 +284,8 @@ namespace AxisControler
 	}
 }
 ```
+
+- 事件 AxisControler
 
 ```cs
 using System;
@@ -299,6 +306,6 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYwMjk2NjYsLTIyOTk2MzM1NSwxMT
-MyMzU2OTM4LC0yODcwMzA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTkzNDQyMTcwOSwtMjI5OTYzMzU1LDExMz
+IzNTY5MzgsLTI4NzAzMDcyMV19
 -->

@@ -472,7 +472,7 @@ END
 
 - Action
 	- Idle 執行動作前狀態變更
-	- 判斷並呼叫 Motion
+	- 判斷下一步
 	- 動作結束後 Ready、Idle 狀態變更
 
 ```sh
@@ -498,8 +498,12 @@ DEF Action_After()
 	ENDIF  
 END 
 ```
+
+- Action_Mov
+	- 呼叫 Motion 並且傳入參數 Axis
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5Mzc1OTMzLDMyNzE3MDI5NiwyMDc1MT
-kwNDEsLTE3OTU0MTU4MjcsLTUzMzMwMTIxMCw0NzMyMjk0ODAs
-LTIyOTk2MzM1NSwxMTMyMzU2OTM4LC0yODcwMzA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTEyMDQ5MzAwMDgsMzI3MTcwMjk2LDIwNz
+UxOTA0MSwtMTc5NTQxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4
+MCwtMjI5OTYzMzU1LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

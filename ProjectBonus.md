@@ -451,10 +451,13 @@ DEF Instruction_In()
 END
 ```
 
-
+- Action
+	- Idle狀態更換
+	- 判斷並呼叫Motion
+	- Ready、Idle
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3MTcwMjk2LDIwNzUxOTA0MSwtMTc5NT
-QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
-LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbLTY3NDAxNDE4MiwzMjcxNzAyOTYsMjA3NT
+E5MDQxLC0xNzk1NDE1ODI3LC01MzMzMDEyMTAsNDczMjI5NDgw
+LC0yMjk5NjMzNTUsMTEzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
 -->

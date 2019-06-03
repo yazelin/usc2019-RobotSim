@@ -224,7 +224,36 @@ namespace AxisControler
 	}
 }
   ```
+
+```cs
+  	private void SetData(string command)
+		{
+			string dataSend = " ";
+			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
+			client.Send(dataSend);
+		}
+  ```
+
+```
+IP 127.0.0.1 
+Port 54600
+前 <Data><Direction>1</Direction></Data>
+後 <Data><Direction>2</Direction></Data>
+左 <Data><Direction>3</Direction></Data>
+右 <Data><Direction>4</Direction></Data>
+夾 <Data><Direction>5</Direction></Data>
+  ```
+
+```
+IP 127.0.0.1 
+Port 54600
+前 <Data><Direction>1</Direction></Data>
+後 <Data><Direction>2</Direction></Data>
+左 <Data><Direction>3</Direction></Data>
+右 <Data><Direction>4</Direction></Data>
+夾 <Data><Direction>5</Direction></Data>
+  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQwNDA5NjYsMTEzMjM1NjkzOCwtMj
+eyJoaXN0b3J5IjpbLTE1MzUzNjMwMjEsMTEzMjM1NjkzOCwtMj
 g3MDMwNzIxXX0=
 -->

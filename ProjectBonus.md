@@ -3,7 +3,8 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gm2w0d_TMHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### 電腦 Client 端程式
+- 電腦 Client 端程式
+	- 
 
 
 - 使用者控制項 ButtonControler - 點選專案右鍵 > 加入 > 新增項目 > 使用者控制向
@@ -324,7 +325,7 @@ namespace AxisControler
   ```
 
 
-### KUAK 手臂 Server端程式
+- KUAK 手臂 Server端程式
 	- 
 
 
@@ -534,7 +535,7 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNTE2MDEsMzI3MTcwMjk2LDIwNzUxOT
-A0MSwtMTc5NTQxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwt
-MjI5OTYzMzU1LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbMTU4NDAzMTcwLDMyNzE3MDI5NiwyMDc1MT
+kwNDEsLTE3OTU0MTU4MjcsLTUzMzMwMTIxMCw0NzMyMjk0ODAs
+LTIyOTk2MzM1NSwxMTMyMzU2OTM4LC0yODcwMzA3MjFdfQ==
 -->

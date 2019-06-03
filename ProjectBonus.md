@@ -2,6 +2,47 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gm2w0d_TMHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+```cs
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AxisControler
+{
+	public partial class ButtonControler : UserControl
+	{
+
+		public event EventHandler AddButtonClick;
+		public event EventHandler DelButtonClick;       //burron click event
+		
+		public string CurrentPosition{ get { return txtAxis.Text; } set { txtAxis.Text = value; } }                  //record the current position
+		private int axisID = 0;
+		public int AxisID { get { return axisID; } set { axisID = value; labAxis.Text = "A" + value; } }  //set axis in controler
+		
+		public ButtonControler()
+		{
+			InitializeComponent();
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			AddButtonClick?.Invoke(this, e);        //Trigger AddButtonClick event
+		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			DelButtonClick?.Invoke(this, e);        //Trigger DelButtonClick event
+		}
+	}
+}
+  ```
+
 
 ```cs
 using System;
@@ -255,18 +296,7 @@ namespace AxisControler
 }
   ```
 
-
-
-```
-IP 127.0.0.1 
-Port 54600
-前 <Data><Direction>1</Direction></Data>
-後 <Data><Direction>2</Direction></Data>
-左 <Data><Direction>3</Direction></Data>
-右 <Data><Direction>4</Direction></Data>
-夾 <Data><Direction>5</Direction></Data>
-  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTcwNDI3NjUsMTEzMjM1NjkzOCwtMj
-g3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbLTk0NzQ0NTkxNSwxMTMyMzU2OTM4LC0yOD
+cwMzA3MjFdfQ==
 -->

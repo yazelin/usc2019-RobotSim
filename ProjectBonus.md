@@ -364,9 +364,8 @@ END
 ```
 
 - XmlServer設定檔
-	- 連線 Set_Flag="1"
-	- 收到資料 Set_Flag="2"
-	- 設定傳送資料
+	- 設定連線資料
+	- 設定傳送及接收資料
 
 ```xml
 <ETHERNETKRL>  
@@ -571,7 +570,7 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzEwMTg1NiwzMjcxNzAyOTYsMjA3NT
-E5MDQxLC0xNzk1NDE1ODI3LC01MzMzMDEyMTAsNDczMjI5NDgw
-LC0yMjk5NjMzNTUsMTEzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbLTEzMTgwMjU3NzIsMzI3MTcwMjk2LDIwNz
+UxOTA0MSwtMTc5NTQxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4
+MCwtMjI5OTYzMzU1LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

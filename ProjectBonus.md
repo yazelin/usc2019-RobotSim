@@ -5,7 +5,7 @@
 - 使用者控制項 ButtonControler
 	- 加入控制項
 		- AxisID
-		- 
+		- CurrentPosition
 	- 註冊事件
 
 ```cs
@@ -318,6 +318,6 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODczNjk4OSwtMjI5OTYzMzU1LDExMz
-IzNTY5MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbLTE4OTM3MjMxMzMsLTIyOTk2MzM1NSwxMT
+MyMzU2OTM4LC0yODcwMzA3MjFdfQ==
 -->

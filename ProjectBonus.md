@@ -360,9 +360,10 @@ END
 
 - Server
 	- 定義中斷程式
-		- 連線後 Timer初始化、開啟
-		- Timer > 100 m/
-
+		- 連線後 Timer 初始化、開啟
+		- Timer > 100ms 傳送手臂位置
+		- 接收資料 設定 Info 、 Idle
+		- 
 ```sh
 
 ```
@@ -370,7 +371,7 @@ END
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1NjU2OTE2LDIwNzUxOTA0MSwtMTc5NT
-QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
-LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbLTQyMzcwMDU4NywyMDc1MTkwNDEsLTE3OT
+U0MTU4MjcsLTUzMzMwMTIxMCw0NzMyMjk0ODAsLTIyOTk2MzM1
+NSwxMTMyMzU2OTM4LC0yODcwMzA3MjFdfQ==
 -->

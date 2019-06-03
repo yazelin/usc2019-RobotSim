@@ -452,12 +452,12 @@ END
 ```
 
 - Action
-	- Idle狀態更換
-	- 判斷並呼叫Motion
-	- Ready、Idle
+	- Idle 狀態變更
+	- 判斷並呼叫 Motion
+	- 動作結束後 Ready、Idle 變更
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDAxNDE4MiwzMjcxNzAyOTYsMjA3NT
+eyJoaXN0b3J5IjpbLTY4MTk1NTE4MSwzMjcxNzAyOTYsMjA3NT
 E5MDQxLC0xNzk1NDE1ODI3LC01MzMzMDEyMTAsNDczMjI5NDgw
 LC0yMjk5NjMzNTUsMTEzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
 -->

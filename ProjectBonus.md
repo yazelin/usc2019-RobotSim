@@ -3,7 +3,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gm2w0d_TMHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 使用者控制項 ButtonControler
-	- 加入控制項
+	- 加入屬性
 		- AxisID
 		- CurrentPosition
 	- 註冊事件
@@ -318,6 +318,6 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM3MjMxMzMsLTIyOTk2MzM1NSwxMT
-MyMzU2OTM4LC0yODcwMzA3MjFdfQ==
+eyJoaXN0b3J5IjpbNDczMjI5NDgwLC0yMjk5NjMzNTUsMTEzMj
+M1NjkzOCwtMjg3MDMwNzIxXX0=
 -->

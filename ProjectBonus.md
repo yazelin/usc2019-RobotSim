@@ -8,11 +8,11 @@
 
 
 - 使用者介面
-![Image](./img/ControlerInterface.png)
+- ![Image](./img/ControlerInterface.png)
 
 - 使用者控制項 ButtonControler - 點選專案右鍵 > 加入 > 新增項目 > 使用者控制向
-![Image](./img/BuildProgram.png)
-![Image](./img/SimpelControlerInterface.png)
+- ![Image](./img/BuildProgram.png)
+- ![Image](./img/SimpelControlerInterface.png)
 	- 加入屬性
 		- AxisID
 		- CurrentPosition
@@ -334,7 +334,7 @@ namespace AxisControler
 
 
 - Kuka 程式使用到的 Function
-![Image](./img/KukaBuildProgram.png)
+-![Image](./img/KukaBuildProgram.png)
 
 - Core
 	- 初始化
@@ -578,8 +578,8 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODg3ODcyOSwtMjExNjY5MDQxOSwtMT
-MxODAyNTc3MiwzMjcxNzAyOTYsMjA3NTE5MDQxLC0xNzk1NDE1
-ODI3LC01MzMzMDEyMTAsNDczMjI5NDgwLC0yMjk5NjMzNTUsMT
-EzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbMzYzNTI4NjE5LDE1Nzg4Nzg3MjksLTIxMT
+Y2OTA0MTksLTEzMTgwMjU3NzIsMzI3MTcwMjk2LDIwNzUxOTA0
+MSwtMTc5NTQxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMj
+I5OTYzMzU1LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

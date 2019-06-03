@@ -104,7 +104,7 @@ namespace AxisControler
 }
   ```
 
-```c#
+```cs
 using System;
 using System.IO;
 using System.Net.Sockets;
@@ -255,6 +255,8 @@ namespace AxisControler
 }
   ```
 
+
+
 ```
 IP 127.0.0.1 
 Port 54600
@@ -265,6 +267,6 @@ Port 54600
 夾 <Data><Direction>5</Direction></Data>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTQ4NjU5OSwxMTMyMzU2OTM4LC0yOD
-cwMzA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTEzOTcwNDI3NjUsMTEzMjM1NjkzOCwtMj
+g3MDMwNzIxXX0=
 -->

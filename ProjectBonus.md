@@ -4,6 +4,7 @@
 
 - 使用者控制項 ButtonControler
 	- 建立控制項
+	- 註冊事件
 
 ```cs
 using System;
@@ -152,6 +153,8 @@ namespace AxisControler
 - 類別 Client
 	- 接收位置訊息
 	- 傳送動作指令
+	- 取出Xml內容
+	- 
 
 ```cs
 using System;
@@ -309,6 +312,6 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTcyNDY4MzMsLTIyOTk2MzM1NSwxMT
-MyMzU2OTM4LC0yODcwMzA3MjFdfQ==
+eyJoaXN0b3J5IjpbMTQxNjUyMjUxMSwtMjI5OTYzMzU1LDExMz
+IzNTY5MzgsLTI4NzAzMDcyMV19
 -->

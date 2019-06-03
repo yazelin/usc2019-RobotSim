@@ -104,15 +104,127 @@ namespace AxisControler
 }
   ```
 
-```cs
-  	private void SetData(string command)
+```c#
+using System;
+using System.IO;
+using System.Net.Sockets;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Xml;
+
+namespace AxisControler
+{
+	class ClientExample
+	{
+		TcpClient myClient;         //建立TcpClient
+		public event EventHandler<UpDataInEventArgs> UpDataIn;
+		public event EventHandler<StatuChangeEventArgs> SatatusChanged;
+		private string sendData = string.Empty;
+		private bool idle;
+		private bool beforeIdle = false;
+
+		public ClientExample() { }
+
+		public void Start(string ip, int port)
 		{
-			string dataSend = " ";
-			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
-			client.Send(dataSend);
+			if (myClient != null)        
+			{
+				return;
+			}
+			myClient = new TcpClient(ip, port);  
+
+			Task.Run(() => ClientService());      //task run in other thread
 		}
+
+		public void Send(string data)
+		{
+			sendData = data;
+		}
+
+		private void ClientService()
+		{
+			while (true)
+			{
+
+				try
+				{
+
+					if (myClient != null)           //mtClient has entity
+					{
+						StreamReader streamReader = new StreamReader(myClient.GetStream());
+						StreamWriter streamWriter = new StreamWriter(myClient.GetStream());
+
+						while (myClient.Connected)
+						{
+							if (sendData != string.Empty) 
+							{
+								streamWriter.WriteLine(sendData);       
+								streamWriter.Flush();                   //send "sendData"
+								Console.WriteLine("Client To Server : " + sendData);
+
+								var data = streamReader.ReadLine();     //read "Confirm"
+								Console.WriteLine("From Server : " + data);
+
+								sendData = string.Empty;
+							}
+
+							var dataPosition = streamReader.ReadLine();			//read position and idle
+							Console.WriteLine("From Server : " + dataPosition);
+
+							XmlDocument xmlDocument = new XmlDocument();
+							xmlDocument.LoadXml(dataPosition);      //dataPosition set in xmlDocument
+
+							var positionA1 = xmlDocument.SelectSingleNode("/Position/A1").InnerText;    //take Xml content
+							var positionA2 = xmlDocument.SelectSingleNode("/Position/A2").InnerText;
+							var positionA3 = xmlDocument.SelectSingleNode("/Position/A3").InnerText;
+							var positionA4 = xmlDocument.SelectSingleNode("/Position/A4").InnerText;
+							var positionA5 = xmlDocument.SelectSingleNode("/Position/A5").InnerText;
+							var positionA6 = xmlDocument.SelectSingleNode("/Position/A6").InnerText;
+							var getIdle = xmlDocument.SelectSingleNode("/Position/Idle").InnerText;     //access A1 to A6 and idle status
+
+							idle = getIdle == "0" ? false : true;
+
+							if (idle != beforeIdle)     //idle has been changed
+							{
+								var statusChangeEventArgs = new StatuChangeEventArgs();
+								statusChangeEventArgs.idle = idle;						//access idle
+								SatatusChanged?.Invoke(this, statusChangeEventArgs);    //trigger event
+								beforeIdle = idle;
+							}
+
+							var upDataInEventArgs = new UpDataInEventArgs();
+							upDataInEventArgs.A1 = float.Parse(positionA1);
+							upDataInEventArgs.A2 = float.Parse(positionA2);
+							upDataInEventArgs.A3 = float.Parse(positionA3);
+							upDataInEventArgs.A4 = float.Parse(positionA4);
+							upDataInEventArgs.A5 = float.Parse(positionA5);
+							upDataInEventArgs.A6 = float.Parse(positionA6);				//access A1 to A6
+							UpDataIn?.Invoke(this, upDataInEventArgs);					//trigger event
+
+							SpinWait.SpinUntil(() => { return false; }, 10);    //wait 0.001 second
+						}
+					}
+				}
+				catch (Exception ex)        // try has error
+				{
+					Console.WriteLine(ex.ToString());       //write error
+					break;
+				}
+			}
+		}
+
+		public void Stop()
+		{
+			if (myClient != null)
+			{
+				myClient.Close();       
+				myClient = null;
+			}
+		}
+	}
+}
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzM1ODc4NzksMTEzMjM1NjkzOCwtMj
+eyJoaXN0b3J5IjpbLTEwOTQwNDA5NjYsMTEzMjM1NjkzOCwtMj
 g3MDMwNzIxXX0=
 -->

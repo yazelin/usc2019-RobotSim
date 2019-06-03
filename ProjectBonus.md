@@ -366,6 +366,7 @@ END
 - XmlServer設定檔
 	- 連線 Set_Flag="1"
 	- 收到資料 Set_Flag="2"
+	- 設定傳送資料
 
 ```xml
 <ETHERNETKRL>  
@@ -373,30 +374,29 @@ END
 		<EXTERNAL>  
 			<TYPE>Client</TYPE>  
 		</EXTERNAL>  
-<INTERNAL>  
-<IP>192.168.1.147</IP>  
-<PORT>54600</PORT>  
-<ALIVE Set_Flag="1"/>  
+		<INTERNAL>  
+			<IP>192.168.1.147</IP>  
+			<PORT>54600</PORT>  
+			<ALIVE Set_Flag="1"/>  
 		</INTERNAL>  
 	</CONFIGURATION>  
-<RECEIVE>  
-<XML>  
-<ELEMENT Tag="Distance/Axis" Type="INT" Set_Flag="2"/>  
-<ELEMENT Tag="Distance/Axis/@Angle" Type="INT" />  
-  
-</XML>  
-</RECEIVE>  
-<SEND>  
-<XML>  
-<ELEMENT Tag="Position/A1" Type="REAL" />  
-<ELEMENT Tag="Position/A2" Type="REAL" />  
-<ELEMENT Tag="Position/A3" Type="REAL" />  
-<ELEMENT Tag="Position/A4" Type="REAL" />  
-<ELEMENT Tag="Position/A5" Type="REAL" />  
-<ELEMENT Tag="Position/A6" Type="REAL" />  
-<ELEMENT Tag="Position/Idle" Type="BOOL" />  
-</XML>  
-</SEND>  
+	<RECEIVE>  
+		<XML>  
+			<ELEMENT Tag="Distance/Axis" Type="INT" Set_Flag="2"/>  
+			<ELEMENT Tag="Distance/Axis/@Angle" Type="INT" />  
+		</XML>  
+	</RECEIVE>  
+	<SEND>  
+		<XML>  
+			<ELEMENT Tag="Position/A1" Type="REAL" />  
+			<ELEMENT Tag="Position/A2" Type="REAL" />  
+			<ELEMENT Tag="Position/A3" Type="REAL" />  
+			<ELEMENT Tag="Position/A4" Type="REAL" />  
+			<ELEMENT Tag="Position/A5" Type="REAL" />  
+			<ELEMENT Tag="Position/A6" Type="REAL" />  
+			<ELEMENT Tag="Position/Idle" Type="BOOL" />  
+		</XML>  
+	</SEND>  
 </ETHERNETKRL>
 ```
 
@@ -571,7 +571,7 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTc4NzQ2OCwzMjcxNzAyOTYsMjA3NT
+eyJoaXN0b3J5IjpbMTU0MzEwMTg1NiwzMjcxNzAyOTYsMjA3NT
 E5MDQxLC0xNzk1NDE1ODI3LC01MzMzMDEyMTAsNDczMjI5NDgw
 LC0yMjk5NjMzNTUsMTEzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
 -->

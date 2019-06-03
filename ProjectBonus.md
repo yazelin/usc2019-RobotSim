@@ -276,7 +276,7 @@ namespace AxisControler
 		public bool idle;
 	}
 }
-  ```
+```
 
 ```cs
 using System;
@@ -297,6 +297,6 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzQ0NTkxNSwxMTMyMzU2OTM4LC0yOD
+eyJoaXN0b3J5IjpbLTIyOTk2MzM1NSwxMTMyMzU2OTM4LC0yOD
 cwMzA3MjFdfQ==
 -->

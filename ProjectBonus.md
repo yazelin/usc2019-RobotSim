@@ -358,6 +358,25 @@ GLOBAL DEF Core_Run()
 END
 ```
 
+```sh
+GLOBAL DEF Core_Run()  
+  
+   PTP XHOME  		;home點
+  
+   REPEAT  
+  
+      WHILE ( ( NOT Event() ) AND ( NOT Error() ) )  
+  
+      IF Server_Get_Ready() THEN  		;判斷Ready
+         Action()  
+      ENDIF  
+  
+      ENDWHILE  
+   
+   UNTIL SYS_EXIT  
+END
+```
+
 - Server
 	- 定義中斷程式
 		- 連線後 Timer 初始化、開啟
@@ -452,12 +471,40 @@ END
 ```
 
 - Action
-	- Idle 狀態變更
+	- Idle 執行動作前狀態變更
 	- 判斷並呼叫 Motion
-	- 動作結束後 Ready、Idle 變更
+	- 動作結束後 Ready、Idle 狀態變更
 
+```sh
+GLOBAL DEF Action ( )  
+Action_Before()  
+  
+SWITCH ACTION_COMMAND.TYPE  
+CASE #COMMAND_MOV  
+Wt_Action_Mov(ACTION_INFO)  
+ENDSWITCH  
+  
+Action_After()  
+END  
+  
+;Before Action, decide what to do if this step is completed  
+DEF Action_Before()  
+Action_Set_Idle(FALSE)  
+END  
+  
+;Action completed without error ,So load the next step to current  
+DEF Action_After()  
+IF (NOT Event()) AND (NOT Error()) THEN  
+  
+Server_Set_Ready(FALSE)  
+Action_Set_Idle(TRUE)  
+  
+ENDIF  
+END 
+END
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTk1NTE4MSwzMjcxNzAyOTYsMjA3NT
-E5MDQxLC0xNzk1NDE1ODI3LC01MzMzMDEyMTAsNDczMjI5NDgw
-LC0yMjk5NjMzNTUsMTEzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbNTE4MzgzOTA4LDMyNzE3MDI5NiwyMDc1MT
+kwNDEsLTE3OTU0MTU4MjcsLTUzMzMwMTIxMCw0NzMyMjk0ODAs
+LTIyOTk2MzM1NSwxMTMyMzU2OTM4LC0yODcwMzA3MjFdfQ==
 -->

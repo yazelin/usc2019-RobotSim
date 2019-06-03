@@ -323,12 +323,14 @@ namespace AxisControler
 
 ### KUAK 手臂 Server端程式
 
-
+- Core 主迴圈
+	- 初始化
+	- 判斷Ser
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTg4ODM1LDIwNzUxOTA0MSwtMTc5NT
+eyJoaXN0b3J5IjpbMzQ1MDUyNjY5LDIwNzUxOTA0MSwtMTc5NT
 QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
 LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

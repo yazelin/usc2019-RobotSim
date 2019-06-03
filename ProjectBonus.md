@@ -340,7 +340,7 @@ namespace AxisControler
 	- 初始化
 	- 主迴圈判斷Ready
 
-```sh
+```C
 GLOBAL DEF Core ()  
   
 	BAS(#BASE, 0)  
@@ -413,7 +413,7 @@ END
 		- Timer > 100ms 傳送手臂位置
 		- 接收資料 設定 Info 、 Idle
 
-```sh
+```C
 GLOBAL DEF Server ()  
 	GLOBAL INTERRUPT DECL 100 WHEN $TIMER[1] > 100 DO SendData() ;when timer big than 0.1 second,send current position  
 	GLOBAL INTERRUPT DECL 101 WHEN $FLAG[1]==TRUE DO TimerData_InIt();When flag 1 True,timer init  
@@ -578,8 +578,9 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTQwNjg0NSwxNTc4ODc4NzI5LC0yMT
-E2NjkwNDE5LC0xMzE4MDI1NzcyLDMyNzE3MDI5NiwyMDc1MTkw
-NDEsLTE3OTU0MTU4MjcsLTUzMzMwMTIxMCw0NzMyMjk0ODAsLT
-IyOTk2MzM1NSwxMTMyMzU2OTM4LC0yODcwMzA3MjFdfQ==
+eyJoaXN0b3J5IjpbMTE2NzQwODE4MSwtMzQxNDA2ODQ1LDE1Nz
+g4Nzg3MjksLTIxMTY2OTA0MTksLTEzMTgwMjU3NzIsMzI3MTcw
+Mjk2LDIwNzUxOTA0MSwtMTc5NTQxNTgyNywtNTMzMzAxMjEwLD
+Q3MzIyOTQ4MCwtMjI5OTYzMzU1LDExMzIzNTY5MzgsLTI4NzAz
+MDcyMV19
 -->

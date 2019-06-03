@@ -333,7 +333,7 @@ namespace AxisControler
 ## KUAK 手臂 Server端程式
 
 
-- Kuka程式
+- Kuka 程式使用到的 Function
 ![Image](./img/KukaBuildProgram.png)
 
 - Core
@@ -578,8 +578,8 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY4MzAwNTgsLTIxMTY2OTA0MTksLT
-EzMTgwMjU3NzIsMzI3MTcwMjk2LDIwNzUxOTA0MSwtMTc5NTQx
-NTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1LD
-ExMzIzNTY5MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbMTU3ODg3ODcyOSwtMjExNjY5MDQxOSwtMT
+MxODAyNTc3MiwzMjcxNzAyOTYsMjA3NTE5MDQxLC0xNzk1NDE1
+ODI3LC01MzMzMDEyMTAsNDczMjI5NDgwLC0yMjk5NjMzNTUsMT
+EzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
 -->

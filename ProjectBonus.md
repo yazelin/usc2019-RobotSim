@@ -9,6 +9,7 @@
 
 - 使用者控制項 ButtonControler - 點選專案右鍵 > 加入 > 新增項目 > 使用者控制向
 ![Image](./img/BuildProgram.png)
+![Image](./img/SimpelControlerInterface.png)
 	- 加入屬性
 		- AxisID
 		- CurrentPosition
@@ -571,7 +572,7 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE1OTIyMjgsLTIxMTY2OTA0MTksLT
+eyJoaXN0b3J5IjpbLTEzNzE2NDk0MDQsLTIxMTY2OTA0MTksLT
 EzMTgwMjU3NzIsMzI3MTcwMjk2LDIwNzUxOTA0MSwtMTc5NTQx
 NTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1LD
 ExMzIzNTY5MzgsLTI4NzAzMDcyMV19

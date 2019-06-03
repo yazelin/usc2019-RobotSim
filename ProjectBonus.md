@@ -2,7 +2,8 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gm2w0d_TMHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 使用者控制項ButtonControler
+- 使用者控制項 ButtonControler
+	- 建立控制項
 
 ```cs
 using System;
@@ -148,7 +149,9 @@ namespace AxisControler
 }
   ```
 
-- Client 類別
+- 類別 Client
+	- 接收位置訊息
+	- 傳送動作指令
 
 ```cs
 using System;
@@ -271,7 +274,7 @@ namespace AxisControler
 }
   ```
 
-- 事件 AxisControler
+- 事件 StatuChangeEventArgs
 
 ```cs
 using System;
@@ -285,7 +288,7 @@ namespace AxisControler
 }
 ```
 
-- 事件 AxisControler
+- 事件  UpDataInEventArgs
 
 ```cs
 using System;
@@ -306,6 +309,6 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDQyMTcwOSwtMjI5OTYzMzU1LDExMz
-IzNTY5MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbLTE1OTcyNDY4MzMsLTIyOTk2MzM1NSwxMT
+MyMzU2OTM4LC0yODcwMzA3MjFdfQ==
 -->

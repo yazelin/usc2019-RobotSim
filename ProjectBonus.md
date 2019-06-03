@@ -2,7 +2,7 @@
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gm2w0d_TMHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-[簡報](https://docs.google.com/presentation/d/1ZYj5mGjhTlnCzV6vPP70bwI-meQ7a0T_LexhN0AwzKM/edit?usp=sharing)
+- 影片[簡報](https://docs.google.com/presentation/d/1ZYj5mGjhTlnCzV6vPP70bwI-meQ7a0T_LexhN0AwzKM/edit?usp=sharing)
 
 ## 電腦 Client 端程式
 
@@ -570,8 +570,8 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzA2MjQxMCwtMTMxODAyNTc3MiwzMj
-cxNzAyOTYsMjA3NTE5MDQxLC0xNzk1NDE1ODI3LC01MzMzMDEy
-MTAsNDczMjI5NDgwLC0yMjk5NjMzNTUsMTEzMjM1NjkzOCwtMj
-g3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbLTIxMTY2OTA0MTksLTEzMTgwMjU3NzIsMz
+I3MTcwMjk2LDIwNzUxOTA0MSwtMTc5NTQxNTgyNywtNTMzMzAx
+MjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1LDExMzIzNTY5MzgsLT
+I4NzAzMDcyMV19
 -->

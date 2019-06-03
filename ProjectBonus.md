@@ -1,11 +1,10 @@
-## 自動化專案實作加分題
+# 自動化專案實作加分題
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gm2w0d_TMHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- 電腦 Client 端程式
-	- 
+## 電腦 Client 端程式
 
 
 - 使用者控制項 ButtonControler - 點選專案右鍵 > 加入 > 新增項目 > 使用者控制向
@@ -326,8 +325,7 @@ namespace AxisControler
   ```
 
 
-- KUAK 手臂 Server端程式
-	- 
+## KUAK 手臂 Server端程式
 
 
 - Core
@@ -536,7 +534,7 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTAwOTMyOCwzMjcxNzAyOTYsMjA3NT
+eyJoaXN0b3J5IjpbLTczNTU5OTQ2OSwzMjcxNzAyOTYsMjA3NT
 E5MDQxLC0xNzk1NDE1ODI3LC01MzMzMDEyMTAsNDczMjI5NDgw
 LC0yMjk5NjMzNTUsMTEzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
 -->

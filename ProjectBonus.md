@@ -339,7 +339,7 @@ GLOBAL DEF Core ()
 	Server() ;server Init and Start  
   
 END  
------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
 GLOBAL DEF Core_Run()  
   
 	PTP XHOME  
@@ -365,13 +365,29 @@ END
 		- 接收資料 設定 Info 、 Idle
 		- 
 ```sh
-
+GLOBAL DEF Server ()  
+	GLOBAL INTERRUPT DECL 100 WHEN $TIMER[1] > 100 DO SendData() ;when timer big than 0.1 second,send current position  
+	GLOBAL INTERRUPT DECL 101 WHEN $FLAG[1]==TRUE DO TimerData_InIt();When flag 1 True,timer init  
+	GLOBAL INTERRUPT DECL 102 WHEN $FLAG[2]==TRUE DO Instruction_In();When flag 2 True,recive the instruction  
+  
+	$FLAG[1] = FALSE  
+	$FLAG[2] = FALSE  
+  
+	INTERRUPT ON 100  
+	INTERRUPT ON 101  
+	INTERRUPT ON 102  
+  
+	Server_Set_Ready(FALSE)  
+	ACTION_Set_Idle(TRUE)  
+	Server_Start(1)  
+  
+END
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzcwMDU4NywyMDc1MTkwNDEsLTE3OT
+eyJoaXN0b3J5IjpbMTk3OTY5MTkwNCwyMDc1MTkwNDEsLTE3OT
 U0MTU4MjcsLTUzMzMwMTIxMCw0NzMyMjk0ODAsLTIyOTk2MzM1
 NSwxMTMyMzU2OTM4LC0yODcwMzA3MjFdfQ==
 -->

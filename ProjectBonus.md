@@ -2,6 +2,8 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gm2w0d_TMHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### 電腦 Client 端程式
+
 - 使用者控制項 ButtonControler - 點選專案右鍵 > 加入 > 新增項目 > 使用者控制向
 	- 加入屬性
 		- AxisID
@@ -319,8 +321,14 @@ namespace AxisControler
 }
   ```
 
+### KUAK 手臂 Server端程式
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTE5MDQxLC0xNzk1NDE1ODI3LC01Mz
-MzMDEyMTAsNDczMjI5NDgwLC0yMjk5NjMzNTUsMTEzMjM1Njkz
-OCwtMjg3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbMTQzMTg4ODM1LDIwNzUxOTA0MSwtMTc5NT
+QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
+LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

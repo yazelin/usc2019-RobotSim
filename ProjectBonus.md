@@ -48,6 +48,9 @@ namespace AxisControler
   ```
 
 - Form1 程式
+	- 註冊事件
+	- 事件出發後 顯示位置訊息、控制項的開關
+	- 處理跨執行續問題
 
 ```cs
 using System;
@@ -312,6 +315,6 @@ namespace AxisControler
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzQwNTIxNSwtMjI5OTYzMzU1LDExMz
-IzNTY5MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbMjMwNjg0NjIzLC0yMjk5NjMzNTUsMTEzMj
+M1NjkzOCwtMjg3MDMwNzIxXX0=
 -->

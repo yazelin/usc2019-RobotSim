@@ -477,34 +477,29 @@ END
 
 ```sh
 GLOBAL DEF Action ( )  
-Action_Before()  
+	Action_Before()  
   
-SWITCH ACTION_COMMAND.TYPE  
-CASE #COMMAND_MOV  
-Wt_Action_Mov(ACTION_INFO)  
-ENDSWITCH  
+	SWITCH ACTION_COMMAND.TYPE  
+		CASE #COMMAND_MOV  
+			Wt_Action_Mov(ACTION_INFO)  
+	ENDSWITCH  
   
-Action_After()  
-END  
-  
-;Before Action, decide what to do if this step is completed  
-DEF Action_Before()  
-Action_Set_Idle(FALSE)  
-END  
-  
-;Action completed without error ,So load the next step to current  
-DEF Action_After()  
-IF (NOT Event()) AND (NOT Error()) THEN  
-  
-Server_Set_Ready(FALSE)  
-Action_Set_Idle(TRUE)  
-  
-ENDIF  
+	Action_After()  
 END 
-END
+--------------------------------------------------------------------------------------------------------------------   
+DEF Action_Before()  
+	Action_Set_Idle(FALSE)  
+END  
+--------------------------------------------------------------------------------------------------------------------
+DEF Action_After()  
+	IF (NOT Event()) AND (NOT Error()) THEN  
+		Server_Set_Ready(FALSE)  
+		Action_Set_Idle(TRUE)  
+	ENDIF  
+END 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4MzgzOTA4LDMyNzE3MDI5NiwyMDc1MT
+eyJoaXN0b3J5IjpbOTc5Mzc1OTMzLDMyNzE3MDI5NiwyMDc1MT
 kwNDEsLTE3OTU0MTU4MjcsLTUzMzMwMTIxMCw0NzMyMjk0ODAs
 LTIyOTk2MzM1NSwxMTMyMzU2OTM4LC0yODcwMzA3MjFdfQ==
 -->

@@ -382,12 +382,51 @@ GLOBAL DEF Server ()
 	Server_Start(1)  
   
 END
+--------------------------------------------------------------------------------------------------------------------
+DEF TimerData_InIt()  
+  
+	$TIMER_STOP[1] = TRUE ;close timer  
+	$TIMER[1]=0 ;timer init  
+	$TIMER_STOP[1] = FALSE ;open timer  
+  
+END
+--------------------------------------------------------------------------------------------------------------------
+DEF SendData()  
+	DECL CHAR EOL[2]  
+	CHAR CHANNEL_NAME[24]  
+DECL EKI_STATUS RET  
+DECL E6AXIS POSITION  
+BOOL Idle  
+Idle = Action_Get_Idle() ;take current idle  
+  
+POSITION = $AXIS_ACT  
+  
+CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]  
+  
+RET = EKI_SetReal(CHANNEL_NAME[], "Position/A1", POSITION.A1) ;set current position in xml  
+RET = EKI_SetReal(CHANNEL_NAME[], "Position/A2", POSITION.A2)  
+RET = EKI_SetReal(CHANNEL_NAME[], "Position/A3", POSITION.A3)  
+RET = EKI_SetReal(CHANNEL_NAME[], "Position/A4", POSITION.A4)  
+RET = EKI_SetReal(CHANNEL_NAME[], "Position/A5", POSITION.A5)  
+RET = EKI_SetReal(CHANNEL_NAME[], "Position/A6", POSITION.A6)  
+RET = EKI_SetBool(CHANNEL_NAME[], "Position/Idle", Idle)  
+RET = EKI_Send(CHANNEL_NAME[], "Position") ;send current position and robot idle  
+  
+EOL[1]=13  
+EOL[2]=10  
+  
+RET = EKI_Send(CHANNEL_NAME[], EOL[])  
+  
+$TIMER[1]=0 ;timer init  
+END
+--------------------------------------------------------------------------------------------------------------------
+
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTY5MTkwNCwyMDc1MTkwNDEsLTE3OT
-U0MTU4MjcsLTUzMzMwMTIxMCw0NzMyMjk0ODAsLTIyOTk2MzM1
-NSwxMTMyMzU2OTM4LC0yODcwMzA3MjFdfQ==
+eyJoaXN0b3J5IjpbNDE1MTM5MzM4LDIwNzUxOTA0MSwtMTc5NT
+QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
+LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

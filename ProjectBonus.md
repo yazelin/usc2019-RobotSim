@@ -363,7 +363,7 @@ END
 		- 連線後 Timer 初始化、開啟
 		- Timer > 100ms 傳送手臂位置
 		- 接收資料 設定 Info 、 Idle
-		- 
+
 ```sh
 GLOBAL DEF Server ()  
 	GLOBAL INTERRUPT DECL 100 WHEN $TIMER[1] > 100 DO SendData() ;when timer big than 0.1 second,send current position  
@@ -454,7 +454,7 @@ END
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYxMjE0MTMsMjA3NTE5MDQxLC0xNz
-k1NDE1ODI3LC01MzMzMDEyMTAsNDczMjI5NDgwLC0yMjk5NjMz
-NTUsMTEzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbMzI3MTcwMjk2LDIwNzUxOTA0MSwtMTc5NT
+QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
+LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

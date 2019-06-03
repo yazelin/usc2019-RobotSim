@@ -325,12 +325,43 @@ namespace AxisControler
 
 - Core 主迴圈
 	- 初始化
-	- 判斷Ser
+	- 判斷Ready
+
+```sh
+GLOBAL DEF Core ()  
+  
+	BAS(#BASE, 0)  
+	BAS(#TOOL, 1)  
+  
+	IOControl()  
+	Exception()  
+  
+	Server() ;server Init and Start  
+  
+END  
+-----------------------------------------------------------------
+GLOBAL DEF Core_Run()  
+  
+PTP XHOME  
+  
+REPEAT  
+  
+WHILE ( ( NOT Event() ) AND ( NOT Error() ) )  
+  
+IF Server_Get_Ready() THEN  
+Action()  
+ENDIF  
+  
+ENDWHILE  
+  
+UNTIL SYS_EXIT  
+END
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1MDUyNjY5LDIwNzUxOTA0MSwtMTc5NT
+eyJoaXN0b3J5IjpbODk0NDE1ODA0LDIwNzUxOTA0MSwtMTc5NT
 QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
 LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
 -->

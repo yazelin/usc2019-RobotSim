@@ -394,39 +394,67 @@ END
 DEF SendData()  
 	DECL CHAR EOL[2]  
 	CHAR CHANNEL_NAME[24]  
-DECL EKI_STATUS RET  
-DECL E6AXIS POSITION  
-BOOL Idle  
-Idle = Action_Get_Idle() ;take current idle  
+	DECL EKI_STATUS RET  
+	DECL E6AXIS POSITION  
+	BOOL Idle  
+	Idle = Action_Get_Idle() ;take current idle  
   
-POSITION = $AXIS_ACT  
+	POSITION = $AXIS_ACT  
   
-CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]  
+	CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]  
   
-RET = EKI_SetReal(CHANNEL_NAME[], "Position/A1", POSITION.A1) ;set current position in xml  
-RET = EKI_SetReal(CHANNEL_NAME[], "Position/A2", POSITION.A2)  
-RET = EKI_SetReal(CHANNEL_NAME[], "Position/A3", POSITION.A3)  
-RET = EKI_SetReal(CHANNEL_NAME[], "Position/A4", POSITION.A4)  
-RET = EKI_SetReal(CHANNEL_NAME[], "Position/A5", POSITION.A5)  
-RET = EKI_SetReal(CHANNEL_NAME[], "Position/A6", POSITION.A6)  
-RET = EKI_SetBool(CHANNEL_NAME[], "Position/Idle", Idle)  
-RET = EKI_Send(CHANNEL_NAME[], "Position") ;send current position and robot idle  
+	RET = EKI_SetReal(CHANNEL_NAME[], "Position/A1", POSITION.A1) ;set current position in xml  
+	RET = EKI_SetReal(CHANNEL_NAME[], "Position/A2", POSITION.A2)  
+	RET = EKI_SetReal(CHANNEL_NAME[], "Position/A3", POSITION.A3)  
+	RET = EKI_SetReal(CHANNEL_NAME[], "Position/A4", POSITION.A4)  
+	RET = EKI_SetReal(CHANNEL_NAME[], "Position/A5", POSITION.A5)  
+	RET = EKI_SetReal(CHANNEL_NAME[], "Position/A6", POSITION.A6)  
+	RET = EKI_SetBool(CHANNEL_NAME[], "Position/Idle", Idle)  
+	RET = EKI_Send(CHANNEL_NAME[], "Position") ;send current position and robot idle  
   
-EOL[1]=13  
-EOL[2]=10  
+	EOL[1]=13  
+	EOL[2]=10  
   
-RET = EKI_Send(CHANNEL_NAME[], EOL[])  
-  
-$TIMER[1]=0 ;timer init  
+	RET = EKI_Send(CHANNEL_NAME[], EOL[])  
+	  
+	$TIMER[1]=0 ;timer init  
 END
 --------------------------------------------------------------------------------------------------------------------
-
+DEF Instruction_In()  
+	DECL EKI_STATUS RET  
+	DECL CHAR EOL[2]  
+	CHAR CHANNEL_NAME[24]  
+	INT _DISTANCE  
+	INT _AXIS  
+  
+	_DISTANCE=0  
+	_AXIS=0  
+  
+	EOL[1]=13  
+	EOL[2]=10  
+  
+	CHANNEL_NAME[] = SERVER_CONNECTION_LIST[1].NAME[]  
+  
+	RET = EKI_GetInt(CHANNEL_NAME[],"Distance/Axis",_AXIS)  
+	RET = EKI_GetInt(CHANNEL_NAME[],"Distance/Axis/@Angle",_DISTANCE) ;recive axis and move distance  
+  
+	RET = EKI_Send(CHANNEL_NAME[], "Confirm")  
+	RET = EKI_Send(CHANNEL_NAME[], EOL[]) ;send "confirm"  
+  
+	IF Action_Get_Idle() THEN  
+		Action_Set_InFo(_AXIS, _DISTANCE)  
+		Action_Set_Command_Type(#COMMAND_MOV)  
+		Server_Set_Ready(TRUE)  
+	ENDIF  
+  
+	$FLAG[2] = FALSE  
+END
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1MTM5MzM4LDIwNzUxOTA0MSwtMTc5NT
-QxNTgyNywtNTMzMzAxMjEwLDQ3MzIyOTQ4MCwtMjI5OTYzMzU1
-LDExMzIzNTY5MzgsLTI4NzAzMDcyMV19
+eyJoaXN0b3J5IjpbLTEzNzYxMjE0MTMsMjA3NTE5MDQxLC0xNz
+k1NDE1ODI3LC01MzMzMDEyMTAsNDczMjI5NDgwLC0yMjk5NjMz
+NTUsMTEzMjM1NjkzOCwtMjg3MDMwNzIxXX0=
 -->

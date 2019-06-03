@@ -103,7 +103,16 @@ namespace AxisControler
 	}
 }
   ```
+
+```cs
+  	private void SetData(string command)
+		{
+			string dataSend = " ";
+			dataSend = "<Data><Direction>"+ buttonNumber +"</Direction></Data>";
+			client.Send(dataSend);
+		}
+  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3NTY0MzA2LDExMzIzNTY5MzgsLTI4Nz
-AzMDcyMV19
+eyJoaXN0b3J5IjpbLTIwNzM1ODc4NzksMTEzMjM1NjkzOCwtMj
+g3MDMwNzIxXX0=
 -->

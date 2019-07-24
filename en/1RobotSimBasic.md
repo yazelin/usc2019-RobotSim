@@ -19,10 +19,10 @@
 
 ![Image](../img/Tool.jpg) 
 
-### Robot basic concepts lon-line earning 
+### The basic concepts of robotics lon-line earning 
 - Embeded RobotSim simulation on WebPlaer
 -   [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim)
-- The basic concepts of robotics includes在模擬器中我們可以學到這些
+- The basic concepts of robotics includes
 	- 座標系
 		- WORLD
 		- BASE
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjY0NDgxNCw2NTI4ODc4MzIsODIzNT
-Q3NzM4LC0xNDkxNjEzNTY1LDEwMzI1Nzk1MzksMTgwOTQ4Mzc3
-LC0xMzI4NTI2NTk4LC0xNzc3MTk3Nzk0LC0xODgyMjY5NTUyLD
-g0MDA1ODk5LC0xNTM1NDk1NjY1LC0yMDE5MzUzNTU0LC0xMzcx
-MTY1MDE4LDE5Nzc3Njk0NTYsNDIzMzkzMDE1LDM2Mjc3MTUyMy
-wxMTMxNDMwMDk5LDI2ODE3NzAwNCwtMzM3MzkyMTA1LC02NTAz
-MjcxNTVdfQ==
+eyJoaXN0b3J5IjpbMzA0NDgxNDExLDY1Mjg4NzgzMiw4MjM1ND
+c3MzgsLTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwxODA5NDgzNzcs
+LTEzMjg1MjY1OTgsLTE3NzcxOTc3OTQsLTE4ODIyNjk1NTIsOD
+QwMDU4OTksLTE1MzU0OTU2NjUsLTIwMTkzNTM1NTQsLTEzNzEx
+NjUwMTgsMTk3Nzc2OTQ1Niw0MjMzOTMwMTUsMzYyNzcxNTIzLD
+ExMzE0MzAwOTksMjY4MTc3MDA0LC0zMzczOTIxMDUsLTY1MDMy
+NzE1NV19
 -->

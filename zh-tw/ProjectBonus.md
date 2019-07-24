@@ -334,7 +334,7 @@ namespace AxisControler
 
 
 - Kuka 程式使用到的 Function
-- ![Image](./img/KukaBuildProgram.png)
+- ![Image](../img/KukaBuildProgram.png)
 
 - Core
 	- 初始化
@@ -578,9 +578,9 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MDg5MjE1LC0zNDE0MDY4NDUsMTU3OD
-g3ODcyOSwtMjExNjY5MDQxOSwtMTMxODAyNTc3MiwzMjcxNzAy
-OTYsMjA3NTE5MDQxLC0xNzk1NDE1ODI3LC01MzMzMDEyMTAsND
-czMjI5NDgwLC0yMjk5NjMzNTUsMTEzMjM1NjkzOCwtMjg3MDMw
-NzIxXX0=
+eyJoaXN0b3J5IjpbLTE0NzU3NDM2MjMsODU3MDg5MjE1LC0zND
+E0MDY4NDUsMTU3ODg3ODcyOSwtMjExNjY5MDQxOSwtMTMxODAy
+NTc3MiwzMjcxNzAyOTYsMjA3NTE5MDQxLC0xNzk1NDE1ODI3LC
+01MzMzMDEyMTAsNDczMjI5NDgwLC0yMjk5NjMzNTUsMTEzMjM1
+NjkzOCwtMjg3MDMwNzIxXX0=
 -->

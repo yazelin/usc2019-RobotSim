@@ -6,7 +6,7 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/0EpIUP2WEqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   - Server 設定
 	  - 在 Files 中打開 Config\User\Commoon\EthernetKRL\XmlServer.xml
-	  ![Image](./img/XmlServer.png)
+	  ![Image](../img/XmlServer.png)
 
 ```xml
   <ETHERNETKRL>
@@ -35,8 +35,8 @@
 
   - 在資料夾中新增程式
 	  - 在 KRL\R1\Program\test 資料夾點擊右鍵選取 Add > Module 加入後命名程式名稱為 : XmlServer
-	   ![Image](./img/addFiles_Function.png) 
-	   ![Image](./img/addFunction.png)
+	   ![Image](../img/addFiles_Function.png) 
+	   ![Image](../img/addFunction.png)
 
  - EKI手臂程式
 
@@ -79,35 +79,35 @@ END
 2.程式匯入至手臂
 - 需先變更電腦系統地區設定
 	- 控制台 > 變更日期、時間或數字格式> 系統管理 > 變更系統地區設定 > 選擇英文(美國)			PS. 需要重新啟動電腦
-	![Image](./img/Change_AreaLanguage.png) 
+	![Image](../img/Change_AreaLanguage.png) 
 
 - 將電腦 IP 設成和手臂相同網段
 	- 開啟網路和忘記網路設定 > 變更介面卡選項 > 選擇乙太網路案右鍵 > 內容 > 網際網路通訊協定第4版 (TCP/IPv4)
-	![Image](./img/Change_IP.png) 
+	![Image](../img/Change_IP.png) 
 			- 範例中手臂 IP 為 192.168.1.147
 	
 - 傳送程式至手臂端
 	- 需先確認手臂用戶為 Expert、並且無任何程式正在執行或預備狀態
 	- PC 與手臂進行網路線連接
 	- 點選 WorkVisual 上方橘色向右鍵頭
-	![Image](./img/UpProgarm.png) 
+	![Image](../img/UpProgarm.png) 
 	- 直接點選 Finish
 	- 等待手臂 Smart-Pad 出現對話框 兩次都點選 Yes
 
 - PS. 打開程式出現下圖錯誤訊息 需再做設定程式才能傳上手臂
-- ![Image](./img/ErrorMessage.png)
+- ![Image](../img/ErrorMessage.png)
 	- 打開左上角 Extras > DTM-Catalog Management
-	- ![Image](./img/ErrorSet.png)
+	- ![Image](../img/ErrorSet.png)
 	- 需要先按下方 Search for installed DTMs 搜尋已安裝 DTM
 	- 在案上方箭頭指向的按鍵 ">>" 加入當前的DTM
-	- ![Image](./img/ErrorSet2.png)
+	- ![Image](../img/ErrorSet2.png)
  
 	
 3.通訊測試
 - 電腦 PC 連線測試
 	- 開啟 cmd 命令提示字元
 	- 輸入 telnet + IP + Port
-	![Image](./img/cmd.png) 
+	![Image](../img/cmd.png) 
 	- 將 XML 格式複製 在 cmd 介面點擊滑鼠右鍵
 ```
 IP 192.168.1.147
@@ -131,11 +131,11 @@ Port 54600
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDA3ODM5OSwyMTI3MTc0MzkxLDEyMT
-Y2MTY5OCwxNTA2MTMxMDYyLDIyNjM1OTc1NSwtMTA3NDQyMTg2
-OSwtMTYwNjAwOTkzMCw1MzEzMTIxNDYsNzYwMzk0OTY0LDEzOT
-czNjcwMDMsLTYzOTI3MTEzMyw5NDM1Nzg1MCwxNzE2MzA1NTky
-LC0yMjk5MDQ4OTUsLTEwMTI5NDkwMTEsMTY4NDE0MDcwMiwtMT
-kwOTQwNjQ4MywxMDI3ODQxOTQ5LDE0Nzk2OTQ1OTIsLTM1MzIz
-NzkxMl19
+eyJoaXN0b3J5IjpbNjg0OTEwODA5LC02NzAwNzgzOTksMjEyNz
+E3NDM5MSwxMjE2NjE2OTgsMTUwNjEzMTA2MiwyMjYzNTk3NTUs
+LTEwNzQ0MjE4NjksLTE2MDYwMDk5MzAsNTMxMzEyMTQ2LDc2MD
+M5NDk2NCwxMzk3MzY3MDAzLC02MzkyNzExMzMsOTQzNTc4NTAs
+MTcxNjMwNTU5MiwtMjI5OTA0ODk1LC0xMDEyOTQ5MDExLDE2OD
+QxNDA3MDIsLTE5MDk0MDY0ODMsMTAyNzg0MTk0OSwxNDc5Njk0
+NTkyXX0=
 -->

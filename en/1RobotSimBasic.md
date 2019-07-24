@@ -1,8 +1,8 @@
 ## 一、Basic operation
 
-## Introduction手臂基本介紹
+## Robotics Introduction
 
-### 六軸機器手臂
+### 6-axis Robotics
 ![Image](../img/RobotSystem.jpg)
 
 ### 軸向
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2Mzk0MzE4LDgyMzU0NzczOCwtMTQ5MT
+eyJoaXN0b3J5IjpbOTIyNTA5MjE2LDgyMzU0NzczOCwtMTQ5MT
 YxMzU2NSwxMDMyNTc5NTM5LDE4MDk0ODM3NywtMTMyODUyNjU5
 OCwtMTc3NzE5Nzc5NCwtMTg4MjI2OTU1Miw4NDAwNTg5OSwtMT
 UzNTQ5NTY2NSwtMjAxOTM1MzU1NCwtMTM3MTE2NTAxOCwxOTc3

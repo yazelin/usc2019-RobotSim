@@ -64,13 +64,13 @@ public class RobotCommandMessage : RobotCommand
 
 - 設定Home點位置
 
-![Image](./img/SetHomePosition_1.png)
-![Image](./img/SetHomePosition_2.png)
+![Image](../img/SetHomePosition_1.png)
+![Image](../img/SetHomePosition_2.png)
 - 加入夾爪模型(用Sphere代替)
 
-![Image](./img/AddGripper_1.png)
-![Image](./img/AddGripper_2.png)
-![Image](./img/AddGripper_3.png)
+![Image](../img/AddGripper_1.png)
+![Image](../img/AddGripper_2.png)
+![Image](../img/AddGripper_3.png)
 - 加入Gripper程式(實踐課程試用版 Trial_0_1_6991 內已包含)
 
 ```cs
@@ -224,24 +224,24 @@ public class RobotCommandGripper : RobotCommand
 ```
 - 調整夾爪碰撞範圍(用來偵測範圍內是否有物體可以夾)
 
-![Image](./img/AddGripper_3.png)
+![Image](../img/AddGripper_3.png)
 - 加入物體
 
-![Image](./img/AddSphereGameobject.png)
+![Image](../img/AddSphereGameobject.png)
 - 夾爪加入Gripper功能
 
-![Image](./img/AddGripperScript.png)
+![Image](../img/AddGripperScript.png)
 - Program中加入Empty GameObject後加入GripperCommand功能
 
-![Image](./img/AddGripperCommandScript_1.png)
-![Image](./img/AddGripperCommandScript_2.png)
+![Image](../img/AddGripperCommandScript_1.png)
+![Image](../img/AddGripperCommandScript_2.png)
 
 - 測試
 
-![Image](./img/GripperTest.gif)
+![Image](../img/GripperTest.gif)
 - 來回夾放測試
 
-![Image](./img/GripperTest2.gif)
+![Image](../img/GripperTest2.gif)
 
 
 
@@ -251,22 +251,23 @@ public class RobotCommandGripper : RobotCommand
 ### RobotSim匯出 並匯入WorkVisual專案
 - WorkVisual 環境
 
-![Image](./img/WorkVisualWindow.png)
+![Image](../img/WorkVisualWindow.png)
 - RobotSim 匯出程式
 
-![Image](./img/ExportProgram1.png)
-![Image](./img/ExportProgram2.png)
+![Image](../img/ExportProgram1.png)
+![Image](../img/ExportProgram2.png)
 - WorkVisual 匯入程式
 
-![Image](./img/ImportProgram1.png)
-![Image](./img/ImportProgram2.png)
+![Image](../img/ImportProgram1.png)
+![Image](../img/ImportProgram2.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzODUxMjUsLTQwMjI4MjYwNiwxMDQzNj
-I1MDI5LDM1MDY4OTI4LC0xOTUyNjQzOTE1LDE3ODQ1NzA0Niwy
-MTM3NzI3NTY4LDc3NDg0MTczMSwtMTk2ODY5OTcyNCw2NDUwNj
-Y4MzYsLTEyMzE0NTUxMywxODQ0MDM0ODY2LDk4OTIyOTcwMywt
-NjUwMTA4MzQ2LC0zOTg5NjMwNzMsMTE3MzU5OTg2NiwtNDE2MT
-Y5NjY3LC01NzA4MzI2NTEsMTQwMjQxNDE1NV19
+eyJoaXN0b3J5IjpbLTkwMjI2OTk1MSw0NDM4NTEyNSwtNDAyMj
+gyNjA2LDEwNDM2MjUwMjksMzUwNjg5MjgsLTE5NTI2NDM5MTUs
+MTc4NDU3MDQ2LDIxMzc3Mjc1NjgsNzc0ODQxNzMxLC0xOTY4Nj
+k5NzI0LDY0NTA2NjgzNiwtMTIzMTQ1NTEzLDE4NDQwMzQ4NjYs
+OTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5ODk2MzA3MywxMTczNT
+k5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1MSwxNDAyNDE0MTU1
+XX0=
 -->

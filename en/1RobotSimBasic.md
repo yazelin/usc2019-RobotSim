@@ -30,10 +30,10 @@
 	- Jogging Mode
 		- Cartesian jogging with XYZ ABC according to the selected coordinate system
 		- Axis-specific jogging
-	- 
+	- Motion type
 		- PTP
 		- LIN
-		- CIRC(網頁版的模擬器中沒有) 
+		- CIRC
 	- 軸極限  
 		- A1~A6
 	- 手臂程式執行方式
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDM0MjU2MDEsLTU0NzU2NjM0NCw1MD
-c2NzYwMDksLTExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyODg3ODMy
-LDgyMzU0NzczOCwtMTQ5MTYxMzU2NSwxMDMyNTc5NTM5LDE4MD
-k0ODM3NywtMTMyODUyNjU5OCwtMTc3NzE5Nzc5NCwtMTg4MjI2
-OTU1Miw4NDAwNTg5OSwtMTUzNTQ5NTY2NSwtMjAxOTM1MzU1NC
-wtMTM3MTE2NTAxOCwxOTc3NzY5NDU2LDQyMzM5MzAxNSwzNjI3
-NzE1MjNdfQ==
+eyJoaXN0b3J5IjpbMzY3ODA1NTg4LC01NDc1NjYzNDQsNTA3Nj
+c2MDA5LC0xMTMyNzEwOTYsMzA0NDgxNDExLDY1Mjg4NzgzMiw4
+MjM1NDc3MzgsLTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwxODA5ND
+gzNzcsLTEzMjg1MjY1OTgsLTE3NzcxOTc3OTQsLTE4ODIyNjk1
+NTIsODQwMDU4OTksLTE1MzU0OTU2NjUsLTIwMTkzNTM1NTQsLT
+EzNzExNjUwMTgsMTk3Nzc2OTQ1Niw0MjMzOTMwMTUsMzYyNzcx
+NTIzXX0=
 -->

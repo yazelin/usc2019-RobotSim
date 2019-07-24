@@ -28,7 +28,7 @@
 		- BASE
 		- TOOL    
 	- Jogging Mode
-		- Cartesian jogging with XYZ ABC
+		- Cartesian jogging with XYZ ABC according to the selected coordinate system
 		- Axis-specific jogging
 	- 運動指令
 		- PTP
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzc5MzM2MCw1MDc2NzYwMDksLTExMz
+eyJoaXN0b3J5IjpbLTU0NzU2NjM0NCw1MDc2NzYwMDksLTExMz
 I3MTA5NiwzMDQ0ODE0MTEsNjUyODg3ODMyLDgyMzU0NzczOCwt
 MTQ5MTYxMzU2NSwxMDMyNTc5NTM5LDE4MDk0ODM3NywtMTMyOD
 UyNjU5OCwtMTc3NzE5Nzc5NCwtMTg4MjI2OTU1Miw4NDAwNTg5

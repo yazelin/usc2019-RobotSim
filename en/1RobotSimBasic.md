@@ -1,21 +1,21 @@
 ## 一、Basic operation
 
-## Robotics Introduction
+## Industrial Robot Introduction
 
-### 6-axis Robotics
+### 6-axis Robot
 ![Image](../img/RobotSystem.jpg)
 
-### 軸向
+### Axis
 - A1~A6 
 
 ![Image](../img/RobotAxis.jpg)
 
-### 空間
-- Base空間
+### Space
+- Base Space
 
 ![Image](../img/RobotCoordinateSystem.jpg)
 
-- Tool空間
+- Tool Space
 
 ![Image](../img/Tool.jpg) 
 
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyNTA5MjE2LDgyMzU0NzczOCwtMTQ5MT
+eyJoaXN0b3J5IjpbNjUyODg3ODMyLDgyMzU0NzczOCwtMTQ5MT
 YxMzU2NSwxMDMyNTc5NTM5LDE4MDk0ODM3NywtMTMyODUyNjU5
 OCwtMTc3NzE5Nzc5NCwtMTg4MjI2OTU1Miw4NDAwNTg5OSwtMT
 UzNTQ5NTY2NSwtMjAxOTM1MzU1NCwtMTM3MTE2NTAxOCwxOTc3

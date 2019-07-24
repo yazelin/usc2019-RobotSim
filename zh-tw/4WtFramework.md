@@ -4,22 +4,22 @@
 
 1. WtFramework開發框架介紹
   - [KUKA手臂程式](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/KUKAUSC.zip)
-  - [架構圖](./src/Wt專案架構圖.pdf)
-  - [流程圖](./src/WtFrameworkFlowCharts.pdf)
+  - [架構圖](../src/Wt專案架構圖.pdf)
+  - [流程圖](../src/WtFrameworkFlowCharts.pdf)
   - Core
   - Action
 2. 安裝
   - 於 WorkVisual 內點選 File/Cataloghandling...
   - 於 Catalogs 視窗點選 KRL Templates 後按 > 按鈕 加入功能
-  - ![Image](./img/AddKRLTemplates.png)
+  - ![Image](../img/AddKRLTemplates.png)
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
 3. 網路通訊
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - 下載xml檔案:[https://github.com/yazelin/usc2019-RobotSim/raw/masteㄙr/src/XmlServer.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - 在 EthernetKRL 點右鍵選擇 Add external file 加入 Xml.Servver.xml
-  - ![Image](./img/Demonstration.PNG)
+  - ![Image](../img/Demonstration.PNG)
   - 點選XmlServer.Xml
-  - ![Image](./img/Demonstration2.PNG)
+  - ![Image](../img/Demonstration2.PNG)
   - Server設定
   
 ```xml
@@ -59,7 +59,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DQzu3EQPiYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - Winform 介面設計
-  - ![Image](./img/WinFormInterface.PNG)
+  - ![Image](../img/WinFormInterface.PNG)
   
   <iframe width="560" height="315" src="https://www.youtube.com/embed/whyCVhJ1Opo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
@@ -229,11 +229,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDIyNzM1NzMsMTk5OTAzNjA2MSwtMT
-EzNzIyODE2OSwxMDMxODgzMDM2LDkxODg4NzU4MCwxMDMxODgz
-MDM2LC0xMzUxMzYwMTAwLDExMzYxMDMxMjcsMTMxMzY1ODQ4Ny
-wtMTIwMDEyMjY1LC0xNjg0MTc0NjM3LC04NDc2MzQxNTMsLTUw
-MTg2Nzc0OSwxMTk1MzkyNjczLC0xNjE2NDg2MTQ3LDQ3Nzk1MD
-A0NCwtMTIxNzMxMDc3OSw1ODQ2NzUyNzIsLTEzMjQ4MDMxODYs
-MzM5MTU2NTM1XX0=
+eyJoaXN0b3J5IjpbMTM2ODYwMTQyMywtMjAwMjI3MzU3MywxOT
+k5MDM2MDYxLC0xMTM3MjI4MTY5LDEwMzE4ODMwMzYsOTE4ODg3
+NTgwLDEwMzE4ODMwMzYsLTEzNTEzNjAxMDAsMTEzNjEwMzEyNy
+wxMzEzNjU4NDg3LC0xMjAwMTIyNjUsLTE2ODQxNzQ2MzcsLTg0
+NzYzNDE1MywtNTAxODY3NzQ5LDExOTUzOTI2NzMsLTE2MTY0OD
+YxNDcsNDc3OTUwMDQ0LC0xMjE3MzEwNzc5LDU4NDY3NTI3Miwt
+MTMyNDgwMzE4Nl19
 -->

@@ -1,10 +1,5 @@
 ## 一、RobotSim基礎
 
-### 學生作業
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tGIrhvC_Spo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### [繳交作業](https://drive.google.com/drive/folders/1FMey_NlWkC3YxeOpwVbmjqgbFMcu3iXU?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
-
 ## 手臂基本介紹
 ### 六軸機器手臂
 ![Image](../img/RobotSystem.jpg)
@@ -126,11 +121,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwxOD
-A5NDgzNzcsLTEzMjg1MjY1OTgsLTE3NzcxOTc3OTQsLTE4ODIy
-Njk1NTIsODQwMDU4OTksLTE1MzU0OTU2NjUsLTIwMTkzNTM1NT
-QsLTEzNzExNjUwMTgsMTk3Nzc2OTQ1Niw0MjMzOTMwMTUsMzYy
-NzcxNTIzLDExMzE0MzAwOTksMjY4MTc3MDA0LC0zMzczOTIxMD
-UsLTY1MDMyNzE1NSwtNjAyOTY4OTcwLC0xMDU0MzEyODgwXX0=
-
+eyJoaXN0b3J5IjpbLTY5MTU2NjQ4NCwtMTQ5MTYxMzU2NSwxMD
+MyNTc5NTM5LDE4MDk0ODM3NywtMTMyODUyNjU5OCwtMTc3NzE5
+Nzc5NCwtMTg4MjI2OTU1Miw4NDAwNTg5OSwtMTUzNTQ5NTY2NS
+wtMjAxOTM1MzU1NCwtMTM3MTE2NTAxOCwxOTc3NzY5NDU2LDQy
+MzM5MzAxNSwzNjI3NzE1MjMsMTEzMTQzMDA5OSwyNjgxNzcwMD
+QsLTMzNzM5MjEwNSwtNjUwMzI3MTU1LC02MDI5Njg5NzAsLTEw
+NTQzMTI4ODBdfQ==
 -->

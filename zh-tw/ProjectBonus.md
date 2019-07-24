@@ -8,11 +8,11 @@
 
 
 - 使用者介面
-- ![Image](./img/ControlerInterface.png)
+- ![Image](../img/ControlerInterface.png)
 
 - 使用者控制項 ButtonControler - 點選專案AxisControler右鍵 > 加入 > 新增項目 > 使用者控制向 更名為 ButtonControler
-- ![Image](./img/BuildProgram.png)
-- ![Image](./img/SimpelControlerInterface.png)
+- ![Image](../img/BuildProgram.png)
+- ![Image](../img/SimpelControlerInterface.png)
 	- 加入屬性
 		- AxisID
 		- CurrentPosition
@@ -578,9 +578,9 @@ DEF Motion_Mov (_AXIS:IN, _DISTANCE:IN)
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU3NDM2MjMsODU3MDg5MjE1LC0zND
-E0MDY4NDUsMTU3ODg3ODcyOSwtMjExNjY5MDQxOSwtMTMxODAy
-NTc3MiwzMjcxNzAyOTYsMjA3NTE5MDQxLC0xNzk1NDE1ODI3LC
-01MzMzMDEyMTAsNDczMjI5NDgwLC0yMjk5NjMzNTUsMTEzMjM1
-NjkzOCwtMjg3MDMwNzIxXX0=
+eyJoaXN0b3J5IjpbLTYxMTk4MjczNyw4NTcwODkyMTUsLTM0MT
+QwNjg0NSwxNTc4ODc4NzI5LC0yMTE2NjkwNDE5LC0xMzE4MDI1
+NzcyLDMyNzE3MDI5NiwyMDc1MTkwNDEsLTE3OTU0MTU4MjcsLT
+UzMzMwMTIxMCw0NzMyMjk0ODAsLTIyOTk2MzM1NSwxMTMyMzU2
+OTM4LC0yODcwMzA3MjFdfQ==
 -->

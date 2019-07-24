@@ -8,18 +8,18 @@
 1.建立專案資料夾、加入框架程式
 - 建立ClawMachine資料夾
 	- 加入Main程式、Core資料夾
-	- ![Image](./img/FrameworkMain.png)
+	- ![Image](../img/FrameworkMain.png)
 - Core資料夾
 	- 加入 Core、Server 程式以及Action、Motion 資料夾
-	- ![Image](./img/FrameworkCore.png)
-	- ![Image](./img/FrameworkServer.png)
+	- ![Image](../img/FrameworkCore.png)
+	- ![Image](../img/FrameworkServer.png)
 - Action資料夾
 	- 加入Action程式
-	- ![Image](./img/FrameworkAction.png)
+	- ![Image](../img/FrameworkAction.png)
 		 - 加入 Wt_Action_GetPut、Wt_Action_Decide
 - Motion資料夾
 	- 加入 Wt_Motion_Direction、Wt_Motion_GetPut 
-- ![Image](./img/AllFolder.png)
+- ![Image](../img/AllFolder.png)
 
 
 2.撰寫框架Server程式
@@ -79,7 +79,7 @@ END
 
 - 定義Server.dat檔
 	- SERVER_CONNECTION_LIST[1].NAME[ ] 設定為 "XmlServer"
-	![Image](./img/ServerDat.png)
+	![Image](../img/ServerDat.png)
 
 3.在Core需初始化及判斷條件進入Action
 - Core初始化
@@ -134,7 +134,7 @@ END
  DECL ACTION_INFO_STRUC ACTION_INFO 加入 _DIRECTION 0	;加入INFO 初始直為0
 ```
 
-![Image](./img/ActionDat.png)
+![Image](../img/ActionDat.png)
 
 - Action內判斷現在需要執行內容
 
@@ -314,11 +314,11 @@ END
 </ETHERNETKRL>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUyMjE0NzcsMTY0NDQxMTkzMCw0Nz
-cwMTQ5MDgsLTkxNzIxNjA2MCwtNTIzOTQzNDQxLDIwMTgxODc3
-MjMsLTE1NjIzOTQxNjUsOTAzMjMzNDEyLDE1MTc1NTM2ODYsMz
-I2MDc4MTIwLC0xMDgzNzM2MjIwLC0zNzIxNzgwMzEsNTM1NjYy
-NDI1LC0xNDUzMjkwOTk3LDIwMDYzMTM0MTYsLTc2NzI2NDEwMS
-wxNjk0MTA2Mzk0LC00OTM4NzQ0NzUsMjQ0MjYzODA2LDIxNzE2
-Njg5MV19
+eyJoaXN0b3J5IjpbNTkxNjczNDg5LC0yMDE1MjIxNDc3LDE2ND
+Q0MTE5MzAsNDc3MDE0OTA4LC05MTcyMTYwNjAsLTUyMzk0MzQ0
+MSwyMDE4MTg3NzIzLC0xNTYyMzk0MTY1LDkwMzIzMzQxMiwxNT
+E3NTUzNjg2LDMyNjA3ODEyMCwtMTA4MzczNjIyMCwtMzcyMTc4
+MDMxLDUzNTY2MjQyNSwtMTQ1MzI5MDk5NywyMDA2MzEzNDE2LC
+03NjcyNjQxMDEsMTY5NDEwNjM5NCwtNDkzODc0NDc1LDI0NDI2
+MzgwNl19
 -->

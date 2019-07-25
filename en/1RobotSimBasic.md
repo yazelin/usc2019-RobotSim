@@ -43,7 +43,7 @@
 ## Basic operation 
 
 ### Download, installation and testing 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://github.com/yazelin/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Download link [link](http://www.wtech.com.tw/download)
 - Reference media [link](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTg2NjI2OCwxMTkxODY2MjY4LDExOT
-E4NjYyNjgsLTE3NTk3Mjc4NjEsMTYyNzk0NTIwOCwtNTQ2NjI4
-MzMsMTI3MTM5MzA3MSwtMTIxNjI5MDAzNCwtMTk3NzQxMzgyNi
-wzMTY2NzY2NzcsOTY2MzE1NzQ5LDE2MjY5OTQwNTYsMTAwMTg4
-NjM0NywzNjc4MDU1ODgsLTU0NzU2NjM0NCw1MDc2NzYwMDksLT
-ExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyODg3ODMyLDgyMzU0Nzcz
-OF19
+eyJoaXN0b3J5IjpbLTMwOTc4Njg0OCwxMTkxODY2MjY4LDExOT
+E4NjYyNjgsMTE5MTg2NjI2OCwtMTc1OTcyNzg2MSwxNjI3OTQ1
+MjA4LC01NDY2MjgzMywxMjcxMzkzMDcxLC0xMjE2MjkwMDM0LC
+0xOTc3NDEzODI2LDMxNjY3NjY3Nyw5NjYzMTU3NDksMTYyNjk5
+NDA1NiwxMDAxODg2MzQ3LDM2NzgwNTU4OCwtNTQ3NTY2MzQ0LD
+UwNzY3NjAwOSwtMTEzMjcxMDk2LDMwNDQ4MTQxMSw2NTI4ODc4
+MzJdfQ==
 -->

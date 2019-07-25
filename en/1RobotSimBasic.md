@@ -43,10 +43,6 @@
 ## Basic operation 
 
 ### Download, installation and testing 
-<iframe width="560" height="315" src="https://youtu.be/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Download link [link](http://www.wtech.com.tw/download)
@@ -126,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTMyNzM3MiwxMTkxODY2MjY4LDExOT
+eyJoaXN0b3J5IjpbMTE5MTg2NjI2OCwxMTkxODY2MjY4LDExOT
 E4NjYyNjgsLTE3NTk3Mjc4NjEsMTYyNzk0NTIwOCwtNTQ2NjI4
 MzMsMTI3MTM5MzA3MSwtMTIxNjI5MDAzNCwtMTk3NzQxMzgyNi
 wzMTY2NzY2NzcsOTY2MzE1NzQ5LDE2MjY5OTQwNTYsMTAwMTg4

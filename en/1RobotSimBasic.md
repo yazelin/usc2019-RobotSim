@@ -64,17 +64,17 @@
 - 影片參考 [Link](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ## RobotSim程式設計
-- 變數 Value
+-  Value
   - Bool、Int、Float、String
   - Set、Add、Sub、Mut、Div
 
 ![Image](../img/Value.png) 
-- 動作 Motion
+-  Motion
   - Base、Tool、Speed
   - PTP 、LIN、CIRC
 
 ![Image](../img/Motion.png) 
-- 流程控制 Flow
+-  Flow
   - Loop、For-Loop、Wait Time
   - If-Else、While、Switch-Case
 
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTgyODQ0MCw5NjYzMTU3NDksMTYyNj
-k5NDA1NiwxMDAxODg2MzQ3LDM2NzgwNTU4OCwtNTQ3NTY2MzQ0
-LDUwNzY3NjAwOSwtMTEzMjcxMDk2LDMwNDQ4MTQxMSw2NTI4OD
-c4MzIsODIzNTQ3NzM4LC0xNDkxNjEzNTY1LDEwMzI1Nzk1Mzks
-MTgwOTQ4Mzc3LC0xMzI4NTI2NTk4LC0xNzc3MTk3Nzk0LC0xOD
-gyMjY5NTUyLDg0MDA1ODk5LC0xNTM1NDk1NjY1LC0yMDE5MzUz
-NTU0XX0=
+eyJoaXN0b3J5IjpbLTE4Nzg2Nzc0ODAsOTY2MzE1NzQ5LDE2Mj
+Y5OTQwNTYsMTAwMTg4NjM0NywzNjc4MDU1ODgsLTU0NzU2NjM0
+NCw1MDc2NzYwMDksLTExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyOD
+g3ODMyLDgyMzU0NzczOCwtMTQ5MTYxMzU2NSwxMDMyNTc5NTM5
+LDE4MDk0ODM3NywtMTMyODUyNjU5OCwtMTc3NzE5Nzc5NCwtMT
+g4MjI2OTU1Miw4NDAwNTg5OSwtMTUzNTQ5NTY2NSwtMjAxOTM1
+MzU1NF19
 -->

@@ -58,7 +58,7 @@
 
 - Reference media [Link](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### RobotSim 設定Base-設定手臂-匯出程式
+### Select tool, base, robot and import program
 <iframe width="560" height="315" src="https://www.youtube.com/embed/izkk5MW-FeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Reference media [Link](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYyOTAwMzQsLTE5Nzc0MTM4MjYsMz
-E2Njc2Njc3LDk2NjMxNTc0OSwxNjI2OTk0MDU2LDEwMDE4ODYz
-NDcsMzY3ODA1NTg4LC01NDc1NjYzNDQsNTA3Njc2MDA5LC0xMT
-MyNzEwOTYsMzA0NDgxNDExLDY1Mjg4NzgzMiw4MjM1NDc3Mzgs
-LTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwxODA5NDgzNzcsLTEzMj
-g1MjY1OTgsLTE3NzcxOTc3OTQsLTE4ODIyNjk1NTIsODQwMDU4
-OTldfQ==
+eyJoaXN0b3J5IjpbMTI3MTM5MzA3MSwtMTIxNjI5MDAzNCwtMT
+k3NzQxMzgyNiwzMTY2NzY2NzcsOTY2MzE1NzQ5LDE2MjY5OTQw
+NTYsMTAwMTg4NjM0NywzNjc4MDU1ODgsLTU0NzU2NjM0NCw1MD
+c2NzYwMDksLTExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyODg3ODMy
+LDgyMzU0NzczOCwtMTQ5MTYxMzU2NSwxMDMyNTc5NTM5LDE4MD
+k0ODM3NywtMTMyODUyNjU5OCwtMTc3NzE5Nzc5NCwtMTg4MjI2
+OTU1Ml19
 -->

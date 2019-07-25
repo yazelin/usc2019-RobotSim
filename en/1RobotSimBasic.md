@@ -53,7 +53,7 @@
 
 - Reference media [Link](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### Set up Tool-更新點位-模擬動作
+### Create a tool, 更新點位-模擬動作
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NLA6A_qWDgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Reference media [Link](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc0MTM4MjYsMzE2Njc2Njc3LDk2Nj
-MxNTc0OSwxNjI2OTk0MDU2LDEwMDE4ODYzNDcsMzY3ODA1NTg4
-LC01NDc1NjYzNDQsNTA3Njc2MDA5LC0xMTMyNzEwOTYsMzA0ND
-gxNDExLDY1Mjg4NzgzMiw4MjM1NDc3MzgsLTE0OTE2MTM1NjUs
-MTAzMjU3OTUzOSwxODA5NDgzNzcsLTEzMjg1MjY1OTgsLTE3Nz
-cxOTc3OTQsLTE4ODIyNjk1NTIsODQwMDU4OTksLTE1MzU0OTU2
-NjVdfQ==
+eyJoaXN0b3J5IjpbLTE1OTI2NzgzNDcsLTE5Nzc0MTM4MjYsMz
+E2Njc2Njc3LDk2NjMxNTc0OSwxNjI2OTk0MDU2LDEwMDE4ODYz
+NDcsMzY3ODA1NTg4LC01NDc1NjYzNDQsNTA3Njc2MDA5LC0xMT
+MyNzEwOTYsMzA0NDgxNDExLDY1Mjg4NzgzMiw4MjM1NDc3Mzgs
+LTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwxODA5NDgzNzcsLTEzMj
+g1MjY1OTgsLTE3NzcxOTc3OTQsLTE4ODIyNjk1NTIsODQwMDU4
+OTldfQ==
 -->

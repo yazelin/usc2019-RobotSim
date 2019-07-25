@@ -38,7 +38,7 @@
 		- A1~A6
 	- Teaching and Programing
 		- Teach several points 
-		- Repeat  
+		- Repeat  the path 
 
 ## RobotSim環境及基本操作
 
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjk1NjkyNiwxMDAxODg2MzQ3LDM2Nz
+eyJoaXN0b3J5IjpbMjA2OTI4NDAyNCwxMDAxODg2MzQ3LDM2Nz
 gwNTU4OCwtNTQ3NTY2MzQ0LDUwNzY3NjAwOSwtMTEzMjcxMDk2
 LDMwNDQ4MTQxMSw2NTI4ODc4MzIsODIzNTQ3NzM4LC0xNDkxNj
 EzNTY1LDEwMzI1Nzk1MzksMTgwOTQ4Mzc3LC0xMzI4NTI2NTk4

@@ -40,7 +40,7 @@
 		- Teach several points to create a robot motion path
 		- Program robot running on the path repeatly by Loop function
 
-## RobotSim環境及基本操作
+## RobotSim Basic 環境及基本操作
 
 ### RobotSim 下載-安裝-試用
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDgwNjc1NSwxNjI2OTk0MDU2LDEwMD
-E4ODYzNDcsMzY3ODA1NTg4LC01NDc1NjYzNDQsNTA3Njc2MDA5
-LC0xMTMyNzEwOTYsMzA0NDgxNDExLDY1Mjg4NzgzMiw4MjM1ND
-c3MzgsLTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwxODA5NDgzNzcs
-LTEzMjg1MjY1OTgsLTE3NzcxOTc3OTQsLTE4ODIyNjk1NTIsOD
-QwMDU4OTksLTE1MzU0OTU2NjUsLTIwMTkzNTM1NTQsLTEzNzEx
-NjUwMThdfQ==
+eyJoaXN0b3J5IjpbMzk1NzQ0NTE5LDE2MjY5OTQwNTYsMTAwMT
+g4NjM0NywzNjc4MDU1ODgsLTU0NzU2NjM0NCw1MDc2NzYwMDks
+LTExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyODg3ODMyLDgyMzU0Nz
+czOCwtMTQ5MTYxMzU2NSwxMDMyNTc5NTM5LDE4MDk0ODM3Nywt
+MTMyODUyNjU5OCwtMTc3NzE5Nzc5NCwtMTg4MjI2OTU1Miw4ND
+AwNTg5OSwtMTUzNTQ5NTY2NSwtMjAxOTM1MzU1NCwtMTM3MTE2
+NTAxOF19
 -->

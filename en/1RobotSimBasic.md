@@ -43,7 +43,7 @@
 ## Basic operation 
 
 ### Download, installation and testing 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -126,11 +126,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyNDU2NzQsMTE5MTg2NjI2OCwxMTkxOD
-Y2MjY4LC0xNzU5NzI3ODYxLDE2Mjc5NDUyMDgsLTU0NjYyODMz
-LDEyNzEzOTMwNzEsLTEyMTYyOTAwMzQsLTE5Nzc0MTM4MjYsMz
-E2Njc2Njc3LDk2NjMxNTc0OSwxNjI2OTk0MDU2LDEwMDE4ODYz
-NDcsMzY3ODA1NTg4LC01NDc1NjYzNDQsNTA3Njc2MDA5LC0xMT
-MyNzEwOTYsMzA0NDgxNDExLDY1Mjg4NzgzMiw4MjM1NDc3Mzhd
-fQ==
+eyJoaXN0b3J5IjpbMTgyOTMyNzM3MiwxMTkxODY2MjY4LDExOT
+E4NjYyNjgsLTE3NTk3Mjc4NjEsMTYyNzk0NTIwOCwtNTQ2NjI4
+MzMsMTI3MTM5MzA3MSwtMTIxNjI5MDAzNCwtMTk3NzQxMzgyNi
+wzMTY2NzY2NzcsOTY2MzE1NzQ5LDE2MjY5OTQwNTYsMTAwMTg4
+NjM0NywzNjc4MDU1ODgsLTU0NzU2NjM0NCw1MDc2NzYwMDksLT
+ExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyODg3ODMyLDgyMzU0Nzcz
+OF19
 -->

@@ -51,17 +51,17 @@
 ### RobotSim 教點-程式-模擬
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Gk7K88B10c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 影片參考 [連結](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+- 影片參考 [Link](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### RobotSim 設定Tool-更新點位-模擬動作
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NLA6A_qWDgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 影片參考 [連結](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+- 影片參考 [Link](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### RobotSim 設定Base-設定手臂-匯出程式
 <iframe width="560" height="315" src="https://www.youtube.com/embed/izkk5MW-FeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 影片參考 [連結](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+- 影片參考 [Link](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ## RobotSim程式設計
 - 變數 Value
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MzE1NzQ5LDE2MjY5OTQwNTYsMTAwMT
-g4NjM0NywzNjc4MDU1ODgsLTU0NzU2NjM0NCw1MDc2NzYwMDks
-LTExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyODg3ODMyLDgyMzU0Nz
-czOCwtMTQ5MTYxMzU2NSwxMDMyNTc5NTM5LDE4MDk0ODM3Nywt
-MTMyODUyNjU5OCwtMTc3NzE5Nzc5NCwtMTg4MjI2OTU1Miw4ND
-AwNTg5OSwtMTUzNTQ5NTY2NSwtMjAxOTM1MzU1NCwtMTM3MTE2
-NTAxOF19
+eyJoaXN0b3J5IjpbMTkzNTgyODQ0MCw5NjYzMTU3NDksMTYyNj
+k5NDA1NiwxMDAxODg2MzQ3LDM2NzgwNTU4OCwtNTQ3NTY2MzQ0
+LDUwNzY3NjAwOSwtMTEzMjcxMDk2LDMwNDQ4MTQxMSw2NTI4OD
+c4MzIsODIzNTQ3NzM4LC0xNDkxNjEzNTY1LDEwMzI1Nzk1Mzks
+MTgwOTQ4Mzc3LC0xMzI4NTI2NTk4LC0xNzc3MTk3Nzk0LC0xOD
+gyMjY5NTUyLDg0MDA1ODk5LC0xNTM1NDk1NjY1LC0yMDE5MzUz
+NTU0XX0=
 -->

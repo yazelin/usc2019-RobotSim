@@ -38,7 +38,7 @@
 		- A1~A6
 	- Teaching and Programing
 		- Teach several points
-		- make robot repeat those  
+		- Repeat 
 
 ## RobotSim環境及基本操作
 
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjY5MzAzLDEwMDE4ODYzNDcsMzY3OD
+eyJoaXN0b3J5IjpbNzU3NjI2MjcwLDEwMDE4ODYzNDcsMzY3OD
 A1NTg4LC01NDc1NjYzNDQsNTA3Njc2MDA5LC0xMTMyNzEwOTYs
 MzA0NDgxNDExLDY1Mjg4NzgzMiw4MjM1NDc3MzgsLTE0OTE2MT
 M1NjUsMTAzMjU3OTUzOSwxODA5NDgzNzcsLTEzMjg1MjY1OTgs

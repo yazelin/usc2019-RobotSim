@@ -63,7 +63,7 @@
 
 - 影片參考 [Link](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-## RobotSim程式設計
+## RobotSim Programming
 -  Value
   - Bool、Int、Float、String
   - Set、Add、Sub、Mut、Div
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg2Nzc0ODAsOTY2MzE1NzQ5LDE2Mj
+eyJoaXN0b3J5IjpbLTIwMzA4MDE4MzgsOTY2MzE1NzQ5LDE2Mj
 Y5OTQwNTYsMTAwMTg4NjM0NywzNjc4MDU1ODgsLTU0NzU2NjM0
 NCw1MDc2NzYwMDksLTExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyOD
 g3ODMyLDgyMzU0NzczOCwtMTQ5MTYxMzU2NSwxMDMyNTc5NTM5

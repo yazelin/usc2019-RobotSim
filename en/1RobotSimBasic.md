@@ -51,7 +51,6 @@
 ### Teaching, programing and simulation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0]" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 - Reference media [Link](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### Adding a tool
@@ -123,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTEzNzE5OTQsLTU0NjYyODMzLDExOT
-E4NjYyNjgsMTI3MTM5MzA3MSwtMTIxNjI5MDAzNCwtMTk3NzQx
-MzgyNiwzMTY2NzY2NzcsOTY2MzE1NzQ5LDE2MjY5OTQwNTYsMT
-AwMTg4NjM0NywzNjc4MDU1ODgsLTU0NzU2NjM0NCw1MDc2NzYw
-MDksLTExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyODg3ODMyLDgyMz
-U0NzczOCwtMTQ5MTYxMzU2NSwxMDMyNTc5NTM5LDE4MDk0ODM3
-N119
+eyJoaXN0b3J5IjpbMTYyNzk0NTIwOCwtNTQ2NjI4MzMsMTE5MT
+g2NjI2OCwxMjcxMzkzMDcxLC0xMjE2MjkwMDM0LC0xOTc3NDEz
+ODI2LDMxNjY3NjY3Nyw5NjYzMTU3NDksMTYyNjk5NDA1NiwxMD
+AxODg2MzQ3LDM2NzgwNTU4OCwtNTQ3NTY2MzQ0LDUwNzY3NjAw
+OSwtMTEzMjcxMDk2LDMwNDQ4MTQxMSw2NTI4ODc4MzIsODIzNT
+Q3NzM4LC0xNDkxNjEzNTY1LDEwMzI1Nzk1MzksMTgwOTQ4Mzc3
+XX0=
 -->

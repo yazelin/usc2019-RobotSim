@@ -48,7 +48,7 @@
 - Download link [link](http://www.wtech.com.tw/download)
 - Reference media [link](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### RobotSim 教點-程式-模擬
+### RobotSim teaching, programing and simulation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Gk7K88B10c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Reference media [Link](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODk5MjgwNiw5NjYzMTU3NDksMTYyNj
-k5NDA1NiwxMDAxODg2MzQ3LDM2NzgwNTU4OCwtNTQ3NTY2MzQ0
-LDUwNzY3NjAwOSwtMTEzMjcxMDk2LDMwNDQ4MTQxMSw2NTI4OD
-c4MzIsODIzNTQ3NzM4LC0xNDkxNjEzNTY1LDEwMzI1Nzk1Mzks
-MTgwOTQ4Mzc3LC0xMzI4NTI2NTk4LC0xNzc3MTk3Nzk0LC0xOD
-gyMjY5NTUyLDg0MDA1ODk5LC0xNTM1NDk1NjY1LC0yMDE5MzUz
-NTU0XX0=
+eyJoaXN0b3J5IjpbMzE2Njc2Njc3LDk2NjMxNTc0OSwxNjI2OT
+k0MDU2LDEwMDE4ODYzNDcsMzY3ODA1NTg4LC01NDc1NjYzNDQs
+NTA3Njc2MDA5LC0xMTMyNzEwOTYsMzA0NDgxNDExLDY1Mjg4Nz
+gzMiw4MjM1NDc3MzgsLTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwx
+ODA5NDgzNzcsLTEzMjg1MjY1OTgsLTE3NzcxOTc3OTQsLTE4OD
+IyNjk1NTIsODQwMDU4OTksLTE1MzU0OTU2NjUsLTIwMTkzNTM1
+NTRdfQ==
 -->

@@ -58,7 +58,7 @@
 
 - Reference media [Link](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### Select tool, base, robot and import program
+### Select tool, base, robot and program
 <iframe width="560" height="315" src="https://www.youtube.com/embed/izkk5MW-FeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Reference media [Link](https://www.youtube.com/watch?v=izkk5MW-FeY&index=23&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
@@ -80,9 +80,9 @@
 
 ![Image](../img/Flow.png)
 
-## 練習
-- 匯入RobotSim [下載頁面](http://www.wtech.com.tw/download)
-- 開啟Robot視窗、Program視窗、Controller視窗
+## Excises
+- import RobotSim [download page](http://www.wtech.com.tw/download)
+- start Robot window、Program視窗、Controller視窗
 - 加入空場景
 
 ![Image](../img/EmptyRobotSimScene.png)
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTM5MzA3MSwtMTIxNjI5MDAzNCwtMT
-k3NzQxMzgyNiwzMTY2NzY2NzcsOTY2MzE1NzQ5LDE2MjY5OTQw
-NTYsMTAwMTg4NjM0NywzNjc4MDU1ODgsLTU0NzU2NjM0NCw1MD
-c2NzYwMDksLTExMzI3MTA5NiwzMDQ0ODE0MTEsNjUyODg3ODMy
-LDgyMzU0NzczOCwtMTQ5MTYxMzU2NSwxMDMyNTc5NTM5LDE4MD
-k0ODM3NywtMTMyODUyNjU5OCwtMTc3NzE5Nzc5NCwtMTg4MjI2
-OTU1Ml19
+eyJoaXN0b3J5IjpbMTg5MDc4MDQ2OCwxMjcxMzkzMDcxLC0xMj
+E2MjkwMDM0LC0xOTc3NDEzODI2LDMxNjY3NjY3Nyw5NjYzMTU3
+NDksMTYyNjk5NDA1NiwxMDAxODg2MzQ3LDM2NzgwNTU4OCwtNT
+Q3NTY2MzQ0LDUwNzY3NjAwOSwtMTEzMjcxMDk2LDMwNDQ4MTQx
+MSw2NTI4ODc4MzIsODIzNTQ3NzM4LC0xNDkxNjEzNTY1LDEwMz
+I1Nzk1MzksMTgwOTQ4Mzc3LC0xMzI4NTI2NTk4LC0xNzc3MTk3
+Nzk0XX0=
 -->

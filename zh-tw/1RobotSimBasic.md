@@ -1,10 +1,5 @@
 ## 一、RobotSim基礎
 
-### 學生作業
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tGIrhvC_Spo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### [繳交作業](https://drive.google.com/drive/folders/1FMey_NlWkC3YxeOpwVbmjqgbFMcu3iXU?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
-
 ## 手臂基本介紹
 ### 六軸機器手臂
 ![Image](../img/RobotSystem.jpg)

@@ -45,6 +45,10 @@
 ### Download, installation and testing 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Download link [link](http://www.wtech.com.tw/download)
 - Reference media [link](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
@@ -122,11 +126,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTg2NjI2OCwxMTkxODY2MjY4LC0xNz
-U5NzI3ODYxLDE2Mjc5NDUyMDgsLTU0NjYyODMzLDEyNzEzOTMw
-NzEsLTEyMTYyOTAwMzQsLTE5Nzc0MTM4MjYsMzE2Njc2Njc3LD
-k2NjMxNTc0OSwxNjI2OTk0MDU2LDEwMDE4ODYzNDcsMzY3ODA1
-NTg4LC01NDc1NjYzNDQsNTA3Njc2MDA5LC0xMTMyNzEwOTYsMz
-A0NDgxNDExLDY1Mjg4NzgzMiw4MjM1NDc3MzgsLTE0OTE2MTM1
-NjVdfQ==
+eyJoaXN0b3J5IjpbNzAyNDU2NzQsMTE5MTg2NjI2OCwxMTkxOD
+Y2MjY4LC0xNzU5NzI3ODYxLDE2Mjc5NDUyMDgsLTU0NjYyODMz
+LDEyNzEzOTMwNzEsLTEyMTYyOTAwMzQsLTE5Nzc0MTM4MjYsMz
+E2Njc2Njc3LDk2NjMxNTc0OSwxNjI2OTk0MDU2LDEwMDE4ODYz
+NDcsMzY3ODA1NTg4LC01NDc1NjYzNDQsNTA3Njc2MDA5LC0xMT
+MyNzEwOTYsMzA0NDgxNDExLDY1Mjg4NzgzMiw4MjM1NDc3Mzhd
+fQ==
 -->

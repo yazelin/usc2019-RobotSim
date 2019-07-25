@@ -108,21 +108,21 @@
 
 ![Image](../img/AddPTP.png)
 ![Image](../img/AddP1.png)
-- 變數 INT I、流程控制 FOR-LOOP 迴圈
+- Set up parameters、流程控制 FOR-LOOP 迴圈
 
 ![Image](../img/AddINTI.png)
 ![Image](../img/AddFORLOOP.png)
-- Set up  SPEED、WAIT SEC 指令
+- Set up  SPEED、add WAIT SEC 
 
 ![Image](../img/AddSPEED.png)
 ![Image](../img/AddWAITSEC.png)
 
-## 成果
+## Outputs
 ![Image](../img/Week1Program.png)
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjI4ODg4MSwxMjcxMzkzMDcxLC0xMj
+eyJoaXN0b3J5IjpbMTg5OTc2NDI4MiwxMjcxMzkzMDcxLC0xMj
 E2MjkwMDM0LC0xOTc3NDEzODI2LDMxNjY3NjY3Nyw5NjYzMTU3
 NDksMTYyNjk5NDA1NiwxMDAxODg2MzQ3LDM2NzgwNTU4OCwtNT
 Q3NTY2MzQ0LDUwNzY3NjAwOSwtMTEzMjcxMDk2LDMwNDQ4MTQx

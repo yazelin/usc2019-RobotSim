@@ -38,7 +38,7 @@
 		- A1~A6
 	- Teaching and Programing
 		- Teach several points to create a robot motion path
-		- Repeat  robot running on the path by Loop 
+		- Program robot running on the path repeatly by Loop function
 
 ## RobotSim環境及基本操作
 
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTE4NTEyNCwxNjI2OTk0MDU2LDEwMD
+eyJoaXN0b3J5IjpbMTU2MDgwNjc1NSwxNjI2OTk0MDU2LDEwMD
 E4ODYzNDcsMzY3ODA1NTg4LC01NDc1NjYzNDQsNTA3Njc2MDA5
 LC0xMTMyNzEwOTYsMzA0NDgxNDExLDY1Mjg4NzgzMiw4MjM1ND
 c3MzgsLTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwxODA5NDgzNzcs

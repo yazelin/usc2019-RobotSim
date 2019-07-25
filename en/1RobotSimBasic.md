@@ -40,18 +40,18 @@
 		- Teach several points to create a robot motion path
 		- Program robot running on the path repeatly by Loop function
 
-## Basic operation 環境及基本操作
+## Basic operation 
 
-### RobotSim 下載-安裝-試用
+### RobotSim download, installation and testing 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 下載頁面 [連結](http://www.wtech.com.tw/download)
-- 影片參考 [連結](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+- Download link [link](http://www.wtech.com.tw/download)
+- Reference media [link](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### RobotSim 教點-程式-模擬
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Gk7K88B10c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Refere [Link](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
+- Reference media [Link](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### RobotSim 設定Tool-更新點位-模擬動作
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NLA6A_qWDgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTUyOTMyOSw5NjYzMTU3NDksMTYyNj
+eyJoaXN0b3J5IjpbMTg4ODk5MjgwNiw5NjYzMTU3NDksMTYyNj
 k5NDA1NiwxMDAxODg2MzQ3LDM2NzgwNTU4OCwtNTQ3NTY2MzQ0
 LDUwNzY3NjAwOSwtMTEzMjcxMDk2LDMwNDQ4MTQxMSw2NTI4OD
 c4MzIsODIzNTQ3NzM4LC0xNDkxNjEzNTY1LDEwMzI1Nzk1Mzks

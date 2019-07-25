@@ -49,7 +49,7 @@
 - Reference media [link](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### Teaching, programing and simulation
-<iframe width="560" height="315" src="https://youtube.be/4Gk7K88B10c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/4Gk7K88B10c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Gk7K88B10c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -124,7 +124,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NTY3NTcwLDExOTE4NjYyNjgsMTI3MT
+eyJoaXN0b3J5IjpbLTU0NjYyODMzLDExOTE4NjYyNjgsMTI3MT
 M5MzA3MSwtMTIxNjI5MDAzNCwtMTk3NzQxMzgyNiwzMTY2NzY2
 NzcsOTY2MzE1NzQ5LDE2MjY5OTQwNTYsMTAwMTg4NjM0NywzNj
 c4MDU1ODgsLTU0NzU2NjM0NCw1MDc2NzYwMDksLTExMzI3MTA5

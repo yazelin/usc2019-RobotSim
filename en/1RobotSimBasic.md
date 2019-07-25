@@ -82,17 +82,17 @@
 
 ## Excises
 - import RobotSim [download page](http://www.wtech.com.tw/download)
-- start Robot window、Program視窗、Controller視窗
-- 加入空場景
+- start Robot window、Program window、Controller window
+- Add a empty space scene
 
 ![Image](../img/EmptyRobotSimScene.png)
-- 加入機器手臂 Robot
+- Select a Robot
 
 ![Image](../img/AddRobot.png)
-- 加入手臂程式 Program
+- Select a  Program
 
 ![Image](../img/AddProgram.png)
-- 加入控制器 Controller
+- Select Controller
 
 ![Image](../img/AddController.png)
 - 連結Robot、Controller、Program
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDc4MDQ2OCwxMjcxMzkzMDcxLC0xMj
-E2MjkwMDM0LC0xOTc3NDEzODI2LDMxNjY3NjY3Nyw5NjYzMTU3
-NDksMTYyNjk5NDA1NiwxMDAxODg2MzQ3LDM2NzgwNTU4OCwtNT
-Q3NTY2MzQ0LDUwNzY3NjAwOSwtMTEzMjcxMDk2LDMwNDQ4MTQx
-MSw2NTI4ODc4MzIsODIzNTQ3NzM4LC0xNDkxNjEzNTY1LDEwMz
-I1Nzk1MzksMTgwOTQ4Mzc3LC0xMzI4NTI2NTk4LC0xNzc3MTk3
-Nzk0XX0=
+eyJoaXN0b3J5IjpbMjkxNjkxNDAyLDEyNzEzOTMwNzEsLTEyMT
+YyOTAwMzQsLTE5Nzc0MTM4MjYsMzE2Njc2Njc3LDk2NjMxNTc0
+OSwxNjI2OTk0MDU2LDEwMDE4ODYzNDcsMzY3ODA1NTg4LC01ND
+c1NjYzNDQsNTA3Njc2MDA5LC0xMTMyNzEwOTYsMzA0NDgxNDEx
+LDY1Mjg4NzgzMiw4MjM1NDc3MzgsLTE0OTE2MTM1NjUsMTAzMj
+U3OTUzOSwxODA5NDgzNzcsLTEzMjg1MjY1OTgsLTE3NzcxOTc3
+OTRdfQ==
 -->

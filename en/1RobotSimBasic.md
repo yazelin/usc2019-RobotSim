@@ -42,18 +42,18 @@
 
 ## Basic operation 
 
-### RobotSim download, installation and testing 
+### Download, installation and testing 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Download link [link](http://www.wtech.com.tw/download)
 - Reference media [link](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### RobotSim teaching, programing and simulation
+### Teaching, programing and simulation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Gk7K88B10c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Reference media [Link](https://www.youtube.com/watch?v=4Gk7K88B10c&index=21&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
-### RobotSim 設定Tool-更新點位-模擬動作
+### Set up Tool-更新點位-模擬動作
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NLA6A_qWDgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Reference media [Link](https://www.youtube.com/watch?v=NLA6A_qWDgs&index=22&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2Njc2Njc3LDk2NjMxNTc0OSwxNjI2OT
-k0MDU2LDEwMDE4ODYzNDcsMzY3ODA1NTg4LC01NDc1NjYzNDQs
-NTA3Njc2MDA5LC0xMTMyNzEwOTYsMzA0NDgxNDExLDY1Mjg4Nz
-gzMiw4MjM1NDc3MzgsLTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwx
-ODA5NDgzNzcsLTEzMjg1MjY1OTgsLTE3NzcxOTc3OTQsLTE4OD
-IyNjk1NTIsODQwMDU4OTksLTE1MzU0OTU2NjUsLTIwMTkzNTM1
-NTRdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzc0MTM4MjYsMzE2Njc2Njc3LDk2Nj
+MxNTc0OSwxNjI2OTk0MDU2LDEwMDE4ODYzNDcsMzY3ODA1NTg4
+LC01NDc1NjYzNDQsNTA3Njc2MDA5LC0xMTMyNzEwOTYsMzA0ND
+gxNDExLDY1Mjg4NzgzMiw4MjM1NDc3MzgsLTE0OTE2MTM1NjUs
+MTAzMjU3OTUzOSwxODA5NDgzNzcsLTEzMjg1MjY1OTgsLTE3Nz
+cxOTc3OTQsLTE4ODIyNjk1NTIsODQwMDU4OTksLTE1MzU0OTU2
+NjVdfQ==
 -->

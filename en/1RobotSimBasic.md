@@ -43,7 +43,7 @@
 ## Basic operation 
 
 ### Download, installation and testing 
-<iframe width="560" height="315" src="https://github.com/yazelin/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Download link [link](http://www.wtech.com.tw/download)
 - Reference media [link](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTc4Njg0OCwxMTkxODY2MjY4LDExOT
+eyJoaXN0b3J5IjpbMTE5MTg2NjI2OCwxMTkxODY2MjY4LDExOT
 E4NjYyNjgsMTE5MTg2NjI2OCwtMTc1OTcyNzg2MSwxNjI3OTQ1
 MjA4LC01NDY2MjgzMywxMjcxMzkzMDcxLC0xMjE2MjkwMDM0LC
 0xOTc3NDEzODI2LDMxNjY3NjY3Nyw5NjYzMTU3NDksMTYyNjk5

@@ -37,8 +37,8 @@
 	- Axis Range Limitation
 		- A1~A6
 	- Teaching and Programing
-		- Teach several points to make a robot motion path. 
-		- Repeat  the path by Loop
+		- Teach several points to create a robot motion path
+		- Repeat  robot running on the path by Loop 
 
 ## RobotSim環境及基本操作
 
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzkzODg3MjQsMTYyNjk5NDA1NiwxMD
-AxODg2MzQ3LDM2NzgwNTU4OCwtNTQ3NTY2MzQ0LDUwNzY3NjAw
-OSwtMTEzMjcxMDk2LDMwNDQ4MTQxMSw2NTI4ODc4MzIsODIzNT
-Q3NzM4LC0xNDkxNjEzNTY1LDEwMzI1Nzk1MzksMTgwOTQ4Mzc3
-LC0xMzI4NTI2NTk4LC0xNzc3MTk3Nzk0LC0xODgyMjY5NTUyLD
-g0MDA1ODk5LC0xNTM1NDk1NjY1LC0yMDE5MzUzNTU0LC0xMzcx
-MTY1MDE4XX0=
+eyJoaXN0b3J5IjpbLTk5MTE4NTEyNCwxNjI2OTk0MDU2LDEwMD
+E4ODYzNDcsMzY3ODA1NTg4LC01NDc1NjYzNDQsNTA3Njc2MDA5
+LC0xMTMyNzEwOTYsMzA0NDgxNDExLDY1Mjg4NzgzMiw4MjM1ND
+c3MzgsLTE0OTE2MTM1NjUsMTAzMjU3OTUzOSwxODA5NDgzNzcs
+LTEzMjg1MjY1OTgsLTE3NzcxOTc3OTQsLTE4ODIyNjk1NTIsOD
+QwMDU4OTksLTE1MzU0OTU2NjUsLTIwMTkzNTM1NTQsLTEzNzEx
+NjUwMThdfQ==
 -->

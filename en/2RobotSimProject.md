@@ -231,12 +231,12 @@ public class RobotCommandGripper : RobotCommand
 - Add gripping func to gripperscript 
 
 ![Image](../img/AddGripperScript.png)
-- Program Add Empty GameObject and then add GripperCommand
+- Add Empty GameObject and then add GripperCommand
 
 ![Image](../img/AddGripperCommandScript_1.png)
 ![Image](../img/AddGripperCommandScript_2.png)
 
-- 測試
+- Test
 
 ![Image](../img/GripperTest.gif)
 - 來回夾放測試
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDIwNDYxOSwyMDc3ODA1MjgzLDE5OT
-UyOTE0MzIsMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1
-LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
-Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs
-LTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0ND
-AzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDcz
-XX0=
+eyJoaXN0b3J5IjpbMjExMDE0NTEzLDIwNzc4MDUyODMsMTk5NT
+I5MTQzMiwxNzM5OTQ0OTE4LC05MDIyNjk5NTEsNDQzODUxMjUs
+LTQwMjI4MjYwNiwxMDQzNjI1MDI5LDM1MDY4OTI4LC0xOTUyNj
+QzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MTczMSwt
+MTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywxODQ0MD
+M0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzNd
+fQ==
 -->

@@ -126,7 +126,7 @@ public class Gripper : MonoBehaviour
 		}
 		holdingObject = null;//put the holding object to World Root
 	}
-	//declare OnTriggerEnter 偵測目前可夾取物
+	//declare OnTriggerEnter for detecting object ready for gripping
 	void OnTriggerEnter(Collider other)
 	{
 		readyGet = other.transform;
@@ -263,7 +263,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTcwNjMyNiwyMDc3ODA1MjgzLDE5OT
+eyJoaXN0b3J5IjpbMTc5NDU5MTA5MywyMDc3ODA1MjgzLDE5OT
 UyOTE0MzIsMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1
 LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
 Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs

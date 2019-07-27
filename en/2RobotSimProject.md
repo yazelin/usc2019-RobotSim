@@ -85,9 +85,9 @@ public class Gripper : MonoBehaviour
 	// 1.use OnTriggerEnter to catch objects within a default range，and the parent of the holding object is set up to Gripper
 	// 2.use the gripper catching animation to move the gripper, and use Rigidbody function for Clipping
 
-	//declare transform object: ready for catching
+	//declare ready object: readyGet
 	public Transform readyGet;
-	//the current holding object
+	//declare holding object: holdingObject
 	public Transform holdingObject;
 
 	//declare Lock() as catching command, and set readyGet's Parent as Gripper
@@ -263,7 +263,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDEzMzkyOCwxOTk1MjkxNDMyLDE3Mz
+eyJoaXN0b3J5IjpbMjA3NzgwNTI4MywxOTk1MjkxNDMyLDE3Mz
 k5NDQ5MTgsLTkwMjI2OTk1MSw0NDM4NTEyNSwtNDAyMjgyNjA2
 LDEwNDM2MjUwMjksMzUwNjg5MjgsLTE5NTI2NDM5MTUsMTc4ND
 U3MDQ2LDIxMzc3Mjc1NjgsNzc0ODQxNzMxLC0xOTY4Njk5NzI0

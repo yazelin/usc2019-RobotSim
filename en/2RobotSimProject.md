@@ -90,7 +90,7 @@ public class Gripper : MonoBehaviour
 	//the current holding object
 	public Transform holdingObject;
 
-	//Catching command Lock(set readyGet's Parent as Gripper)
+	//declare catching command Lock(set readyGet's Parent as Gripper)
 	public void Lock(Transform product)
 	{
 		if (holdingObject == null)
@@ -103,7 +103,7 @@ public class Gripper : MonoBehaviour
 		}
 	}
 
-	//傳回目前所夾持物
+	//declare holding oblect傳回目前所夾持物
 	public Transform Unlock()
 	{
 		Transform returnObject = holdingObject;
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY3MDE5MjksMTk5NTI5MTQzMiwxNz
-M5OTQ0OTE4LC05MDIyNjk5NTEsNDQzODUxMjUsLTQwMjI4MjYw
-NiwxMDQzNjI1MDI5LDM1MDY4OTI4LC0xOTUyNjQzOTE1LDE3OD
-Q1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MTczMSwtMTk2ODY5OTcy
-NCw2NDUwNjY4MzYsLTEyMzE0NTUxMywxODQ0MDM0ODY2LDk4OT
-IyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzMsMTE3MzU5OTg2
-Nl19
+eyJoaXN0b3J5IjpbLTEyMzMwNDM1LDE5OTUyOTE0MzIsMTczOT
+k0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1LC00MDIyODI2MDYs
+MTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1MjY0MzkxNSwxNzg0NT
+cwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEsLTE5Njg2OTk3MjQs
+NjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMj
+k3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDczLDExNzM1OTk4NjZd
+fQ==
 -->

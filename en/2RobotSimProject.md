@@ -131,7 +131,7 @@ public class Gripper : MonoBehaviour
 	{
 		readyGet = other.transform;
 	}
-	//declare OnTriggerExit to remove 移除目前圖夾取物
+	//declare OnTriggerExit
 	void OnTriggerExit(Collider other)
 	{
 		if (readyGet == other.transform)
@@ -263,7 +263,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDQwNjIyOSwyMDc3ODA1MjgzLDE5OT
+eyJoaXN0b3J5IjpbMTQwNjAyMzMxMywyMDc3ODA1MjgzLDE5OT
 UyOTE0MzIsMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1
 LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
 Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs

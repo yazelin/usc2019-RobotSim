@@ -154,7 +154,7 @@ public class RobotCommandGripper : RobotCommand
 {
 	//對應操作的夾爪
 	public Gripper gripper;
-	//夾爪動畫
+	//Gripper 
 	public Animator animatorGripper;
 	//夾持命令
 	public bool Lock = false;
@@ -263,7 +263,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk5MjQzMDksMTczOTk0NDkxOCwtOT
+eyJoaXN0b3J5IjpbLTEwOTE3Mjg4MDgsMTczOTk0NDkxOCwtOT
 AyMjY5OTUxLDQ0Mzg1MTI1LC00MDIyODI2MDYsMTA0MzYyNTAy
 OSwzNTA2ODkyOCwtMTk1MjY0MzkxNSwxNzg0NTcwNDYsMjEzNz
 cyNzU2OCw3NzQ4NDE3MzEsLTE5Njg2OTk3MjQsNjQ1MDY2ODM2

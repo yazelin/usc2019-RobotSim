@@ -210,7 +210,7 @@ public class RobotCommandGripper : RobotCommand
 
 	public override string ExportSrc()
 	{
-		//輸出  GripperLock(true/false);  至 手臂程式src檔內
+		//return  GripperLock(true/false) to src file
 		return tab + "GripperLock(" + Lock.ToString() + ");" + Environment.NewLine;
 	}
 
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDA5NDMxNCwyMDc3ODA1MjgzLDE5OT
-UyOTE0MzIsMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1
-LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
-Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs
-LTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0ND
-AzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDcz
-XX0=
+eyJoaXN0b3J5IjpbLTEwMjA1ODY0NDksMjA3NzgwNTI4MywxOT
+k1MjkxNDMyLDE3Mzk5NDQ5MTgsLTkwMjI2OTk1MSw0NDM4NTEy
+NSwtNDAyMjgyNjA2LDEwNDM2MjUwMjksMzUwNjg5MjgsLTE5NT
+I2NDM5MTUsMTc4NDU3MDQ2LDIxMzc3Mjc1NjgsNzc0ODQxNzMx
+LC0xOTY4Njk5NzI0LDY0NTA2NjgzNiwtMTIzMTQ1NTEzLDE4ND
+QwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5ODk2MzA3
+M119
 -->

@@ -1,11 +1,11 @@
 ## RobotSim Project
-### [繳交作業](https://drive.google.com/drive/folders/104_rw30SUGLiESvD4R0ukJIDlGs7t98Y?fbclid=IwAR172PehbkoKq6Lboyup1Wp-YAIbEKpJTQUJWJMZ9zZYzy_iTaDapXleThA)
+
 ### RobotSim完整專案
-- 顯示訊息功能
+- Display message
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e1HLzD1LAZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-RobotCommandMessage.cs 程式碼 
+RobotCommandMessage.cs Code
 ```cs
 //RobotCommandMessage.cs
 using RobotSim;
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc5MjQ4OTAsLTkwMjI2OTk1MSw0ND
-M4NTEyNSwtNDAyMjgyNjA2LDEwNDM2MjUwMjksMzUwNjg5Mjgs
-LTE5NTI2NDM5MTUsMTc4NDU3MDQ2LDIxMzc3Mjc1NjgsNzc0OD
-QxNzMxLC0xOTY4Njk5NzI0LDY0NTA2NjgzNiwtMTIzMTQ1NTEz
-LDE4NDQwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5OD
-k2MzA3MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1
-MV19
+eyJoaXN0b3J5IjpbMjAyNDQ1ODMyMSwtOTAyMjY5OTUxLDQ0Mz
+g1MTI1LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwt
+MTk1MjY0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4ND
+E3MzEsLTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMs
+MTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OT
+YzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUx
+XX0=
 -->

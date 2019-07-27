@@ -239,16 +239,16 @@ public class RobotCommandGripper : RobotCommand
 - Test
 
 ![Image](../img/GripperTest.gif)
-- 來回夾放測試
+- Repeat 
 
 ![Image](../img/GripperTest2.gif)
 
 
 
-- 在RobotSim 中還能做什麼?
-  - [歡迎加入RobotSim討論區](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
+- what else RobotSim can do?
+  - [RobotSim forum](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
   
-### RobotSim匯出 並匯入WorkVisual專案
+### RobotSim export 匯出 並匯入WorkVisual專案
 - WorkVisual 環境
 
 ![Image](../img/WorkVisualWindow.png)
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDE0NTEzLDIwNzc4MDUyODMsMTk5NT
-I5MTQzMiwxNzM5OTQ0OTE4LC05MDIyNjk5NTEsNDQzODUxMjUs
-LTQwMjI4MjYwNiwxMDQzNjI1MDI5LDM1MDY4OTI4LC0xOTUyNj
-QzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MTczMSwt
-MTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywxODQ0MD
-M0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzNd
-fQ==
+eyJoaXN0b3J5IjpbMTk0MTQ1MTg2OSwyMDc3ODA1MjgzLDE5OT
+UyOTE0MzIsMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1
+LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
+Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs
+LTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0ND
+AzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDcz
+XX0=
 -->

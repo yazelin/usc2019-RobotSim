@@ -59,8 +59,8 @@ public class RobotCommandMessage : RobotCommand
 }
 ```
 
-- RobotSim程式設計擴充 夾娃娃機
-  - 視實際進度彈性調整 [參考教學](https://yazelin.github.io/cnu2018-RobotSim/)
+- RobotSim code for clip doll machine
+  -  [參考教學](https://yazelin.github.io/cnu2018-RobotSim/)
 
 - 設定Home點位置
 
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2ODg2MDk1LC05MDIyNjk5NTEsNDQzOD
-UxMjUsLTQwMjI4MjYwNiwxMDQzNjI1MDI5LDM1MDY4OTI4LC0x
-OTUyNjQzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MT
-czMSwtMTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywx
-ODQ0MDM0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5Nj
-MwNzMsMTE3MzU5OTg2NiwtNDE2MTY5NjY3LC01NzA4MzI2NTFd
-fQ==
+eyJoaXN0b3J5IjpbLTMxMjMyMjI0MywtOTAyMjY5OTUxLDQ0Mz
+g1MTI1LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwt
+MTk1MjY0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4ND
+E3MzEsLTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMs
+MTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OT
+YzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUx
+XX0=
 -->

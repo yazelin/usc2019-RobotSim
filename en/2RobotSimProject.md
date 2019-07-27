@@ -103,7 +103,7 @@ public class Gripper : MonoBehaviour
 		}
 	}
 
-	//declare Unlock() for holding oblect
+	//declare Unlock() to return holding object
 	public Transform Unlock()
 	{
 		Transform returnObject = holdingObject;
@@ -112,7 +112,7 @@ public class Gripper : MonoBehaviour
 		return returnObject;
 	}
 
-	//夾取readyGet物件
+	//decla夾取readyGet物件
 	public void LockReadyGet()
 	{
 		Lock(readyGet);
@@ -263,7 +263,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDc3MzI2OSwxOTk1MjkxNDMyLDE3Mz
+eyJoaXN0b3J5IjpbMTExNzE5NjA0MiwxOTk1MjkxNDMyLDE3Mz
 k5NDQ5MTgsLTkwMjI2OTk1MSw0NDM4NTEyNSwtNDAyMjgyNjA2
 LDEwNDM2MjUwMjksMzUwNjg5MjgsLTE5NTI2NDM5MTUsMTc4ND
 U3MDQ2LDIxMzc3Mjc1NjgsNzc0ODQxNzMxLC0xOTY4Njk5NzI0

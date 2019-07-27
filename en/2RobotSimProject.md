@@ -35,13 +35,13 @@ public class RobotCommandMessage : RobotCommand
 	{
 		//use DebugConsole to print message
 		Debug.Log(Message);
-		// enext line
+		// go to next line
 		return (line + 1);
 	}
 
 	public override string ExportDat()
 	{
-		//不需要輸出任何內容到手臂程式的Dat檔中
+		//no message needed to be sent to robot dat files
 		return string.Empty;
 	}
 
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyMTA4NTg0LC05MDIyNjk5NTEsNDQzOD
-UxMjUsLTQwMjI4MjYwNiwxMDQzNjI1MDI5LDM1MDY4OTI4LC0x
-OTUyNjQzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MT
-czMSwtMTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywx
-ODQ0MDM0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5Nj
-MwNzMsMTE3MzU5OTg2NiwtNDE2MTY5NjY3LC01NzA4MzI2NTFd
-fQ==
+eyJoaXN0b3J5IjpbLTEzMjIzODg5NzUsLTkwMjI2OTk1MSw0ND
+M4NTEyNSwtNDAyMjgyNjA2LDEwNDM2MjUwMjksMzUwNjg5Mjgs
+LTE5NTI2NDM5MTUsMTc4NDU3MDQ2LDIxMzc3Mjc1NjgsNzc0OD
+QxNzMxLC0xOTY4Njk5NzI0LDY0NTA2NjgzNiwtMTIzMTQ1NTEz
+LDE4NDQwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5OD
+k2MzA3MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1
+MV19
 -->

@@ -117,16 +117,16 @@ public class Gripper : MonoBehaviour
 	{
 		Lock(readyGet);
 	}
-	//declare UnlockToWorld() 放開夾取物件
+	//declare UnlockToWorld() to unlock the holding object
 	public void UnlockToWorld()
 	{
 		if (holdingObject)
 		{
 			holdingObject.parent = null;
 		}
-		holdingObject = null;//把手上拿著的東西丟到世界Root去
+		holdingObject = null;//put the holding object to World Root
 	}
-	//偵測目前可夾取物
+	//declare OnTriggerEnter 偵測目前可夾取物
 	void OnTriggerEnter(Collider other)
 	{
 		readyGet = other.transform;
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzgwNTI4MywxOTk1MjkxNDMyLDE3Mz
-k5NDQ5MTgsLTkwMjI2OTk1MSw0NDM4NTEyNSwtNDAyMjgyNjA2
-LDEwNDM2MjUwMjksMzUwNjg5MjgsLTE5NTI2NDM5MTUsMTc4ND
-U3MDQ2LDIxMzc3Mjc1NjgsNzc0ODQxNzMxLC0xOTY4Njk5NzI0
-LDY0NTA2NjgzNiwtMTIzMTQ1NTEzLDE4NDQwMzQ4NjYsOTg5Mj
-I5NzAzLC02NTAxMDgzNDYsLTM5ODk2MzA3MywxMTczNTk5ODY2
+eyJoaXN0b3J5IjpbMTQ5NTcwNjMyNiwyMDc3ODA1MjgzLDE5OT
+UyOTE0MzIsMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1
+LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
+Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs
+LTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0ND
+AzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDcz
 XX0=
 -->

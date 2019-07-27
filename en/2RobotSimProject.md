@@ -103,7 +103,7 @@ public class Gripper : MonoBehaviour
 		}
 	}
 
-	//declare holding oblect傳回目前所夾持物
+	//declare Unlock() for holding oblect
 	public Transform Unlock()
 	{
 		Transform returnObject = holdingObject;
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMwNDM1LDE5OTUyOTE0MzIsMTczOT
-k0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1LC00MDIyODI2MDYs
-MTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1MjY0MzkxNSwxNzg0NT
-cwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEsLTE5Njg2OTk3MjQs
-NjQ1MDY2ODM2LC0xMjMxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMj
-k3MDMsLTY1MDEwODM0NiwtMzk4OTYzMDczLDExNzM1OTk4NjZd
-fQ==
+eyJoaXN0b3J5IjpbMTExMDc3MzI2OSwxOTk1MjkxNDMyLDE3Mz
+k5NDQ5MTgsLTkwMjI2OTk1MSw0NDM4NTEyNSwtNDAyMjgyNjA2
+LDEwNDM2MjUwMjksMzUwNjg5MjgsLTE5NTI2NDM5MTUsMTc4ND
+U3MDQ2LDIxMzc3Mjc1NjgsNzc0ODQxNzMxLC0xOTY4Njk5NzI0
+LDY0NTA2NjgzNiwtMTIzMTQ1NTEzLDE4NDQwMzQ4NjYsOTg5Mj
+I5NzAzLC02NTAxMDgzNDYsLTM5ODk2MzA3MywxMTczNTk5ODY2
+XX0=
 -->

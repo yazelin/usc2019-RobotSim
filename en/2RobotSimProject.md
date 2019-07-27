@@ -47,13 +47,13 @@ public class RobotCommandMessage : RobotCommand
 
 	public override string ExportSrc()
 	{
-		//輸出 MsgNotify("訊息內容")  到手臂程式src檔內
+		//output MsgNotify("message")  to robot src file
 		return tab + "MsgNotify(\"" + Message + "\")" + Environment.NewLine;
 	}
 
 	public override string UpdateName()
 	{
-		////更新Gameobject在階層視窗內的名稱
+		////rename Gameobject
 		return (gameObject.name = "MsgNotify(\"" + Message + "\")");
 	}
 }
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjIzODg5NzUsLTkwMjI2OTk1MSw0ND
-M4NTEyNSwtNDAyMjgyNjA2LDEwNDM2MjUwMjksMzUwNjg5Mjgs
-LTE5NTI2NDM5MTUsMTc4NDU3MDQ2LDIxMzc3Mjc1NjgsNzc0OD
-QxNzMxLC0xOTY4Njk5NzI0LDY0NTA2NjgzNiwtMTIzMTQ1NTEz
-LDE4NDQwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5OD
-k2MzA3MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1
-MV19
+eyJoaXN0b3J5IjpbNTg2ODg2MDk1LC05MDIyNjk5NTEsNDQzOD
+UxMjUsLTQwMjI4MjYwNiwxMDQzNjI1MDI5LDM1MDY4OTI4LC0x
+OTUyNjQzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MT
+czMSwtMTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywx
+ODQ0MDM0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5Nj
+MwNzMsMTE3MzU5OTg2NiwtNDE2MTY5NjY3LC01NzA4MzI2NTFd
+fQ==
 -->

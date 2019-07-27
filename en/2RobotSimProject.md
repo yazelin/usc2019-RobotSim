@@ -248,22 +248,22 @@ public class RobotCommandGripper : RobotCommand
 - what else RobotSim can do?
   - [RobotSim forum](http://forum.wtech.com.tw/viewforum.php?f=17&sid=4a42cdd8643e5518dd23f732ca23f0c4).
   
-### RobotSim export 匯出 並匯入WorkVisual專案
-- WorkVisual 環境
+### RobotSim export and import to WorkVisual Project
+- WorkVisual project
 
 ![Image](../img/WorkVisualWindow.png)
-- RobotSim 匯出程式
+- RobotSim export code
 
 ![Image](../img/ExportProgram1.png)
 ![Image](../img/ExportProgram2.png)
-- WorkVisual 匯入程式
+- WorkVisual import 
 
 ![Image](../img/ImportProgram1.png)
 ![Image](../img/ImportProgram2.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTQ1MTg2OSwyMDc3ODA1MjgzLDE5OT
+eyJoaXN0b3J5IjpbMTU5MzcyOTM1MSwyMDc3ODA1MjgzLDE5OT
 UyOTE0MzIsMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1
 LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
 Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs

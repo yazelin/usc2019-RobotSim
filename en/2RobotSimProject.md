@@ -85,7 +85,7 @@ public class Gripper : MonoBehaviour
 	// 1.use OnTriggerEnter to catch objects within a default range，and the parent of the holding object is set up to Gripper
 	// 2.以夾爪播放夾取動畫的方式移動夾爪，並利用Rigidbody產生夾取
 
-	//declare trthe object: ready for catching
+	//declare transform object: ready for catching
 	public Transform readyGet;
 	//the current holding object
 	public Transform holdingObject;
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDcxNzcwNiwtOTAyMjY5OTUxLDQ0Mz
-g1MTI1LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwt
-MTk1MjY0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4ND
-E3MzEsLTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMs
-MTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OT
-YzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUx
-XX0=
+eyJoaXN0b3J5IjpbLTE5NjY3MDY2MzksLTkwMjI2OTk1MSw0ND
+M4NTEyNSwtNDAyMjgyNjA2LDEwNDM2MjUwMjksMzUwNjg5Mjgs
+LTE5NTI2NDM5MTUsMTc4NDU3MDQ2LDIxMzc3Mjc1NjgsNzc0OD
+QxNzMxLC0xOTY4Njk5NzI0LDY0NTA2NjgzNiwtMTIzMTQ1NTEz
+LDE4NDQwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5OD
+k2MzA3MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1
+MV19
 -->

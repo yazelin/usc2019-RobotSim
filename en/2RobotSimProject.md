@@ -225,10 +225,10 @@ public class RobotCommandGripper : RobotCommand
 - adjust gripper reaching range to detect object for gripping
 
 ![Image](../img/AddGripper_3.png)
-- 加入物體
+- Add object
 
 ![Image](../img/AddSphereGameobject.png)
-- 夾爪加入Gripper功能
+- Add gripper script 夾爪加入Gripper功能
 
 ![Image](../img/AddGripperScript.png)
 - Program中加入Empty GameObject後加入GripperCommand功能
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0OTM3ODU2LDIwNzc4MDUyODMsMTk5NT
-I5MTQzMiwxNzM5OTQ0OTE4LC05MDIyNjk5NTEsNDQzODUxMjUs
-LTQwMjI4MjYwNiwxMDQzNjI1MDI5LDM1MDY4OTI4LC0xOTUyNj
-QzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MTczMSwt
-MTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywxODQ0MD
-M0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5NjMwNzNd
-fQ==
+eyJoaXN0b3J5IjpbLTE5OTYwNTQ5MDEsMjA3NzgwNTI4MywxOT
+k1MjkxNDMyLDE3Mzk5NDQ5MTgsLTkwMjI2OTk1MSw0NDM4NTEy
+NSwtNDAyMjgyNjA2LDEwNDM2MjUwMjksMzUwNjg5MjgsLTE5NT
+I2NDM5MTUsMTc4NDU3MDQ2LDIxMzc3Mjc1NjgsNzc0ODQxNzMx
+LC0xOTY4Njk5NzI0LDY0NTA2NjgzNiwtMTIzMTQ1NTEzLDE4ND
+QwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5ODk2MzA3
+M119
 -->

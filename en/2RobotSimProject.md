@@ -82,7 +82,7 @@ using UnityEngine;
 public class Gripper : MonoBehaviour
 {
 	// Gripper code has two methods for gripping
-	// 1.use OnTriggerEnter to catch objects within a default range，anthe parent of the catched object is set to Gripper
+	// 1.use OnTriggerEnter to catch objects within a default range，and the parent of the catched object is set up to Gripper
 	// 2.以夾爪播放夾取動畫的方式移動夾爪，並利用Rigidbody產生夾取
 
 	//準備夾取的物件
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA2MjQ4MzAsLTkwMjI2OTk1MSw0ND
-M4NTEyNSwtNDAyMjgyNjA2LDEwNDM2MjUwMjksMzUwNjg5Mjgs
-LTE5NTI2NDM5MTUsMTc4NDU3MDQ2LDIxMzc3Mjc1NjgsNzc0OD
-QxNzMxLC0xOTY4Njk5NzI0LDY0NTA2NjgzNiwtMTIzMTQ1NTEz
-LDE4NDQwMzQ4NjYsOTg5MjI5NzAzLC02NTAxMDgzNDYsLTM5OD
-k2MzA3MywxMTczNTk5ODY2LC00MTYxNjk2NjcsLTU3MDgzMjY1
-MV19
+eyJoaXN0b3J5IjpbLTkzOTgwNzAxLC05MDIyNjk5NTEsNDQzOD
+UxMjUsLTQwMjI4MjYwNiwxMDQzNjI1MDI5LDM1MDY4OTI4LC0x
+OTUyNjQzOTE1LDE3ODQ1NzA0NiwyMTM3NzI3NTY4LDc3NDg0MT
+czMSwtMTk2ODY5OTcyNCw2NDUwNjY4MzYsLTEyMzE0NTUxMywx
+ODQ0MDM0ODY2LDk4OTIyOTcwMywtNjUwMTA4MzQ2LC0zOTg5Nj
+MwNzMsMTE3MzU5OTg2NiwtNDE2MTY5NjY3LC01NzA4MzI2NTFd
+fQ==
 -->

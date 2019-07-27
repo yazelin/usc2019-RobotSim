@@ -152,9 +152,9 @@ using System;
 
 public class RobotCommandGripper : RobotCommand
 {
-	//對應操作的夾爪
+	//declare Gripper object: gripper
 	public Gripper gripper;
-	//Gripper 
+	//Gripper animator
 	public Animator animatorGripper;
 	//夾持命令
 	public bool Lock = false;
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE3Mjg4MDgsMTczOTk0NDkxOCwtOT
-AyMjY5OTUxLDQ0Mzg1MTI1LC00MDIyODI2MDYsMTA0MzYyNTAy
-OSwzNTA2ODkyOCwtMTk1MjY0MzkxNSwxNzg0NTcwNDYsMjEzNz
-cyNzU2OCw3NzQ4NDE3MzEsLTE5Njg2OTk3MjQsNjQ1MDY2ODM2
-LC0xMjMxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MD
-EwODM0NiwtMzk4OTYzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2
-N119
+eyJoaXN0b3J5IjpbMTMwODQ3OTMzNSwxNzM5OTQ0OTE4LC05MD
+IyNjk5NTEsNDQzODUxMjUsLTQwMjI4MjYwNiwxMDQzNjI1MDI5
+LDM1MDY4OTI4LC0xOTUyNjQzOTE1LDE3ODQ1NzA0NiwyMTM3Nz
+I3NTY4LDc3NDg0MTczMSwtMTk2ODY5OTcyNCw2NDUwNjY4MzYs
+LTEyMzE0NTUxMywxODQ0MDM0ODY2LDk4OTIyOTcwMywtNjUwMT
+A4MzQ2LC0zOTg5NjMwNzMsMTE3MzU5OTg2NiwtNDE2MTY5NjY3
+XX0=
 -->

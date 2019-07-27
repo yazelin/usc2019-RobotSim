@@ -142,7 +142,7 @@ public class Gripper : MonoBehaviour
 }
 
 ```
-- 加入GripperCommand(實踐課程試用版 Trial_0_1_6991 內已包含)
+- Add GripperCommand
 
 ```
 //RobotCommandGripper.cs
@@ -263,7 +263,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjAyMzMxMywyMDc3ODA1MjgzLDE5OT
+eyJoaXN0b3J5IjpbMTYyOTI2MjQwOSwyMDc3ODA1MjgzLDE5OT
 UyOTE0MzIsMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1
 LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
 Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs

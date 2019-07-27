@@ -14,15 +14,15 @@ using System;
 
 public class RobotCommandMessage : RobotCommand
 {
-	//顯示的訊息
+	//display message
 	public string Message = string.Empty;
 	
-	//檢查是否未設定訊息
+	//check message 
 	public override bool Check()
 	{
 		if (Message == string.Empty)
 		{
-			errorMassage = "未填入訊息";
+			errorMassage = "message empty";
 			return false;
 		}
 		else
@@ -33,7 +33,7 @@ public class RobotCommandMessage : RobotCommand
 
 	public override int Execute()
 	{
-		//使用DebugConsole印出所設定的息
+		//use DebugConsole to print message
 		Debug.Log(Message);
 		//動作完成，執行下一行
 		return (line + 1);
@@ -263,7 +263,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDQ1ODMyMSwtOTAyMjY5OTUxLDQ0Mz
+eyJoaXN0b3J5IjpbLTU1NTc5OTk2OSwtOTAyMjY5OTUxLDQ0Mz
 g1MTI1LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwt
 MTk1MjY0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4ND
 E3MzEsLTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMs

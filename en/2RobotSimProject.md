@@ -90,7 +90,7 @@ public class Gripper : MonoBehaviour
 	//the current holding object
 	public Transform holdingObject;
 
-	//夾取指令(將readyGet物件Parent設為Gripper)
+	//Catching command(set readyGet's Parent as Gripper)
 	public void Lock(Transform product)
 	{
 		if (holdingObject == null)
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mz
-g1MTI1LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwt
-MTk1MjY0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4ND
-E3MzEsLTE5Njg2OTk3MjQsNjQ1MDY2ODM2LC0xMjMxNDU1MTMs
-MTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MDEwODM0NiwtMzk4OT
-YzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2NywtNTcwODMyNjUx
+eyJoaXN0b3J5IjpbMTY5NjMwMjk3MiwxNzM5OTQ0OTE4LC05MD
+IyNjk5NTEsNDQzODUxMjUsLTQwMjI4MjYwNiwxMDQzNjI1MDI5
+LDM1MDY4OTI4LC0xOTUyNjQzOTE1LDE3ODQ1NzA0NiwyMTM3Nz
+I3NTY4LDc3NDg0MTczMSwtMTk2ODY5OTcyNCw2NDUwNjY4MzYs
+LTEyMzE0NTUxMywxODQ0MDM0ODY2LDk4OTIyOTcwMywtNjUwMT
+A4MzQ2LC0zOTg5NjMwNzMsMTE3MzU5OTg2NiwtNDE2MTY5NjY3
 XX0=
 -->

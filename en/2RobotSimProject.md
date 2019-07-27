@@ -156,10 +156,10 @@ public class RobotCommandGripper : RobotCommand
 	public Gripper gripper;
 	//Gripper animator
 	public Animator animatorGripper;
-	//夾持命令
+	//declare boolen Lock and set as false
 	public bool Lock = false;
 
-	//檢查是否有設定好夾爪
+	//declare a 檢查是否有設定好夾爪
 	public override bool Check()
 	{
 		if (gripper)
@@ -263,7 +263,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODQ3OTMzNSwxNzM5OTQ0OTE4LC05MD
+eyJoaXN0b3J5IjpbLTkxODU4MzczMiwxNzM5OTQ0OTE4LC05MD
 IyNjk5NTEsNDQzODUxMjUsLTQwMjI4MjYwNiwxMDQzNjI1MDI5
 LDM1MDY4OTI4LC0xOTUyNjQzOTE1LDE3ODQ1NzA0NiwyMTM3Nz
 I3NTY4LDc3NDg0MTczMSwtMTk2ODY5OTcyNCw2NDUwNjY4MzYs

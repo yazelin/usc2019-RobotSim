@@ -198,13 +198,13 @@ public class RobotCommandGripper : RobotCommand
 				animatorGripper.Play("UnLock", -1, 0);
 			}
 		}
-		//動作完成，執行下一行
+
 		return (line + 1);
 	}
 
 	public override string ExportDat()
 	{
-		//不需要輸出任何程式到Dat檔
+		//return nothing to Dat file
 		return "";
 	}
 
@@ -263,7 +263,7 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDc2Nzk1NSwyMDc3ODA1MjgzLDE5OT
+eyJoaXN0b3J5IjpbMTEwNDA5NDMxNCwyMDc3ODA1MjgzLDE5OT
 UyOTE0MzIsMTczOTk0NDkxOCwtOTAyMjY5OTUxLDQ0Mzg1MTI1
 LC00MDIyODI2MDYsMTA0MzYyNTAyOSwzNTA2ODkyOCwtMTk1Mj
 Y0MzkxNSwxNzg0NTcwNDYsMjEzNzcyNzU2OCw3NzQ4NDE3MzEs

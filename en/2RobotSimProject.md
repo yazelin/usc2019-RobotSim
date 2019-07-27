@@ -1,6 +1,6 @@
 ## RobotSim Project
 
-### RobotSim完整專案
+
 - Display message
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e1HLzD1LAZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -107,7 +107,7 @@ public class Gripper : MonoBehaviour
 	public Transform Unlock()
 	{
 		Transform returnObject = holdingObject;
-		holdingObject = null;//清空目前所持物
+		holdingObject = null;//clear holding object
 
 		return returnObject;
 	}
@@ -263,11 +263,11 @@ public class RobotCommandGripper : RobotCommand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjMwMjk3MiwxNzM5OTQ0OTE4LC05MD
-IyNjk5NTEsNDQzODUxMjUsLTQwMjI4MjYwNiwxMDQzNjI1MDI5
-LDM1MDY4OTI4LC0xOTUyNjQzOTE1LDE3ODQ1NzA0NiwyMTM3Nz
-I3NTY4LDc3NDg0MTczMSwtMTk2ODY5OTcyNCw2NDUwNjY4MzYs
-LTEyMzE0NTUxMywxODQ0MDM0ODY2LDk4OTIyOTcwMywtNjUwMT
-A4MzQ2LC0zOTg5NjMwNzMsMTE3MzU5OTg2NiwtNDE2MTY5NjY3
-XX0=
+eyJoaXN0b3J5IjpbLTE5Mjk5MjQzMDksMTczOTk0NDkxOCwtOT
+AyMjY5OTUxLDQ0Mzg1MTI1LC00MDIyODI2MDYsMTA0MzYyNTAy
+OSwzNTA2ODkyOCwtMTk1MjY0MzkxNSwxNzg0NTcwNDYsMjEzNz
+cyNzU2OCw3NzQ4NDE3MzEsLTE5Njg2OTk3MjQsNjQ1MDY2ODM2
+LC0xMjMxNDU1MTMsMTg0NDAzNDg2Niw5ODkyMjk3MDMsLTY1MD
+EwODM0NiwtMzk4OTYzMDczLDExNzM1OTk4NjYsLTQxNjE2OTY2
+N119
 -->

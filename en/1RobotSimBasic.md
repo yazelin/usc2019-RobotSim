@@ -21,7 +21,7 @@
 
 ### The basic concepts of robotics lon-line earning 
 - Embeded RobotSim simulation on WebPlaer
--   [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim)
+-   [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim/demo)
 - The basic concepts of robotics includes
 	- Coordinate systems
 		- WORLD
@@ -45,7 +45,7 @@
 ### Download, installation and testing 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xv4v_fOwAC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Download link [link](http://www.wtech.com.tw/download)
+- Download link [link](http://www.wtech.com.tw/downloadrobotsim)
 - Reference media [link](https://www.youtube.com/watch?v=xv4v_fOwAC0&index=20&list=PLYLTPJkULAAZZuNW2s2tX-KWQOus7sAAo).
 
 ### Teaching, programing and simulation
@@ -122,11 +122,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTg2NjI2OCwxMTkxODY2MjY4LDExOT
-E4NjYyNjgsMTE5MTg2NjI2OCwxMTkxODY2MjY4LC0xNzU5NzI3
-ODYxLDE2Mjc5NDUyMDgsLTU0NjYyODMzLDEyNzEzOTMwNzEsLT
-EyMTYyOTAwMzQsLTE5Nzc0MTM4MjYsMzE2Njc2Njc3LDk2NjMx
-NTc0OSwxNjI2OTk0MDU2LDEwMDE4ODYzNDcsMzY3ODA1NTg4LC
-01NDc1NjYzNDQsNTA3Njc2MDA5LC0xMTMyNzEwOTYsMzA0NDgx
-NDExXX0=
+eyJoaXN0b3J5IjpbMTM2ODIwODM4MSwxMTkxODY2MjY4LDExOT
+E4NjYyNjgsMTE5MTg2NjI2OCwxMTkxODY2MjY4LDExOTE4NjYy
+NjgsLTE3NTk3Mjc4NjEsMTYyNzk0NTIwOCwtNTQ2NjI4MzMsMT
+I3MTM5MzA3MSwtMTIxNjI5MDAzNCwtMTk3NzQxMzgyNiwzMTY2
+NzY2NzcsOTY2MzE1NzQ5LDE2MjY5OTQwNTYsMTAwMTg4NjM0Ny
+wzNjc4MDU1ODgsLTU0NzU2NjM0NCw1MDc2NzYwMDksLTExMzI3
+MTA5Nl19
 -->

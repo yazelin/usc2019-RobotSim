@@ -81,7 +81,7 @@
 ![Image](../img/Flow.png)
 
 ## Excises
-- import RobotSim [download page](http://www.wtech.com.tw/download)
+- import RobotSim [download page](http://www.wtech.com.tw/robotsim)
 - start Robot window、Program window、Controller window
 - Add a empty space scene
 
@@ -122,7 +122,7 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODIwODM4MSwxMTkxODY2MjY4LDExOT
+eyJoaXN0b3J5IjpbMTgzMTI3ODYyNiwxMTkxODY2MjY4LDExOT
 E4NjYyNjgsMTE5MTg2NjI2OCwxMTkxODY2MjY4LDExOTE4NjYy
 NjgsLTE3NTk3Mjc4NjEsMTYyNzk0NTIwOCwtNTQ2NjI4MzMsMT
 I3MTM5MzA3MSwtMTIxNjI5MDAzNCwtMTk3NzQxMzgyNiwzMTY2

@@ -80,7 +80,7 @@
 ![Image](../img/Flow.png)
 
 ## 練習
-- 匯入RobotSim [下載頁面](http://www.wtech.com.tw/download)
+- 匯入RobotSim [下載頁面](http://www.wtech.com.tw/robotsim)
 - 開啟Robot視窗、Program視窗、Controller視窗
 - 加入空場景
 
@@ -121,10 +121,11 @@
 ![Image](../img/Week1DEMO.gif)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTkxMjQsMTAzMjU3OTUzOSwxODA5ND
-gzNzcsLTEzMjg1MjY1OTgsLTE3NzcxOTc3OTQsLTE4ODIyNjk1
-NTIsODQwMDU4OTksLTE1MzU0OTU2NjUsLTIwMTkzNTM1NTQsLT
-EzNzExNjUwMTgsMTk3Nzc2OTQ1Niw0MjMzOTMwMTUsMzYyNzcx
-NTIzLDExMzE0MzAwOTksMjY4MTc3MDA0LC0zMzczOTIxMDUsLT
-Y1MDMyNzE1NSwtNjAyOTY4OTcwLC0xMDU0MzEyODgwXX0=
+eyJoaXN0b3J5IjpbMTgxOTM2Njg5NSwxNzgxOTEyNCwxMDMyNT
+c5NTM5LDE4MDk0ODM3NywtMTMyODUyNjU5OCwtMTc3NzE5Nzc5
+NCwtMTg4MjI2OTU1Miw4NDAwNTg5OSwtMTUzNTQ5NTY2NSwtMj
+AxOTM1MzU1NCwtMTM3MTE2NTAxOCwxOTc3NzY5NDU2LDQyMzM5
+MzAxNSwzNjI3NzE1MjMsMTEzMTQzMDA5OSwyNjgxNzcwMDQsLT
+MzNzM5MjEwNSwtNjUwMzI3MTU1LC02MDI5Njg5NzAsLTEwNTQz
+MTI4ODBdfQ==
 -->

@@ -2,7 +2,6 @@
 ### KUKA Srver端通訊程式 EKI基礎
 
 1.網路通訊手臂EKI
-  - EKI  [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   <iframe width="560" height="315" src="https://www.youtube.com/embed/0EpIUP2WEqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   - Server 設定
 	  - 在 Files 中打開 Config\User\Commoon\EthernetKRL\XmlServer.xml
@@ -131,11 +130,11 @@ Port 54600
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0OTEwODA5LC02NzAwNzgzOTksMjEyNz
-E3NDM5MSwxMjE2NjE2OTgsMTUwNjEzMTA2MiwyMjYzNTk3NTUs
-LTEwNzQ0MjE4NjksLTE2MDYwMDk5MzAsNTMxMzEyMTQ2LDc2MD
-M5NDk2NCwxMzk3MzY3MDAzLC02MzkyNzExMzMsOTQzNTc4NTAs
-MTcxNjMwNTU5MiwtMjI5OTA0ODk1LC0xMDEyOTQ5MDExLDE2OD
-QxNDA3MDIsLTE5MDk0MDY0ODMsMTAyNzg0MTk0OSwxNDc5Njk0
-NTkyXX0=
+eyJoaXN0b3J5IjpbLTU2MjQ4ODI1Niw2ODQ5MTA4MDksLTY3MD
+A3ODM5OSwyMTI3MTc0MzkxLDEyMTY2MTY5OCwxNTA2MTMxMDYy
+LDIyNjM1OTc1NSwtMTA3NDQyMTg2OSwtMTYwNjAwOTkzMCw1Mz
+EzMTIxNDYsNzYwMzk0OTY0LDEzOTczNjcwMDMsLTYzOTI3MTEz
+Myw5NDM1Nzg1MCwxNzE2MzA1NTkyLC0yMjk5MDQ4OTUsLTEwMT
+I5NDkwMTEsMTY4NDE0MDcwMiwtMTkwOTQwNjQ4MywxMDI3ODQx
+OTQ5XX0=
 -->

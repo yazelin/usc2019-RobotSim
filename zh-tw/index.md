@@ -69,12 +69,12 @@
 ```
 工欲善其事 必先利其器
 ```
-1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
+1. WtFramework開發框架介紹
   - Core
   - Action
 2. 安裝
 3. 網路通訊
-  - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
+  - EKI
   - Server
 5. 練習
 
@@ -119,11 +119,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3ODE4MjI1LDIwODk2NDkyODAsLTU4Mj
-UxMTkyNSwxMzczNjMwMzA3LC0xNDQxMDI3MDg1LDU0ODM5MDA5
-NSwtMTUxODMzNTkwOSwtMTU2NTAzNTA5NywtMTg1ODU1Mjg3MC
-wtMTQwMDE4NzQ1MSw0MzU5ODE1MDgsMjAxOTY3MzEyNSwyMDAz
-NzIyODcwLC0zMjQ1Mzk5NDgsMjAwMzcyMjg3MCwxMTQ2NzI5Mj
-Q1LC0xMDc4ODQxMDUsLTExNzk0Mjc1OTYsLTE5OTY1MjYyOTEs
-NTU5OTkwNTgzXX0=
+eyJoaXN0b3J5IjpbLTg5NjQzNzk5MCwyMDg5NjQ5MjgwLC01OD
+I1MTE5MjUsMTM3MzYzMDMwNywtMTQ0MTAyNzA4NSw1NDgzOTAw
+OTUsLTE1MTgzMzU5MDksLTE1NjUwMzUwOTcsLTE4NTg1NTI4Nz
+AsLTE0MDAxODc0NTEsNDM1OTgxNTA4LDIwMTk2NzMxMjUsMjAw
+MzcyMjg3MCwtMzI0NTM5OTQ4LDIwMDM3MjI4NzAsMTE0NjcyOT
+I0NSwtMTA3ODg0MTA1LC0xMTc5NDI3NTk2LC0xOTk2NTI2Mjkx
+LDU1OTk5MDU4M119
 -->

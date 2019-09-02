@@ -54,8 +54,8 @@
 欲速則不達
 慢慢來，比較快
 ```
-1. 手臂安全及基本操作 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KSS%208.3%20for%20End%20User.pdf)
-2. WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
+1. 手臂安全及基本操作 
+2. WorkVisual KRL 程式語言
   - 變數
   - 常用函式
   - 動作指令
@@ -67,12 +67,12 @@
 ```
 工欲善其事 必先利其器
 ```
-1. WtFramework開發框架介紹 [參考文件](https://docs.google.com/document/d/1Szhp_FcrscaeyZ9ZzW3MuSqA4tz6_ZzheJut4y5GJkQ/edit?usp=sharing)
+1. WtFramework開發框架介紹
   - Core
   - Action
 2. 安裝
 3. 網路通訊
-  - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
+  - EKI 
   - Server
 5. 練習
 
@@ -117,11 +117,11 @@
 - 操作KUKA機器手臂
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjUxMTkyNSwxMzczNjMwMzA3LC0xND
-QxMDI3MDg1LDU0ODM5MDA5NSwtMTUxODMzNTkwOSwtMTU2NTAz
-NTA5NywtMTg1ODU1Mjg3MCwtMTQwMDE4NzQ1MSw0MzU5ODE1MD
-gsMjAxOTY3MzEyNSwyMDAzNzIyODcwLC0zMjQ1Mzk5NDgsMjAw
-MzcyMjg3MCwxMTQ2NzI5MjQ1LC0xMDc4ODQxMDUsLTExNzk0Mj
-c1OTYsLTE5OTY1MjYyOTEsNTU5OTkwNTgzLDE1MDgyNTY1NDYs
-MTk2NTE1MTg0N119
+eyJoaXN0b3J5IjpbNDU1OTIyMzk5LC01ODI1MTE5MjUsMTM3Mz
+YzMDMwNywtMTQ0MTAyNzA4NSw1NDgzOTAwOTUsLTE1MTgzMzU5
+MDksLTE1NjUwMzUwOTcsLTE4NTg1NTI4NzAsLTE0MDAxODc0NT
+EsNDM1OTgxNTA4LDIwMTk2NzMxMjUsMjAwMzcyMjg3MCwtMzI0
+NTM5OTQ4LDIwMDM3MjI4NzAsMTE0NjcyOTI0NSwtMTA3ODg0MT
+A1LC0xMTc5NDI3NTk2LC0xOTk2NTI2MjkxLDU1OTk5MDU4Mywx
+NTA4MjU2NTQ2XX0=
 -->

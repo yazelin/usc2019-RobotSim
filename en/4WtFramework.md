@@ -2,18 +2,12 @@
 
 ### Winform Client 端通訊程式
 
-1. WtFramework開發框架介紹
-  - [KUKA手臂程式](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/KUKAUSC.zip)
-  - [架構圖](../src/Wt專案架構圖.pdf)
-  - [流程圖](../src/WtFrameworkFlowCharts.pdf)
-  - Core
-  - Action
-2. 安裝
+1. 安裝
   - 於 WorkVisual 內點選 File/Cataloghandling...
   - 於 Catalogs 視窗點選 KRL Templates 後按 > 按鈕 加入功能
   - ![Image](../img/AddKRLTemplates.png)
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
-3. 網路通訊
+2. 網路通訊
   - EKI [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
   - 下載xml檔案:[https://github.com/yazelin/usc2019-RobotSim/raw/masteㄙr/src/XmlServer.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - 在 EthernetKRL 點右鍵選擇 Add external file 加入 Xml.Servver.xml
@@ -47,7 +41,7 @@
 </ETHERNETKRL>
    ```
 
-4. 夾娃娃機PC端操作介面
+3. 夾娃娃機PC端操作介面
 - 步驟
 	1. 介面設計
 	2. 開啟關閉功能
@@ -229,11 +223,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODYwMTQyMywtMjAwMjI3MzU3MywxOT
-k5MDM2MDYxLC0xMTM3MjI4MTY5LDEwMzE4ODMwMzYsOTE4ODg3
-NTgwLDEwMzE4ODMwMzYsLTEzNTEzNjAxMDAsMTEzNjEwMzEyNy
-wxMzEzNjU4NDg3LC0xMjAwMTIyNjUsLTE2ODQxNzQ2MzcsLTg0
-NzYzNDE1MywtNTAxODY3NzQ5LDExOTUzOTI2NzMsLTE2MTY0OD
-YxNDcsNDc3OTUwMDQ0LC0xMjE3MzEwNzc5LDU4NDY3NTI3Miwt
-MTMyNDgwMzE4Nl19
+eyJoaXN0b3J5IjpbLTEzMzU3MTY0OCwxMzY4NjAxNDIzLC0yMD
+AyMjczNTczLDE5OTkwMzYwNjEsLTExMzcyMjgxNjksMTAzMTg4
+MzAzNiw5MTg4ODc1ODAsMTAzMTg4MzAzNiwtMTM1MTM2MDEwMC
+wxMTM2MTAzMTI3LDEzMTM2NTg0ODcsLTEyMDAxMjI2NSwtMTY4
+NDE3NDYzNywtODQ3NjM0MTUzLC01MDE4Njc3NDksMTE5NTM5Mj
+Y3MywtMTYxNjQ4NjE0Nyw0Nzc5NTAwNDQsLTEyMTczMTA3Nzks
+NTg0Njc1MjcyXX0=
 -->

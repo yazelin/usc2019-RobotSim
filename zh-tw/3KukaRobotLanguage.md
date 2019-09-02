@@ -14,7 +14,7 @@
 ### 機器手臂專案
 實踐KUKA KR3 [專案檔](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/USCITC.wvs)
 
-### WorkVisual KRL 程式語言 [參考文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
+### WorkVisual KRL 程式語言
 - 變數
   - BOOL
   - INT
@@ -41,7 +41,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3Njk5OTcwLC0xMDA2MjQzODcsMTMxNT
-QyNzM2NiwtMTYwMzY2Mzc3MSwtMjEwODY2NzM2NywxODQ3Nzgw
-MDE3LDE4Mjc1MDk3MzYsMTQ3OTg4MzIwNl19
+eyJoaXN0b3J5IjpbLTEwOTA1NTY0ODgsLTEwMDYyNDM4NywxMz
+E1NDI3MzY2LC0xNjAzNjYzNzcxLC0yMTA4NjY3MzY3LDE4NDc3
+ODAwMTcsMTgyNzUwOTczNiwxNDc5ODgzMjA2XX0=
 -->

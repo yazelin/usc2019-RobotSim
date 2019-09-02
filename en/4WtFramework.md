@@ -8,7 +8,7 @@
   - ![Image](../img/AddKRLTemplates.png)
   - 將 WtFramework.zip 解壓縮後將 KUKA Templates資料夾 覆蓋 C:\Users\User\Documents\KUKA Templates 資料夾
 2. 網路通訊
-  - 下載xml檔案:[https://github.com/yazelin/usc2019-RobotSim/raw/masteㄙr/src/XmlServer.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
+  - 下載xml檔案:[https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip](https://github.com/yazelin/usc2019-RobotSim/raw/master/src/XmlServer.zip)
   - 在 EthernetKRL 點右鍵選擇 Add external file 加入 Xml.Servver.xml
   - ![Image](../img/Demonstration.PNG)
   - 點選XmlServer.Xml
@@ -222,11 +222,11 @@ Port 54600
   ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMTYyNjgsMTM2ODYwMTQyMywtMjAwMj
-I3MzU3MywxOTk5MDM2MDYxLC0xMTM3MjI4MTY5LDEwMzE4ODMw
-MzYsOTE4ODg3NTgwLDEwMzE4ODMwMzYsLTEzNTEzNjAxMDAsMT
-EzNjEwMzEyNywxMzEzNjU4NDg3LC0xMjAwMTIyNjUsLTE2ODQx
-NzQ2MzcsLTg0NzYzNDE1MywtNTAxODY3NzQ5LDExOTUzOTI2Nz
-MsLTE2MTY0ODYxNDcsNDc3OTUwMDQ0LC0xMjE3MzEwNzc5LDU4
-NDY3NTI3Ml19
+eyJoaXN0b3J5IjpbLTg3NTI3NzM3LDEzNjg2MDE0MjMsLTIwMD
+IyNzM1NzMsMTk5OTAzNjA2MSwtMTEzNzIyODE2OSwxMDMxODgz
+MDM2LDkxODg4NzU4MCwxMDMxODgzMDM2LC0xMzUxMzYwMTAwLD
+ExMzYxMDMxMjcsMTMxMzY1ODQ4NywtMTIwMDEyMjY1LC0xNjg0
+MTc0NjM3LC04NDc2MzQxNTMsLTUwMTg2Nzc0OSwxMTk1MzkyNj
+czLC0xNjE2NDg2MTQ3LDQ3Nzk1MDA0NCwtMTIxNzMxMDc3OSw1
+ODQ2NzUyNzJdfQ==
 -->

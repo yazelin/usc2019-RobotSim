@@ -47,6 +47,8 @@ DEF XmlServer( )
    CHAR EOL[2]	
    EOL[1] = 13						;ASCII碼 13 = \r
    EOL[2] = 10						;10 = \n
+   $FLAG[1] = FALSE
+   $FLAG[2] = FALSE
    
    RET=EKI_Init("XmlServer")			;初始化
    RET=EKI_Open("XmlServer")			;開啟

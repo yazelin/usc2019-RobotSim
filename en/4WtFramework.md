@@ -22,19 +22,19 @@
          <TYPE>Client</TYPE>
       </EXTERNAL>
       <INTERNAL>
-         <IP>192.168.1.147</IP>			;設定手臂IP
-         <PORT>54600</PORT>				;設定連線port
-         <ALIVE Set_Flag="1"/>			;當確定連線後Flag[1] = TRUE
+         <IP>192.168.1.147</IP>			<!--設定手臂IP-->
+         <PORT>54600</PORT>				<!--設定連線port-->
+         <ALIVE Set_Flag="1"/>			<!--當確定連線後Flag[1] = TRUE-->
       </INTERNAL>
    </CONFIGURATION>
    <RECEIVE>
       <XML>
-         <ELEMENT Tag="Data/Direction" Type="INT" Set_Flag="2"/>   ;設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後Flag[2]=TRUE
+         <ELEMENT Tag="Data/Direction" Type="INT" Set_Flag="2"/>   <!--設定接收到的資料 Tag="路徑" Type="資料型別" 接收資料後Flag[2]=TRUE-->
       </XML>
    </RECEIVE>
    <SEND>
       <XML>
-         <ELEMENT Tag="Result/Answer" Type="STRING"/>  ;設定輸出資料
+         <ELEMENT Tag="Result/Answer" Type="STRING"/>  <!--;設定輸出資料-->
       </XML>
    </SEND>
 </ETHERNETKRL>
